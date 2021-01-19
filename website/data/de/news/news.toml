@@ -1,0 +1,293 @@
+# Sort news by year, month and day
+# $FreeBSD$
+
+[[news]]
+date = "2002-11-25"
+title = "September 2002 - Oktober 2002 Statusreport"
+description = "<p>Der September-Oktober Statusreport ist ab sofort verfügbar. Die <a href=\"../../../news/status/\">Statusreport Webseite</a> enthält weitere Informationen.</p>"
+
+[[news]]
+date = "2002-11-23"
+title = "BSD Conference Japan 2002"
+description = "<p>Die <a href=\"http://bsdcon.jp/\">BSD Conference Japan 2002</a> fand am 23. November 2002 in Tokyo statt. Während der Konferenz hatten Leute von FreeBSD, NetBSD und OpenBSD Gelegenheit zusammenzukommen und über verschiedene Themen zu diskutieren. Darüberhinaus gab es von <a href=\"http://www.apple.com/\">Apple Computer, Inc.</a> ausgezeichnete Vorträge über Mac OS X und Rendezvous. <a href=\"http://www.matsui.co.jp/\">Matsui Securities Co.,Ltd</a>, <a href=\"http://www.yahoo.co.jp/\">Yahoo Japan Corporation</a>, sowie <a href=\"http://www.sakura.ad.jp/\">SRS SAKURA Internet Inc.</a> führten uns Fallstudien vor, in denen sie uns zeigten, wie FreeBSD in ihren Produktionsumgebungen zum Einsatz kommt. <a href=\"http://www.brains.co.jp/eng-ver/e-index.html\">Brains Corporation</a> sprach über <a href=\"http://www.brains.co.jp/eng-ver/e-mmeyedemo/index.html\">mmEye</a>, welches mit einer 32bit RISC CPU SH-3 ausgestattet ist, auf der NetBSD lüuft.</p> <p>Der Bericht von Mainichi Communications inc., befindet sich auf <a href=\"http://pcweb.mycom.co.jp/news/2002/11/25/10.html\">MYCOM PCWEB (leider nur auf Japanisch)</a>. Es waren ingesamt 172 Teilnehmer auf der Konferenz. Wir sind zufrieden mit dieser Teilnehmerzahl, immerhin war dies der erste Versuch, solch ein Ereignis in Japan stattfinden zu lassen.</p>"
+
+[[news]]
+date = "2002-11-18"
+title = "FreeBSD 5.0 Developer Preview #2 verfübar!"
+description = "<p>Der zweite Developer Preview Snapshot von 5.0-CURRENT ist <a href=\"../../../releases/5.0R/DP2/announce/\">nun verfügbar</a>. Die <a href=\"../../../releases/5.0R/DP2/relnotes/\">Release Notes</a>, das <a href=\"../../../releases/5.0R/DP2/errata/\">Errata</a> und der neue <a href=\"../../../releases/5.0R/DP2/early-adopter/\">Early Adopter's Guide</a> enthalten zusätzliche Informationen.</p>"
+
+[[news]]
+date = "2002-11-07"
+description = "nVidia veröffentlicht Geforce Treiber für FreeBSD! Weitere Informationen enthält das <a href=\"ftp://download.nvidia.com/freebsd/1.0-3203/README.txt\">README</a>."
+
+[[news]]
+date = "2002-11-01"
+description = "Neuer Committer: <a href=\"mailto:stephane@FreeBSD.org\">Stéphane Legrand</a> (Documentation Project)"
+
+[[news]]
+date = "2002-10-31"
+description = "Opera wurde nativ nach FreeBSD portiert! Die <a href=\"http://www.FreeBSD.org/news/press-rel-6/\">offizielle Pressemeldung</a> enthält mehr Informationen."
+
+[[news]]
+date = "2002-10-22"
+description = "Neuer Committer: <a href=\"mailto:edwin@FreeBSD.org\">Edwin Groothuis</a> (Ports)"
+
+[[news]]
+date = "2002-10-18"
+description = "Neuer Committer: <a href=\"mailto:arved@FreeBSD.org\">Tilman Linneweh</a> (Ports)"
+
+[[news]]
+date = "2002-10-18"
+description = "Neuer Committer: <a href=\"mailto:daichi@FreeBSD.org\">Daichi GOTO</a> (Ports)"
+
+[[news]]
+date = "2002-10-18"
+description = "Neuer Committer: <a href=\"mailto:maho@FreeBSD.org\">Maho Nakata</a> (Ports)"
+
+[[news]]
+date = "2002-10-16"
+description = "Neuer Committer: <a href=\"mailto:adamw@FreeBSD.org\">Adam Weinberger</a> (Ports)"
+
+[[news]]
+date = "2002-10-11"
+description = "Neuer Committer: <a href=\"mailto:cognet@FreeBSD.org\">Olivier Houchard</a>"
+
+[[news]]
+date = "2002-10-10"
+title = "FreeBSD 4.7-RELEASE ist verfügbar!"
+description = "<p><a href=\"../../releases/4.7R/announce/\">FreeBSD 4.7-RELEASE</a> wurde veröffentlicht. Die Seite <a href=\"../../releases/\">Release Information</a> enthält zusätzliche Details. Die <a href=\"../../releases/4.7R/errata/\">Release Errata</a> enthalten aktuelle Informationen und beschreiben Probleme mit 4.7.</p>"
+
+[[news]]
+date = "2002-10-09"
+description = "Neuer Committer: <a href=\"mailto:emoore@FreeBSD.org\">Eric Moore</a>"
+
+[[news]]
+date = "2002-10-04"
+description = "Neuer Committer: <a href=\"mailto:mheinen@FreeBSD.org\">Martin Heinen</a> (Documentation Project)"
+
+[[news]]
+date = "2002-10-03"
+title = "Juli 2002 - August 2002 Statusreport"
+description = "<p>Der Juli-August Statusreport ist ab sofort verfügbar. Die <a href=\"../../../news/status/\">Statusreport Webseite</a> enthält weitere Informationen.</p>"
+
+[[news]]
+date = "2002-09-10"
+description = "Neuer Committer: <a href=\"mailto:grehan@FreeBSD.org\">Peter Grehan</a> (PowerPC)"
+
+[[news]]
+date = "2002-09-02"
+description = "Notizen zum USENIX ATC 2002 <a href=\"../../../events/2002/usenix-devsummit/\"> FreeBSD Developer Summit</a> sind nun verfügbar."
+
+[[news]]
+date = "2002-09-01"
+title = "FreeBSD-STABLE-Zweig in Vorbereitung auf 4.7 eingefroren"
+description = "<p>Der FreeBSD-STABLE-Zweig des Quellbaums wurde, zur <a href=\"../../../releases/4.7R/schedule/\">Vorbereitung</a> der Veröffentlichung von FreeBSD 4.7 eingefroren. Alle Commits auf dem -STABLE-Zweig müssen vom <a href=\"../../../releng/\">Release Engineering Team</a> genehmigt werden. Das vorgesehene Datum für die Release ist der 1. Oktober 2002.</p>"
+
+[[news]]
+date = "2002-09-01"
+description = "Neuer Committer: <a href=\"mailto:davidxu@FreeBSD.org\">David Xu</a> (KSE)"
+
+[[news]]
+date = "2002-08-21"
+description = "Neuer Committer: <a href=\"mailto:obraun@FreeBSD.org\">Oliver Braun</a> (Ports)"
+
+[[news]]
+date = "2002-08-20"
+description = "Neuer Committer: <a href=\"mailto:thomas@FreeBSD.org\">Thomas Quinot</a>"
+
+[[news]]
+date = "2002-08-15"
+title = "Mai 2002 - Juni 2002 Statusreport"
+description = "<p>Der Mai-Juni 2002 Statusreport ist nun verfügbar. Die <a href=\"../../../news/status/\">Statusreport Webseite</a> enthält weitere Informationen.</p>"
+
+[[news]]
+date = "2002-08-15"
+title = "FreeBSD 4.6.2-RELEASE ist nun verfügbar!"
+description = "<p><a href=\"../../../releases/4.6.2R/announce/\">FreeBSD 4.6.2-RELEASE</a> wurde veröffentlicht. Die Seite <a href=\"../../../releases/\">Release-Information</a> enthält weitere Details. Die <a href=\"../../../releases/4.6.2R/errata/\">Release Errata</a> enthalten aktuelle Informationen und beschreiben Probleme mit 4.6.2.</p>"
+
+[[news]]
+date = "2002-08-15"
+description = "Neuer Committer: <a href=\"mailto:seanc@FreeBSD.org\">Sean Chittenden</a> (Ports)"
+
+[[news]]
+date = "2002-08-14"
+description = "Neuer Committer: <a href=\"mailto:leeym@FreeBSD.org\">Yen-Ming Lee</a> (Ports)"
+
+[[news]]
+date = "2002-08-08"
+description = "Neuer Committer: <a href=\"mailto:jennifer@FreeBSD.org\">Jennifer Jihui Yang</a>"
+
+[[news]]
+date = "2002-08-07"
+description = "Neuer Committer: <a href=\"mailto:njl@FreeBSD.org\">Nate Lawson</a>"
+
+[[news]]
+date = "2002-08-01"
+title = "The Open Group macht FreeBSD eine großzügige Spende!"
+description = "<p><a href=\"http://www.opengroup.org\">The Open Group</a> hat großzügigerweise dem <a href=\"../../../projects/c99/\">FreeBSD C99 & POSIX Conformance Project</a> einige Kopien des Authorized Guide to The Single UNIX Specification, Version 3, so wie einige Bücher und CD-ROMs gespendet. Wir schätzen ihre Spende sehr.</p>"
+
+[[news]]
+date = "2002-07-19"
+description = "Neuer Committer: <a href=\"mailto:kan@FreeBSD.org\">Alexander Kabaev</a>"
+
+[[news]]
+date = "2002-07-01"
+description = "Neuer Committer: <a href=\"mailto:johan@FreeBSD.org\">Johan Karlsson</a>"
+
+[[news]]
+date = "2002-06-25"
+description = "Neuer Committer: <a href=\"mailto:perky@FreeBSD.org\">Hye-Shik Chang</a> (Ports)"
+
+[[news]]
+date = "2002-06-18"
+description = "Neuer Committer: <a href=\"mailto:scop@FreeBSD.org\">Ville Skyttä</a> (projects/cvsweb)"
+
+[[news]]
+date = "2002-06-16"
+description = "Neuer Committer: <a href=\"mailto:blackend@FreeBSD.org\">Marc Fonvieille</a> (Documentation Project)"
+
+[[news]]
+date = "2002-06-15"
+title = "FreeBSD 4.6-RELEASE ist nun verfügbar!"
+description = "<p><a href=\"../../releases/4.6R/announce/\">FreeBSD 4.6-RELEASE</a> wurde veröffentlicht. Die Seite <a href=\"../../releases/\">Release-Information</a> enthält weitere Details. Die <a href=\"../../releases/4.6R/errata/\">Release Errata</a> enthalten aktuelle Informationen und beschreiben Probleme mit 4.6.</p>"
+
+[[news]]
+date = "2002-06-12"
+description = "Neuer Committer: <a href=\"mailto:alane@FreeBSD.org\">Alan Eldridge</a> (Ports)"
+
+[[news]]
+date = "2002-05-23"
+title = "Umgang mit Fehlerberichten"
+description = "<p>Der Artikel <a href=\"https://www.FreeBSD.org/doc/articles/pr-guidelines/\"> FreeBSD PR Handling Guidelines</a> gibt Richtlinien zum Umgang mit FreeBSD-Fehlerberichten.</p>"
+
+[[news]]
+date = "2002-05-18"
+title = "Februar 2002 - April 2002 Statusreport"
+description = "<p>Der Februar-April 2002 Statusreport ist nun verfügbar. Die <a href=\"../../../news/status/\">Statusreport Webseite</a> enthält weitere Informationen.</p>"
+
+[[news]]
+date = "2002-05-16"
+description = "Neuer Committer: <a href=\"mailto:gordon@FreeBSD.org\">Gordon Tetlow</a>"
+
+[[news]]
+date = "2002-05-07"
+description = "Neuer Committer: <a href=\"mailto:fanf@FreeBSD.org\">Tony Finch</a>"
+
+[[news]]
+date = "2002-05-01"
+title = "FreeBSD-STABLE-Zweig in Vorbereitung von 4.6 eingefroren"
+description = "<p>Zur Vorbereitung der Release FreeBSD 4.6 wurde der FreeBSD-STABLE-Zweig eingefroren. Alle Commits auf dem -STABLE-Zweig müssen zuerst vom Release-Engineering-Team genehmigt werden. Die Release soll am 1. Juni 2002 ausgeliefert werden.</p>"
+
+[[news]]
+date = "2002-04-29"
+description = "Neuer Committer: <a href=\"mailto:ikob@FreeBSD.org\">Katsushi Kobayashi</a>"
+
+[[news]]
+date = "2002-04-21"
+description = "Neuer Committer: <a href=\"mailto:anholt@FreeBSD.org\">Eric Anholt</a>"
+
+[[news]]
+date = "2002-04-15"
+description = "Neuer Committer: <a href=\"mailto:mini@FreeBSD.org\">Jonathan Mini</a>"
+
+[[news]]
+date = "2002-04-12"
+description = "Neuer Committer: <a href=\"mailto:tjr@FreeBSD.org\">Tim Robbins</a>"
+
+[[news]]
+date = "2002-04-11"
+description = "Neuer Committer: <a href=\"mailto:glewis@FreeBSD.org\">Greg Lewis</a> (Ports)"
+
+[[news]]
+date = "2002-04-08"
+title = "Der erste FreeBSD 5.0 Developer-Preview ist verfügbar"
+description = "<p>Ein Entwickler-Schnappschuss von 5.0-CURRENT steht nun zur <a href=\"../../../releases/5.0R/DP1/announce/\">Verfügung</a>. Die <a href=\"../../../releases/5.0R/DP1/relnotes/\">Release Notes</a> enthalten weitere Informationen. Bekannte Probleme sind in den <a href=\"../../../releases/5.0R/DP1/errata/\">Release-Errata</a> beschrieben.</p>"
+
+[[news]]
+date = "2002-04-08"
+description = "Neuer Committer: <a href=\"mailto:gerald@FreeBSD.org\">Gerald Pfeifer</a> (Ports)"
+
+[[news]]
+date = "2002-04-05"
+description = "Neuer Committer: <a href=\"mailto:marcus@FreeBSD.org\">Joe Marcus Clarke</a> (Ports)"
+
+[[news]]
+date = "2002-04-01"
+description = "Neuer Committer: <a href=\"mailto:nork@FreeBSD.org\">Norikatsu Shigemura</a> (Ports)"
+
+[[news]]
+date = "2002-03-30"
+description = "Die Notizen vom BSDCon 2002 <a href=\"../../../events/2002/bsdcon-devsummit/\"> FreeBSD Developer Summit</a> sind nun erhältlich."
+
+[[news]]
+date = "2002-03-28"
+description = "Neuer Committer: <a href=\"mailto:trhodes@FreeBSD.org\">Tom Rhodes</a> (Documentation Project)"
+
+[[news]]
+date = "2002-03-29"
+description = "Neuer Committer: <a href=\"mailto:suz@FreeBSD.org\">SUZUKI Shinsuke</a> (IPv6)"
+
+[[news]]
+date = "2002-03-19"
+description = "Neuer Committer: <a href=\"mailto:netchild@FreeBSD.org\">Alexander Leidinger</a> (Ports)"
+
+[[news]]
+date = "2002-03-17"
+description = "Neuer Committer: <a href=\"mailto:ceri@FreeBSD.org\">Ceri Davies</a> (Documentation)"
+
+[[news]]
+date = "2002-03-12"
+title = "Aktualisierter Release-Zeitplan"
+description = "<p>Auf den FreeBSD-Webseiten gibt es neue Seiten zum Thema <a href=\"../../../releng/\">Release-Engineering</a>. Die neuen Seiten enthalten Informationen über künftige FreeBSD-Releases, den Zeitplan für die neuen Releases 4.6 und 5.0 und vieles mehr.</p>"
+
+[[news]]
+date = "2002-03-09"
+title = "SMP auf sparc64 funktioniert jetzt"
+description = "<p>FreeBSD läuft jetzt auch mit mehreren Prozessoren auf sparc64-Systemen. Dankeschön <a href=\"mailto:jake@FreeBSD.org\">Jake Burkholder</a> und <a href=\"mailto:tmm@FreeBSD.org\">Thomas Moestl</a>.</p>"
+
+[[news]]
+date = "2002-03-03"
+description = "Neuer Committer: <a href=\"mailto:mux@FreeBSD.org\">Maxime Henrion</a> (VFS, SMP,...)"
+
+[[news]]
+date = "2002-02-25"
+title = "Dezember 2001 - Januar 2002 Statusreport"
+description = "<p>Der Dezember-Januar Statusreport ist nun verfügbar. Die <a href=\"../../../news/status/\">Statusreport Webseite</a> enthält weitere Informationen.</p>"
+
+[[news]]
+date = "2002-02-25"
+description = "Neuer Committer: <a href=\"mailto:jmallett@FreeBSD.org\">J. Mallett</a>"
+
+[[news]]
+date = "2002-02-18"
+description = "Neuer Committer: <a href=\"mailto:ticso@FreeBSD.org\">Bernd Walter</a> (Alpha)"
+
+[[news]]
+date = "2002-02-11"
+title = "Neue GNOME Seiten auf FreeBSD.org"
+description = "<p>Stolz kündigt das <a href=\"mailto:freebsd-gnome@FreeBSD.org\">FreeBSD GNOME team</a> die <a href=\"../../../gnome/\">neuen GNOME Seiten</a> an. Sie beschäftigen sich mit verschiedenen Aspekten des GNOME-Desktops und der Entwicklungsumgebung unter FreeBSD.</p>"
+
+[[news]]
+date = "2002-02-07"
+description = "Neuer Committer: <a href=\"mailto:maxim@FreeBSD.org\">Maxim Konovalov</a>"
+
+[[news]]
+date = "2002-01-31"
+title = "BSDCon Europe 2002 - Call for Papers"
+description = "<p>Die <a href=\"http://www.eurobsdcon2002.org/cfp.html\">Ankündigung und der Call for Papers</a> des BSDCon Europe 2002 ist erschienen. Die Konferenz wird im November2002 in Amsterdam stattfinden. Zusammenfassungen von Papers sollen bis zum 24.Juni2002 eingegangen sein.</p>"
+
+[[news]]
+date = "2002-01-29"
+title = "FreeBSD 4.5 ist verfügbar"
+description = "<p><a href=\"../../../releases/4.5R/announce/\">FreeBSD 4.5</a> ist erschienen. Weitere Informationen erhalten Sie auf der Seite <a href=\"../../../releases/\">Release Information</a>. Die <a href=\"../../../releases/4.5R/errata/\">Release Errata</a> enthalten aktuelle Informationen und beschreiben Probleme mit 4.5.</p>"
+
+[[news]]
+date = "2002-01-12"
+title = "Test-Anleitung für 4.5-RELEASE"
+description = "<p>Das FreeBSD 4.5 Release Engineering Team hat eine <a href=\"../../../releases/4.5R/qa/\">Test-Anleitung</a> für das kommende 4.5-RELEASE herausgegeben. Helfen Sie uns, 4.5 zu der stabilsten und schnellsten Release zu machen.</p>"
+
+[[news]]
+date = "2002-01-10"
+title = "Neues Tutorium: \"The Euro symbol on FreeBSD\""
+description = "<p>Aaron Kaplan hat einen Artikel eingereicht, der beschreibt wie das neue <a href=\"https://www.FreeBSD.org/doc/en/articles/euro/\">Euro-Symbol unter FreeBSD</a> benutzt wird.</p>"
+

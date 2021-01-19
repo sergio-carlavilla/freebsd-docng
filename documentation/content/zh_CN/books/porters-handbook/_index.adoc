@@ -1,0 +1,34 @@
+---
+title: FreeBSD Porter 手册
+authors: 
+  - author: The FreeBSD Documentation Project
+  - author: FreeBSD 中文计划
+copyright: 2000-2020 The FreeBSD Documentation Project
+trademarks: ["freebsd", "sun", "unix", "general"]
+releaseinfo: "$FreeBSD$"
+next: books/porters-handbook/why-port
+---
+
+= FreeBSD Porter 手册
+:doctype: book
+:toc: macro
+:toclevels: 2
+:icons: font
+:xrefstyle: basic
+:relfileprefix: ../
+:outfilesuffix:
+:sectnums:
+:sectnumlevels: 6
+:partnums:
+:source-highlighter: rouge
+:experimental:
+:skip-front-matter:
+:toc-title: 目录
+:part-signifier: 部分
+:appendix-caption: 附录
+:table-caption: 表
+:figure-caption: 图
+:example-caption: 例
+
+'''
+

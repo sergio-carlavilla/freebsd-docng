@@ -1,0 +1,22 @@
+# FreeBSD documentation
+# $FreeBSD$
+
+baseURL = "https://www.FreeBSD.org/doc"
+title = "The FreeBSD Project"
+copyright = "BSD 2-clause 'Simplified' License"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+theme = "beastie"
+disableKinds = [ "taxonomy", "taxonomyTerm" ]
+authors = [ "carlavilla@FreeBSD.org" ]
+preserveTOC = true
+
+[markup.asciidocExt]
+    preserveTOC = true
+
+[outputs]
+home = [ "HTML" ]
+page = [ "HTML" ]
+list = [ "HTML" ]
+single = [ "HTML" ]
+section = [ "HTML" ]

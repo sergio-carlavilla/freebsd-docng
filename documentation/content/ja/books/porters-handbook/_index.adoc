@@ -1,0 +1,35 @@
+---
+title: FreeBSD port 作成者のためのハンドブック
+authors: 
+  - author: FreeBSD ドキュメンテーションプロジェクト
+copyright: 2000-2020 The FreeBSD Documentation Project
+releaseinfo: "$FreeBSD: head/ja_JP.eucJP/books/porters-handbook/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+trademarks: ["freebsd", "sun", "unix", "general"]
+next: books/porters-handbook/why-port
+---
+
+= FreeBSD port 作成者のためのハンドブック
+:doctype: book
+:toc: macro
+:toclevels: 2
+:sectnumlevels: 6
+:icons: font
+:xrefstyle: basic
+:relfileprefix: ../
+:outfilesuffix:
+:sectnums:
+:partnums:
+:source-highlighter: rouge
+:experimental:
+:skip-front-matter:
+
+[.abstract-title]
+概要
+
+このハンドブックは FreeBSD の port 作成者 (porter) 向けに、 具体的な port の作成方法や注意点などをまとめたものです。
+
+日本語版の作成は FreeBSD 日本語ドキュメンテーション プロジェクト (FreeBSD doc-jp) が行なっています。 日本語訳および、日本語版のみに関することは FreeBSD 日本語ドキュメンテーションプロジェクト <doc-jp@jp.FreeBSD.org> に おいて日本語で議論されています。 
+
+文書の日本語訳に関するお問い合わせや、 文書の原文に関する問い合わせをしたいが英語が得意でないという方は、 FreeBSD 日本語ドキュメンテーションプロジェクト <doc-jp@jp.FreeBSD.org> まで日本語でコメントをお寄せください。
+
+'''

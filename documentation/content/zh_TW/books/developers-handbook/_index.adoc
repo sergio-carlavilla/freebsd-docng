@@ -1,0 +1,54 @@
+---
+title: FreeBSD Developers' Handbook
+authors:
+  - author: FreeBSD 文件計畫
+copyright: 1995-2020 The FreeBSD Documentation Project
+releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/books/developers-handbook/book.xml 44974 2014-05-29 16:48:07Z lwhsu $" 
+trademarks: ["freebsd", "ibm", "ieee", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "general"] 
+next: books/developers-handbook/introduction
+---
+
+= FreeBSD Developers' Handbook
+:doctype: book
+:toc: macro
+:toclevels: 1
+:icons: font
+:sectnums:
+:sectnumlevels: 6
+:source-highlighter: rouge
+:experimental:
+
+ifeval::["{backend}" == "html5"]
+include::shared/mirrors.adoc[]
+include::shared/authors.adoc[]
+include::shared/releases.adoc[]
+include::shared/zh_TW/mailing-lists.adoc[]
+include::shared/zh_TW/teams.adoc[]
+include::shared/zh_TW/urls.adoc[]
+endif::[]
+
+ifeval::["{backend}" == "pdf"]
+include::../../../../shared/mirrors.adoc[]
+include::../../../../shared/authors.adoc[]
+include::../../../../shared/releases.adoc[]
+include::../../../../shared/zh_TW/mailing-lists.adoc[]
+include::../../../../shared/zh_TW/teams.adoc[]
+include::../../../../shared/zh_TW/urls.adoc[]
+endif::[]
+
+ifeval::["{backend}" == "epub3"]
+include::../../../../shared/mirrors.adoc[]
+include::../../../../shared/authors.adoc[]
+include::../../../../shared/releases.adoc[]
+include::../../../../shared/zh_TW/mailing-lists.adoc[]
+include::../../../../shared/zh_TW/teams.adoc[]
+include::../../../../shared/zh_TW/urls.adoc[]
+endif::[]
+
+[.abstract-title]
+[abstract]
+摘要
+
+歡迎使用 Developers' Handbook！ 這份文件是由許多人 _不斷撰寫_ 而成的， 而且許多章節仍需更新或者內容還是一片空白， 如果你想幫忙 FreeBSD 文件計劃， 請寄信到 {freebsd-doc}。 
+
+最新版的文件都在 link:https://www.FreeBSD.org[FreeBSD 官網] 上面， 也可從 link:ftp://ftp.FreeBSD.org/pub/FreeBSD/doc/[FreeBSD FTP server] 下載不同格式的資料。 當然也可以在其他的 link:{handbook}#mirrors-ftp/[mirror站]下載。 

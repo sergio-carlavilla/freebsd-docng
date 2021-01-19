@@ -1,0 +1,52 @@
+---
+title: Das FreeBSD Porter-Handbuch
+authors: 
+  - author: The FreeBSD German Documentation Project
+copyright: 2000-2020 The FreeBSD German Documentation Project
+releaseinfo: "$FreeBSD$" 
+trademarks: ["freebsd", "sun", "unix", "general"]
+next: books/porters-handbook/why-port
+---
+
+= Das FreeBSD Porter-Handbuch
+:doctype: book
+:toc: macro
+:toclevels: 1
+:icons: font
+:sectnums:
+:sectnumlevels: 6
+:source-highlighter: rouge
+:experimental:
+
+ifeval::["{backend}" == "html5"]
+include::shared/mirrors.adoc[]
+include::shared/authors.adoc[]
+include::shared/releases.adoc[]
+include::shared/de/mailing-lists.adoc[]
+include::shared/de/teams.adoc[]
+include::shared/de/urls.adoc[]
+:chapters-path: content/de/books/porters-handbook/
+endif::[]
+
+ifeval::["{backend}" == "pdf"]
+include::../../../../shared/mirrors.adoc[]
+include::../../../../shared/authors.adoc[]
+include::../../../../shared/releases.adoc[]
+include::../../../../shared/de/mailing-lists.adoc[]
+include::../../../../shared/de/teams.adoc[]
+include::../../../../shared/de/urls.adoc[]
+:chapters-path:
+endif::[]
+
+ifeval::["{backend}" == "epub3"]
+include::../../../../shared/mirrors.adoc[]
+include::../../../../shared/authors.adoc[]
+include::../../../../shared/releases.adoc[]
+include::../../../../shared/de/mailing-lists.adoc[]
+include::../../../../shared/de/teams.adoc[]
+include::../../../../shared/de/urls.adoc[]
+:chapters-path:
+endif::[]
+
+'''
+

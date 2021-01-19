@@ -1,0 +1,67 @@
+---
+title: FreeBSD Porter's Handbook
+authors: 
+  - author: Projeto de Documentação do FreeBSD
+copyright: 2000-2020 The FreeBSD Documentation Project
+releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/books/porters-handbook/book.xml 54410 2020-08-05 22:13:01Z dbaio $" 
+trademarks: ["freebsd", "sun", "unix", "general"]
+next: books/porters-handbook/porting-why
+---
+
+= FreeBSD Porter's Handbook
+:doctype: book
+:toc: macro
+:toclevels: 2
+:icons: font
+:xrefstyle: basic
+:relfileprefix: ../
+:outfilesuffix:
+:sectnums:
+:sectnumlevels: 6
+:partnums:
+:source-highlighter: rouge
+:experimental:
+:skip-front-matter:
+:toc-title: Índice
+:part-signifier: Parte
+:chapter-signifier: Capítulo
+:appendix-caption: Apêndice
+:table-caption: Tabela
+:figure-caption: Figura
+:example-caption: Exemplo
+
+:freebsd-version: __FreeBSD_version
+:freebsd: __FreeBSD__
+
+ifeval::["{backend}" == "html5"]
+include::shared/mirrors.adoc[]
+include::shared/authors.adoc[]
+include::shared/releases.adoc[]
+include::shared/pt_BR/mailing-lists.adoc[]
+include::shared/pt_BR/teams.adoc[]
+include::shared/pt_BR/urls.adoc[]
+:chapters-path: content/pt_ BR/books/porters-handbook/
+endif::[]
+
+ifeval::["{backend}" == "pdf"]
+include::../../../../shared/mirrors.adoc[]
+include::../../../../shared/authors.adoc[]
+include::../../../../shared/releases.adoc[]
+include::../../../../shared/pt_BR/mailing-lists.adoc[]
+include::../../../../shared/pt_BR/teams.adoc[]
+include::../../../../shared/pt_BR/urls.adoc[]
+:chapters-path:
+endif::[]
+
+ifeval::["{backend}" == "epub3"]
+include::../../../../shared/mirrors.adoc[]
+include::../../../../shared/authors.adoc[]
+include::../../../../shared/releases.adoc[]
+include::../../../../shared/pt_BR/mailing-lists.adoc[]
+include::../../../../shared/pt_BR/teams.adoc[]
+include::../../../../shared/pt_BR/urls.adoc[]
+:chapters-path:
+endif::[]
+
+'''
+
