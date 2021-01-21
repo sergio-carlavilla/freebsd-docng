@@ -621,7 +621,7 @@ image::bsdinstall-zfs-vdev_type.png[]
 Here is a summary of the `Pool Type` which can be selected in this menu:
 
 * `stripe` - Striping provides maximum storage of all connected devices, but no redundancy. If just one disk fails the data on the pool is lost irrevocably.
-* `mirror` - Mirroring stores a complete copy of all data on every disk. Mirroring provides a good read perfomance because data is read from all disks in parallel. Write performance is slower as the data must be written to all disks in the pool. Allows all but one disk to fail. This option requires at least two disks.
+* `mirror` - Mirroring stores a complete copy of all data on every disk. Mirroring provides a good read performance because data is read from all disks in parallel. Write performance is slower as the data must be written to all disks in the pool. Allows all but one disk to fail. This option requires at least two disks.
 * `raid10` - Striped mirrors. Provides the best performance, but the least storage. This option needs at least an even number of disks and a minimum of four disks.
 * `raidz1` - Single Redundant RAID. Allow one disk to fail concurrently. This option needs at least three disks.
 * `raidz2` - Double Redundant RAID. Allows two disks to fail concurrently. This option needs at least four disks.

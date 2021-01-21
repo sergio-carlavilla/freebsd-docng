@@ -11,4 +11,4 @@ FreeBSD 使用手冊剩下的這些章節涵蓋了全方位的 FreeBSD 系統管
 
 這些章節是讓您在需要查資料的時候翻閱用的。 您不需要依照特定的順序來讀，也不需要將這些章節全部過讀之後才開始用 FreeBSD。
 
-include::content/zh_TW/books/handbook/toc-3.adoc[]
+include::content/zh-tw/books/handbook/toc-3.adoc[]

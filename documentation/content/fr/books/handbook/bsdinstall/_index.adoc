@@ -60,7 +60,7 @@ Par défaut, les instructions d'installation de ce chapitre sont écrites pour l
 
 [NOTE]
 ====
-Les utilisateurs préférant installer FreeBSD à l'aide d'un programme d'installation graphique peuvent être intéressés par https://www.furybsd.org[FuryBSD], https://ghostbsd.org[GhostBSD] ou https://www.midnightbsd.org[MidnightBSD].
+Les utilisateurs préférant installer FreeBSD à l'aide d'un programme d'installation graphique peuvent être intéressés par https://ghostbsd.org[GhostBSD], https://www.midnightbsd.org[MidnightBSD] ou https://www.nomadbsd.org[NomadBSD].
 ====
 
 Après la lecture de ce chapitre, vous connaîtrez:

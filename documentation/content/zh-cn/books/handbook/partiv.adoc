@@ -18,4 +18,4 @@ FreeBSD 是目前以高性能网络服务为目的而部署范围最广的操作
 
 这些章节主要供您在需要时参考。 不必按特定的顺序来阅读它们， 此外， 您开始在网络中使用 FreeBSD 之前也不需要先把它们都读完。
 
-include::content/zh_CN/books/handbook/toc-4.adoc[]
+include::content/zh-cn/books/handbook/toc-4.adoc[]

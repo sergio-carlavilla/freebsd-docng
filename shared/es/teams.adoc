@@ -58,10 +58,6 @@
 :mirror-admin-email: mirror-admin@FreeBSD.org
 :mirror-admin: {mirror-admin-name} <{mirror-admin-email}>
 
-:ncvs-name: admin del repositorio CVS src
-:ncvs-email: ncvs@FreeBSD.org
-:ncvs: {ncvs-name} <{ncvs-email}>
-
 :pcvs-name: CVS ports Repository Meisters
 :pcvs-email: pcvs@FreeBSD.org
 :pcvs: {pcvs-name} <{pcvs-email}>
@@ -77,10 +73,6 @@
 :ports-secteam-name: Ports Security Team
 :ports-secteam-email: ports-secteam@FreeBSD.org
 :ports-secteam: {ports-secteam-name} <{ports-secteam-email}>
-
-:projcvs-name: admins del repositorio CVS Third-party Projectos
-:projcvs-email: projcvs@FreeBSD.org
-:projcvs: {projcvs-name} <{projcvs-email}>
 
 :re-name: Grupo de ingeniería de releases
 :re-email: re@FreeBSD.org

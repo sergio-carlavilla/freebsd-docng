@@ -17,4 +17,4 @@ next: books/handbook/introduction
 
 我们尝试用最少的页数来保持前言的索引，以至于可以用最少翻页次数将该手册从头至尾读过。
 
-include::content/zh_CN/books/handbook/toc-1.adoc[]
+include::content/zh-cn/books/handbook/toc-1.adoc[]

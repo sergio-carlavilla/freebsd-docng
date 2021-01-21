@@ -37,10 +37,10 @@ include::shared/zh_TW/mailing-lists.adoc[]
 
 '''
 
-include::content/zh_TW/books/handbook/toc.adoc[]
+include::content/zh-tw/books/handbook/toc.adoc[]
 
-include::content/zh_TW/books/handbook/toc-figures.adoc[]
+include::content/zh-tw/books/handbook/toc-figures.adoc[]
 
-include::content/zh_TW/books/handbook/toc-tables.adoc[]
+include::content/zh-tw/books/handbook/toc-tables.adoc[]
 
-include::content/zh_TW/books/handbook/toc-examples.adoc[]
+include::content/zh-tw/books/handbook/toc-examples.adoc[]

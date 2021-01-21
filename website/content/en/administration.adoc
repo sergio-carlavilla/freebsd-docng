@@ -214,12 +214,14 @@ The Bugmeisters are responsible for ensuring that the problem report software is
 The Cluster Administrators consists of the people responsible for maintaing the machines and services that the project relies on for its distributed work and communication. Issues concerning the projects infrastructure or setting up new machines should be directed to them. This team is led by the lead cluster administrator whose duties and responsbilities are described in the cluster administration charter in greater detail.
 
 * {allanjude}
+* {bapt}
 * {brd}
 * {dhw}
 * {gavin}
 * {gjb}
 * {lwhsu}
 * {peter}
+* {philip}
 * {sbruno}
 * {simon}
 * {zi} (Lead)

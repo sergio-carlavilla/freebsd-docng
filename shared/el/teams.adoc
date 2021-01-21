@@ -59,10 +59,6 @@
 :mirror-admin-email: mirror-admin@FreeBSD.org
 :mirror-admin: {mirror-admin-name} <{mirror-admin-email}>
 
-:ncvs-name: Διαχειριστές του CVS src Repository
-:ncvs-email: ncvs@FreeBSD.org
-:ncvs: {ncvs-name} <{ncvs-email}>
-
 :pcvs-name: Διαχειριστές του CVS ports Repository
 :pcvs-email: pcvs@FreeBSD.org
 :pcvs: {pcvs-name} <{pcvs-email}>
@@ -79,9 +75,6 @@
 :ports-secteam-email: ports-secteam@FreeBSD.org
 :ports-secteam: {ports-secteam-name} <{ports-secteam-email}>
 
-:projcvs-name: Διαχειριστές του CVS Third-Party Projects Repository
-:projcvs-email: projcvs@FreeBSD.org
-:projcvs: {projcvs-name} <{projcvs-email}>
 
 :re-name: Ομάδα Οργάνωσης των Εκδόσεων
 :re-email: re@FreeBSD.org

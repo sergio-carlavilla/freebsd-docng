@@ -56,14 +56,6 @@
 :mirror-admin-email: mirror-admin@FreeBSD.org
 :mirror-admin: {mirror-admin-name} <{mirror-admin-email}>
 
-:ncvs-name: CVS src リポジトリ管理者
-:ncvs-email: ncvs@FreeBSD.org
-:ncvs: {ncvs-name} <{ncvs-email}>
-
-:pcvs-name: CVS ports リポジトリ管理者
-:pcvs-email: pcvs@FreeBSD.org
-:pcvs: {pcvs-name} <{pcvs-email}>
-
 :portmgr-name: ports 管理チーム
 :portmgr-email: portmgr@FreeBSD.org
 :portmgr: {portmgr-name} <{portmgr-email}>

@@ -58,10 +58,6 @@
 :mirror-admin-email: mirror-admin@FreeBSD.org
 :mirror-admin: {mirror-admin-name} <{mirror-admin-email}>
 
-:ncvs-name: Les maitres du dépot CVS src
-:ncvs-email: ncvs@FreeBSD.org
-:ncvs: {ncvs-name} <{ncvs-email}>
-
 :pcvs-name: Les maitres du dépot CVS ports
 :pcvs-email: pcvs@FreeBSD.org
 :pcvs: {pcvs-name} <{pcvs-email}>
@@ -77,10 +73,6 @@
 :ports-secteam-name: Ports Security Team
 :ports-secteam-email: ports-secteam@FreeBSD.org
 :ports-secteam: {ports-secteam-name} <{ports-secteam-email}>
-
-:projcvs-name: Les maitres du dépot CVS pour les projets tiers
-:projcvs-email: projcvs@FreeBSD.org
-:projcvs: {projcvs-name} <{projcvs-email}>
 
 :re-name: L'équipe d'ingéniérie des versions
 :re-email: re@FreeBSD.org

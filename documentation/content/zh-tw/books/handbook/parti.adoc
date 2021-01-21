@@ -17,4 +17,4 @@ next: books/handbook/introduction
 
 我們試著儘可能的讓這段文字的參考連結數目降到最低，讓您在讀使用手冊的這部份時可以不太需要常常前後翻頁。
 
-include::content/zh_TW/books/handbook/toc-1.adoc[]
+include::content/zh-tw/books/handbook/toc-1.adoc[]

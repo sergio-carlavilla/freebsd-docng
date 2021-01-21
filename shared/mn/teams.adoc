@@ -59,9 +59,6 @@
 :mirror-admin-email: mirror-admin@FreeBSD.org
 :mirror-admin: {mirror-admin-name} <{mirror-admin-email}>
 
-:ncvs-name: Эх кодын CVS архивын Администраторууд
-:ncvs-email: ncvs@FreeBSD.org
-:ncvs: {ncvs-name} <{ncvs-email}>
 
 :pcvs-name: Портын CVS архивын Администраторууд
 :pcvs-email: pcvs@FreeBSD.org
@@ -78,10 +75,6 @@
 :ports-secteam-name: Ports Security Team
 :ports-secteam-email: ports-secteam@FreeBSD.org
 :ports-secteam: {ports-secteam-name} <{ports-secteam-email}>
-
-:projcvs-name: Гуравдагчдын Төслүүдийн CVS архивын Администраторууд
-:projcvs-email: projcvs@FreeBSD.org
-:projcvs: {projcvs-name} <{projcvs-email}>
 
 :re-name: Хувилбар Инженерчлэлийн Баг
 :re-email: re@FreeBSD.org

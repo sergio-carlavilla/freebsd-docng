@@ -55,14 +55,6 @@
 :mirror-admin-email: mirror-admin@FreeBSD.org
 :mirror-admin: {mirror-admin-name} <{mirror-admin-email}>
 
-:ncvs-name: CVS src 代码库管理员
-:ncvs-email: ncvs@FreeBSD.org
-:ncvs: {ncvs-name} <{ncvs-email}>
-
-:pcvs-name: CVS ports 代码库管理员
-:pcvs-email: pcvs@FreeBSD.org
-:pcvs: {pcvs-name} <{pcvs-email}>
-
 :portmgr-name: Ports 管理团队
 :portmgr-email: portmgr@FreeBSD.org
 :portmgr: {portmgr-name} <{portmgr-email}>
@@ -74,10 +66,6 @@
 :ports-secteam-name: Ports Security Team
 :ports-secteam-email: ports-secteam@FreeBSD.org
 :ports-secteam: {ports-secteam-name} <{ports-secteam-email}>
-
-:projcvs-name: CVS 第三方项目代码库管理员
-:projcvs-email: projcvs@FreeBSD.org
-:projcvs: {projcvs-name} <{projcvs-email}>
 
 :re-name: Release Engineering 团队
 :re-email: re@FreeBSD.org

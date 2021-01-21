@@ -11,4 +11,4 @@ FreeBSD 手册中其余章节的内容都是关于系统管理。 每一章节�
 
 这些章节在撰写时， 已经设计成了许多相互独立的部分， 如果您需要了解某部分内容， 直接阅读这部分内容即可， 而无需按照顺序， 也不必在您开始使用 FreeBSD 之前完整地阅读它们。
 
-include::content/zh_CN/books/handbook/toc-3.adoc[]
+include::content/zh-cn/books/handbook/toc-3.adoc[]

@@ -53,14 +53,6 @@
 :mirror-admin-email: mirror-admin@FreeBSD.org
 :mirror-admin: {mirror-admin-name} <{mirror-admin-email}>
 
-:ncvs-name: CVS src Repository Menedzserek
-:ncvs-email: ncvs@FreeBSD.org
-:ncvs: {ncvs-name} <{ncvs-email}>
-
-:pcvs-name: CVS ports Repository Menedzserek
-:pcvs-email: pcvs@FreeBSD.org
-:pcvs: {pcvs-name} <{pcvs-email}>
-
 :portmgr-name: Ports Management Team
 :portmgr-email: portmgr@FreeBSD.org
 :portmgr: {portmgr-name} <{portmgr-email}>

@@ -17,4 +17,4 @@ next: books/handbook/desktop
 
 這些章節中有些需要您預先閱讀些相關文件，在各章節開頭的概要內會提及。
 
-include::content/zh_TW/books/handbook/toc-2.adoc[]
+include::content/zh-tw/books/handbook/toc-2.adoc[]

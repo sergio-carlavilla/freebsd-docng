@@ -53,14 +53,6 @@
 :mirror-admin-email: mirror-admin@FreeBSD.org
 :mirror-admin: {mirror-admin-name} <{mirror-admin-email}>
 
-:ncvs-name: CVS src reservoir Meisters
-:ncvs-email: ncvs@FreeBSD.org
-:ncvs: {ncvs-name} <{ncvs-email}>
-
-:pcvs-name: CVS ports reservoir Meisters
-:pcvs-email: pcvs@FreeBSD.org
-:pcvs: {pcvs-name} <{pcvs-email}>
-
 :portmgr-name: Ports Beheerteam
 :portmgr-email: portmgr@FreeBSD.org
 :portmgr: {portmgr-name} <{portmgr-email}>
@@ -72,10 +64,6 @@
 :ports-secteam-name: Ports Security Team
 :ports-secteam-email: ports-secteam@FreeBSD.org
 :ports-secteam: {ports-secteam-name} <{ports-secteam-email}>
-
-:projcvs-name: CVS reservoir Meisters voor projecten van derde partijen
-:projcvs-email: projcvs@FreeBSD.org
-:projcvs: {projcvs-name} <{projcvs-email}>
 
 :re-name: Uitgave Engineeringteam
 :re-email: re@FreeBSD.org

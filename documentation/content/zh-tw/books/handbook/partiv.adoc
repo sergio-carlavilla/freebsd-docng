@@ -18,4 +18,4 @@ FreeBSD 是一種廣泛的被使用在高效能的網路伺服器中的作業系
 
 這些章節是讓您在需要查資料的時候翻閱用的。 您不需要依照特定的順序來讀，也不需要將這些章節全部讀過之後才將 FreeBSD 用在網路環境下。
 
-include::content/zh_TW/books/handbook/toc-4.adoc[]
+include::content/zh-tw/books/handbook/toc-4.adoc[]

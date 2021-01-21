@@ -1748,7 +1748,7 @@ Once the work on the encrypted partition is done, and the [.filename]#/private# 
 # geli detach da2.eli
 ....
 
-A [.filename]#rc.d# script is provided to simplify the mounting of `geli`-encrypted devices at boot time. For this example, add these lines to [.filename]#/etc/rc.conf#:
+An [.filename]#rc.d# script is provided to simplify the mounting of `geli`-encrypted devices at boot time. For this example, add these lines to [.filename]#/etc/rc.conf#:
 
 [.programlisting]
 ....
