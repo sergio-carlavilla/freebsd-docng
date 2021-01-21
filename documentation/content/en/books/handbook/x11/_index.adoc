@@ -467,21 +467,19 @@ The standardized location of keys on a keyboard is called a _layout_. Layouts an
 +
 A United States layout is the default. To select an alternate layout, set the `XkbLayout` and `XkbVariant` options in an `InputClass`. This will be applied to all input devices that match the class.
 +
-This example selects a French keyboard layout with the `oss` variant.
+This example selects a French keyboard layout.
 +
 .Setting a Keyboard Layout
 [example]
 ====
-[.filename]#/usr/local/etc/X11/xorg.conf.d/keyboard-fr-oss.conf#
+[.filename]#/usr/local/etc/X11/xorg.conf.d/keyboard-fr.conf#
 
 [.programlisting]
 ....
 Section	"InputClass"
 	Identifier	"KeyboardDefaults"
-	Driver		"keyboard"
 	MatchIsKeyboard	"on"
 	Option		"XkbLayout" "fr"
-	Option		"XkbVariant" "oss"
 EndSection
 ....
 
@@ -518,7 +516,6 @@ X can be closed with a combination of keys. By default, that key combination is 
 ....
 Section	"InputClass"
 	Identifier	"KeyboardDefaults"
-	Driver		"keyboard"
 	MatchIsKeyboard	"on"
 	Option		"XkbOptions" "terminate:ctrl_alt_bksp"
 EndSection
@@ -528,6 +525,11 @@ EndSection
 
 [[x11-input-mice]]
 ==== Mice and Pointing Devices
+
+[IMPORTANT]
+====
+If using package:xorg-server[] 1.20.8 or later under FreeBSD {rel121-current} and not using man:moused[8], add `kern.evdev.rcpt_mask=12` to [.filename]#/etc/sysctl.conf#.
+====
 
 Many mouse parameters can be adjusted with configuration options. See man:mousedrv[4] for a full list.
 [[x11-input-mice-buttons]]
@@ -1077,7 +1079,7 @@ Driver      "nvidia"
 Start the GUI as usual, and you should be greeted by the nVidia splash. Everything should work as usual.
 
 [[xorg-configuration]]
-=== Configuring xorg.conf for Desktop Effects
+=== Configuring `xorg.conf` for Desktop Effects
 
 To enable Compiz Fusion, [.filename]#/etc/X11/xorg.conf# needs to be modified:
 
@@ -1167,9 +1169,9 @@ When the installation is finished, start your graphic desktop and at a terminal,
 % emerald --replace &
 ....
 
-Your screen will flicker for a few seconds, as your window manager (e.g. Metacity if you are using GNOME) is replaced by Compiz Fusion. Emerald takes care of the window decorations (i.e. close, minimize, maximize buttons, title bars and so on).
+Your screen will flicker for a few seconds, as your window manager (e.g., Metacity if you are using GNOME) is replaced by Compiz Fusion. Emerald takes care of the window decorations (i.e., close, minimize, maximize buttons, title bars and so on).
 
-You may convert this to a trivial script and have it run at startup automatically (e.g. by adding to "Sessions" in a GNOME desktop):
+You may convert this to a trivial script and have it run at startup automatically (e.g., by adding to "Sessions" in a GNOME desktop):
 
 [.programlisting]
 ....

@@ -147,6 +147,7 @@ Use one of the following protocol names:
 | Protocol Name
 | Explanation
 
+
 |tcp or tcp4
 |TCP IPv4
 
@@ -243,6 +244,7 @@ These daemons must be running on the server:
 | Daemon
 | Description
 
+
 |nfsd
 |The NFS daemon which services requests from NFS clients.
 
@@ -337,6 +339,7 @@ Whenever the NFS server is started, mountd also starts automatically. However, m
 ....
 # service mountd reload
 ....
+
 
 === Configuring the Client
 
@@ -512,6 +515,7 @@ The configuration of the lab will be as follows:
 | IP address
 | Machine role
 
+
 |`ellington`
 |`10.0.0.2`
 |NIS master
@@ -557,9 +561,9 @@ Setting up a master NIS server can be relatively straight forward, depending on 
 
 [.programlisting]
 ....
-nisdomainname="test-domain" <.>
-nis_server_enable="YES"     <.>
-nis_yppasswdd_enable="YES"  <.>
+nisdomainname="test-domain"	<.>
+nis_server_enable="YES"		<.>
+nis_yppasswdd_enable="YES"	<.>
 ....
 
 <.> This line sets the NIS domain name to `test-domain`.
@@ -572,8 +576,8 @@ A server that is also a client can be forced to bind to a particular server by a
 
 [.programlisting]
 ....
-nis_client_enable="YES"                  <.>
-nis_client_flags="-S test-domain,server" <.>
+nis_client_enable="YES"				<.>
+nis_client_flags="-S test-domain,server"	<.>
 ....
 
 <.> This enables running client stuff as well.
@@ -585,6 +589,7 @@ After saving the edits, type `/etc/netstart` to restart the network and apply th
 ....
 # service ypserv start
 ....
+
 
 ==== Initializing the NIS Maps
 
@@ -639,6 +644,7 @@ This will create [.filename]#/var/yp/Makefile# from [.filename]#/var/yp/Makefile
 ....
 NOPUSH = "True"
 ....
+
 
 ==== Adding New Users
 
@@ -736,6 +742,7 @@ An NIS client binds to an NIS server using man:ypbind[8]. This daemon broadcasts
 To configure a FreeBSD machine to be an NIS client:
 
 [.procedure]
+====
 . Edit [.filename]#/etc/rc.conf# and add the following lines in order to set the NIS domain name and start man:ypbind[8] during network startup:
 +
 [.programlisting]
@@ -758,6 +765,7 @@ This line configures the client to provide anyone with a valid account in the NI
 ....
 +:*::
 ....
+====
 
 To start the NIS client immediately, execute the following commands as the superuser:
 
@@ -771,7 +779,7 @@ After completing these steps, running `ypcat passwd` on the client should show t
 
 === NIS Security
 
-Since RPC is a broadcast-based service, any system running ypbind within the same domain can retrieve the contents of the NIS maps. To prevent unauthorized transactions, man:ypserv[8] supports a feature called "securenets" which can be used to restrict access to a given set of hosts. By default, this information is stored in [.filename]#/var/yp/securenets#, unless man:ypserv[8] is started with `-p` and an alternate path. This file contains entries that consist of a network specification and a network mask separated by white space. Lines starting with `#` are considered to be comments. A sample [.filename]+securenets+ might look like this:
+Since RPC is a broadcast-based service, any system running ypbind within the same domain can retrieve the contents of the NIS maps. To prevent unauthorized transactions, man:ypserv[8] supports a feature called "securenets" which can be used to restrict access to a given set of hosts. By default, this information is stored in [.filename]#/var/yp/securenets#, unless man:ypserv[8] is started with `-p` and an alternate path. This file contains entries that consist of a network specification and a network mask separated by white space. Lines starting with `#` are considered to be comments. A sample [.filename]#securenets# might look like this:
 
 [.programlisting]
 ....
@@ -812,7 +820,7 @@ tty:*:4:65533::0:0:Tty Sandbox:/:/usr/sbin/nologin
 kmem:*:5:65533::0:0:KMem Sandbox:/:/usr/sbin/nologin
 games:*:7:13::0:0:Games pseudo-user:/usr/games:/usr/sbin/nologin
 news:*:8:8::0:0:News Subsystem:/:/usr/sbin/nologin
-man:*:9:9::0:0:Mister Man Pages:/usr/shared/man:/usr/sbin/nologin
+man:*:9:9::0:0:Mister Man Pages:/usr/share/man:/usr/sbin/nologin
 bind:*:53:53::0:0:Bind Sandbox:/:/usr/sbin/nologin
 uucp:*:66:66::0:0:UUCP pseudo-user:/var/spool/uucppublic:/usr/libexec/uucp/uucico
 xten:*:67:67::0:0:X-10 daemon:/usr/local/xten:/usr/sbin/nologin
@@ -823,6 +831,7 @@ nobody:*:65534:65534::0:0:Unprivileged user:/nonexistent:/usr/sbin/nologin
 
 basie#
 ....
+
 
 [[network-netgroups]]
 === Using Netgroups
@@ -873,7 +882,7 @@ To expand on the example used in this chapter, the NIS domain will be extended t
 
 When using netgroups to configure this scenario, each user is assigned to one or more netgroups and logins are then allowed or forbidden for all members of the netgroup. When adding a new machine, login restrictions must be defined for all netgroups. When a new user is added, the account must be added to one or more netgroups. If the NIS setup is planned carefully, only one central configuration file needs modification to grant or deny access to machines.
 
-The first step is the initialization of the NIS `netgroup` map. In FreeBSD, this map is not created by default. On the NIS master server, use an editor to create a map named [.filename]#/var/yp/netgroup#.
+The first step is the initialization of the NIS`netgroup` map. In FreeBSD, this map is not created by default. On the NIS master server, use an editor to create a map named [.filename]#/var/yp/netgroup#.
 
 This example creates four netgroups to represent IT employees, IT apprentices, employees, and interns:
 
@@ -911,6 +920,7 @@ Repeat this process if more than 225 (15 times 15) users exist within a single n
 To activate and distribute the new NIS map:
 
 [source,bash]
+....
 ellington# cd /var/yp
 ellington# make
 ....
@@ -951,7 +961,7 @@ This configuration also applies to the `~` function of the shell and all routine
 
 This line configures the client to import all entries but to replace the shell in those entries with [.filename]#/usr/sbin/nologin#.
 
-Make sure that extra line is placed _after_ `+@IT_EMP:::::::::`. Otherwise, all user accounts imported from NIS will have [.filename]#/usr/sbin/nologin# as their login shell and no one will be able to login to the system.
+Make sure that extra line is placed _after_`+@IT_EMP:::::::::`. Otherwise, all user accounts imported from NIS will have [.filename]#/usr/sbin/nologin# as their login shell and no one will be able to login to the system.
 
 To configure the less important servers, replace the old `+:::::::::` on the servers with these lines:
 
@@ -971,7 +981,7 @@ The corresponding lines for the workstations would be:
 +:::::::::/usr/sbin/nologin
 ....
 
-NIS supports the creation of netgroups from other netgroups which can be useful if the policy regarding user access changes. One possibility is the creation of role-based netgroups. For example, one might create a netgroup called `BIGSRV` to define the login restrictions for the important servers, another netgroup called `SMALLSRV` for the less important servers, and a third netgroup called `USERBOX` for the workstations. Each of these netgroups contains the netgroups that are allowed to login onto these machines. The new entries for the NIS `netgroup` map would look like this:
+NIS supports the creation of netgroups from other netgroups which can be useful if the policy regarding user access changes. One possibility is the creation of role-based netgroups. For example, one might create a netgroup called `BIGSRV` to define the login restrictions for the important servers, another netgroup called `SMALLSRV` for the less important servers, and a third netgroup called `USERBOX` for the workstations. Each of these netgroups contains the netgroups that are allowed to login onto these machines. The new entries for the NIS`netgroup` map would look like this:
 
 [.programlisting]
 ....
@@ -1379,7 +1389,7 @@ slapd_cn_config="YES"
 
 [.filename]#slapd# does not provide debugging at boot. Check [.filename]#/var/log/debug.log#, [.filename]#dmesg -a# and [.filename]#/var/log/messages# for this purpose.
 
-The following example adds the group `team` and the user `john` to the `domain.example` LDAP database, which is still empty. First, create the file [.filename]#domain.ldif#:
+The following example adds the group `team` and the user `john` to the `domain.example`LDAP database, which is still empty. First, create the file [.filename]#domain.ldif#:
 
 [source,bash]
 ....
@@ -1471,6 +1481,7 @@ In FreeBSD, the man:bpf[4] device is needed by both the DHCP server and DHCP cli
 It should be noted that [.filename]#bpf# also allows privileged users to run network packet sniffers on that system.
 ====
 
+
 === Configuring a DHCP Client
 
 DHCP client support is included in the FreeBSD installer, making it easy to configure a newly installed system to automatically receive its networking addressing information from an existing DHCP server. Refer to crossref:bsdinstall[bsdinstall-post,"Accounts, Time Zone, Services and Hardening"] for examples of network configuration.
@@ -1513,6 +1524,7 @@ The FreeBSD-specific DHCP client configuration script. It is described in man:dh
 * [.filename]#/var/db/dhclient.leases.interface#
 + 
 The DHCP client keeps a database of valid leases in this file, which is written as a log and is described in man:dhclient.leases[5].
+
 
 [[network-dhcp-server]]
 === Installing and Configuring a DHCP Server
@@ -1591,6 +1603,7 @@ The DHCP server keeps a database of leases it has issued in this file, which is 
 + 
 This daemon is used in advanced environments where one DHCP server forwards a request from a client to another DHCP server on a separate network. If this functionality is required, install the package:net/isc-dhcp43-relay[] package or port. The installation includes dhcrelay(8) which provides more detail.
 
+
 [[network-dns]]
 == Domain Name System (DNS)
 
@@ -1627,8 +1640,8 @@ Examples of zones:
 
 * `.` is how the root zone is usually referred to in documentation.
 * `org.` is a Top Level Domain (TLD) under the root zone.
-* `example.org.` is a zone under the `org.` TLD.
-* `1.168.192.in-addr.arpa` is a zone referencing all IP addresses which fall under the `192.168.1.*` IP address space.
+* `example.org.` is a zone under the `org.`TLD.
+* `1.168.192.in-addr.arpa` is a zone referencing all IP addresses which fall under the `192.168.1.*`IP address space.
 
 As one can see, the more specific part of a hostname appears to its left. For example, `example.org.` is more specific than `org.`, as `org.` is more specific than the root zone. The layout of each part of a hostname is much like a file system: the [.filename]#/dev# directory falls within the root, and so on.
 
@@ -1667,6 +1680,7 @@ Any existing nameservers in [.filename]#/etc/resolv.conf# will be configured as 
 If any of the listed nameservers do not support DNSSEC, local DNS resolution will fail. Be sure to test each nameserver and remove any that fail the test. The following command will show the trust tree or a failure for a nameserver running on `192.168.1.1`:
 ====
 
+
 [source,bash]
 ....
 % drill -S FreeBSD.org @192.168.1.1
@@ -1704,6 +1718,7 @@ freebsd.org. (A)
 ;; Chase successful
 ....
 
+
 [[network-apache]]
 == Apache HTTP Server
 
@@ -1724,7 +1739,7 @@ Change this to the email address to receive problems with the server. This addre
 `ServerName www.example.com:80`::
 Allows an administrator to set a hostname which is sent back to clients for the server. For example, `www` can be used instead of the actual hostname. If the system does not have a registered DNS name, enter its IP address instead. If the server will listen on an alternate report, change `80` to the alternate port number.
 
-`DocumentRoot "/usr/local/www/apache2__x__/data"`::
+`DocumentRoot "/usr/local/www/apache2_x_/data"`::
 The directory where documents will be served from. By default, all requests are taken from this directory, but symbolic links and aliases may be used to point to other locations.
 
 It is always a good idea to make a backup copy of the default Apache configuration file before making changes. When the configuration of Apache is complete, save the file and verify the configuration using `apachectl`. Running `apachectl configtest` should return `Syntax OK`.
@@ -1793,11 +1808,47 @@ Apache uses modules to augment the functionality provided by the basic server. R
 
 In FreeBSD, some modules can be compiled with the package:www/apache24[] port. Type `make config` within [.filename]#/usr/ports/www/apache24# to see which modules are available and which are enabled by default. If the module is not compiled with the port, the FreeBSD Ports Collection provides an easy way to install many modules. This section describes three of the most commonly used modules.
 
-==== [.filename]#mod_ssl#
+==== SSL support
 
-The [.filename]#mod_ssl# module uses the OpenSSL library to provide strong cryptography via the Secure Sockets Layer (SSLv3) and Transport Layer Security (TLSv1) protocols. This module provides everything necessary to request a signed certificate from a trusted certificate signing authority to run a secure web server on FreeBSD.
+At one in point in time, support for SSL inside of Apache required a secondary module called [.filename]#mod_ssl#. This is no longer the case and the default install of Apache comes with SSL built into the web server. An example of how to enable support for SSL websites is available in the installed file, [.filename]#httpd-ssl.conf# inside of the [.filename]#/usr/local/etc/apache24/extra# directory. Inside this directory is also a sample file called named [.filename]#ssl.conf-sample#. It is recommended that both files be evaluated to properly set up secure websites in the Apache web server.
 
-In FreeBSD, [.filename]#mod_ssl# module is enabled by default in both the package and the port. The available configuration directives are explained at http://httpd.apache.org/docs/current/mod/mod_ssl.html[http://httpd.apache.org/docs/current/mod/mod_ssl.html].
+After the configuration of SSL is complete, the following line must be uncommented in the main [.filename]#http.conf# to activate the changes on the next restart or reload of Apache:
+
+[.programlisting]
+....
+#Include etc/apache24/extra/httpd-ssl.conf
+....
+
+[WARNING]
+====
+SSL version two and version three have known vulnerability issues. It is highly recommended TLS version 1.2 and 1.3 be enabled in place of the older SSL options. This can be accomplished by setting the following options in the [.filename]#ssl.conf#:
+====
+
+
+[.programlisting]
+....
+SSLProtocol all -SSLv3 -SSLv2 +TLSv1.2 +TLSv1.3
+SSLProxyProtocol all -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
+....
+
+To complete the configuration of SSL in the web server, uncomment the following line to ensure that the configuration will be pulled into Apache during restart or reload:
+
+[.programlisting]
+....
+# Secure (SSL/TLS) connections
+Include etc/apache24/extra/httpd-ssl.conf
+....
+
+The following lines must also be uncommented in the [.filename]#httpd.conf# to fully support SSL in Apache:
+
+[.programlisting]
+....
+LoadModule authn_socache_module libexec/apache24/mod_authn_socache.so
+LoadModule socache_shmcb_module libexec/apache24/mod_socache_shmcb.so
+LoadModule ssl_module libexec/apache24/mod_ssl.so
+....
+
+The next step is to work with a certificate authority to have the appropriate certificates installed on the system. This will set up a chain of trust for the site and prevent any warnings of self-signed certificates.
 
 ==== [.filename]#mod_perl#
 
@@ -1809,30 +1860,133 @@ The [.filename]#mod_perl# can be installed using the package:www/mod_perl2[] pac
 
 _PHP: Hypertext Preprocessor_ (PHP) is a general-purpose scripting language that is especially suited for web development. Capable of being embedded into HTML, its syntax draws upon C, Java(TM), and Perl with the intention of allowing web developers to write dynamically generated webpages quickly.
 
-To gain support for PHP5 for the Apache web server, install the package:www/mod_php56[] package or port. This will install and configure the modules required to support dynamic PHP applications. The installation will automatically add this line to [.filename]#/usr/local/etc/apache24/httpd.conf#:
+Support for PHP for Apache and any other feature written in the language, can be added by installing the appropriate port.
+
+For all supported versions, search the package database using `pkg`:
+
+[source,bash]
+....
+# pkg search php
+....
+
+A list will be displayed including the versions and additional features they provide. The components are completely modular, meaning features are enabled by installing the appropriate port. To install PHP version 7.4 for Apache, issue the following command:
+
+[source,bash]
+....
+# pkg install mod_php74
+....
+
+If any dependency packages need to be installed, they will be installed as well.
+
+By default, PHP will not be enabled. The following lines will need to be added to the Apache configuration file located in [.filename]#/usr/local/etc/apache24# to make it active:
 
 [.programlisting]
 ....
-LoadModule php5_module        libexec/apache24/libphp5.so
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+<FilesMatch "\.phps$">
+    SetHandler application/x-httpd-php-source
+</FilesMatch>
 ....
 
-Then, perform a graceful restart to load the PHP module:
+In addition, the `DirectoryIndex` in the configuration file will also need to be updated and Apache will either need to be restarted or reloaded for the changes to take effect.
+
+Support for many of the PHP features may also be installed by using `pkg`. For example, to install support for XML or SSL, install their respective ports:
+
+[source,bash]
+....
+# pkg install php74-xml php74-openssl
+....
+
+As before, the Apache configuration will need to be reloaded for the changes to take effect, even in cases where it was just a module install.
+
+To perform a graceful restart to reload the configuration, issue the following command:
 
 [source,bash]
 ....
 # apachectl graceful
 ....
 
-The PHP support provided by package:www/mod_php56[] is limited. Additional support can be installed using the package:lang/php56-extensions[] port which provides a menu driven interface to the available PHP extensions.
-
-Alternatively, individual extensions can be installed using the appropriate port. For instance, to add PHP support for the MySQL database server, install package:databases/php56-mysql[].
-
-After installing an extension, the Apache server must be reloaded to pick up the new configuration changes:
+Once the install is complete, there are two methods of obtaining the installed PHP support modules and the environmental information of the build. The first is to install the full PHP binary and running the command to gain the information:
 
 [source,bash]
 ....
-# apachectl graceful
+# pkg install php74
 ....
+
+
+[source,bash]
+....
+# php -i |less
+....
+
+It is necessary to pass the output to a pager, such as the `more` or `less` to easier digest the amount of output.
+
+Finally, to make any changes to the global configuration of PHP there is a well documented file installed into [.filename]#/usr/local/etc/php.ini#. At the time of install, this file will not exist because there are two versions to choose from, one is [.filename]#php.ini-development# and the other is [.filename]#php.ini-production#. These are starting points to assist administrators in their deployment.
+
+==== HTTP2 Support
+
+Apache support for the HTTP2 protocol is included by default when installing the port with `pkg`. The new version of HTTP includes many improvements over the previous version, including utilizing a single connection to a website, reducing overall roundtrips of TCP connections. Also, packet header data is compressed and HTTP2 requires encryption by default.
+
+When Apache is configured to only use HTTP2, web browsers will require secure, encrypted HTTPS connections. When Apache is configured to use both versions, HTTP1.1 will be considered a fall back option if any issues arise during the connection.
+
+While this change does require administrators to make changes, they are positive and equate to a more secure Internet for everyone. The changes are only required for sites not currently implementing SSL and TLS.
+
+[NOTE]
+====
+This configuration depends on the previous sections, including TLS support. It is recommended those instructions be followed before continuing with this configuration.
+====
+
+Start the process by enabling the http2 module by uncommenting the line in [.filename]#/usr/local/etc/apache24/httpd.conf# and replace the mpm_prefork module with mpm_event as the former does not support HTTP2.
+
+[.programlisting]
+....
+LoadModule http2_module libexec/apache24/mod_http2.so
+LoadModule mpm_event_module libexec/apache24/mod_mpm_event.so
+....
+
+[NOTE]
+====
+There is a separate [.filename]#mod_http2# port that is available. It exists to deliver security and bug fixes quicker than the module installed with the bundled [.filename]#apache24# port. It is not required for HTTP2 support but is available. When installed, the [.filename]#mod_h2.so# should be used in place of [.filename]#mod_http2.so# in the Apache configuration.
+====
+
+There are two methods to implement HTTP2 in Apache; one way is globally for all sites and each VirtualHost running on the system. To enable HTTP2 globally, add the following line under the ServerName directive:
+
+[.programlisting]
+....
+Protocols h2 http/1.1
+....
+
+[NOTE]
+====
+To enable HTTP2 over plaintext, use h2h2chttp/1.1 in the [.filename]#httpd.conf#.
+====
+
+Having the h2c here will allow plaintext HTTP2 data to pass on the system but is not recommended. In addition, using the http/1.1 here will allow fallback to the HTTP1.1 version of the protocol should it be needed by the system.
+
+To enable HTTP2 for individual VirtualHosts, add the same line within the VirtualHost directive in either [.filename]#httpd.conf# or [.filename]#httpd-ssl.conf#.
+
+Reload the configuration using the `apachectl`[parameter]#reload# command and test the configuration either by using either of the following methods after visiting one of the hosted pages:
+
+[source,bash]
+....
+# grep "HTTP/2.0" /var/log/httpd-access.log
+....
+
+This should return something similar to the following:
+
+[.programlisting]
+....
+192.168.1.205 - - [18/Oct/2020:18:34:36 -0400] "GET / HTTP/2.0" 304 -
+192.0.2.205 - - [18/Oct/2020:19:19:57 -0400] "GET / HTTP/2.0" 304 -
+192.0.0.205 - - [18/Oct/2020:19:20:52 -0400] "GET / HTTP/2.0" 304 -
+192.0.2.205 - - [18/Oct/2020:19:23:10 -0400] "GET / HTTP/2.0" 304 -
+....
+
+The other method is using the web browser's built in site debugger or `tcpdump`; however, using either method is beyond the scope of this document.
+
+Support for HTTP2 reverse proxy connections by using the [.filename]#mod_proxy_http2.so# module. When configuring the ProxyPass or RewriteRules [P] statements, they should use h2:// for the connection.
 
 === Dynamic Websites
 
@@ -1913,6 +2067,7 @@ The ftpd daemon uses man:syslog[3] to log messages. By default, the system log d
 ftp.info      /var/log/xferlog
 ....
 
+
 [NOTE]
 ====
 Be aware of the potential problems involved with running an anonymous FTP server. In particular, think twice about allowing anonymous users to upload files. It may turn out that the FTP site becomes a forum for the trade of unlicensed commercial software or worse. If anonymous FTP uploads are required, then verify the permissions so that these files cannot be read by other anonymous users until they have been reviewed by an administrator.
@@ -1923,9 +2078,9 @@ Be aware of the potential problems involved with running an anonymous FTP server
 
 Samba is a popular open source software package that provides file and print services using the SMB/CIFS protocol. This protocol is built into Microsoft(R) Windows(R) systems. It can be added to non-Microsoft(R) Windows(R) systems by installing the Samba client libraries. The protocol allows clients to access shared data and printers. These shares can be mapped as a local disk drive and shared printers can be used as if they were local printers.
 
-On FreeBSD, the Samba client libraries can be installed using the package:net/samba410[] port or package. The client provides the ability for a FreeBSD system to access SMB/CIFS shares in a Microsoft(R) Windows(R) network.
+On FreeBSD, the Samba client libraries can be installed using the package:net/samba413[] port or package. The client provides the ability for a FreeBSD system to access SMB/CIFS shares in a Microsoft(R) Windows(R) network.
 
-A FreeBSD system can also be configured to act as a Samba server by installing the same package:net/samba410[] port or package. This allows the administrator to create SMB/CIFS shares on the FreeBSD system which can be accessed by clients running Microsoft(R) Windows(R) or the Samba client libraries.
+A FreeBSD system can also be configured to act as a Samba server by installing the same package:net/samba413[] port or package. This allows the administrator to create SMB/CIFS shares on the FreeBSD system which can be accessed by clients running Microsoft(R) Windows(R) or the Samba client libraries.
 
 === Server Configuration
 
@@ -1956,6 +2111,7 @@ create mask = 0666
 directory mask = 0755
 ....
 
+
 ==== Global Settings
 
 Settings that describe the network are added in [.filename]#/usr/local/etc/smb4.conf#:
@@ -1972,6 +2128,7 @@ The string that will be displayed in the output of `net view` and some other net
 `wins support`::
 Whether Samba will act as a WINS server. Do not enable support for WINS on more than one server on the network.
 
+
 ==== Security Settings
 
 The most important settings in [.filename]#/usr/local/etc/smb4.conf# are the security model and the backend password format. These directives control the options:
@@ -1983,6 +2140,7 @@ In share level security, clients do not need to log onto the server with a valid
 
 `passdb backend`::
 Samba has several different backend authentication models. Clients may be authenticated with LDAP, NIS+, an SQL database, or a modified password file. The recommended authentication method, `tdbsam`, is ideal for simple networks and is covered here. For larger or more complex networks, `ldapsam` is recommended. `smbpasswd` was the former default and is now obsolete.
+
 
 ==== Samba Users
 
@@ -2037,7 +2195,7 @@ Over time, a computer's clock is prone to drift. This is problematic as many net
 
 FreeBSD includes man:ntpd[8] which can be configured to query other NTP servers to synchronize the clock on that machine or to provide time services to other computers in the network.
 
-This section describes how to configure ntpd on FreeBSD. Further documentation can be found in [.filename]#/usr/shared/doc/ntp/# in HTML format.
+This section describes how to configure ntpd on FreeBSD. Further documentation can be found in [.filename]#/usr/share/doc/ntp/# in HTML format.
 
 === NTP Configuration
 
@@ -2047,7 +2205,7 @@ Ntpd communicates with its network peers using UDP packets. Any firewalls betwee
 
 ==== The [.filename]#/etc/ntp.conf# file
 
-Ntpd reads [.filename]#/etc/ntp.conf# to determine which NTP servers to query. Choosing several NTP servers is recommended in case one of the servers becomes unreachable or its clock proves unreliable. As ntpd receives responses, it favors reliable servers over the less reliable ones. The servers which are queried can be local to the network, provided by an ISP, or selected from an http://support.ntp.org/bin/view/Servers/WebHome[online list of publicly accessible NTP servers]. When choosing a public NTP server, select one that is geographically close and review its usage policy. The `pool` configuration keyword selects one or more servers from a pool of servers. An http://support.ntp.org/bin/view/Servers/NTPPoolServers[online list of publicly accessible NTP pools] is available, organized by geographic area. In addition, FreeBSD provides a project-sponsored pool, `0.freebsd.pool.ntp.org`.
+Ntpd reads [.filename]#/etc/ntp.conf# to determine which NTP servers to query. Choosing several NTP servers is recommended in case one of the servers becomes unreachable or its clock proves unreliable. As ntpd receives responses, it favors reliable servers over the less reliable ones. The servers which are queried can be local to the network, provided by an ISP, or selected from an http://support.ntp.org/bin/view/Servers/WebHome[ online list of publicly accessible NTP servers]. When choosing a public NTP server, select one that is geographically close and review its usage policy. The `pool` configuration keyword selects one or more servers from a pool of servers. An http://support.ntp.org/bin/view/Servers/NTPPoolServers[ online list of publicly accessible NTP pools] is available, organized by geographic area. In addition, FreeBSD provides a project-sponsored pool, `0.freebsd.pool.ntp.org`.
 
 .Sample [.filename]#/etc/ntp.conf#
 [example]
@@ -2109,9 +2267,10 @@ Set `ntpd_flags=` to contain any other ntpd flags as needed, but avoid using the
 * `-p` (pid file location)
 * `-c` (set `ntpd_config=` instead)
 
+
 ==== Ntpd and the unpriveleged `ntpd` user
 
-Ntpd on FreeBSD can start and run as an unpriveleged user. Doing so requires the man:mac_none[4] policy module. The [.filename]#/etc/rc.d/ntpd# startup script first examines the NTP configuration. If possible, it loads the `mac_ntpd` module, then starts ntpd as unpriveleged user `ntpd` (user id 123). To avoid problems with file and directory access, the startup script will not automatically start ntpd as `ntpd` when the configuration contains any file-related options.
+Ntpd on FreeBSD can start and run as an unpriveleged user. Doing so requires the man:mac_ntpd[4] policy module. The [.filename]#/etc/rc.d/ntpd# startup script first examines the NTP configuration. If possible, it loads the `mac_ntpd` module, then starts ntpd as unpriveleged user `ntpd` (user id 123). To avoid problems with file and directory access, the startup script will not automatically start ntpd as `ntpd` when the configuration contains any file-related options.
 
 The presence of any of the following in `ntpd_flags` requires manual configuration as described below to run as the `ntpd` user: 
 
@@ -2132,8 +2291,9 @@ The presence of any of the following keywords in [.filename]#ntp.conf# requires 
 To manually configure ntpd to run as user `ntpd` you must: 
 
 * Ensure that the `ntpd` user has access to all the files and directories specified in the configuration.
-* Arrange for the `mac_ntpd` module to be loaded or compiled into the kernel. See man:mac_none[4] for details.
+* Arrange for the `mac_ntpd` module to be loaded or compiled into the kernel. See man:mac_ntpd[4] for details.
 * Set `ntpd_user="ntpd"` in [.filename]#/etc/rc.conf#
+
 
 === Using NTP with a PPP Connection
 
@@ -2151,12 +2311,14 @@ set filter alive 1 deny udp dst eq 123
 set filter alive 2 permit 0/0 0/0
 ....
 
-For more details, refer to the `PACKET FILTERING` section in man:ppp[8] and the examples in [.filename]#/usr/shared/examples/ppp/#.
+For more details, refer to the `PACKET FILTERING` section in man:ppp[8] and the examples in [.filename]#/usr/share/examples/ppp/#.
 
 [NOTE]
 ====
+
 Some Internet access providers block low-numbered ports, preventing NTP from functioning since replies never reach the machine.
 ====
+
 
 [[network-iscsi]]
 == iSCSI Initiator and Target Configuration
@@ -2226,6 +2388,7 @@ As the man:ctld[8] daemon is started, it reads [.filename]#/etc/ctl.conf#. If th
 # service ctld reload
 ....
 
+
 ==== Authentication
 
 The previous example is inherently insecure as it uses no authentication, granting anyone full access to all targets. To require a username and password to access targets, modify the configuration as follows:
@@ -2270,11 +2433,13 @@ target iqn.2012-06.com.example:target0 {
 }
 ....
 
+
 [[network-iscsi-initiator]]
 === Configuring an iSCSI Initiator
 
 [NOTE]
 ====
+
 The iSCSI initiator described in this section is supported starting with FreeBSD 10.0-RELEASE. To use the iSCSI initiator available in older versions, refer to man:iscontrol[8].
 ====
 
@@ -2356,6 +2521,7 @@ To specify a CHAP username and secret, use this syntax:
 ....
 # iscsictl -A -p 10.10.10.10 -t iqn.2012-06.com.example:target0 -u user -s secretsecret
 ....
+
 
 ==== Connecting to a Target with a Configuration File
 

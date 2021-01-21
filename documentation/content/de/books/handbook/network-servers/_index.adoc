@@ -551,14 +551,14 @@ Abhängig von den Anforderungen ist die Einrichtung eines NIS-Masterservers rela
 
 [.programlisting]
 ....
-nisdomainname="test-domain"	
-nis_server_enable="YES"		
-nis_yppasswdd_enable="YES"
+nisdomainname="test-domain"	 <.>
+nis_server_enable="YES"		<.>
+nis_yppasswdd_enable="YES" <.>
 ....
 
-Diese Zeile setzt den NIS-Domänennamen auf `test-domain`.
-Dadurch werden die NIS-Serverprozesse beim Systemstart automatisch ausgeführt.
-Durch diese Zeile wird der man:rpc.yppasswdd[8]-Daemon aktiviert, der die Änderung von NIS-Passwörtern von einem Client aus ermöglicht.
+<.> Diese Zeile setzt den NIS-Domänennamen auf `test-domain`.
+<.> Dadurch werden die NIS-Serverprozesse beim Systemstart automatisch ausgeführt.
+<.> Durch diese Zeile wird der man:rpc.yppasswdd[8]-Daemon aktiviert, der die Änderung von NIS-Passwörtern von einem Client aus ermöglicht.
 
 Wird ypserv in einer Multi-Serverdomäne verwendet, in der NIS-Server gleichzeitig als NIS-Clients arbeiten, ist es eine gute Idee, diese Server zu zwingen, sich an sich selbst zu binden. Damit wird verhindert, dass Bindeanforderungen gesendet werden und sich die Server gegenseitig binden. Sonst könnten seltsame Fehler auftreten, wenn ein Server ausfällt, auf den andere Server angewiesen sind. Letztlich werden alle Clients einen Timeout melden, und versuchen, sich an andere Server zu binden. Die dadurch entstehende Verzögerung kann beträchtlich sein. Außerdem kann der Fehler erneut auftreten, da sich die Server wiederum aneinander binden könnten.
 
@@ -566,12 +566,12 @@ Server, die auch als Client arbeiten, können durch das Hinzufügen der folgende
 
 [.programlisting]
 ....
-nis_client_enable="YES"				
-nis_client_flags="-S test-domain,server"
+nis_client_enable="YES" <.>
+nis_client_flags="-S test-domain,server" <.>
 ....
 
-Ermöglicht die Aktivierung der Client-Komponenten.
-Diese Zeile setzt den NIS-Domain Namen `test-domain` und bindet sich an sich selbst.
+<.> Ermöglicht die Aktivierung der Client-Komponenten.
+<.> Diese Zeile setzt den NIS-Domain Namen `test-domain` und bindet sich an sich selbst.
 
 Nachdem die Parameter konfiguriert wurden, muss noch `/etc/netstart` ausgeführt werden, um alles entsprechend den Vorgaben in [.filename]#/etc/rc.conf# einzurichten. Bevor die NIS-Maps einrichtet werden können, muss der man:ypserv[8]-Daemon manuell gestartet werden:
 
@@ -1798,11 +1798,46 @@ Apache verwendet Module, die den Server um zusätzliche Funktionen erweitern. Ei
 
 In FreeBSD können einige Module mit dem Port package:www/apache24[] kompiliert werden. Geben Sie in [.filename]#/usr/ports/www/apache24#`make config` ein, um zu sehen, welche Module zur Verfügung stehen und welche Module in der Voreinstellung aktiviert sind. Wenn ein Modul nicht zusammen mit dem Port kompiliert wird, bietet die Ports-Sammlung die Möglichkeit viele Module zu installieren. Dieser Abschnitt beschreibt drei der am häufigsten verwendeten Module.
 
-==== [.filename]#mod_ssl#
+==== SSL-Unterstützung
 
-Das Modul [.filename]#mod_ssl# verwendet die OpenSSL-Bibliothek, um über die Protokolle Secure Sockets Layer (SSLv3) sowie Transport Layer Security (TLSv1) eine starke Verschlüsselung zu ermöglichen. Mit diesem Modul können Sie ein signiertes Zertifikat von einer Zertifizierungsstelle anfordern, damit Sie einen sicheren Webserver unter FreeBSD betreiben können.
+Zu einem bestimmten Zeitpunkt erforderte die Unterstützung von SSL innerhalb von Apache ein separates Modul namens [.filename]#mod_ssl#. Dies ist nicht mehr der Fall und die Installation des Apache-Webservers wird im Standard mit SSL-Unterstützung ausgeliefert. Ein Beispiel, wie Sie SSL-Unterstützung für einen Webserver aktivieren können, finden Sie in der Datei [.filename]#httpd-ssl.conf# im Verzeichnis [.filename]#/usr/local/etc/apache24/extra#. In diesem Verzeichnis befindet sich auch eine Beispieldatei namens [.filename]#ssl.conf-sample#. Es wird empfohlen, beide Dateien zu überprüfen, um sichere Webseiten auf dem Apache-Webserver einzurichten.
 
-Unter FreeBSD wird das Modul [.filename]#mod_ssl# standardmäßig im Port und auch im Paket aktiviert. Die verfügbaren Konfigurationsanweisungen werden in http://httpd.apache.org/docs/current/mod/mod_ssl.html[ http://httpd.apache.org/docs/current/mod/mod_ssl.html] beschrieben.
+Nachdem die Konfiguration von SSL abgeschlossen ist, muss die folgende Zeile in [.filename]#httpd.conf# auskommentiert werden, um die Änderungen beim nächsten Neustart oder erneuten Laden der Konfiguration zu aktivieren:
+
+[.programlisting]
+....
+#Include etc/apache24/extra/httpd-ssl.conf
+....
+
+[WARNING]
+====
+SSL in Version 2 und 3 haben bekannte Schwachstellen. Es wird dringend empfohlen, TLS Version 1.2 und 1.3 anstelle der älteren SSL-Optionen zu aktivieren. Dies kann durch die Einstellung der folgenden Optionen in [.filename]#ssl.conf# erreicht werden:
+====
+
+[.programlisting]
+....
+SSLProtocol all -SSLv3 -SSLv2 +TLSv1.2 +TLSv1.3
+SSLProxyProtocol all -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
+....
+
+Um die Konfiguration von SSL im Webserver abzuschließen, entfernen Sie den Kommentar in der folgenden Zeile, um sicherzustellen, dass die Konfiguration bei einem Neustart oder beim erneuten laden der Konfiguration von Apache übernommen wird:
+
+[.programlisting]
+....
+# Secure (SSL/TLS) connections
+Include etc/apache24/extra/httpd-ssl.conf
+....
+
+Diese Zeilen müssen in [.filename]#httpd.conf# ebenfalls auskommentiert bleiben, um SSL in Apache vollständig zu unterstützen:
+
+[.programlisting]
+....
+LoadModule authn_socache_module libexec/apache24/mod_authn_socache.so
+LoadModule socache_shmcb_module libexec/apache24/mod_socache_shmcb.so
+LoadModule ssl_module libexec/apache24/mod_ssl.so
+....
+
+Der nächste Schritt ist die Kooperation mit einer Zertifizierungsstelle, um die entsprechenden Zertifikate auf dem System installieren zu lassen. Dadurch wird eine Vertrauenskette für die Webseite etabliert und jegliche Warnungen vor selbstsignierten Zertifikaten verhindert.
 
 ==== [.filename]#mod_perl#
 
@@ -1814,32 +1849,69 @@ Das Modul [.filename]#mod_perl# macht es möglich, vollständig in Perl geschrie
 
 _PHP: Hypertext Preprocessor_ (PHP) ist eine vielseitig verwendbare Skriptsprache, die besonders für die Web-Entwicklung geeignet ist. PHP kann in HTML eingebettet werden und ähnelt von der Syntax her Sprachen wie C, Java(TM) und Perl. Das Hauptanliegen von PHP ist es, Web-Entwicklern die rasche Erstellung von dynamisch erzeugten Internetseiten zu ermöglichen.
 
-Damit der Apache-Webserver PHP5 unterstützt, der Port oder das Paket package:lang/php56[] installiert werden. Dies wird die Module installieren und konfigurieren, die für die Unterstützung von dynamischen PHP-Anwendungen benötigt werden. Die Installation wird automatisch folgende Zeilen in [.filename]#/usr/local/etc/apache24/httpd.conf# hinzufügen:
+PHP und weitere in PHP geschriebene Funktionen unterstützt, muss das entsprechende Paket installiert werden.
+
+Sie können mit `pkg` die Paketdatenbank nach allen unterstützten PHP-Versionen durchsuchen:
+
+[source,bash]
+....
+# pkg search php
+....
+
+Die Ausgabe ist eine Liste mit Versionen und Funktionen des jeweiligen Pakets. Die Komponenten sind vollständig modular, d.h. die Funktionen werden durch die Installation des entsprechenden Pakets aktiviert. Geben Sie folgenden Befehl ein, um PHP-Version 7.4 für Apache zu installieren:
+
+[source,bash]
+....
+# pkg install mod_php74
+....
+
+Falls irgendwelche Pakete Abhängigkeiten besitzen, werden diese zusätzlichen Pakete ebenfalls installiert.
+
+Standardmäßig ist PHP nicht aktiviert. Die folgenden Zeilen müssen in der Apache-Konfigurationsdatei unterhalb von [.filename]#/usr/local/etc/apache24# hinzugefügt werden, um PHP zu aktivieren:
 
 [.programlisting]
 ....
-LoadModule php5_module        libexec/apache24/libphp5.so
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+<FilesMatch "\.phps$">
+    SetHandler application/x-httpd-php-source
+</FilesMatch>
 ....
 
-Danach rufen Sie `apachectl` auf, um das PHP-Modul zu laden:
+Zusätzlich muss auch der `DirectoryIndex` in der Konfigurationsdatei aktualisiert werden und Apache muss entweder neu gestartet, oder die Konfiguration neu geladen werden, damit die Änderungen wirksam werden.
+
+Mit `pkg` kann die Unterstützung für viele weitere PHP-Funktionen installiert werden. Um beispielsweise die Unterstützung für XML oder SSL zu erhalten, installieren Sie die entsprechenden Pakete:
+
+[source,bash]
+....
+# pkg install php74-xml php74-openssl
+....
+
+Wie zuvor muss die Konfiguration von Apache neu geladen werden, damit die Änderungen wirksam werden. Dies gilt auch für Fälle, in denen lediglich ein Modul installiert wurde.
+
+Geben Sie folgenden Befehl ein, um einen geordneten Neustart durchzuführen und die Konfiguration neu zu laden:
 
 [source,bash]
 ....
 # apachectl graceful
 ....
 
-Die PHP-Unterstützung von package:www/mod_php56[] verfügt nur über wenige Funktionen. Zusätzliche Funktionen können mit dem Port package:lang/php56-extensions[] installiert werden. Der Port bietet ein Auswahlmenü, über das Sie verschiedene PHP-Erweiterungen installieren können.
-
-Alternativ können einzelne Erweiterungen über den jeweiligen Port installieren. Um beispielsweise die Unterstützung des Datenbankservers MySQL in PHP zu aktivieren, installieren Sie den Port [.filename]#databases/php56-mysql#.
-
-Nachdem Sie eine Erweiterung installiert haben, müssen Sie den Apache-Server neu starten, damit die Erweiterung auch erkannt wird:
+Sobald die Installation abgeschlossen ist, gibt es zwei Möglichkeiten, um eine Liste der installierten PHP-Module und Informationen über die Umgebung der Installation zu erhalten. Die erste Möglichkeit besteht darin, die vollständige PHP-Binärdatei zu installieren und den Befehl auszuführen, um die Informationen zu erhalten:
 
 [source,bash]
 ....
-# apachectl graceful
+# pkg install php74
 ....
 
-Ab nun wird MySQL von PHP unterstützt.
+[source,bash]
+....
+# php -i | less
+....
+
+Da die Ausgabe des Befehls sehr umfangreich ist, ist die Weiterleitung an einen Pager, wie beispielsweise `more` oder `less`, sinnvoll.
+
+Um Änderungen an der globalen Konfiguration von PHP vorzunehmen, gibt es schließlich eine gut dokumentierte Datei, die in [.filename]#/usr/local/etc/php.ini# installiert ist. Zum Zeitpunkt der Installation wird diese Datei nicht existieren, da zwei Versionen zur Auswahl stehen. Eine [.filename]#php.ini-development# und eine [.filename]#php.ini-production#. Diese Dateien sind Ansatzpunkte, die Administratoren bei der Implementierung unterstützen sollen.
 
 === Dynamische Webseiten
 

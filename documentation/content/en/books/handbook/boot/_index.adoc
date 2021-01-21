@@ -150,7 +150,6 @@ To replace the installed [.filename]#boot1# and [.filename]#boot2#, use `bsdlabe
 
 [WARNING]
 ====
-
 If just the disk name is used, such as [.filename]#ad0#, `bsdlabel` will create the disk in "dangerously dedicated mode", without slices. This is probably not the desired action, so double check the _diskslice_ before pressing kbd:[Return].
 ====
 
@@ -226,18 +225,18 @@ To unload the usual kernel and modules and then load the previous or another, sp
 [source,bash]
 ....
  unload
- load kernel.old
+ load /path/to/kernelfile
 ....
 
-Use [.filename]#kernel.GENERIC# to refer to the default kernel that comes with an installation, or [.filename]#kernel.old#, to refer to the previously installed kernel before a system upgrade or before configuring a custom kernel.
+Use the qualified [.filename]#/boot/GENERIC/kernel# to refer to the default kernel that comes with an installation, or [.filename]#/boot/kernel.old/kernel#, to refer to the previously installed kernel before a system upgrade or before configuring a custom kernel.
 
-Use the following to load the usual modules with another kernel:
+Use the following to load the usual modules with another kernel. Note that in this case it is not necessary the qualified name:
 
 [source,bash]
 ....
- unload
- set kernel="kernel.old"
- boot-conf
+unload
+set kernel="mykernel"
+boot-conf
 ....
 
 To load an automated kernel configuration script:
@@ -254,7 +253,7 @@ Once the kernel is loaded by either loader or by boot2, which bypasses loader, i
 
 [[boot-kernel]]
 .Kernel Interaction During Boot
-[cols="20%,80%", frame="none", options="header"]
+[cols="1,1", frame="none", options="header"]
 |===
 | Option
 | Description
@@ -298,7 +297,6 @@ If the system `console` is changed to `insecure` in [.filename]#/etc/ttys#, the 
 .Configuring an Insecure Console in [.filename]#/etc/ttys#
 [example]
 ====
-
 [.programlisting]
 ....
 # name  getty                           type    status          comments

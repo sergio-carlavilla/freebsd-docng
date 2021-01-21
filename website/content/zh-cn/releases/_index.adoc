@@ -29,12 +29,6 @@ FreeBSD 发行版本分为 “生产版本” (Production Releases) 和 “旧�
 
 *版本 {rel113-current}* ({rel113-current-date}) _link:{u-rel113-announce}[公告] : link:{u-rel113-notes}[发行说明] : link:{u-rel113-installation}[安装说明] : link:{u-rel113-hardware}[硬件说明] : link:{u-rel113-readme}[自述文件] : link:{u-rel113-errata}[勘误] : link:{u-rel113-signatures}[校验和]_
 
-=== Legacy Release
-
-////
-*Release {rel112-current}* ({rel112-current-date}) _link:{u-rel112-announce}[公告] : link:{u-rel112-notes}[发行说明] : link:{u-rel112-installation}[安装说明] : link:{u-rel112-hardware}[硬件说明] : link:{u-rel112-readme}[自述文件] : link:{u-rel112-errata}[勘误] : link:{u-rel112-signatures}[校验和]_
-////
-
 [[future]]
 == 未来的发行版本
 

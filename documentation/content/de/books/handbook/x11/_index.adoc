@@ -153,7 +153,7 @@ Grafikkarten, Monitore und Eingabegeräte werden automatisch erkannt und müssen
 # pw groupmod video -m jru || pw groupmod wheel -m jru
 ....
 
-. Der Window-Manager twm ist standardmäßig enthalten und wird auch gestartet, wenn Xorg startet:
+. Der Window-Manager `twm` ist standardmäßig enthalten und wird auch gestartet, wenn Xorg startet:
 +
 [source,bash]
 ....
@@ -216,7 +216,11 @@ Intel KMS driver::
 +
 Name des Treibers: `i915kms`
 +
-2D- und 3D-Beschleunigung wird auf den meisten älteren AMD KMS driver Grafikkarten von AMD(R) unterstützt.
+2D- und 3D-Beschleunigung wird auf den meisten älteren Radeon KMS driver Grafikkarten von AMD(R) unterstützt.
++
+Name des Treibers: `radeonkms`
++
+2D- und 3D-Beschleunigung wird auf den meisten neueren AMD KMS driver Grafikkarten von AMD(R) unterstützt.
 +
 Name des Treibers: `amdgpu`
 +

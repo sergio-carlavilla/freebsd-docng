@@ -40,48 +40,40 @@ Each section in this chapter describes a possible value for `USES`, along with i
 .Using Multiple Values
 [example]
 ====
-
 [.programlisting]
 ....
 USES=	bison perl
 ....
-
 ====
 
 [[uses-intro-ex2]]
 .Adding an Argument
 [example]
 ====
-
 [.programlisting]
 ....
 USES=	tar:xz
 ....
-
 ====
 
 [[uses-intro-ex3]]
 .Adding Multiple Arguments
 [example]
 ====
-
 [.programlisting]
 ....
 USES=	drupal:7,theme
 ....
-
 ====
 
 [[uses-intro-ex4]]
 .Mixing it All Together
 [example]
 ====
-
 [.programlisting]
 ....
 USES=	pgsql:9.3+ cpe python:2.7,build
 ....
-
 ====
 
 [[uses-7z]]
@@ -96,7 +88,7 @@ Extract using man:7z[1] instead of man:bsdtar[1] and sets `EXTRACT_SUFX=.7z`. Th
 
 Possible arguments: (none), `5`, `6`
 
-Depends on an Ada-capable compiler, and sets `CC` accordingly. Defaults to use gcc 5 from ports. Use the `:__X__` version option to force building with a different version.
+Depends on an Ada-capable compiler, and sets `CC` accordingly. Defaults to use gcc 5 from ports. Use the `:_X_` version option to force building with a different version.
 
 [[uses-autoreconf]]
 == `autoreconf`
@@ -294,6 +286,13 @@ Possible arguments: `7`, `module`, `theme`
 
 Automate installation of a port that is a Drupal theme or module. Use with the version of Drupal that the port is expecting. For example, `USES=drupal:7,module` says that this port creates a Drupal 6 module. A Drupal 7 theme can be specified with `USES=drupal:7,theme`.
 
+[[uses-eigen]]
+== `eigen`
+
+Possible arguments: 2, 3, build (default), run
+
+Add dependency on package:math/eigen[].
+
 [[uses-fakeroot]]
 == `fakeroot`
 
@@ -320,7 +319,7 @@ Add a dependency to the client library of the Firebird database.
 
 Possible arguments: (none), `fc`, `fcfontsdir` (default), `fontsdir`, `none`
 
-Adds a runtime dependency on tools needed to register fonts. Depending on the argument, add a `<<plist-keywords-fc,@fc>> ${FONTSDIR}` line, `<<plist-keywords-fcfontsdir,@fcfontsdir>> ${FONTSDIR}` line, `<<plist-keywords-fontsdir,@fontsdir>> ${FONTSDIR}` line, or no line if the argument is `none`, to the plist. `FONTSDIR` defaults to [.filename]#${PREFIX}/shared/fonts/${FONTNAME}# and `FONTNAME` to `${PORTNAME}`. Add `FONTSDIR` to `PLIST_SUB` and `SUB_LIST`
+Adds a runtime dependency on tools needed to register fonts. Depending on the argument, add a `<<plist-keywords-fc,@fc>> ${FONTSDIR}` line, `<<plist-keywords-fcfontsdir,@fcfontsdir>> ${FONTSDIR}` line, `<<plist-keywords-fontsdir,@fontsdir>> ${FONTSDIR}` line, or no line if the argument is `none`, to the plist. `FONTSDIR` defaults to [.filename]#${PREFIX}/share/fonts/${FONTNAME}# and `FONTNAME` to `${PORTNAME}`. Add `FONTSDIR` to `PLIST_SUB` and `SUB_LIST`
 
 [[uses-fortran]]
 == `fortran`
@@ -543,10 +542,8 @@ Additional build arguments to be passed to `go test`.
 `GO_PORT`::
 The Go compiler port to use. By default this is package:lang/go[] but can be set to package:lang/go-devel[] in `make.conf` for testing with future Go versions.
 +
-
 [WARNING]
 ====
-
 This variable must not be set by individual ports!
 ====
 
@@ -600,7 +597,6 @@ The `bootstrap` option is a special prefix only for use by package:security/krb5
 .Typical Use
 [example]
 ====
-
 [.programlisting]
 ....
 OPTIONS_SINGLE=	GSSAPI
@@ -777,9 +773,15 @@ Ensures that libraries from dependencies in `LOCALBASE` are used instead of the 
 [[uses-lua]]
 == `lua`
 
-Possible arguments: (none), `_XY_+`, `_XY_`, `build`, `run`
+Possible arguments: (none), `_XY_`, `_XY_+`, `-_XY_`, `_XY_-_ZA_`, `module`, `flavors`, `build`, `run`, `env`
 
-Adds a dependency on Lua. By default this is a library dependency, unless overridden by the `build` or `run` option. The default version is 5.2, unless set by the `_XY_` parameter (for example, `51` or `52+`).
+Adds a dependency on Lua. By default this is a library dependency, unless overridden by the `build` and/or `run` option. The `env` option prevents the addition of any dependency, while still defining all the usual variables.
+
+The default version is set by the usual `DEFAULT_VERSIONS` mechanism, unless a version or range of versions is specified as an argument, for example, `51` or `51-53`.
+
+Applications using Lua are normally built for only a single Lua version. However, library modules intended to be loaded by Lua code should use the `module` option to build with multiple flavors.
+
+For more information see <<using-lua>>.
 
 [[uses-lxqt]]
 == `lxqt`
@@ -868,7 +870,7 @@ Possible arguments: (none), `nuget`
 
 Adds a dependency on the Mono (currently only C#) framework by setting the appropriate dependencies.
 
-Specify `nuget` when the port uses nuget packages. `NUGET_DEPENDS` needs to be set with the names and versions of the nuget packages in the format `_name=version_`. An optional package origin can be added using `_name=version:origin_`.
+Specify `nuget` when the port uses nuget packages. `NUGET_DEPENDS` needs to be set with the names and versions of the nuget packages in the format `_name_=_version_`. An optional package origin can be added using `_name_=_version_:_origin_`.
 
 The helper target, `buildnuget`, will output the content of the `NUGET_DEPENDS` based on the provided [.filename]#packages.config#.
 
@@ -912,7 +914,7 @@ Uses OpenAL. The backend can be specified, with the software implementation as t
 
 Possible arguments: (none)
 
-Look for [.filename]#Makefile.in# and [.filename]#configure# in `PATHFIX_WRKSRC` (defaults to `WRKSRC`) and fix common paths to make sure they respect the FreeBSD hierarchy. For example, it fixes the installation directory of ``pkgconfig``'s [.filename]#.pc# files to [.filename]#${PREFIX}/libdata/pkgconfig#. If the port uses `USES=autoreconf`, [.filename]#Makefile.am# will be added to `PATHFIX_MAKEFILEIN` automatically.
+Look for [.filename]#Makefile.in# and [.filename]#configure# in `PATHFIX_WRKSRC` (defaults to `WRKSRC`) and fix common paths to make sure they respect the FreeBSD hierarchy. For example, it fixes the installation directory of `pkgconfig`'s [.filename]#.pc# files to [.filename]#${PREFIX}/libdata/pkgconfig#. If the port uses `USES=autoreconf`, [.filename]#Makefile.am# will be added to `PATHFIX_MAKEFILEIN` automatically.
 
 If the port <<uses-cmake,`USES=cmake`>> it will look for [.filename]#CMakeLists.txt# in `PATHFIX_WRKSRC`. If needed, that default filename can be changed with `PATHFIX_CMAKELISTSTXT`.
 
@@ -1030,13 +1032,13 @@ PHP_MOD_PRIO=	40
 These variables are available to use in `PKGNAMEPREFIX` or `PKGNAMESUFFIX`:
 
 `PHP_PKGNAMEPREFIX`::
-Contains `php__XY__-` where _XY_ is the current flavor's PHP version. Use with PHP extensions and modules.
+Contains `php_XY_-` where _XY_ is the current flavor's PHP version. Use with PHP extensions and modules.
 
 `PHP_PKGNAMESUFFIX`::
-Contains `-php__XY__` where _XY_ is the current flavor's PHP version. Use with PHP applications.
+Contains `-php_XY_` where _XY_ is the current flavor's PHP version. Use with PHP applications.
 
 `PECL_PKGNAMEPREFIX`::
-Contains `php__XY__-pecl-` where _XY_ is the current flavor's PHP version. Use with PECL modules.
+Contains `php_XY_-pecl-` where _XY_ is the current flavor's PHP version. Use with PECL modules.
 
 [IMPORTANT]
 ====
@@ -1151,7 +1153,6 @@ Provides support for building Qt 5 components. It takes care of setting up the a
 .Building Qt 5 Components
 [example]
 ====
-
 The port is Qt 5's `networkauth` component, which is part of the `networkauth` distribution file.
 
 [.programlisting]
@@ -1170,7 +1171,6 @@ If `PORTNAME` does not match the component name, it can be passed as an argument
 .Building Qt 5 Components with Different Names
 [example]
 ====
-
 The port is Qt 5's `gui` component, which is part of the `base` distribution file.
 
 [.programlisting]
@@ -1243,33 +1243,31 @@ There are three configuration variables:
 `SHEBANG_LANG`::
 The list of supported interpreters.
 
-`interp_CMD`::
+`_interp__CMD`::
 The path to the command interpreter on FreeBSD. The default value is `${LOCALBASE}/bin/_interp_`.
 
-`interp_OLD_CMD`::
-The list of wrong invocations of interpreters. These are typically obsolete paths, or paths used on other operating systems that are incorrect on FreeBSD. They will be replaced by the correct path in `interp_CMD`.
+`_interp__OLD_CMD`::
+The list of wrong invocations of interpreters. These are typically obsolete paths, or paths used on other operating systems that are incorrect on FreeBSD. They will be replaced by the correct path in `_interp__CMD`.
 +
 [NOTE]
 ====
-These will _always_ be part of `interp_OLD_CMD`: `"/usr/bin/env _interp_" /bin/_interp_ /usr/bin/_interp_ /usr/local/bin/_interp_`.
+These will _always_ be part of `_interp__OLD_CMD`: `"/usr/bin/env _interp_" /bin/_interp_ /usr/bin/_interp_ /usr/local/bin/_interp_`.
 ====
 +
 [TIP]
 ====
-
-`interp_OLD_CMD` contain multiple values. Any entry with spaces must be quoted. See <<uses-shebangfix-ex-ksh>>.
+`_interp__OLD_CMD` contain multiple values. Any entry with spaces must be quoted. See <<uses-shebangfix-ex-ksh>>.
 ====
 
 [IMPORTANT]
 ====
 The fixing of shebangs is done during the `patch` phase. If scripts are created with incorrect shebangs during the `build` phase, the build process (for example, the [.filename]#configure# script, or the [.filename]#Makefiles#) must be patched or given the right path (for example, with `CONFIGURE_ENV`, `CONFIGURE_ARGS`, `MAKE_ENV`, or `MAKE_ARGS`) to generate the right shebangs.
 
-Correct paths for supported interpreters are available in `interp_CMD`.
+Correct paths for supported interpreters are available in `_interp__CMD`.
 ====
 
 [TIP]
 ====
-
 When used with <<uses-python,`USES=python`>>, and the aim is only to fix the shebangs but a dependency on Python itself is not wanted, use `PYTHON_NO_DEPENDS=yes`.
 ====
 
@@ -1277,7 +1275,6 @@ When used with <<uses-python,`USES=python`>>, and the aim is only to fix the she
 .Adding Another Interpreter to `USES=shebangfix`
 [example]
 ====
-
 To add another interpreter, set `SHEBANG_LANG`. For example:
 
 [.programlisting]
@@ -1291,8 +1288,7 @@ SHEBANG_LANG=	lua
 .Specifying all the Paths When Adding an Interpreter to `USES=shebangfix`
 [example]
 ====
-
-If it was not already defined, and there were no default values for `interp_OLD_CMD` and `interp_CMD` the Ksh entry could be defined as:
+If it was not already defined, and there were no default values for `_interp__OLD_CMD` and `_interp__CMD` the Ksh entry could be defined as:
 
 [.programlisting]
 ....
@@ -1307,7 +1303,6 @@ ksh_CMD=	${LOCALBASE}/bin/ksh
 .Adding a Strange Location for an Interpreter
 [example]
 ====
-
 Some software uses strange locations for an interpreter. For example, an application might expect Python to be located in [.filename]#/opt/bin/python2.7#. The strange path to be replaced can be declared in the port [.filename]#Makefile#:
 
 [.programlisting]
@@ -1321,7 +1316,6 @@ python_OLD_CMD=	/opt/bin/python2.7
 .`USES=shebangfix` with `SHEBANG_REGEX`
 [example]
 ====
-
 To fix all the files in `${WRKSRC}/scripts` ending in [.filename]#.pl#, [.filename]#.sh#, or [.filename]#.cgi# do:
 
 [.programlisting]
@@ -1331,9 +1325,10 @@ SHEBANG_REGEX=	./scripts/.*\.(sh|pl|cgi)
 ....
 
 [NOTE]
-****
+======
 `SHEBANG_REGEX` is used by running `find -E`, which uses modern regular expressions also known as extended regular expressions. See man:re_format[7] for more information.
-****
+======
+
 ====
 
 [[uses-shebangfix-ex-glob]]
@@ -1347,6 +1342,7 @@ To fix all the files in `${WRKSRC}` ending in [.filename]#.pl# or [.filename]#.s
 USES=	shebangfix
 SHEBANG_GLOB=	*.sh *.pl
 ....
+
 ====
 
 [[uses-shebangfix-ex-files]]
@@ -1360,6 +1356,7 @@ To fix the files [.filename]#script/foobar.pl# and [.filename]#script/*.sh# in `
 USES=	shebangfix
 SHEBANG_FILES=	scripts/foobar.pl scripts/*.sh
 ....
+
 ====
 
 [[uses-sqlite]]
@@ -1393,8 +1390,7 @@ If defined, the path the linker needs to use to find the OpenSSL libraries.
 
 [TIP]
 ====
-
-If a port does not build with an OpenSSL flavor, set the `BROKEN_SSL` variable, and possibly the `BROKEN_SSL_REASON_flavor`:
+If a port does not build with an OpenSSL flavor, set the `BROKEN_SSL` variable, and possibly the `BROKEN_SSL_REASON__flavor_`:
 
 [.programlisting]
 ....
@@ -1432,7 +1428,7 @@ Add a dependency on Tcl. A specific version can be requested using _version_. Th
 
 Possible arguments: (none)
 
-Adds <<plist-keywords-terminfo,`@terminfo`>> to the [.filename]#plist#. Use when the port installs [.filename]#*.terminfo# files in [.filename]#${PREFIX}/shared/misc#.
+Adds <<plist-keywords-terminfo,`@terminfo`>> to the [.filename]#plist#. Use when the port installs [.filename]#*.terminfo# files in [.filename]#${PREFIX}/share/misc#.
 
 [[uses-tk]]
 == `tk`
@@ -1501,6 +1497,7 @@ The `gtk2` argument specifies that the port requires GTK2 support. It adds addit
 Possible arguments: (none)
 
 Provides an easy way to depend on X.org components. The components should be listed in `USE_XORG`. The available components are:
+
 [[using-x11-components]]
 .Available X.Org Components
 [cols="1,1", frame="none", options="header"]

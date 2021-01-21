@@ -46,8 +46,8 @@ def setTOCTitle(language):
     'pl': 'Spis tabel',
     'pt_BR': 'Lista de Tabelas',
     'ru': 'Список таблиц',
-    'zh_CN': '表格清单',
-    'zh_TW': '附表目錄'
+    'zh-cn': '表格清单',
+    'zh-tw': '附表目錄'
   }
 
   return languages.get(language)

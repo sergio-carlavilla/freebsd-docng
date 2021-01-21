@@ -29,8 +29,8 @@ def setAppendixTitle(language):
     'pl': 'Dodatek',
     'pt_BR': 'Apêndice',
     'ru': 'Приложение',
-    'zh_CN': '附录',
-    'zh_TW': '附錄'
+    'zh-cn': '附录',
+    'zh-tw': '附錄'
   }
 
   return languages.get(language)
@@ -50,8 +50,8 @@ def setPartTitle(language):
     'pl': 'Część',
     'pt_BR': 'Parte',
     'ru': 'Часть',
-    'zh_CN': '部分',
-    'zh_TW': '部'
+    'zh-cn': '部分',
+    'zh-tw': '部'
   }
 
   return languages.get(language)
@@ -71,8 +71,8 @@ def setChapterTitle(language):
     'pl': 'Rozdział',
     'pt_BR': 'Capítulo',
     'ru': 'Глава',
-    'zh_CN': '章',
-    'zh_TW': '章'
+    'zh-cn': '章',
+    'zh-tw': '章'
   }
 
   return languages.get(language)
@@ -92,8 +92,8 @@ def setTOCTitle(language):
     'pl': 'Spis treści',
     'pt_BR': 'Índice',
     'ru': 'Содержание',
-    'zh_CN': '目录',
-    'zh_TW': '內容目錄'
+    'zh-cn': '目录',
+    'zh-tw': '內容目錄'
   }
 
   return languages.get(language)

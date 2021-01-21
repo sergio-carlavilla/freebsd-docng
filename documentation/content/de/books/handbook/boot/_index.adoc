@@ -229,17 +229,17 @@ Um alle gewöhnlichen Kernelmodule zu entladen und dann den alten, oder einen an
 [source,bash]
 ....
 unload
-load kernel.old
+/pfad/zur/kerneldatei
 ....
 
-Verwenden Sie [.filename]#kernel.GENERIC#, um den allgemeinen Kernel zu bezeichnen, der vorinstalliert wird. [.filename]#kernel.old# bezeichnet den Kernel, der vor dem System-Upgrade installiert war.
+Verwenden Sie [.filename]#/boot/GENERIC/kernel#, um auf den allgemeinen Kernel zu verweisen, der bei jeder Installation dabei ist. [.filename]#/boot/kernel.old/kernel# hingegen bezeichnet den Kernel, der vor dem System-Upgrade installiert war.
 
 Der folgende Befehl lädt die gewöhnlichen Module mit einem anderen Kernel:
 
 [source,bash]
 ....
 unload
-set kernel="kernel.old"
+set kernel="meinkernel"
 boot-conf
 ....
 

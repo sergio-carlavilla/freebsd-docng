@@ -72,6 +72,7 @@ LanguageCode_CountryCode.Encoding
 ....
 
 The _LanguageCode_ and _CountryCode_ are used to determine the country and the specific language variation. <<locale-lang-country>> provides some examples of __LanguageCode_CountryCode__:
+
 [[locale-lang-country]]
 .Common Language and Country Codes
 [cols="1,1", frame="none", options="header"]
@@ -232,10 +233,11 @@ To change the login class of an existing user, `chpass` can be used. Invoke it a
 # chpass user_name
 ....
 
+
 [[startup-file]]
 ==== Shell Startup File Method
 
-This second method is not recommended as each shell that is used requires manual configuration, where each shell has a different configuration file and differing syntax. As an example, to set the German language for the `sh` shell, these lines could be added to [.filename]#~/.profile# to set the shell for that user only. These lines could also be added to [.filename]#/etc/profile# or [.filename]#/usr/shared/skel/dot.profile# to set that shell for all users:
+This second method is not recommended as each shell that is used requires manual configuration, where each shell has a different configuration file and differing syntax. As an example, to set the German language for the `sh` shell, these lines could be added to [.filename]#~/.profile# to set the shell for that user only. These lines could also be added to [.filename]#/etc/profile# or [.filename]#/usr/share/skel/dot.profile# to set that shell for all users:
 
 [.programlisting]
 ....
@@ -243,7 +245,7 @@ LANG=de_DE.ISO8859-1; export LANG
 MM_CHARSET=ISO-8859-1; export MM_CHARSET
 ....
 
-However, the name of the configuration file and the syntax used differs for the `csh` shell. These are the equivalent settings for [.filename]#~/.csh.login#, [.filename]#/etc/csh.login#, or [.filename]#/usr/shared/skel/dot.login#:
+However, the name of the configuration file and the syntax used differs for the `csh` shell. These are the equivalent settings for [.filename]#~/.csh.login#, [.filename]#/etc/csh.login#, or [.filename]#/usr/share/skel/dot.login#:
 
 [.programlisting]
 ....
@@ -258,15 +260,17 @@ To complicate matters, the syntax needed to configure Xorg in [.filename]#~/.xin
 LANG=de_DE.ISO8859-1; export LANG
 ....
 
+
 [.programlisting]
 ....
 setenv LANG de_DE.ISO8859-1
 ....
 
+
 [[setting-console]]
 === Console Setup
 
-Several localized fonts are available for the console. To see a listing of available fonts, type `ls /usr/shared/syscons/fonts`. To configure the console font, specify the _font_name_, without the [.filename]#.fnt# suffix, in [.filename]#/etc/rc.conf#:
+Several localized fonts are available for the console. To see a listing of available fonts, type `ls /usr/share/syscons/fonts`. To configure the console font, specify the _font_name_, without the [.filename]#.fnt# suffix, in [.filename]#/etc/rc.conf#:
 
 [.programlisting]
 ....
@@ -284,9 +288,9 @@ keymap=keymap_name
 keychange="fkey_number sequence"
 ....
 
-To see the list of available screenmaps, type `ls /usr/shared/syscons/scrnmaps`. Do not include the [.filename]#.scm# suffix when specifying `_screenmap_name_`. A screenmap with a corresponding mapped font is usually needed as a workaround for expanding bit 8 to bit 9 on a VGA adapter's font character matrix so that letters are moved out of the pseudographics area if the screen font uses a bit 8 column.
+To see the list of available screenmaps, type `ls /usr/share/syscons/scrnmaps`. Do not include the [.filename]#.scm# suffix when specifying _screenmap_name_. A screenmap with a corresponding mapped font is usually needed as a workaround for expanding bit 8 to bit 9 on a VGA adapter's font character matrix so that letters are moved out of the pseudographics area if the screen font uses a bit 8 column.
 
-To see the list of available keymaps, type `ls /usr/shared/syscons/keymaps`. When specifying the `_keymap_name_`, do not include the [.filename]#.kbd# suffix. To test keymaps without rebooting, use man:kbdmap[1].
+To see the list of available keymaps, type `ls /usr/share/syscons/keymaps`. When specifying the _keymap_name_, do not include the [.filename]#.kbd# suffix. To test keymaps without rebooting, use man:kbdmap[1].
 
 The `keychange` entry is usually needed to program function keys to match the selected terminal type because function key sequences cannot be defined in the keymap.
 
@@ -321,6 +325,7 @@ Next, set the correct console terminal type in [.filename]#/etc/ttys# for all vi
 |===
 
 For languages with wide or multibyte characters, install a console for that language from the FreeBSD Ports Collection. The available ports are summarized in <<locale-console>>. Once installed, refer to the port's [.filename]#pkg-message# or man pages for configuration and usage instructions.
+
 [[locale-console]]
 .Available Console from Ports Collection
 [cols="1,1", frame="none", options="header"]
@@ -359,6 +364,7 @@ mousechar_start=3
 crossref:x11[x11,The X Window System] describes how to install and configure Xorg. When configuring Xorg for localization, additional fonts and input methods are available from the FreeBSD Ports Collection. Application specific i18n settings such as fonts and menus can be tuned in [.filename]#~/.Xresources# and should allow users to view their selected language in graphical application menus.
 
 The X Input Method (XIM) protocol is an Xorg standard for inputting non-English characters. <<locale-xim>> summarizes the input method applications which are available in the FreeBSD Ports Collection. Additional Fcitx and Uim applications are also available.
+
 [[locale-xim]]
 .Available Input Methods
 [cols="1,1", frame="none", options="header"]
@@ -544,7 +550,7 @@ Option "XkbOptions"  "grp:toggle"
 
 Make sure that `XkbDisable` is commented out in that file.
 
-For `grp:toggle` use kbd:[Right Alt], for `grp:ctrl_shift_toggle` use kbd:[Ctrl+Shift]. For `grp:caps_toggle` use kbd:[CapsLock]. The old kbd:[CapsLock] function is still available in LAT mode only using kbd:[Shift+CapsLock]. `grp:caps_toggle` does not work in Xorg for some unknown reason.
+For `grp:toggle` use kbd:[Right Alt], for `grp:ctrl_shift_toggle` use kbd[Ctrl+Shift]. For `grp:caps_toggle` use kbd:[CapsLock]. The old kbd:[CapsLock] function is still available in LAT mode only using kbd[Shift+CapsLock]. `grp:caps_toggle` does not work in Xorg for some unknown reason.
 
 If the keyboard has "Windows(R)" keys, and some non-alphabetical keys are mapped incorrectly, add the following line to [.filename]#/etc/xorg.conf#:
 
@@ -575,4 +581,3 @@ For Japanese, refer to http://www.jp.FreeBSD.org/[http://www.jp.FreeBSD.org/], a
 
 Non-English FreeBSD Documentation::
 Some FreeBSD contributors have translated parts of the FreeBSD documentation to other languages. They are available through links on the link:https://www.FreeBSD.org/[FreeBSD web site] or in [.filename]#/usr/shared/doc#.
-

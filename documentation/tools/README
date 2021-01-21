@@ -24,17 +24,17 @@ address.  For instance, in my case:
 | WARNING: you should specify a key ID on the command line.
 | Generating des.key...
 | Adding key to entity list...
-| 
+|
 | Unless you are already listed there, you should now add the
 | following text to pgpkeys-developers.xml (unless this is a role key
 | or you are a core member. In that case add to pgpkeys-officers.xml
 | or pgpkeys-core.xml). Remember to keep the list sorted by last name!
-| 
+|
 |     <sect2 id="pgpkey-des">
 |       <title>&a.des.email;</title>
 |       &pgpkey.des;
 |     </sect2>
-| 
+|
 | Don't forget to 'svn add des.key' if this is a new entry,
 | and check your diffs before committing!
 
@@ -98,4 +98,4 @@ freefall login name.
 				-- des@freebsd.org
 
 
-$FreeBSD: head/share/pgpkeys/README 46852 2015-06-21 11:51:48Z bcr $
+$FreeBSD$

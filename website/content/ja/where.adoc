@@ -32,6 +32,56 @@ FreeBDSD のインストーラは、一般的なミニ USB メモリスティッ
 FreeBDSD は、デプロイメントの統計情報を集めておりませんが、 統計情報は大変重要ですので、 ぜひとも https://www.freshports.org/sysutils/bsdstats/[sysutils/bsdstats] package をインストールしてください。 この package は、ハードウェアおよびソフトウェアの統計情報を集め、 開発者がどこに集中して開発を行うべきかを検討する材料を提供します。 集められた情報は、link:http://bsdstats.org[bsdstats.org] ウェブサイトで見ることができます。
 
 [[download]]
+[[download-rel122]]
+== FreeBSD {rel122-current}-RELEASE
+
+[.tblbasic]
+[.tblDownload]
+[width="100%",cols="25%,25%,25%,25%",options="header",]
+|===
+|インストーライメージ |仮想マシンイメージ |SD カードイメージ |文書
+a|
+* link:{url-rel}/amd64/amd64/ISO-IMAGES/{rel122-current}/[amd64]
+* link:{url-rel}/i386/i386/ISO-IMAGES/{rel122-current}/[i386]
+* link:{url-rel}/powerpc/powerpc/ISO-IMAGES/{rel122-current}/[powerpc]
+* link:{url-rel}/powerpc/powerpc64/ISO-IMAGES/{rel122-current}/[powerpc64]
+* link:{url-rel}/powerpc/powerpcspe/ISO-IMAGES/{rel122-current}/[powerpcspe]
+* link:{url-rel}/sparc64/sparc64/ISO-IMAGES/{rel122-current}/[sparc64]
+* link:{url-rel}/arm64/aarch64/ISO-IMAGES/{rel122-current}/[aarch64]
+
+a|
+* link:{url-rel}/VM-IMAGES/README.txt[README]
+* link:{url-rel}/VM-IMAGES/{rel122-current}-RELEASE/amd64/Latest/[amd64]
+* link:{url-rel}/VM-IMAGES/{rel122-current}-RELEASE/i386/Latest/[i386]
+* link:{url-rel}/VM-IMAGES/{rel122-current}-RELEASE/aarch64/Latest/[aarch64]
+
+a|
+* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv6-RPI-B.img.xz[RPI-B]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-BANANAPI.img.xz[BANANAPI]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-BEAGLEBONE.img.xz[BEAGLEBONE]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-CUBIEBOARD.img.xz[CUBIEBOARD]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-CUBIEBOARD2.img.xz[CUBIEBOARD2]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-CUBOX-HUMMINGBOARD.img.xz[CUBOX-HUMMINGBOARD]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-GENERICSD.img.xz[GENERICSD]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-RPI2.img.xz[RPI2]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-PANDABOARD.img.xz[PANDABOARD]
+* link:{url-rel}/arm/armv7/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm-armv7-WANDBOARD.img.xz[WANDBOARD]
+* link:{url-rel}/arm64/aarch64/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm64-aarch64-PINE64.img.xz[PINE64]
+* link:{url-rel}/arm64/aarch64/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm64-aarch64-PINE64-LTS.img.xz[PINE64-LTS]
+* link:{url-rel}/arm64/aarch64/ISO-IMAGES/{rel122-current}/FreeBSD-{rel122-current}-RELEASE-arm64-aarch64-RPI3.img.xz[RPI3]
+
+a|
+* link:../releases/#current[リリース]: {rel122-current-date}
+* link:{u-rel122-notes}[リリースノート]
+* link:{u-rel122-readme}[Readme]
+* link:{u-rel122-hardware}[ハードウェア互換リスト]
+* link:{u-rel122-installation}[インストールガイド]
+* link:{u-rel122-errata}[Errata]
+* link:{u-rel122-signatures}[署名済チェックサム]
+
+|===
+
+[[download]]
 [[download-rel121]]
 == FreeBSD {rel121-current}-RELEASE
 
@@ -81,7 +131,6 @@ a|
 
 |===
 
-
 [[download-rel114]]
 == FreeBSD {rel114-current}-RELEASE
 
@@ -122,50 +171,6 @@ a|
 * link:{u-rel114-installation}[インストールガイド]
 * link:{u-rel114-errata}[Errata]
 * link:{u-rel114-signatures}[署名済チェックサム]
-
-|===
-
-[[download-rel113]]
-== FreeBSD {rel113-current}-RELEASE
-
-[.tblbasic]
-[.tblDownload]
-[width="100%",cols="25%,25%,25%,25%",options="header",]
-|===
-|インストーライメージ |仮想マシンイメージ |SD カードイメージ |文書
-a|
-* link:{url-rel}/amd64/amd64/ISO-IMAGES/{rel113-current}/[amd64]
-* link:{url-rel}/i386/i386/ISO-IMAGES/{rel113-current}/[i386]
-* link:{url-rel}/powerpc/powerpc/ISO-IMAGES/{rel113-current}/[powerpc]
-* link:{url-rel}/powerpc/powerpc64/ISO-IMAGES/{rel113-current}/[powerpc64]
-* link:{url-rel}/sparc64/sparc64/ISO-IMAGES/{rel113-current}/[sparc64]
-* link:{url-rel}/arm64/aarch64/ISO-IMAGES/{rel113-current}/[aarch64]
-
-a|
-* link:{url-rel}/VM-IMAGES/README.txt[README]
-* link:{url-rel}/VM-IMAGES/{rel113-current}-RELEASE/amd64/Latest/[amd64]
-* link:{url-rel}/VM-IMAGES/{rel113-current}-RELEASE/i386/Latest/[i386]
-* link:{url-rel}/VM-IMAGES/{rel113-current}-RELEASE/aarch64/Latest/[aarch64]
-
-a|
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-BANANAPI.img.xz[BANANAPI]
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-BEAGLEBONE.img.xz[BEAGLEBONE]
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-CUBIEBOARD.img.xz[CUBIEBOARD]
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-CUBIEBOARD2.img.xz[CUBIEBOARD2]
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-CUBOX-HUMMINGBOARD.img.xz[CUBOX-HUMMINGBOARD]
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-RPI-B.img.xz[RPI-B]
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-RPI2.img.xz[RPI2]
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-PANDABOARD.img.xz[PANDABOARD]
-* link:{url-rel}/arm/armv6/ISO-IMAGES/{rel113-current}/FreeBSD-{rel113-current}-RELEASE-arm-armv6-WANDBOARD.img.xz[WANDBOARD]
-
-a|
-* link:../releases/#current[リリース]: {rel113-current-date}
-* link:{u-rel113-notes}[リリースノート]
-* link:{u-rel113-readme}[Readme]
-* link:{u-rel113-hardware}[ハードウェア互換リスト]
-* link:{u-rel113-installation}[インストールガイド]
-* link:{u-rel113-errata}[Errata]
-* link:{u-rel113-signatures}[署名済チェックサム]
 
 |===
 
@@ -216,7 +221,7 @@ a|
 
 |===
 
-== FreeBSD {rel121-current}-STABLE
+== FreeBSD {rel122-current}-STABLE
 
 [.tblbasic]
 [.tblDownload]
@@ -224,39 +229,39 @@ a|
 |===
 |インストーライメージ |仮想マシンイメージ |SD カードイメージ |文書
 a|
-* link:{url-snapshot}/amd64/amd64/ISO-IMAGES/{rel121-current}/[amd64]
-* link:{url-snapshot}/i386/i386/ISO-IMAGES/{rel121-current}/[i386]
-* link:{url-snapshot}/powerpc/powerpc/ISO-IMAGES/{rel121-current}/[powerpc]
-* link:{url-snapshot}/powerpc/powerpc64/ISO-IMAGES/{rel121-current}/[powerpc64]
-* link:{url-snapshot}/powerpc/powerpcspe/ISO-IMAGES/{rel121-current}/[powerpcspe]
-* link:{url-snapshot}/sparc64/sparc64/ISO-IMAGES/{rel121-current}/[sparc64]
-* link:{url-snapshot}/arm/armv6/ISO-IMAGES/{rel121-current}/[armv6]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[armv7]
-* link:{url-snapshot}/arm64/aarch64/ISO-IMAGES/{rel121-current}/[aarch64]
+* link:{url-snapshot}/amd64/amd64/ISO-IMAGES/{rel122-current}/[amd64]
+* link:{url-snapshot}/i386/i386/ISO-IMAGES/{rel122-current}/[i386]
+* link:{url-snapshot}/powerpc/powerpc/ISO-IMAGES/{rel122-current}/[powerpc]
+* link:{url-snapshot}/powerpc/powerpc64/ISO-IMAGES/{rel122-current}/[powerpc64]
+* link:{url-snapshot}/powerpc/powerpcspe/ISO-IMAGES/{rel122-current}/[powerpcspe]
+* link:{url-snapshot}/sparc64/sparc64/ISO-IMAGES/{rel122-current}/[sparc64]
+* link:{url-snapshot}/arm/armv6/ISO-IMAGES/{rel122-current}/[armv6]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[armv7]
+* link:{url-snapshot}/arm64/aarch64/ISO-IMAGES/{rel122-current}/[aarch64]
 
 a|
-* link:{url-snapshot}/VM-IMAGES/{rel121-current}-STABLE/amd64/Latest/[amd64]
-* link:{url-snapshot}/VM-IMAGES/{rel121-current}-STABLE/i386/Latest/[i386]
-* link:{url-snapshot}/VM-IMAGES/{rel121-current}-STABLE/aarch64/Latest/[aarch64]
+* link:{url-snapshot}/VM-IMAGES/{rel122-current}-STABLE/amd64/Latest/[amd64]
+* link:{url-snapshot}/VM-IMAGES/{rel122-current}-STABLE/i386/Latest/[i386]
+* link:{url-snapshot}/VM-IMAGES/{rel122-current}-STABLE/aarch64/Latest/[aarch64]
 
 a|
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[BANANAPI]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[BEAGLEBONE]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[CUBIEBOARD]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[CUBIEBOARD2]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[CUBOX/HUMMINGBOARD]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[GENERICSD]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[PANDABOARD]
-* link:{url-snapshot}/arm64/aarch64/ISO-IMAGES/{rel121-current}/[PINE64]
-* link:{url-snapshot}/arm64/aarch64/ISO-IMAGES/{rel121-current}/[PINE64-LTS]
-* link:{url-snapshot}/arm/armv6/ISO-IMAGES/{rel121-current}/[RPI-B]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[RPI2]
-* link:{url-snapshot}/arm64/aarch64/ISO-IMAGES/{rel121-current}/[RPI3]
-* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel121-current}/[WANDBOARD]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[BANANAPI]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[BEAGLEBONE]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[CUBIEBOARD]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[CUBIEBOARD2]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[CUBOX/HUMMINGBOARD]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[GENERICSD]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[PANDABOARD]
+* link:{url-snapshot}/arm64/aarch64/ISO-IMAGES/{rel122-current}/[PINE64]
+* link:{url-snapshot}/arm64/aarch64/ISO-IMAGES/{rel122-current}/[PINE64-LTS]
+* link:{url-snapshot}/arm/armv6/ISO-IMAGES/{rel122-current}/[RPI-B]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[RPI2]
+* link:{url-snapshot}/arm64/aarch64/ISO-IMAGES/{rel122-current}/[RPI3]
+* link:{url-snapshot}/arm/armv7/ISO-IMAGES/{rel122-current}/[WANDBOARD]
 
 a|
 
-//* link:../relnotes/{rel121-current-major}-STABLE/relnotes/article[リリースノート]
+//* link:../relnotes/{rel122-current-major}-STABLE/relnotes/article[リリースノート]
 
 |===
 

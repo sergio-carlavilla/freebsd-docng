@@ -46,8 +46,8 @@ def setTOCTitle(language):
     'pl': 'Spis przykładów',
     'pt_BR': 'Lista de Exemplos',
     'ru': 'Список примеров',
-    'zh_CN': '范例清单',
-    'zh_TW': '範例目錄'
+    'zh-cn': '范例清单',
+    'zh-tw': '範例目錄'
   }
 
   return languages.get(language)

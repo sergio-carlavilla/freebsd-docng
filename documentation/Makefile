@@ -13,7 +13,7 @@ MAINTAINER=carlavilla@FreeBSD.org
 
 PYTHON_CMD =	/usr/local/bin/python3.7
 HUGO_CMD =	/usr/local/bin/hugo
-LANGUAGES =	en,es,pt_BR,de,ja,zh_CN,zh_TW,ru,el,hu,it,mn,nl,pl,fr
+LANGUAGES =	en,es,pt_BR,de,ja,zh-cn,zh-tw,ru,el,hu,it,mn,nl,pl,fr
 
 all: starting-message generate-books-toc run
 generate: starting-message generate-books-toc build

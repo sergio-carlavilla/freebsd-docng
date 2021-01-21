@@ -2100,6 +2100,19 @@ Compression can have an unexpected side effect when combined with <<zfs-term-use
 
 Compression can have a similar unexpected interaction with backups. Quotas are often used to limit how much data can be stored to ensure there is sufficient backup space available. However since quotas do not consider compression, more data may be written than would fit with uncompressed backups.
 
+[[zfs-zfs-compression-zstd]]
+=== Zstandard Compression
+
+In OpenZFS 2.0, a new compression algorithm was added. Zstandard (Zstd) offers higher compression ratios than the default LZ4 while offering much greater speeds than the alternative, gzip. OpenZFS 2.0 is available starting with FreeBSD 12.1-RELEASE via package:sysutils/openzfs[] and has been the default in FreeBSD 13-CURRENT since September 2020, and will by in FreeBSD 13.0-RELEASE.
+
+Zstd provides a large selection of compression levels, providing fine-grained control over performance versus compression ratio. One of the main advantages of Zstd is that the decompression speed is independent of the compression level. For data that is written once but read many times, Zstd allows the use of the highest compression levels without a read performance penalty.
+
+Even when data is updated frequently, there are often performance gains that come from enabling compression. One of the biggest advantages comes from the compressed ARC feature. ZFS's Adaptive Replacement Cache (ARC) caches the compressed version of the data in RAM, decompressing it each time it is needed. This allows the same amount of RAM to store more data and metadata, increasing the cache hit ratio.
+
+ZFS offers 19 levels of Zstd compression, each offering incrementally more space savings in exchange for slower compression. The default level is `zstd-3` and offers greater compression than LZ4 without being significantly slower. Levels above 10 require significant amounts of memory to compress each block, so they are discouraged on systems with less than 16 GB of RAM. ZFS also implements a selection of the Zstd_fast_ levels, which get correspondingly faster but offer lower compression ratios. ZFS supports `zstd-fast-1` through `zstd-fast-10`, `zstd-fast-20` through `zstd-fast-100` in increments of 10, and finally `zstd-fast-500` and `zstd-fast-1000` which provide minimal compression, but offer very high performance.
+
+If ZFS is not able to allocate the required memory to compress a block with Zstd, it will fall back to storing the block uncompressed. This is unlikely to happen outside of the highest levels of Zstd on systems that are memory constrained. The sysctl `kstat.zfs.misc.zstd.compress_alloc_fail` counts how many times this has occurred since the ZFS module was loaded.
+
 [[zfs-zfs-deduplication]]
 === Deduplication
 
@@ -2281,7 +2294,7 @@ a|A pool is made up of one or more vdevs, which themselves can be a single disk 
 [CAUTION]
 ====
 
-Using an entire disk as part of a bootable pool is strongly discouraged, as this may render the pool unbootable. Likewise, you should not use an entire disk as part of a mirror or RAID-Z vdev. These are because it it impossible to reliably determine the size of an unpartitioned disk at boot time and because there's no place to put in boot code.
+Using an entire disk as part of a bootable pool is strongly discouraged, as this may render the pool unbootable. Likewise, you should not use an entire disk as part of a mirror or RAID-Z vdev. These are because it is impossible to reliably determine the size of an unpartitioned disk at boot time and because there's no place to put in boot code.
 ====
 
 * [[zfs-term-vdev-file]] _File_ - In addition to disks, ZFS pools can be backed by regular files, this is especially useful for testing and experimentation. Use the full path to the file as the device path in `zpool create`. All vdevs must be at least 128 MB in size.

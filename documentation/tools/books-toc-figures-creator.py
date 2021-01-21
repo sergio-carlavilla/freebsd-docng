@@ -46,8 +46,8 @@ def setTOCTitle(language):
     'pl': 'Spis rysunków',
     'pt_BR': 'Lista de Figuras',
     'ru': 'Список иллюстраций',
-    'zh_CN': '插图清单',
-    'zh_TW': '附圖目錄'
+    'zh-cn': '插图清单',
+    'zh-tw': '附圖目錄'
   }
 
   return languages.get(language)
