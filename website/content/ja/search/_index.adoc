@@ -26,7 +26,7 @@ link:https://www.FreeBSD.org/opensearch/[FreeBSD OpenSearch プラグイン一�
 '''''
 
 [[web]]
-== ウェブページ (link:{faq}[FAQ] と link:{handbook}[ハンドブック] を含む)
+== ウェブページ (link:{faq}[FAQ], link:{handbook}[ハンドブック]、link:https://lists.freebsd.org[メーリングリスト], link:https://wiki.freebsd.org[Wiki] および link:https://forums.freebsd.org[フォーラム] を含む)
 
 === サイトの検索
 

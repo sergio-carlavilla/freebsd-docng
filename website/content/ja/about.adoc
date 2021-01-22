@@ -42,4 +42,4 @@ image:../../gifs/dae_up3.gif[The BSD Daemon,width=72,height=81]
 
 FreeBSD に貢献するのは簡単です。 あなたが FreeBSD の中で改善できそうな部分を探し、 その部分に変更を (注意深く、わかりやすく) 加えて FreeBSD プロジェクトに届けるだけです。 その際には障害報告を使うか、 もし知っているなら、コミッターに直接連絡しても OK です。 変更は、FreeBSD の文書に対するものでも、FreeBSD ソースコードに対するものでも構いません。 詳しくは、 link:{contributing}[FreeBSD への貢献] (link:{contributing}[原文]) という文書をご覧ください。
 
-もしあなたがプログラマでないとしても、FreeBSD に貢献する方法はいくつもあります。link:https://www.freebsdfoundation.org[FreeBSD Foundation] は非営利団体であり、 直接の寄付は税金の控除対象となります。 詳細に関しては info@FreeBSDFoundation.org にメールを送るか、The FreeBSD Foundation, 2222 14th Street, Boulder, CO 80302 USA まで手紙をお送りください。
+もしあなたがプログラマでないとしても、FreeBSD に貢献する方法はいくつもあります。link:https://www.freebsdfoundation.org[FreeBSD Foundation] は非営利団体であり、直接の寄付は税金の控除対象となります。詳細に関しては link:https://freebsdfoundation.org/about-us/contact-us/[Contact Us] ページをご覧ください。
