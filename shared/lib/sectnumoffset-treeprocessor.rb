@@ -5,7 +5,7 @@ include Asciidoctor
 Extensions.register do
   treeprocessor do
     process do |document|
-      if (book = (document.attr 'book', false)) == false && (document.attr? 'sectnums')
+      if (document.attr? 'sectnumoffset') && (book = (document.attr 'book', false)) == false
         sectnumoffset = (document.attr 'sectnumoffset', '0').to_s
         document.find_by(context: :section) {|sect| sect.level == 1 }.each do |sect|
           sect.numeral = sectnumoffset.to_s + '.' + sect.numeral.to_s

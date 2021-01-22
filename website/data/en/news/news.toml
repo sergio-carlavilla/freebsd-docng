@@ -2,6 +2,71 @@
 # $FreeBSD$
 
 [[news]]
+date = "2021-01-16"
+title = "October-December 2020 Status Report"
+description = "<p>The <a href=\"https://www.FreeBSD.org/news/status/report-2020-10-2020-12.html\">October to December 2020 Status Report</a> is now available with 42 entries.</p>"
+
+[[news]]
+date = "2021-01-14"
+description = "New committer: <a href=\"mailto:donner@FreeBSD.org\">Lutz Donnerhacke</a> (src)"
+
+[[news]]
+date = "2021-01-02"
+description = "New committer: <a href=\"mailto:nc@FreeBSD.org\">Neel Chauhan</a> (ports)"
+
+[[news]]
+date = "2020-12-19"
+description = "FreeBSD src repo to be converted to git. Please see <a href=\"https://wiki.freebsd.org/git\">the git wiki</a> for details."
+
+[[news]]
+date = "2020-12-12"
+description = "New committer: <a href=\"mailto:otis@FreeBSD.org\">Juraj Lutter</a> (ports)"
+
+[[news]]
+date = "2020-12-05"
+description = "FreeBSD doc repo converted to git."
+
+[[news]]
+date = "2020-10-27"
+title = "FreeBSD 12.2-RELEASE Available"
+description = "<p><a href=\"https://www.FreeBSD.org/releases/12.2R/announce.html\">FreeBSD 12.2-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.FreeBSD.org/releases/12.2R/relnotes.html\">Release Notes</a> and <a href=\"https://www.FreeBSD.org/releases/12.2R/errata.html\">Release Errata</a> before installation for any late-breaking news and/or issues with 12.2. More information about FreeBSD releases can be found on the <a href=\"https://www.FreeBSD.org/releases/index.html\">Release Information</a> page.</p>"
+
+[[news]]
+date = "2020-10-21"
+title = "July-September 2020 Status Report"
+description = "<p>The <a href=\"https://www.FreeBSD.org/news/status/report-2020-07-2020-09.html\">July to September 2020 Status Report</a> is now available with 35 entries.</p>"
+
+[[news]]
+date = "2020-10-17"
+title = "FreeBSD 12.2-RC3 Available"
+description = "<p>The third RC build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-October/092786.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>.</p>"
+
+[[news]]
+date = "2020-10-10"
+title = "FreeBSD 12.2-RC2 Available"
+description = "<p>The second RC build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-October/092761.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>.</p>"
+
+[[news]]
+date = "2020-10-03"
+title = "FreeBSD 12.2-RC1 Available"
+description = "<p>The first RC build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-October/092740.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>.</p>"
+
+[[news]]
+date = "2020-09-26"
+title = "FreeBSD 12.2-BETA3 Available"
+description = "<p>The third BETA build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, and powerpcspe architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-September/092727.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>.</p>"
+
+[[news]]
+date = "2020-09-18"
+title = "FreeBSD 12.2-BETA2 Available"
+description = "<p>The second BETA build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-September/092702.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>.</p>"
+
+[[news]]
+date = "2020-09-12"
+title = "FreeBSD 12.2-BETA1 Available"
+description = "<p>The first BETA build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-September/092680.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>.</p>"
+
+[[news]]
 date = "2020-08-31"
 description = "New committer: <a href=\"mailto:rhurlin@FreeBSD.org\">Rainer Hurling</a> (ports)"
 
