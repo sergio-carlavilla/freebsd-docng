@@ -31,5 +31,11 @@ This is a work in progress. Corrections and additions are always welcome.
 
 '''
 
-toc::[]
+include::content/en/books/fdp-primer/toc.adoc[]
+
+include::content/en/books/fdp-primer/toc-figures.adoc[]
+
+include::content/en/books/fdp-primer/toc-tables.adoc[]
+
+include::content/en/books/fdp-primer/toc-examples.adoc[]
 

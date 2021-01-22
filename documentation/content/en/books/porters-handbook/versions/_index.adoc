@@ -10,6 +10,7 @@ prev: books/porters-handbook/uses
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:

@@ -1,9 +1,9 @@
 ---
 title: Appendices
-prev: books/developers-handbook/x86
+prev: books/developers-handbook/partv
 ---
 
-[bibliography]
+[appendix]
 [[bibliography]]
 = Appendices
 :doctype: book

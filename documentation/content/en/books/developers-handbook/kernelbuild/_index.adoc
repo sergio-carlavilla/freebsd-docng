@@ -1,7 +1,7 @@
 ---
 title: Chapter 9. Building and Installing a FreeBSD Kernel
 authors:
-prev: books/developers-handbook/ipv6
+prev: books/developers-handbook/partiii
 next: books/developers-handbook/kerneldebug
 ---
 
@@ -12,6 +12,7 @@ next: books/developers-handbook/kerneldebug
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:

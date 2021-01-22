@@ -2,7 +2,7 @@
 title: Chapter 6. Regression and Performance Testing
 authors:
 prev: books/developers-handbook/policies
-next: books/developers-handbook/sockets
+next: books/developers-handbook/partii
 ---
 
 [[testing]]
@@ -12,6 +12,7 @@ next: books/developers-handbook/sockets
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:
@@ -83,7 +84,7 @@ The scripts are maintained and were developed by {des}, and are now written in P
 
 For more information about the tinderbox and tbmaster scripts at this stage, see their respective man pages: tinderbox(1) and tbmaster(1).
 
-== The [.filename]#index.cgi# Script
+== The index.cgi Script
 
 The [.filename]#index.cgi# script generates the HTML summary of tinderbox and tbmaster logs. Although originally intended to be used as a CGI script, as indicated by its name, this script can also be run from the command line or from a man:cron[8] job, in which case it will look for logs in the directory where the script is located. It will automatically detect context, generating HTTP headers when it is run as a CGI script. It conforms to XHTML standards and is styled using CSS.
 

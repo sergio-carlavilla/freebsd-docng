@@ -13,6 +13,7 @@ next: books/developers-handbook/l10n
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:

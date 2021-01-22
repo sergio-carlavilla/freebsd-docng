@@ -3,7 +3,7 @@ title: Chapter 1. Introduction
 authors:
   - author: Murray Stokely
   - author: Jeroen Ruigrok van der Werven
-prev: books/developers-handbook/
+prev: books/developers-handbook/parti
 next: books/developers-handbook/tools
 ---
 
@@ -14,6 +14,7 @@ next: books/developers-handbook/tools
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:
@@ -59,7 +60,7 @@ Our ideology can be described by the following guidelines
 From Scheifler & Gettys: "X Window System"
 
 [[introduction-layout]]
-== The Layout of [.filename]#/usr/src#
+== The Layout of /usr/src
 
 The complete source code to FreeBSD is available from our public repository. The source code is normally installed in [.filename]#/usr/src# which contains the following subdirectories:
 

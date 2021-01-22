@@ -2,7 +2,7 @@
 title: Chapter 7. Sockets
 authors:
   - author: G. Adam Stanislav
-prev: books/developers-handbook/testing
+prev: books/developers-handbook/partii
 next: books/developers-handbook/ipv6
 ---
 
@@ -13,6 +13,7 @@ next: books/developers-handbook/ipv6
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:
@@ -27,7 +28,7 @@ include::shared/releases.adoc[]
 include::shared/en/mailing-lists.adoc[]
 include::shared/en/teams.adoc[]
 include::shared/en/urls.adoc[]
-:imagesdir: ../../../images/books/developers-handbook/
+:imagesdir: ../../../../images/books/developers-handbook/
 
 toc::[]
 

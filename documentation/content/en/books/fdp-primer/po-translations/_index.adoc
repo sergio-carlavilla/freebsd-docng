@@ -268,7 +268,6 @@ Now the document structure is ready for the translator to begin translating with
 ====
 
 [[po-translations-translating]]
-[.title]
 == Translating
 
 The gettext system greatly reduces the number of things that must be tracked by a translator. Strings to be translated are extracted from the original document into a PO file. Then a PO editor is used to enter the translated versions of each string.
@@ -306,11 +305,9 @@ Enter Spanish translations of the contents of the Porter's Handbook.
 ====
 
 [[po-translations-tips]]
-[.title]
 == Tips for Translators
 
 [[po-translations-tips-xmltags]]
-[.title]
 === Preserving AsciiDoc macros
 
 Preserve AsciiDoc macros that are shown in the English original.
@@ -339,13 +336,11 @@ msgid ""
 ====
 
 [[po-translations-tips-spaces]]
-[.title]
 === Preserving Spaces
 
 Preserve existing spaces at the beginning and end of strings to be translated. The translated version must have these spaces also.
 
 [[po-translations-tips-verbatim]]
-[.title]
 === Verbatim Tags
 
 The contents of some tags should be copied verbatim, not translated:
@@ -361,13 +356,11 @@ The contents of some tags should be copied verbatim, not translated:
 * `source`
 
 [[po-translations-building]]
-[.title]
 == Building a Translated Document
 
 A translated version of the original document can be created at any time. Any untranslated portions of the original will be included in English in the resulting document. Most PO editors have an indicator that shows how much of the translation has been completed. This makes it easy for the translator to see when enough strings have been translated to make building the final document worthwhile.
 
 [[po-translations-submitting]]
-[.title]
 == Submitting the New Translation
 
 Prepare the new translation files for submission. This includes adding the files to the version control system, setting additional properties on them, then creating a diff for submission.

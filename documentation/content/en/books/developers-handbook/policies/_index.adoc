@@ -14,6 +14,7 @@ next: books/developers-handbook/testing
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:
@@ -242,7 +243,7 @@ It might occasionally be necessary to include an encumbered file in the FreeBSD 
 .. The _Release Engineer_ decides whether or not it goes into the release.
 
 . User-land files:
-.. The link:https://www.FreeBSD.org/administration./#t-core[Core team] decides if the code should be part of `make world`.
+.. The link:https://www.FreeBSD.org/administration/#t-core[Core team] decides if the code should be part of `make world`.
 .. The link:https://www.FreeBSD.org/administration/#t-re[Release Engineering] decides if it goes into the release.
 
 [[policies-shlib]]

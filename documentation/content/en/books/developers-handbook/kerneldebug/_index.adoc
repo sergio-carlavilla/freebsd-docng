@@ -5,7 +5,7 @@ authors:
   - author: Jörg Wunsch
   - author: Robert Watson
 prev: books/developers-handbook/kernelbuild
-next: books/developers-handbook/x86
+next: books/developers-handbook/partiv
 ---
 
 [[kerneldebug]]
@@ -15,6 +15,7 @@ next: books/developers-handbook/x86
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:

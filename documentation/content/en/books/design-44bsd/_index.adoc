@@ -26,6 +26,7 @@ trademarks: ["design-44bsd"]
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:
+:sectnumoffset: 2
 
 ifeval::["{backend}" == "html5"]
 include::shared/mirrors.adoc[]

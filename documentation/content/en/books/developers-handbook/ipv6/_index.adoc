@@ -3,7 +3,7 @@ title: Chapter 8. IPv6 Internals
 authors:
   - author: Yoshinobu Inoue
 prev: books/developers-handbook/sockets
-next: books/developers-handbook/kernelbuild
+next: books/developers-handbook/partiii
 ---
 
 [[ipv6]]
@@ -13,6 +13,7 @@ next: books/developers-handbook/kernelbuild
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:

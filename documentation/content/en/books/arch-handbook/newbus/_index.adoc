@@ -16,6 +16,7 @@ next: books/arch-handbook/sound
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:

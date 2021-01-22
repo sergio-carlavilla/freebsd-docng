@@ -11,6 +11,7 @@ next: books/porters-handbook/slow-porting
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:
@@ -28,13 +29,13 @@ include::shared/en/urls.adoc[]
 
 toc::[]
 
-This section describes how to quickly create a new port. For applications where this quick method is not adequate, the full "Slow Porting" process is described in <<slow-porting>>.
+This section describes how to quickly create a new port. For applications where this quick method is not adequate, the full "Slow Porting" process is described in crossref:slow-porting[slow-porting,Slow Porting].
 
 First, get the original tarball and put it into `DISTDIR`, which defaults to [.filename]#/usr/ports/distfiles#.
 
 [NOTE]
 ====
-These steps assume that the software compiled out-of-the-box. In other words, absolutely no changes were required for the application to work on a FreeBSD system. If anything had to be changed, refer to <<slow-porting>>.
+These steps assume that the software compiled out-of-the-box. In other words, absolutely no changes were required for the application to work on a FreeBSD system. If anything had to be changed, refer to crossref:slow-porting[slow-porting,Slow Porting].
 ====
 
 [NOTE]
@@ -50,7 +51,7 @@ This setting enables the "developer mode" that displays deprecation warnings and
 ====
 
 [[porting-makefile]]
-== Writing the [.filename]#Makefile#
+== Writing the Makefile
 
 The minimal [.filename]#Makefile# would look something like this:
 
@@ -74,7 +75,7 @@ COMMENT=	Cat chasing a mouse all over the screen
 In some cases, the [.filename]#Makefile# of an existing port may contain additional lines in the header, such as the name of the port and the date it was created. This additional information has been declared obsolete, and is being phased out.
 ====
 
-Try to figure it out. Do not worry about the contents of the `$FreeBSD$` line, it will be filled in automatically by Subversion when the port is imported to our main ports tree. A more detailed example is shown in the <<porting-samplem,sample Makefile>> section.
+Try to figure it out. Do not worry about the contents of the `$FreeBSD$` line, it will be filled in automatically by Subversion when the port is imported to our main ports tree. A more detailed example is shown in the crossref:porting-samplem[porting-samplem,sample Makefile] section.
 
 [[porting-desc]]
 == Writing the Description Files
@@ -90,7 +91,7 @@ This is a longer description of the port. One to a few paragraphs concisely expl
 ====
 This is _not_ a manual or an in-depth description on how to use or compile the port! _Please be careful when copying from the [.filename]#README# or manpage_. Too often they are not a concise description of the port or are in an awkward format. For example, manpages have justified spacing, which looks particularly bad with monospaced fonts.
 
-On the other hand, the content of [.filename]#pkg-descr# must be longer than the <<makefile-comment,`COMMENT`>> line from the Makefile. It must explain in more depth what the port is all about.
+On the other hand, the content of [.filename]#pkg-descr# must be longer than the crossref:makefiles[makefile-comment,`COMMENT`] line from the Makefile. It must explain in more depth what the port is all about.
 ====
 
 A well-written [.filename]#pkg-descr# describes the port completely enough that users would not have to consult the documentation or visit the website to understand what the software does, how it can be useful, or what particularly nice features it has. Mentioning certain requirements like a graphical toolkit, heavy dependencies, runtime environment, or implementation languages help users decide whether this port will work for them.
@@ -141,7 +142,7 @@ It is recommended to keep all the filenames in this file sorted alphabetically. 
 [TIP]
 ====
 
-Creating a packing list manually can be a very tedious task. If the port installs a large numbers of files, <<plist-autoplist,creating the packing list automatically>> might save time.
+Creating a packing list manually can be a very tedious task. If the port installs a large numbers of files, crosref:plist[plist-autoplist,creating the packing list automatically] might save time.
 ====
 
 There is only one case when [.filename]#pkg-plist# can be omitted from a port. If the port installs just a handful of files, list them in `PLIST_FILES`, within the port's [.filename]#Makefile#. For instance, we could get along without [.filename]#pkg-plist# in the above [.filename]#oneko# port by adding these lines to the [.filename]#Makefile#:
@@ -163,14 +164,12 @@ Usage of `PLIST_FILES` should not be abused. When looking for the origin of a fi
 
 [TIP]
 ====
-
-If a port needs to create an empty directory, or creates directories outside of [.filename]#${PREFIX}# during installation, refer to <<plist-dir-cleaning>> for more information.
+If a port needs to create an empty directory, or creates directories outside of [.filename]#${PREFIX}# during installation, refer to crossref:plist:plist-dir-cleaning,Cleaning Up Empty Directories] for more information.
 ====
 
 [TIP]
 ====
-
-As `PLIST_FILES` is a man:make[1] variable, any entry with spaces must be quoted. For example, if using keywords described in man:pkg-create[8] and <<plist-keywords>>, the entry must be quoted.
+As `PLIST_FILES` is a man:make[1] variable, any entry with spaces must be quoted. For example, if using keywords described in man:pkg-create[8] and crossref:plist[plist-keywords,Expanding Package List with Keywords], the entry must be quoted.
 
 [.programlisting]
 ....
@@ -178,7 +177,7 @@ PLIST_FILES=	"@sample ${ETCDIR}/oneko.conf.sample"
 ....
 ====
 
-Later we will see how [.filename]#pkg-plist# and `PLIST_FILES` can be used to fulfill <<plist,more sophisticated tasks>>.
+Later we will see how [.filename]#pkg-plist# and `PLIST_FILES` can be used to fulfill crossref:plist[plist,more sophisticated tasks].
 
 [[porting-checksum]]
 == Creating the Checksum File
@@ -195,7 +194,7 @@ Make sure that the port rules do exactly what is desired, including packaging up
 * The port can be installed using the `install` target. This verifies that the install script works correctly.
 * The port can be deinstalled properly using the `deinstall` target. This verifies that the deinstall script works correctly.
 * The port only has access to network resources during the `fetch` target phase. This is important for package builders, such as package:ports-mgmt/poudriere[].
-* Make sure that `make package` can be run as a normal user (that is, not as `root`). If that fails, the software may need to be patched. See also <<uses-fakeroot>> and <<uses-uidfix>>.
+* Make sure that `make package` can be run as a normal user (that is, not as `root`). If that fails, the software may need to be patched. See also crossref:uses[uses-fakeroot,`fakeroot`] and crossref:uses[uses-uidfix,`uidfix`].
 
 [.procedure]
 .Procedure: Recommended Test Ordering
@@ -208,12 +207,12 @@ Make sure that the port rules do exactly what is desired, including packaging up
 
 Make certain no warnings are shown in any of the stages.
 
-Thorough automated testing can be done with package:ports-mgmt/poudriere[] from the Ports Collection, see <<testing-poudriere>> for more information. It maintains `jails` where all of the steps shown above can be tested without affecting the state of the host system.
+Thorough automated testing can be done with package:ports-mgmt/poudriere[] from the Ports Collection, see crossref:testing[testing-poudriere,Poudriere] for more information. It maintains `jails` where all of the steps shown above can be tested without affecting the state of the host system.
 
 [[porting-portlint]]
 == Checking the Port with `portlint`
 
-Please use `portlint` to see if the port conforms to our guidelines. The package:ports-mgmt/portlint[] program is part of the ports collection. In particular, check that the <<porting-samplem,Makefile>> is in the right shape and the <<porting-pkgname,package>> is named appropriately.
+Please use `portlint` to see if the port conforms to our guidelines. The package:ports-mgmt/portlint[] program is part of the ports collection. In particular, check that the crossref:porting-samplem[porting-samplem,Makefile] is in the right shape and the crossref:porting-pkgname[porting-pkgname,package] is named appropriately.
 
 [IMPORTANT]
 ====
@@ -223,7 +222,7 @@ Do not blindly follow the output of `portlint`. It is a static lint tool and som
 [[porting-submitting]]
 == Submitting the New Port
 
-Before submitting the new port, read the <<porting-dads,DOs and DON'Ts>> section.
+Before submitting the new port, read the crossref:porting-dads[porting-dads,DOs and DON'Ts] section.
 
 Once happy with the port, the only thing remaining is to put it in the main FreeBSD ports tree and make everybody else happy about it too.
 
@@ -265,7 +264,7 @@ After submitting the port, please be patient. The time needed to include a new p
 
 To get a listing of _open_ port PRs, select _Open_ and _Ports & Packages_ in the search form, then click btn:[Search].
 
-After looking at the new port, we will reply if necessary, and commit it to the tree. The submitter's name will also be added to the list of link:{contributors}#contrib-additional/[Additional FreeBSD Contributors] and other files.
+After looking at the new port, we will reply if necessary, and commit it to the tree. The submitter's name will also be added to the list of link:{contributors}#contrib-additional[Additional FreeBSD Contributors] and other files.
 
 It is also possible to submit ports using a man:shar[1] file. Using the previous example with the `oneko` port above.
 

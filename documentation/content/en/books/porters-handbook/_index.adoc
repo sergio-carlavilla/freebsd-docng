@@ -17,3 +17,11 @@ next: books/porters-handbook/porting-why
 :sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
+
+'''
+
+include::content/en/books/porters-handbook/toc.adoc[]
+
+include::content/en/books/porters-handbook/toc-tables.adoc[]
+
+include::content/en/books/porters-handbook/toc-examples.adoc[]

@@ -71,6 +71,10 @@ toc::[]
 
 include::content/en/books/handbook/toc-figures.adoc[]
 
+include::content/en/books/handbook/toc-tables.adoc[]
+
+include::content/en/books/handbook/toc-examples.adoc[]
+
 :sectnums!:
 
 include::{chapters-path}preface/_index.adoc[leveloffset=+1, lines=7..-1]

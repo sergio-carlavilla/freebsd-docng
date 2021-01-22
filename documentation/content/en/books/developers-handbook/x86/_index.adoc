@@ -1,8 +1,8 @@
 ---
 title: Chapter 11. x86 Assembly Language Programming
 authors:
-prev: books/developers-handbook/kerneldebug
-next: books/developers-handbook/bibliography
+prev: books/developers-handbook/partiv
+next: books/developers-handbook/partv
 ---
 
 [[x86]]
@@ -12,6 +12,7 @@ next: books/developers-handbook/bibliography
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:
@@ -2380,7 +2381,7 @@ Here is what might happen:
 
 At this point our filter waits for the image editor to send it more data to process, while the image editor is waiting for our filter to send it the result of the processing of the first row. But the result sits in our output buffer.
 
-The filter and the image editor will continue waiting for each other forever (or, at least, until they are killed). Our software has just entered a <<secure-race-conditions,race condition>>.
+The filter and the image editor will continue waiting for each other forever (or, at least, until they are killed). Our software has just entered a crossref:secure[secure-race-conditions,race condition].
 
 This problem does not exist if our filter flushes its output buffer _before_ asking the _kernel_ for more input data.
 

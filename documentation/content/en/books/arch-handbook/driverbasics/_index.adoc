@@ -1,6 +1,6 @@
 ---
 title: Chapter 9. Writing FreeBSD Device Drivers
-prev: books/arch-handbook/smp
+prev: books/arch-handbook/partii
 next: books/arch-handbook/isa
 ---
 
@@ -11,6 +11,7 @@ next: books/arch-handbook/isa
 :toclevels: 1
 :icons: font
 :sectnums:
+:sectnumlevels: 6
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:

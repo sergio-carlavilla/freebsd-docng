@@ -1,9 +1,9 @@
 ---
 title: Bibliography
-prev: books/arch-handbook/pccard
+prev: books/arch-handbook/partiii
 ---
 
-[bibliography]
+[appendix]
 [[bibliography]]
 = Bibliography
 :doctype: book
