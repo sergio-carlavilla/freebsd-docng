@@ -5,7 +5,7 @@ sidenav: about
 
 = FreeBSD Status Reports
 
-== Next Quarterly Status Report submissions (July - September) due: October 1st, 2020
+== Next Quarterly Status Report submissions (January - March) due: March 31st, 2021
 
 Submit your entries as Pull Requests from your fork of https://github.com/freebsd/freebsd-quarterly[FreeBSD Quarterly Status Reports GitHub repo] or submit them via e-mail to quarterly-submissions@FreeBSD.org, using the link:report-sample.md[Markdown template].
 
@@ -23,24 +23,26 @@ These status reports may be reproduced in whole or in part, as long as the sourc
 
 == 2020
 
-* link:report-2020-04-2020-06/[April, 2020 - June, 2020]
-* link:report-2020-01-2020-03/[January, 2020 - March, 2020]
+* link:report-2020-10-2020-12.html[October, 2020 - December, 2020]
+* link:report-2020-07-2020-09.html[July, 2020 - September, 2020]
+* link:report-2020-04-2020-06.html[April, 2020 - June, 2020]
+* link:report-2020-01-2020-03.html[January, 2020 - March, 2020]
 
 == 2019
 
-* link:report-2019-10-2019-12/[October, 2019 - December, 2019]
-* link:report-2019-07-2019-09/[July, 2019 - September, 2019]
-* link:report-2019-04-2019-06/[April, 2019 - June, 2019]
-* link:report-2019-01-2019-03/[January, 2019 - March, 2019]
+* link:report-2019-10-2019-12.html[October, 2019 - December, 2019]
+* link:report-2019-07-2019-09.html[July, 2019 - September, 2019]
+* link:report-2019-04-2019-06.html[April, 2019 - June, 2019]
+* link:report-2019-01-2019-03.html[January, 2019 - March, 2019]
 
 == 2018
 
-* link:report-2018-09-2018-12/[October, 2018 - December, 2018]
-* link:report-2018-01-2018-09/[October, 2017 - September, 2018]
+* link:report-2018-09-2018-12.html[October, 2018 - December, 2018]
+* link:report-2018-01-2018-09.html[October, 2017 - September, 2018]
 
 == 2017
 
-* link:report-2017-07-2017-09/[July, 2017 - September, 2017]
+* link:report-2017-07-2017-09.html[July, 2017 - September, 2017]
 * link:report-2017-04-2017-06.html[April, 2017 - June, 2017]
 * link:report-2017-01-2017-03.html[January, 2017 - March, 2017]
 
