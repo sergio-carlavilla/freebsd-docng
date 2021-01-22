@@ -1,6 +1,6 @@
 # FreeBSD website
 
-baseURL = "https://www-dev.freebsd.org"
+baseURL = "https://www-dev.freebsd.org/"
 title = "The FreeBSD Project"
 copyright = "BSD 2-clause 'Simplified' License"
 DefaultContentLanguage = "en"
