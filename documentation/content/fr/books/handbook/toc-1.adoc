@@ -50,7 +50,8 @@ Table des matières
 ** link:../x11/#x-understanding[5.2. Terminologie]
 ** link:../x11/#x-install[5.3. Installer X11]
 ** link:../x11/#x-config[5.4. Configuration d'Xorg]
-** link:../x11/#x-fonts[5.5. Utilisation des polices de caractères sous X11]
+** link:../x11/#x-fonts[5.5. Utilisation des polices de caractères sous Xorg]
 ** link:../x11/#x-xdm[5.6. Le gestionnaire de connexion graphique XDM]
 ** link:../x11/#x11-wm[5.7. Environnements de bureau]
+** link:../x11/#x-compiz-fusion[5.8. Installation de Compiz Fusion]
 --
