@@ -107,5 +107,5 @@ Table of Contents
 ** link:pccard[Chapter 16. PC Card]
 *** link:pccard/#pccard-adddev[16.1. Adding a Device]
 * link:partiii[Part III. Appendices]
-** link:bibliography[Chapter 17. Bibliography]
+** link:bibliography[Appendix Bibliography]
 --

@@ -6,6 +6,7 @@ title = "The FreeBSD Project"
 copyright = "BSD 2-clause 'Simplified' License"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+disablePathToLower = true
 theme = "beastie"
 disableKinds = [ "taxonomy", "taxonomyTerm" ]
 authors = [ "carlavilla@FreeBSD.org" ]

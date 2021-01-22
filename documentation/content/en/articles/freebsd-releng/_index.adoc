@@ -442,7 +442,7 @@ Then in the {branchHead} branch, which will now become a new major version:
 |Update `LLD_REVISION_STRING`
 
 |[.filename]#head/Makefile.libcompat#
-|Update `LILB32CPUFLAGS`
+|Update `LIB32CPUFLAGS`
 |===
 
 [[releng-stable]]

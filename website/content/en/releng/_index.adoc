@@ -48,7 +48,9 @@ This table lists the code freeze status for major branches of the `src/` subtree
 [cols=",,,",options="header",]
 |===
 |Branch |Status |Contact |Notes
-|`head` |Open |committers |Active development branch for 13.0-CURRENT.
+|`head` |Open |committers |Active development branch for 14.0-CURRENT.
+|`stable/13` |Open |committers |Development branch for FreeBSD 13-STABLE.
+//|`releng/13.0` |Frozen |re@FreeBSD.org |FreeBSD 13.0 supported errata fix branch.
 |`stable/12` |Open |committers |Development branch for FreeBSD 12-STABLE.
 |`releng/12.2`|Frozen|so@FreeBSD.org|FreeBSD 12.2 supported errata fix branch.
 |`releng/12.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 12.1 supported errata fix branch.
@@ -116,7 +118,7 @@ This table lists the code freeze status for major branches of the `src/` subtree
 == Release Engineering Documentation
 
 * link:{freebsd-releng}[FreeBSD Release Engineering] +
-[.small]#This document details the approach used by the FreeBSD release engineering team to make production-quality releases of the FreeBSD Operating System. It describes the tools available for those interested in producing customized FreeBSD releases for corporate rollouts or commercial productization.#
+This document details the approach used by the FreeBSD release engineering team to make production-quality releases of the FreeBSD Operating System. It describes the tools available for those interested in producing customized FreeBSD releases for corporate rollouts or commercial productization.
 
 [[team]]
 == Release Engineering Team

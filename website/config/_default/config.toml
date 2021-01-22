@@ -8,7 +8,13 @@ defaultContentLanguageInSubdir = false
 theme = "beastie"
 disableKinds = [ "taxonomy", "taxonomyTerm" ]
 disableLanguages = ["tr", "el"]
+disablePathToLower = true
 authors = [ "carlavilla@FreeBSD.org" ]
+
+preserveTOC = true
+
+[markup.asciidocExt]
+    preserveTOC = true
 
 staticDir = ["static", "shared"]
 

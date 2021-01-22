@@ -7,5 +7,5 @@
 [.toc-title]
 Table of Contents
 
-* link:../bibliography[Chapter 17. Bibliography]
+* link:../bibliography[Appendix Bibliography]
 --
