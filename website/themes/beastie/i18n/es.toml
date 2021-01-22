@@ -179,9 +179,6 @@ other = "ENLACES RÁPIDOS"
 [reportingProblems]
 other = "Enviar un fallo"
 
-[FAQ]
-other = "FAQ"
-
 [ports]
 other = "Ports"
 
