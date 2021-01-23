@@ -4,9 +4,9 @@
   <head>
     <title>FreeBSD Quarterly Status Report</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" media="screen,print" href="../../layout/css/fixed.css?20130112" type="text/css" />
-    <script type="text/javascript" src="../../layout/js/google.js"></script>
+    <link rel="shortcut icon" href="https://www.FreeBSD.org/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" media="screen,print" href="https://www.FreeBSD.org/layout/css/fixed.css?20130112" type="text/css" />
+    <script type="text/javascript"href="https://www.FreeBSD.org/layout/js/google.js"></script>
   </head>
   <body>
     <div id="containerwrap">
@@ -280,22 +280,22 @@
       Evidence (DIFFUSE)</a></li><li><a href="#FreeBSD-IPv6-only-Support">FreeBSD IPv6-only Support</a></li><li><a href="#IPv6-RA-Handling-Improvements">IPv6 RA Handling Improvements</a></li><li><a href="#netmap">netmap</a></li><li><a href="#New-ipfw-features">New ipfw features</a></li><li><a href="#TCP-User-Timeout-Option-(UTO)">TCP User Timeout Option (UTO)</a></li></ul><h3><a href="#Kernel">Kernel</a></h3><ul><li><a href="#Intel-GPU-Driver">Intel GPU Driver</a></li><li><a href="#OpenAFS-port">OpenAFS port</a></li><li><a href="#Overhaul-of-the-mii(4)-subsystem">Overhaul of the mii(4)-subsystem</a></li><li><a href="#Status-Report-for-NFS">Status Report for NFS</a></li></ul><h3><a href="#Documentation">Documentation</a></h3><ul><li><a href="#FreeBSD-June-6th,-2011-Doc-Sprint">FreeBSD June 6th, 2011 Doc Sprint</a></li><li><a href="#The-FreeBSD-Dutch-Documentation-Project">The FreeBSD Dutch Documentation Project</a></li><li><a href="#The-FreeBSD-Japanese-Documentation-Project">The FreeBSD Japanese Documentation Project</a></li></ul><h3><a href="#Architectures">Architectures</a></h3><ul><li><a href="#FreeBSD-on-the-Sony-Playstation-3">FreeBSD on the Sony Playstation 3</a></li><li><a href="#FreeBSD/arm-on-Marvell-Armada-XP">FreeBSD/arm on Marvell Armada XP</a></li><li><a href="#FreeBSD/powerpc-on-AppliedMicro-APM86290">FreeBSD/powerpc on AppliedMicro APM86290</a></li><li><a href="#FreeBSD/powerpc64-on-IBM-pSeries-machines">FreeBSD/powerpc64 on IBM pSeries machines</a></li><li><a href="#FreeBSD/sparc64">FreeBSD/sparc64</a></li></ul><h3><a href="#Ports">Ports</a></h3><ul><li><a href="#Chromium">Chromium</a></li><li><a href="#FreeBSD-Haskell-Ports">FreeBSD Haskell Ports</a></li><li><a href="#KDE-FreeBSD">KDE-FreeBSD</a></li><li><a href="#libvirt-networking-port">libvirt networking port</a></li><li><a href="#Portbuilder">Portbuilder</a></li><li><a href="#Ports-Collection">Ports Collection</a></li></ul><h3><a href="#Miscellaneous">Miscellaneous</a></h3><ul><li><a href="#bsd_day(2011)">bsd_day(2011)</a></li></ul><h3><a href="#Google-Summer-of-Code">Google Summer of Code</a></h3><ul><li><a href="#Capsicum-adaptation-and-core-libraries">Capsicum adaptation and core libraries</a></li><li><a href="#Disk-device-error-counters">Disk device error counters</a></li><li><a href="#Google-Summer-of-Code">Google Summer of Code</a></li><li><a href="#nvi-iconv">nvi-iconv</a></li><li><a href="#Replacing-the-Regular-Expression-Code">Replacing the Regular Expression Code</a></li></ul><ul></ul><hr /><br /><h1><a name="Projects" href="#Projects" id="Projects">Projects</a></h1><br /><h2><a name="Clang-replacing-GCC-in-the-base-system" href="#Clang-replacing-GCC-in-the-base-system" id="Clang-replacing-GCC-in-the-base-system">Clang replacing GCC in the base system</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://wiki.FreeBSD.org/BuildingFreeBSDWithClang" title="http://wiki.FreeBSD.org/BuildingFreeBSDWithClang"></a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/BuildingFreeBSDWithClang" title="">http://wiki.FreeBSD.org/BuildingFreeBSDWithClang</a></td></tr><tr><td><a href="http://wiki.FreeBSD.org/PortsAndClang" title="http://wiki.FreeBSD.org/PortsAndClang"></a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/PortsAndClang" title="">http://wiki.FreeBSD.org/PortsAndClang</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Dimitry
 	  Andric
 	 &lt;<a href="mailto:dim@FreeBSD.org">dim@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Roman
 	  Divacky
 	 &lt;<a href="mailto:rdivacky@FreeBSD.org">rdivacky@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Brooks
 	  Davis
 	 &lt;<a href="mailto:brooks@FreeBSD.org">brooks@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Pawel
 	  Worach
 	 &lt;<a href="mailto:pawel.worach@gmail.com">pawel.worach@gmail.com</a>&gt;
@@ -320,7 +320,7 @@
 	clang.  We expect this number to grow rapidly as the problems
 	are mostly trivial.</p>
     <h3>Open tasks:</h3><ol><li>Fix your ports.</li><li>Performance evaluate the new clang/llvm.</li><li>Fix clang warnings in src.</li><li>Implement proper support for cross compiling.</li></ol><hr /><h2><a name="Fix-clang-warnings" href="#Fix-clang-warnings" id="Fix-clang-warnings">Fix clang warnings</a></h2><p>
-	Contact: 
+	Contact:
 	  Ben
 	  Laurie
 	 &lt;<a href="mailto:benl@FreeBSD.org">benl@FreeBSD.org</a>&gt;
@@ -335,12 +335,12 @@
     <h3>Open tasks:</h3><ol><li>Always happy if someone else finds and fixes a
 	warning!</li></ol><hr /><h2><a name="libarchive,-bsdtar,-bsdcpio" href="#libarchive,-bsdtar,-bsdcpio" id="libarchive,-bsdtar,-bsdcpio">libarchive, bsdtar, bsdcpio</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://code.google.com/p/libarchive" title="http://code.google.com/p/libarchive"></a></td><td>
 	    URL: <a href="http://code.google.com/p/libarchive" title="">http://code.google.com/p/libarchive</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Tim
 	  Kientzle
 	 &lt;<a href="mailto:kientzle@FreeBSD.org">kientzle@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Michihiro
 	  Nakajima
 	 &lt;<a href="mailto:ggcueroad@gmail.com">ggcueroad@gmail.com</a>&gt;
@@ -353,12 +353,12 @@
 	including support for new formats both on the read (e.g. cab, lha,
 	rar) and write parts (e.g. iso9660, xar).</p>
     <hr /><h2><a name="ZFS-pool-version-28" href="#ZFS-pool-version-28" id="ZFS-pool-version-28">ZFS pool version 28</a></h2><p>
-	Contact: 
+	Contact:
 	  Pawel Jakub
 	  Dawidek
 	 &lt;<a href="mailto:pjd@FreeBSD.org">pjd@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Martin
 	  Matuska
 	 &lt;<a href="mailto:mm@FreeBSD.org">mm@FreeBSD.org</a>&gt;
@@ -368,7 +368,7 @@
 	from the Illumos project have been imported.</p>
     <h3>Open tasks:</h3><ol><li>Investigation of ZFS problem reports.</li></ol><hr /><br /><h1><a name="FreeBSD-Team-Reports" href="#FreeBSD-Team-Reports" id="FreeBSD-Team-Reports">FreeBSD Team Reports</a></h1><br /><h2><a name="ArabBSD" href="#ArabBSD" id="ArabBSD">ArabBSD</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="https://sites.google.com/site/arabbsd/" title="https://sites.google.com/site/arabbsd/">Official Website</a></td><td>
 	    URL: <a href="https://sites.google.com/site/arabbsd/" title="Official Website">https://sites.google.com/site/arabbsd/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Mohammed
 	  Farrag
 	 &lt;<a href="mailto:mfarrag@FreeBSD.org">mfarrag@FreeBSD.org</a>&gt;
@@ -377,7 +377,7 @@
 	Development Summer Course.</p>
     <h3>Open tasks:</h3><ol><li>FreeBSD Kernel Development Summer Course.</li></ol><hr /><h2><a name="The-FreeBSD-Foundation" href="#The-FreeBSD-Foundation" id="The-FreeBSD-Foundation">The FreeBSD Foundation</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="www.FreeBSDFoundation.org" title="www.FreeBSDFoundation.org"></a></td><td>
 	    URL: <a href="www.FreeBSDFoundation.org" title="">www.FreeBSDFoundation.org</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Deb
 	  Goodkin
 	 &lt;<a href="mailto:deb@FreeBSDFoundation.org">deb@FreeBSDFoundation.org</a>&gt;
@@ -425,12 +425,12 @@
       Evidence (DIFFUSE)</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://caia.swin.edu.au/urp/diffuse/" title="http://caia.swin.edu.au/urp/diffuse/"></a></td><td>
 	    URL: <a href="http://caia.swin.edu.au/urp/diffuse/" title="">http://caia.swin.edu.au/urp/diffuse/</a></td></tr><tr><td><a href="http://caia.swin.edu.au/urp/diffuse/downloads.html" title="http://caia.swin.edu.au/urp/diffuse/downloads.html"></a></td><td>
 	    URL: <a href="http://caia.swin.edu.au/urp/diffuse/downloads.html" title="">http://caia.swin.edu.au/urp/diffuse/downloads.html</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Sebastian
 	  Zander
 	 &lt;<a href="mailto:szander@swin.edu.au">szander@swin.edu.au</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Grenville
 	  Armitage
 	 &lt;<a href="mailto:garmitage@swin.edu.au">garmitage@swin.edu.au</a>&gt;
@@ -472,7 +472,7 @@
 	    URL: <a href="http://www.ixsystems.com/ix/media/freebsd-foundation-and-ixsystems-announce-ipv6-only-testing-versions-of-freebsd-and-pc-bsd" title="FreeBSD Foundation and iXsystems press release">http://www.ixsystems.com/ix/media/freebsd-foundation-and-ixsystems-announce-ipv6-only-testing-versions-of-freebsd-and-pc-bsd</a></td></tr><tr><td><a href="http://www.FreeBSD.org/ipv6/ipv6only.html" title="http://www.FreeBSD.org/ipv6/ipv6only.html">FreeBSD IPv6-only Support</a></td><td>
 	    URL: <a href="http://www.FreeBSD.org/ipv6/ipv6only.html" title="FreeBSD IPv6-only Support">http://www.FreeBSD.org/ipv6/ipv6only.html</a></td></tr><tr><td><a href="http://www.pcbsd.org/IPv6" title="http://www.pcbsd.org/IPv6">PC-BSD IPv6</a></td><td>
 	    URL: <a href="http://www.pcbsd.org/IPv6" title="PC-BSD IPv6">http://www.pcbsd.org/IPv6</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Bjoern A.
 	  Zeeb
 	 &lt;<a href="mailto:bz@FreeBSD.org">bz@FreeBSD.org</a>&gt;
@@ -502,7 +502,7 @@
 	providing review and Kris Moore for helping on the PC-BSD
 	integration and building and providing the PC-BSD snapshots.</p>
     <hr /><h2><a name="IPv6-RA-Handling-Improvements" href="#IPv6-RA-Handling-Improvements" id="IPv6-RA-Handling-Improvements">IPv6 RA Handling Improvements</a></h2><p>
-	Contact: 
+	Contact:
 	  Hiroki
 	  Sato
 	 &lt;<a href="mailto:hrs@FreeBSD.org">hrs@FreeBSD.org</a>&gt;
@@ -549,7 +549,7 @@
 	to 9-CURRENT and a part of them will be merged to 8-STABLE.</p>
     <hr /><h2><a name="netmap" href="#netmap" id="netmap">netmap</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://info.iet.unipi.it/~luigi/netmap/" title="http://info.iet.unipi.it/~luigi/netmap/"></a></td><td>
 	    URL: <a href="http://info.iet.unipi.it/~luigi/netmap/" title="">http://info.iet.unipi.it/~luigi/netmap/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Luigi
 	  Rizzo
 	 &lt;<a href="mailto:rizzo@iet.unipi.it">rizzo@iet.unipi.it</a>&gt;
@@ -572,7 +572,7 @@
 	description of the project, source code, papers and slides.</p>
     <hr /><h2><a name="New-ipfw-features" href="#New-ipfw-features" id="New-ipfw-features">New ipfw features</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://svnweb.FreeBSD.org/base?view=revision&amp;revision=223666" title="http://svnweb.FreeBSD.org/base?view=revision&amp;revision=223666"></a></td><td>
 	    URL: <a href="http://svnweb.FreeBSD.org/base?view=revision&amp;revision=223666" title="">http://svnweb.FreeBSD.org/base?view=revision&amp;revision=223666</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Vadim
 	  Goncharov
 	 &lt;<a href="mailto:vadim_nuclight@mail.ru">vadim_nuclight@mail.ru</a>&gt;
@@ -593,12 +593,12 @@
     <hr /><h2><a name="TCP-User-Timeout-Option-(UTO)" href="#TCP-User-Timeout-Option-(UTO)" id="TCP-User-Timeout-Option-(UTO)">TCP User Timeout Option (UTO)</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://wiki.FreeBSD.org/CatalinNicutar/TCPUTO" title="http://wiki.FreeBSD.org/CatalinNicutar/TCPUTO">Project Wiki</a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/CatalinNicutar/TCPUTO" title="Project Wiki">http://wiki.FreeBSD.org/CatalinNicutar/TCPUTO</a></td></tr><tr><td><a href="http://p4web.FreeBSD.org/@md=d&amp;cd=//depot/projects/soc2011/&amp;dw=u&amp;c=kml@//depot/projects/soc2011/cnicutar_tcputo_8/?ac=83" title="http://p4web.FreeBSD.org/@md=d&amp;cd=//depot/projects/soc2011/&amp;dw=u&amp;c=kml@//depot/projects/soc2011/cnicutar_tcputo_8/?ac=83">Repository</a></td><td>
 	    URL: <a href="http://p4web.FreeBSD.org/@md=d&amp;cd=//depot/projects/soc2011/&amp;dw=u&amp;c=kml@//depot/projects/soc2011/cnicutar_tcputo_8/?ac=83" title="Repository">http://p4web.FreeBSD.org/@md=d&amp;cd=//depot/projects/soc2011/&amp;dw=u&amp;c=kml@//depot/projects/soc2011/cnicutar_tcputo_8/?ac=83</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Catalin
 	  Nicutar
 	 &lt;<a href="mailto:cnicutar@FreeBSD.org">cnicutar@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Bjoern
 	  Zeeb
 	 &lt;<a href="mailto:bz@FreeBSD.org">bz@FreeBSD.org</a>&gt;
@@ -624,7 +624,7 @@
     <h3>Open tasks:</h3><ol><li>Regression tests for TCP over IPv6.</li><li>Add support to more userland applications.</li><li>Implement strategies and regression tests to handle and
 	simulate DoS scenarios.</li></ol><hr /><br /><h1><a name="Kernel" href="#Kernel" id="Kernel">Kernel</a></h1><br /><h2><a name="Intel-GPU-Driver" href="#Intel-GPU-Driver" id="Intel-GPU-Driver">Intel GPU Driver</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://wiki.FreeBSD.org/Intel_GPU" title="http://wiki.FreeBSD.org/Intel_GPU"></a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/Intel_GPU" title="">http://wiki.FreeBSD.org/Intel_GPU</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Konstantin
 	  Belousov
 	 &lt;<a href="mailto:kib@FreeBSD.org">kib@FreeBSD.org</a>&gt;
@@ -644,12 +644,12 @@
     <hr /><h2><a name="OpenAFS-port" href="#OpenAFS-port" id="OpenAFS-port">OpenAFS port</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://openafs.org" title="http://openafs.org">OpenAFS home page</a></td><td>
 	    URL: <a href="http://openafs.org" title="OpenAFS home page">http://openafs.org</a></td></tr><tr><td><a href="http://wiki.FreeBSD.org/afs" title="http://wiki.FreeBSD.org/afs">FreeBSD Wiki on AFS</a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/afs" title="FreeBSD Wiki on AFS">http://wiki.FreeBSD.org/afs</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Benjamin
 	  Kaduk
 	 &lt;<a href="mailto:kaduk@mit.edu">kaduk@mit.edu</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Derrick
 	  Brashear
 	 &lt;<a href="mailto:shadow@gmail.com">shadow@gmail.com</a>&gt;
@@ -674,7 +674,7 @@
 	infrastructure.</li><li>Eliminate a moderate memory leak from the kernel
 	module.</li><li>PAG (Process Authentication Group) support is not
 	functional.</li></ol><hr /><h2><a name="Overhaul-of-the-mii(4)-subsystem" href="#Overhaul-of-the-mii(4)-subsystem" id="Overhaul-of-the-mii(4)-subsystem">Overhaul of the mii(4)-subsystem</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr></table><p>
-	Contact: 
+	Contact:
 	  Marius
 	  Strobl
 	 &lt;<a href="mailto:marius@FreeBSD.org">marius@FreeBSD.org</a>&gt;
@@ -693,7 +693,7 @@
 	output to ifconfig(8).  Support for this will be merged back to
 	8-STABLE prior to 8.3-RELEASE.</p>
     <hr /><h2><a name="Status-Report-for-NFS" href="#Status-Report-for-NFS" id="Status-Report-for-NFS">Status Report for NFS</a></h2><p>
-	Contact: 
+	Contact:
 	  Rick
 	  Macklem
 	 &lt;<a href="mailto:rmacklem@FreeBSD.org">rmacklem@FreeBSD.org</a>&gt;
@@ -720,12 +720,12 @@
 	    URL: <a href="http://people.FreeBSD.org/~bcr/doc/sprints/20110606-final.html" title="Results of the June 6 Doc Sprint">http://people.FreeBSD.org/~bcr/doc/sprints/20110606-final.html</a></td></tr><tr><td><a href="http://people.FreeBSD.org/~linimon/annotated_prs.docsprint.html" title="http://people.FreeBSD.org/~linimon/annotated_prs.docsprint.html">Closed PRs during the doc sprint</a></td><td>
 	    URL: <a href="http://people.FreeBSD.org/~linimon/annotated_prs.docsprint.html" title="Closed PRs during the doc sprint">http://people.FreeBSD.org/~linimon/annotated_prs.docsprint.html</a></td></tr><tr><td><a href="http://openhelpconference.com/" title="http://openhelpconference.com/">Website of the Open Help conference</a></td><td>
 	    URL: <a href="http://openhelpconference.com/" title="Website of the Open Help conference">http://openhelpconference.com/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Benedict
 	  Reuschling
 	 &lt;<a href="mailto:bcr@FreeBSD.org">bcr@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Dru
 	  Lavigne
 	 &lt;<a href="mailto:dru@FreeBSD.org">dru@FreeBSD.org</a>&gt;
@@ -771,12 +771,12 @@
 	fixed, but still open for some reason.</li></ol><hr /><h2><a name="The-FreeBSD-Dutch-Documentation-Project" href="#The-FreeBSD-Dutch-Documentation-Project" id="The-FreeBSD-Dutch-Documentation-Project">The FreeBSD Dutch Documentation Project</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://wiki.FreeBSD.org/DutchDocumentationProject" title="http://wiki.FreeBSD.org/DutchDocumentationProject">Wiki Page</a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/DutchDocumentationProject" title="Wiki Page">http://wiki.FreeBSD.org/DutchDocumentationProject</a></td></tr><tr><td><a href="http://p4web.freebsd.org/@md=d&amp;cd=//depot/projects/&amp;c=Hid@//depot/projects/docproj_nl/?ac=83" title="http://p4web.freebsd.org/@md=d&amp;cd=//depot/projects/&amp;c=Hid@//depot/projects/docproj_nl/?ac=83">Perforce repository</a></td><td>
 	    URL: <a href="http://p4web.freebsd.org/@md=d&amp;cd=//depot/projects/&amp;c=Hid@//depot/projects/docproj_nl/?ac=83" title="Perforce repository">http://p4web.freebsd.org/@md=d&amp;cd=//depot/projects/&amp;c=Hid@//depot/projects/docproj_nl/?ac=83</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Remko
 	  Lodder
 	 &lt;<a href="mailto:remko@FreeBSD.org">remko@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  René
 	  Ladan
 	 &lt;<a href="mailto:rene@FreeBSD.org">rene@FreeBSD.org</a>&gt;
@@ -790,12 +790,12 @@
 	enthusiasm and spare time.</li></ol><hr /><h2><a name="The-FreeBSD-Japanese-Documentation-Project" href="#The-FreeBSD-Japanese-Documentation-Project" id="The-FreeBSD-Japanese-Documentation-Project">The FreeBSD Japanese Documentation Project</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://www.FreeBSD.org/ja/" title="http://www.FreeBSD.org/ja/">Japanese FreeBSD Web Pages</a></td><td>
 	    URL: <a href="http://www.FreeBSD.org/ja/" title="Japanese FreeBSD Web Pages">http://www.FreeBSD.org/ja/</a></td></tr><tr><td><a href="http://www.jp.FreeBSD.org/doc-jp/" title="http://www.jp.FreeBSD.org/doc-jp/">The FreeBSD Japanese Documentation Project Web Page</a></td><td>
 	    URL: <a href="http://www.jp.FreeBSD.org/doc-jp/" title="The FreeBSD Japanese Documentation Project Web Page">http://www.jp.FreeBSD.org/doc-jp/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Hiroki
 	  Sato
 	 &lt;<a href="mailto:hrs@FreeBSD.org">hrs@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Ryusuke
 	  Suzuki
 	 &lt;<a href="mailto:ryusuke@FreeBSD.org">ryusuke@FreeBSD.org</a>&gt;
@@ -814,7 +814,7 @@
     <h3>Open tasks:</h3><ol><li>Further translation work for outdated and/or non-translated
 	documents in both doc/ja_JP.eucJP and www/ja.</li></ol><hr /><br /><h1><a name="Architectures" href="#Architectures" id="Architectures">Architectures</a></h1><br /><h2><a name="FreeBSD-on-the-Sony-Playstation-3" href="#FreeBSD-on-the-Sony-Playstation-3" id="FreeBSD-on-the-Sony-Playstation-3">FreeBSD on the Sony Playstation 3</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://people.freebsd.org/~nwhitehorn/ps3/" title="http://people.freebsd.org/~nwhitehorn/ps3/"></a></td><td>
 	    URL: <a href="http://people.freebsd.org/~nwhitehorn/ps3/" title="">http://people.freebsd.org/~nwhitehorn/ps3/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Nathan
 	  Whitehorn
 	 &lt;<a href="mailto:nwhitehorn@freebsd.org">nwhitehorn@freebsd.org</a>&gt;
@@ -839,12 +839,12 @@
 	concept of user and supervisor mode, as well as interrupts, and
 	can share MMU context with the main CPU cores. As such, they in
 	principle can support a full UNIX process model.</li></ol><hr /><h2><a name="FreeBSD/arm-on-Marvell-Armada-XP" href="#FreeBSD/arm-on-Marvell-Armada-XP" id="FreeBSD/arm-on-Marvell-Armada-XP">FreeBSD/arm on Marvell Armada XP</a></h2><p>
-	Contact: 
+	Contact:
 	  Grzegorz
 	  Bernacki
 	 &lt;<a href="mailto:gjb@semihalf.com">gjb@semihalf.com</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Rafal
 	  Jaworowski
 	 &lt;<a href="mailto:raj@semihalf.com">raj@semihalf.com</a>&gt;
@@ -880,12 +880,12 @@
 	<li>PCI-Express and SATA drivers</li>
       </ul>
     <hr /><h2><a name="FreeBSD/powerpc-on-AppliedMicro-APM86290" href="#FreeBSD/powerpc-on-AppliedMicro-APM86290" id="FreeBSD/powerpc-on-AppliedMicro-APM86290">FreeBSD/powerpc on AppliedMicro APM86290</a></h2><p>
-	Contact: 
+	Contact:
 	  Grzegorz
 	  Bernacki
 	 &lt;<a href="mailto:gjb@semihalf.com">gjb@semihalf.com</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Rafal
 	  Jaworowski
 	 &lt;<a href="mailto:raj@semihalf.com">raj@semihalf.com</a>&gt;
@@ -916,12 +916,12 @@
       </ul>
     <hr /><h2><a name="FreeBSD/powerpc64-on-IBM-pSeries-machines" href="#FreeBSD/powerpc64-on-IBM-pSeries-machines" id="FreeBSD/powerpc64-on-IBM-pSeries-machines">FreeBSD/powerpc64 on IBM pSeries machines</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="svn://svn.FreeBSD.org/base/projects/pseries/" title="svn://svn.FreeBSD.org/base/projects/pseries/">Development Branch</a></td><td>
 	    URL: <a href="svn://svn.FreeBSD.org/base/projects/pseries/" title="Development Branch">svn://svn.FreeBSD.org/base/projects/pseries/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Nathan
 	  Whitehorn
 	 &lt;<a href="mailto:nwhitehorn@FreeBSD.org">nwhitehorn@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Andreas
 	  Tobler
 	 &lt;<a href="mailto:andreast@FreeBSD.org">andreast@FreeBSD.org</a>&gt;
@@ -936,7 +936,7 @@
 
       <p>The same applies for an IntelliStation-285. (POWER5+).</p>
     <h3>Open tasks:</h3><ol><li>Implement interrupt controller.</li><li>PCI bus scanning.</li><li>Drivers, drivers, drivers.</li><li>Improve memory management.</li></ol><hr /><h2><a name="FreeBSD/sparc64" href="#FreeBSD/sparc64" id="FreeBSD/sparc64">FreeBSD/sparc64</a></h2><p>
-	Contact: 
+	Contact:
 	  Marius
 	  Strobl
 	 &lt;<a href="mailto:marius@FreeBSD.org">marius@FreeBSD.org</a>&gt;
@@ -1011,7 +1011,7 @@
     <hr /><br /><h1><a name="Ports" href="#Ports" id="Ports">Ports</a></h1><br /><h2><a name="Chromium" href="#Chromium" id="Chromium">Chromium</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://www.chromium.org/Home" title="http://www.chromium.org/Home">Main project site</a></td><td>
 	    URL: <a href="http://www.chromium.org/Home" title="Main project site">http://www.chromium.org/Home</a></td></tr><tr><td><a href="http://trillian.chruetertee.ch/chromium" title="http://trillian.chruetertee.ch/chromium">FreeBSD porting site</a></td><td>
 	    URL: <a href="http://trillian.chruetertee.ch/chromium" title="FreeBSD porting site">http://trillian.chruetertee.ch/chromium</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Chromium on FreeBSD Team
 	 &lt;<a href="mailto:chromium@FreeBSD.org">chromium@FreeBSD.org</a>&gt;
 	</p>
@@ -1026,17 +1026,17 @@
 	    URL: <a href="http://wiki.FreeBSD.org/Haskell" title="FreeBSD Haskell wiki page">http://wiki.FreeBSD.org/Haskell</a></td></tr><tr><td><a href="https://github.com/freebsd-haskell/freebsd-haskell/" title="https://github.com/freebsd-haskell/freebsd-haskell/">FreeBSD Haskell ports repository</a></td><td>
 	    URL: <a href="https://github.com/freebsd-haskell/freebsd-haskell/" title="FreeBSD Haskell ports repository">https://github.com/freebsd-haskell/freebsd-haskell/</a></td></tr><tr><td><a href="http://haskell.org/mailman/listinfo/freebsd-haskell/" title="http://haskell.org/mailman/listinfo/freebsd-haskell/">FreeBSD Haskell mailing list</a></td><td>
 	    URL: <a href="http://haskell.org/mailman/listinfo/freebsd-haskell/" title="FreeBSD Haskell mailing list">http://haskell.org/mailman/listinfo/freebsd-haskell/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Gábor János
 	  PÁLI
 	 &lt;<a href="mailto:pgj@FreeBSD.org">pgj@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Ashish
 	  SHUKLA
 	 &lt;<a href="mailto:ashish@FreeBSD.org">ashish@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Giuseppe
 	  Pilichi
 	 &lt;<a href="mailto:jacula@FreeBSD.org">jacula@FreeBSD.org</a>&gt;
@@ -1055,7 +1055,7 @@
 	    URL: <a href="http://dot.kde.org/2011/06/29/platform-frameworks-kde-hackers-meet-switzerland" title="Dot article on the KDE sprints in Switzerland">http://dot.kde.org/2011/06/29/platform-frameworks-kde-hackers-meet-switzerland</a></td></tr><tr><td><a href="http://blogs.FreeBSDish.org/avilla/2011/06/14/call-for-tests-kde-pim-4-6-0" title="http://blogs.FreeBSDish.org/avilla/2011/06/14/call-for-tests-kde-pim-4-6-0">Call for test of KDE PIM 4.6.0</a></td><td>
 	    URL: <a href="http://blogs.FreeBSDish.org/avilla/2011/06/14/call-for-tests-kde-pim-4-6-0" title="Call for test of KDE PIM 4.6.0">http://blogs.FreeBSDish.org/avilla/2011/06/14/call-for-tests-kde-pim-4-6-0</a></td></tr><tr><td><a href="http://FreeBSD.kde.org/area51.php" title="http://FreeBSD.kde.org/area51.php">area51 Switzerland</a></td><td>
 	    URL: <a href="http://FreeBSD.kde.org/area51.php" title="area51 Switzerland">http://FreeBSD.kde.org/area51.php</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  KDE
 	  FreeBSD
 	 &lt;<a href="mailto:kde-freebsd@kde.org">kde-freebsd@kde.org</a>&gt;
@@ -1095,12 +1095,12 @@
 	please visit us at kde-freebsd@kde.org and our homepage.</p>
     <h3>Open tasks:</h3><ol><li>Testing KDE PIM 4.6.0.</li></ol><hr /><h2><a name="libvirt-networking-port" href="#libvirt-networking-port" id="libvirt-networking-port">libvirt networking port</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://www.libvirt.org/" title="http://www.libvirt.org/"></a></td><td>
 	    URL: <a href="http://www.libvirt.org/" title="">http://www.libvirt.org/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Jason
 	  Helfman
 	 &lt;<a href="mailto:jhelfman@experts-exchange.com">jhelfman@experts-exchange.com</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Daniel P.
 	  Berrange
 	 &lt;<a href="mailto:berrange@redhat.com">berrange@redhat.com</a>&gt;
@@ -1147,7 +1147,7 @@
 	    URL: <a href="https://github.com/DragonSA/portbuilder" title="GIT Repository">https://github.com/DragonSA/portbuilder</a></td></tr><tr><td><a href="https://github.com/DragonSA/portbuilder/blob/0.1.3/README" title="https://github.com/DragonSA/portbuilder/blob/0.1.3/README">README</a></td><td>
 	    URL: <a href="https://github.com/DragonSA/portbuilder/blob/0.1.3/README" title="README">https://github.com/DragonSA/portbuilder/blob/0.1.3/README</a></td></tr><tr><td><a href="https://github.com/DragonSA/portbuilder/blob/0.1.3/TODO" title="https://github.com/DragonSA/portbuilder/blob/0.1.3/TODO">TODO</a></td><td>
 	    URL: <a href="https://github.com/DragonSA/portbuilder/blob/0.1.3/TODO" title="TODO">https://github.com/DragonSA/portbuilder/blob/0.1.3/TODO</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  David
 	  Naylor
 	 &lt;<a href="mailto:naylor.b.david@gmail.com">naylor.b.david@gmail.com</a>&gt;
@@ -1194,12 +1194,12 @@
 	    URL: <a href="http://FreeBSDFoundation.blogspot.com/2011/06/bsdcan-trip-report-julien-laffaye.html" title="">http://FreeBSDFoundation.blogspot.com/2011/06/bsdcan-trip-report-julien-laffaye.html</a></td></tr><tr><td><a href="http://FreeBSDFoundation.blogspot.com/2011/06/bsdcan-trip-report-thomas-abthorpe.html" title="http://FreeBSDFoundation.blogspot.com/2011/06/bsdcan-trip-report-thomas-abthorpe.html"></a></td><td>
 	    URL: <a href="http://FreeBSDFoundation.blogspot.com/2011/06/bsdcan-trip-report-thomas-abthorpe.html" title="">http://FreeBSDFoundation.blogspot.com/2011/06/bsdcan-trip-report-thomas-abthorpe.html</a></td></tr><tr><td><a href="http://blogs.FreeBSDish.org/portmgr/2011/05/26/thankyoufoundation/" title="http://blogs.FreeBSDish.org/portmgr/2011/05/26/thankyoufoundation/"></a></td><td>
 	    URL: <a href="http://blogs.FreeBSDish.org/portmgr/2011/05/26/thankyoufoundation/" title="">http://blogs.FreeBSDish.org/portmgr/2011/05/26/thankyoufoundation/</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Thomas
 	  Abthorpe
 	 &lt;<a href="mailto:portmgr-secretary@FreeBSD.org">portmgr-secretary@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Port
 	  Management Team
 	 &lt;<a href="mailto:portmgr@FreeBSD.org">portmgr@FreeBSD.org</a>&gt;
@@ -1251,12 +1251,12 @@
 	Tier-2 architectures</a>.  (List needs updating, too)</li><li>Most ports PRs are assigned, we now need to focus on testing,
 	committing, and closing.</li></ol><hr /><br /><h1><a name="Miscellaneous" href="#Miscellaneous" id="Miscellaneous">Miscellaneous</a></h1><br /><h2><a name="bsd_day(2011)" href="#bsd_day(2011)" id="bsd_day(2011)">bsd_day(2011)</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://bsdday.eu/2011" title="http://bsdday.eu/2011"></a></td><td>
 	    URL: <a href="http://bsdday.eu/2011" title="">http://bsdday.eu/2011</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Martin
 	  Matuska
 	 &lt;<a href="mailto:mm@FreeBSD.org">mm@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Gábor
 	  Páli
 	 &lt;<a href="mailto:pgj@FreeBSD.org">pgj@FreeBSD.org</a>&gt;
@@ -1276,7 +1276,7 @@
     <h3>Open tasks:</h3><ol><li>Apply.  We are looking for you!</li></ol><hr /><br /><h1><a name="Google-Summer-of-Code" href="#Google-Summer-of-Code" id="Google-Summer-of-Code">Google Summer of Code</a></h1><br /><h2><a name="Capsicum-adaptation-and-core-libraries" href="#Capsicum-adaptation-and-core-libraries" id="Capsicum-adaptation-and-core-libraries">Capsicum adaptation and core libraries</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://www.cl.cam.ac.uk/research/security/capsicum" title="http://www.cl.cam.ac.uk/research/security/capsicum"></a></td><td>
 	    URL: <a href="http://www.cl.cam.ac.uk/research/security/capsicum" title="">http://www.cl.cam.ac.uk/research/security/capsicum</a></td></tr><tr><td><a href="http://wiki.FreeBSD.org/SOC2011IlyaBakulin" title="http://wiki.FreeBSD.org/SOC2011IlyaBakulin"></a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/SOC2011IlyaBakulin" title="">http://wiki.FreeBSD.org/SOC2011IlyaBakulin</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Ilya
 	  Bakulin
 	 &lt;<a href="mailto:kibab@FreeBSD.org">kibab@FreeBSD.org</a>&gt;
@@ -1290,7 +1290,7 @@
 	system.</li><li>Help Jonathan Anderson and Robert Watson to merge
 	FreeBSD-Capsicum into FreeBSD-HEAD.</li></ol><hr /><h2><a name="Disk-device-error-counters" href="#Disk-device-error-counters" id="Disk-device-error-counters">Disk device error counters</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://wiki.FreeBSD.org/Disk%20device%20error%20counters" title="http://wiki.FreeBSD.org/Disk%20device%20error%20counters">Wiki page</a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/Disk%20device%20error%20counters" title="Wiki page">http://wiki.FreeBSD.org/Disk%20device%20error%20counters</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Oleksandr
 	  Dudinskyi
 	 &lt;<a href="mailto:dudinskyj@gmail.com">dudinskyj@gmail.com</a>&gt;
@@ -1303,12 +1303,12 @@
 	registration.</li><li>Maybe find a better place registration of errors than
 	xpt_done().</li></ol><hr /><h2><a name="Google-Summer-of-Code" href="#Google-Summer-of-Code" id="Google-Summer-of-Code">Google Summer of Code</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://wiki.FreeBSD.org/SummerOfCode2011" title="http://wiki.FreeBSD.org/SummerOfCode2011">Summer of Code 2011 Project Wiki Pages</a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/SummerOfCode2011" title="Summer of Code 2011 Project Wiki Pages">http://wiki.FreeBSD.org/SummerOfCode2011</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Brooks
 	  Davis
 	 &lt;<a href="mailto:brooks@FreeBSD.org">brooks@FreeBSD.org</a>&gt;
 	<br />
-	Contact: 
+	Contact:
 	  Robert
 	  Watson
 	 &lt;<a href="mailto:rwatson@FreeBSD.org">rwatson@FreeBSD.org</a>&gt;
@@ -1321,7 +1321,7 @@
     <hr /><h2><a name="nvi-iconv" href="#nvi-iconv" id="nvi-iconv">nvi-iconv</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/zy/1" title="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/zy/1">Project proposal</a></td><td>
 	    URL: <a href="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/zy/1" title="Project proposal">http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/zy/1</a></td></tr><tr><td><a href="https://github.com/lichray/nvi2" title="https://github.com/lichray/nvi2">GitHub page</a></td><td>
 	    URL: <a href="https://github.com/lichray/nvi2" title="GitHub page">https://github.com/lichray/nvi2</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Zhihao
 	  Yuan
 	 &lt;<a href="mailto:lichray@gmail.com">lichray@gmail.com</a>&gt;
@@ -1367,7 +1367,7 @@
 	supported by iconv, and we need to discuss whether we should
 	support it in the editor.</li></ol><hr /><h2><a name="Replacing-the-Regular-Expression-Code" href="#Replacing-the-Regular-Expression-Code" id="Replacing-the-Regular-Expression-Code">Replacing the Regular Expression Code</a></h2><table title="Links" style="white-space: nowrap;"><tr><td>Links</td></tr><tr><td><a href="http://wiki.FreeBSD.org/G%C3%A1borSoC2011" title="http://wiki.FreeBSD.org/G%C3%A1borSoC2011">Wiki page</a></td><td>
 	    URL: <a href="http://wiki.FreeBSD.org/G%C3%A1borSoC2011" title="Wiki page">http://wiki.FreeBSD.org/G%C3%A1borSoC2011</a></td></tr></table><p>
-	Contact: 
+	Contact:
 	  Gábor
 	  Kövesdán
 	 &lt;<a href="mailto:gabor@FreeBSD.org">gabor@FreeBSD.org</a>&gt;
