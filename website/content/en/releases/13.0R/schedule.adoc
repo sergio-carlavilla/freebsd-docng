@@ -30,6 +30,7 @@ During the {localBranchHead} freeze, the Release Engineering Team may create ALP
 
 Announcements regarding the availability of the ALPHA snapshots will be sent to the mailto:freebsd-current@FreeBSD.org[freebsd-current] and mailto:freebsd-snapshots@FreeBSD.org[freebsd-snapshots] mailing lists.
 
+[.tblbasic]
 [cols=",,,",]
 |===
 |Action |Expected |Actual |Description
