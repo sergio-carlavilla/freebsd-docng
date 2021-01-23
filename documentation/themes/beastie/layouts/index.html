@@ -1,23 +1,6 @@
 {{ define "main" }}
 <div id="content">
   <div id="content">
-    <div id="sidewrap">
-      <div id="sidenav">
-        <ul>
-          <li><a href={{ "docs" | absLangURL }}>{{ i18n "documentation" }}</a></li>
-          <li><a href="/doc/en_US.ISO8859-1/books/faq/">{{ i18n "FAQ" }}</a></li>
-          <li><a href="/doc/en_US.ISO8859-1/books/handbook/">{{ i18n "handbook" }}</a></li>
-          <li><a href="/cgi/man.cgi">{{ i18n "man" }}</a></li>
-          <li><a href="https://papers.freebsd.org/">{{ i18n "papers" }}</a></li>
-          <li><a href={{ "docs/books/" | absLangURL }}>{{ i18n "booksArticles" }}</a></li>
-          <li><a href={{ "publish" | absLangURL }}>{{ i18n "publications" }}</a></li>
-          <li><a href={{ "docs/webresources/" | absLangURL }}>{{ i18n "webresources" }}</a></li>
-          <li><a href={{ "projects/newbies/" | absLangURL }}>{{ i18n "newbies" }}</a></li>
-          <li><a href={{ "docproj" | absLangURL }}>{{ i18n "docproj" }}</a></li>
-          <li><a href="https://docs.freebsd.org/doc/">{{ i18n "archive" }}</a></li>
-        </ul>
-      </div>
-    </div>
     <div id="contentwrap">
       {{ $home := .Site.Home }}
       <ul id="language-container">
@@ -36,7 +19,7 @@
           </ul>
         </li>
       </ul>
-      <h1>{{ i18n "books" }} - {{ $home.Language }}</h1>
+      <h1 class="books-title">{{ i18n "books" }} - {{ $home.Language }}</h1>
       {{ $books := slice}}
 
       {{ range where .Site.Pages "Section" "books" }}
@@ -47,15 +30,15 @@
 
       <ul>
       {{ range sort $books "path" }}
-        {{ if ne .path "" }}
-          {{ $bookPath := replaceRE "/_index.adoc" "" .path }}
-          {{ $bookName := replaceRE "articles/" "" $articlePath }}
+        {{ if in .path "book.adoc" }}
+          {{ $bookPath := replaceRE "/book.adoc" "" .path }}
+          {{ $bookName := replaceRE "books/" "" $bookPath }}
           <li><a href="{{ $bookPath }}">{{ $bookName }}</a></li>
         {{ end }}
       {{ end }}
       </ul>
 
-      <h1>{{ i18n "articles" }} - {{ $home.Language }}</h1>
+      <h1 class="articles-title">{{ i18n "articles" }} - {{ $home.Language }}</h1>
       {{ $articles := slice}}
 
       {{ range where .Site.Pages "Section" "articles" }}
@@ -66,7 +49,7 @@
 
       <ul>
       {{ range sort $articles "path" }}
-        {{ if ne .path "" }}
+        {{ if in .path "_index.adoc" }}
           {{ $articlePath := replaceRE "/_index.adoc" "" .path }}
           {{ $articleName := replaceRE "articles/" "" $articlePath }}
           <li><a href="{{ $articlePath }}">{{ $articleName }}</a></li>

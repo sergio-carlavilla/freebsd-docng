@@ -3,13 +3,13 @@
 :main-site: https://www.FreeBSD.org/doc
 
 // books
-:dev-model: {main-site}/books/dev-model/
-:faq: {main-site}/books/faq/
+:dev-model: {main-site}/books/dev-model/book
+:faq: {main-site}/books/faq/book
 :handbook: {main-site}/books/handbook/
 :developers-handbook: {main-site}/books/developers-handbook/
 :arch-handbook: {main-site}/books/arch-handbook/
 :porters-handbook: {main-site}/books/porters-handbook/
-:design-44bsd: {main-site}/books/design-44bsd/
+:design-44bsd: {main-site}/books/design-44bsd/book
 :fdp-primer: {main-site}/books/fdp-primer/
 
 // articles

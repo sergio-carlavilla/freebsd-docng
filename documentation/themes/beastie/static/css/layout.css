@@ -501,7 +501,7 @@ header {
 }
 
 #contentwrap {
-  margin-left: 170px;
+  margin-left: 100px;
   padding-top: 15px;
 }
 }
@@ -524,7 +524,6 @@ footer {
 }
 
 /* Misc Classes */
-
 .clearboth {
   clear: both;
   margin: 0;
@@ -550,6 +549,7 @@ img {
   position: relative;
   float: right;
   cursor: pointer;
+  z-index: 999;
 }
 
 #language-container li {

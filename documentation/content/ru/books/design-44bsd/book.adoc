@@ -28,6 +28,7 @@ trademarks: ["design-44bsd"]
 :table-caption: Таблица
 :figure-caption: Рисунок
 :example-caption: Пример
+:sectnumoffset: 2
 
 ifeval::["{backend}" == "html5"]
 include::shared/mirrors.adoc[]
