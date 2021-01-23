@@ -15,6 +15,7 @@ preserveTOC = true
 
 [markup.asciidocExt]
     preserveTOC = true
+    extensions = ["../shared/lib/man-macro.rb", "../shared/lib/inter-document-references-macro.rb", "../shared/lib/sectnumoffset-treeprocessor.rb", "../shared/lib/packages-macro.rb"]
 
 staticDir = ["static", "shared"]
 
