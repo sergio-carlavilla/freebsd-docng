@@ -30,7 +30,7 @@ run:
 	${HUGO_CMD} server -D
 
 build:
-	${HUGO_CMD} --minify
+	${HUGO_CMD}
 
 move-shared:
 	cp -r ../shared ./shared
