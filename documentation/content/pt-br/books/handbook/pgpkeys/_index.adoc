@@ -26,9 +26,9 @@ next: books/handbook/freebsd-glossary
 
 include::shared/authors.adoc[]
 include::shared/releases.adoc[]
-include::shared/pt_BR/mailing-lists.adoc[]
-include::shared/pt_BR/teams.adoc[]
-include::shared/pt_BR/urls.adoc[]
+include::shared/pt-br/mailing-lists.adoc[]
+include::shared/pt-br/teams.adoc[]
+include::shared/pt-br/urls.adoc[]
 
 :pgpkeys-path:
 

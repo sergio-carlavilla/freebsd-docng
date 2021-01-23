@@ -23,7 +23,7 @@ releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/port-mentor-guidelines/art
 :figure-caption: Figura
 :example-caption: Exemplo
 
-include::shared/pt_BR/urls.adoc[]
+include::shared/pt-br/urls.adoc[]
 
 '''
 

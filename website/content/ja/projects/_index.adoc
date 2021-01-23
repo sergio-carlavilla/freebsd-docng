@@ -13,7 +13,7 @@ FreeBSD の主要な流れとはまた別に、多くの開発グループが Fr
 
 ここに載っていないプロジェクトに気づいたら、URL と短い (3～10 行程度) 紹介文を (英語で) 送ってください。宛先は link:../mailto[www@FreeBSD.org] です。
 
-また、いくつかのプロジェクトは定期的に進捗レポートを提出しています。 詳しくは link:https://www.FreeBSD.org/news/status/[進捗レポートのページ] をご覧下さい。
+また、いくつかのプロジェクトは定期的に進捗レポートを提出しています。 詳しくは link:https://www.FreeBSD.org/status/[進捗レポートのページ] をご覧下さい。
 
 * <<documentation,ドキュメンテーション>>
 * link:https://www.FreeBSD.org/advocacy/[宣伝活動]

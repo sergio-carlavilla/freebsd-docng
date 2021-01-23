@@ -16,7 +16,7 @@
     <p>
       <span class="txtdate">{{ dateFormat "2006-01-02" .date }}</span>
       <br />
-      <a href="{{.Site.BaseURL | relLangURL }}news/newsflash/#news{{ dateFormat "2006-01-02" .date }}:{{ $newsCounter }}">
+      <a href="{{.Site.BaseURL | relLangURL }}news/newsflash/#{{ dateFormat "2006-01-02" .date }}:{{ $newsCounter }}">
       {{ if .title }}
         {{ $title := replaceRE "<a .*\">" "" .title }}
         {{ $title = replaceRE "</a>" "" $title }}

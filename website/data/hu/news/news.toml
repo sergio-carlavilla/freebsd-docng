@@ -34,7 +34,7 @@ description = "<p>Mostantól letölthetõ a <a href=\"https://www.FreeBSD.org/re
 [[news]]
 date = "2010-07-22"
 title = "Helyzetjelentés: 2010 április - június"
-description = "<p>A 2010 áprilisa és júniusa közti idõszakról beszámoló, 47 bejegyzést tartalmazó negyedéves helyzetjelentés <a href=\"https://www.FreeBSD.org/news/status/report-2010-04-2010-06.html\">megjelent</a>.</p>"
+description = "<p>A 2010 áprilisa és júniusa közti idõszakról beszámoló, 47 bejegyzést tartalmazó negyedéves helyzetjelentés <a href=\"https://www.FreeBSD.org/status/report-2010-04-2010-06.html\">megjelent</a>.</p>"
 
 [[news]]
 date = "2010-07-21"
@@ -109,7 +109,7 @@ description = "Bõvebb commit jogosultság: <a href=\"mailto:mm@FreeBSD.org\">Ma
 [[news]]
 date = "2010-04-22"
 title = "Negyedéves helyzetjelentés: 2010 január - március"
-description = "<p>Mostantól <a href=\"https://www.FreeBSD.org/news/status/report-2010-01-2010-03.html\">elérhetõ</a> a 2010 januártól márciusig tartó idõszakról szóló, 46 bejegyzést tartalmazó negyedéves helyzetjelentés.</p>"
+description = "<p>Mostantól <a href=\"https://www.FreeBSD.org/status/report-2010-01-2010-03.html\">elérhetõ</a> a 2010 januártól márciusig tartó idõszakról szóló, 46 bejegyzést tartalmazó negyedéves helyzetjelentés.</p>"
 
 [[news]]
 date = "2010-04-20"
@@ -214,5 +214,5 @@ description = "Új tag: <a href=\"mailto:avilla@FreeBSD.org\">Alberto Villa</a> 
 [[news]]
 date = "2010-01-17"
 title = "Negyedéves helyzetjelentés: 2009 október - december"
-description = "<p>A 2009 októberétõl decemberéig tartó idõszakot összefoglaló, 38 bejegyzést tartalmazó negyedéves helyzetjelentés immáron <a href=\"https://www.FreeBSD.org/news/status/report-2009-10-2009-12.html\">elérhetõ</a>.</p>"
+description = "<p>A 2009 októberétõl decemberéig tartó idõszakot összefoglaló, 38 bejegyzést tartalmazó negyedéves helyzetjelentés immáron <a href=\"https://www.FreeBSD.org/status/report-2009-10-2009-12.html\">elérhetõ</a>.</p>"
 

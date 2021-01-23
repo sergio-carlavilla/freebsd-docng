@@ -24,8 +24,8 @@ releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/articles/mailing-list-faq/article.xml 4
 :example-caption: 例 
 
 include::shared/authors.adoc[]
-include::shared/zh_TW/mailing-lists.adoc[]
-include::shared/zh_TW/urls.adoc[]
+include::shared/zh-tw/mailing-lists.adoc[]
+include::shared/zh-tw/urls.adoc[]
 
 [.abstract-title]
 摘要

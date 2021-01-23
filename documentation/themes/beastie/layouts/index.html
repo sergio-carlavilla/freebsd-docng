@@ -22,6 +22,8 @@
       <h1 class="books-title">{{ i18n "books" }} - {{ $home.Language }}</h1>
       {{ $books := slice}}
 
+      {{ $books }}
+
       {{ range where .Site.Pages "Section" "books" }}
         {{ with .File }}
           {{ $books  = $books  | append (dict "page" . "path" .File.Path) }}
@@ -30,8 +32,8 @@
 
       <ul>
       {{ range sort $books "path" }}
-        {{ if in .path "book.adoc" }}
-          {{ $bookPath := replaceRE "/book.adoc" "" .path }}
+        {{ if in .path "_index.adoc" }}
+          {{ $bookPath := replaceRE "/_index.adoc" "" .path }}
           {{ $bookName := replaceRE "books/" "" $bookPath }}
           <li><a href="{{ $bookPath }}">{{ $bookName }}</a></li>
         {{ end }}

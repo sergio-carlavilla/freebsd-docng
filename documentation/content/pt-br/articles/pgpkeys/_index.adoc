@@ -21,7 +21,7 @@ releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/pgpkeys/article.xml 52271 
 :example-caption: Exemplo
 
 include::shared/authors.adoc[]
-include::shared/pt_BR/teams.adoc[lines=21..-1]
+include::shared/pt-br/teams.adoc[lines=21..-1]
 
 '''
 

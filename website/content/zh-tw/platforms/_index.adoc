@@ -3,7 +3,7 @@ title: 平台
 sidenav: developers
 ---
 
-include::shared/zh_TW/urls.adoc[]
+include::shared/zh-tw/urls.adoc[]
 
 = 平台
 

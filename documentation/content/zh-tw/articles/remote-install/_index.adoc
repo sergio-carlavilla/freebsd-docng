@@ -26,7 +26,7 @@ trademarks: ["freebsd", "general"]
 :example-caption: 例 
 
 include::shared/authors.adoc[]
-include::shared/zh_TW/urls.adoc[]
+include::shared/zh-tw/urls.adoc[]
 
 [.abstract-title]
 摘要

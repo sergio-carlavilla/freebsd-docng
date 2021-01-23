@@ -22,8 +22,8 @@ trademarks: ["freebsd", "ieee", "general"]
 :figure-caption: 图
 :example-caption: 例
 
-include::shared/zh_CN/mailing-lists.adoc[]
-include::shared/zh_CN/urls.adoc[]
+include::shared/zh-cn/mailing-lists.adoc[]
+include::shared/zh-cn/urls.adoc[]
 
 [.abstract-title]
 摘要

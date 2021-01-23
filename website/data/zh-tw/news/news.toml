@@ -25,7 +25,7 @@ description = "<p><a href=\"https://www.FreeBSD.org/releases/12.2R/announce.html
 [[news]]
 date = "2020-10-21"
 title = "2020 第三季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2020-07-2020-09.html\"> 2020 第三季開發進度報告</a> 35 則條目現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2020-07-2020-09.html\"> 2020 第三季開發進度報告</a> 35 則條目現已發布。</p>"
 
 [[news]]
 date = "2020-10-17"
@@ -72,7 +72,7 @@ description = "新任 committer: <a href=\"mailto:rew@FreeBSD.org\">Robert Wing<
 [[news]]
 date = "2020-07-15"
 title = "2020 第二季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2020-04-2020-06.html\"> 2020 第二季開發進度報告</a>51則條目現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2020-04-2020-06.html\"> 2020 第二季開發進度報告</a>51則條目現已發布。</p>"
 
 [[news]]
 date = "2020-07-01"
@@ -126,7 +126,7 @@ description = "<p> FreeBSD 11.4 的第一個 BETA 版本現已發布。 用於am
 [[news]]
 date = "2020-04-12"
 title = "2020 第一季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2020-01-2020-03.html\"> 2020 第一季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2020-01-2020-03.html\"> 2020 第一季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2020-04-06"
@@ -159,7 +159,7 @@ description = "新任 committer: <a href=\"mailto:alfredo@FreeBSD.org\">Alfredo 
 [[news]]
 date = "2020-01-27"
 title = "2019 第四季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2019-10-2019-12.html\"> 2019 第四季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2019-10-2019-12.html\"> 2019 第四季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2020-01-21"
@@ -177,7 +177,7 @@ description = "新任 committer: <a href=\"mailto:lbartoletti@FreeBSD.org\">Loï
 [[news]]
 date = "2019-11-25"
 title = "2019 第三季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2019-07-2019-09.html\"> 2019 第三季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2019-07-2019-09.html\"> 2019 第三季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2019-11-04"
@@ -232,7 +232,7 @@ description = "新任 committer: <a href=\"mailto:fox@FreeBSD.org\">Santhosh Raj
 [[news]]
 date = "2019-08-25"
 title = "2019 第二季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2019-04-2019-06.html\"> 2019 第二季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2019-04-2019-06.html\"> 2019 第二季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2019-07-16"
@@ -267,7 +267,7 @@ description = "<p> FreeBSD 11.3 的第三個 BETA 版本現已發布。 用於am
 [[news]]
 date = "2019-06-04"
 title = "2019 第一季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2019-01-2019-03.html\"> 2019 第一季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2019-01-2019-03.html\"> 2019 第一季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2019-05-31"
@@ -329,7 +329,7 @@ description = "新任 committer: <a href=\"mailto:johalun@FreeBSD.org\">Johannes
 [[news]]
 date = "2018-12-24"
 title = "2018 第一至三季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2018-01-2018-09.html\"> 2018 第一至三季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2018-01-2018-09.html\"> 2018 第一至三季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2018-12-11"
@@ -535,7 +535,7 @@ description = "<p>關於 <a href=\"https://meltdownattack.com/\">Meltdown</a> �
 [[news]]
 date = "2017-12-25"
 title = "2017 第三季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2017-07-2017-09.html\"> 2017 第三季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2017-07-2017-09.html\"> 2017 第三季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2017-11-11"
@@ -557,7 +557,7 @@ description = "<p><a href=\"https://www.FreeBSD.org/releases/10.4R/announce.html
 [[news]]
 date = "2017-09-27"
 title = "2017 第二季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2017-04-2017-06.html\"> 2017 第二季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2017-04-2017-06.html\"> 2017 第二季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2017-09-23"
@@ -691,7 +691,7 @@ description = "新任 committer: <a href=\"mailto:joneum@FreeBSD.org\">Jochen Ne
 [[news]]
 date = "2017-05-15"
 title = "2017 第一季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2017-01-2017-03.html\"> 2017 第一季開發進度報告</a>現已發布。</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2017-01-2017-03.html\"> 2017 第一季開發進度報告</a>現已發布。</p>"
 
 [[news]]
 date = "2017-05-03"
@@ -721,7 +721,7 @@ description = "<p>FreeBSD 計畫開心地宣佈參加 Google 的 2017 年 Summer
 [[news]]
 date = "2017-02-13"
 title = "2016 第四季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2016-10-2016-12.html\"> 2016 第四季開發進度報告</a>現已發布</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2016-10-2016-12.html\"> 2016 第四季開發進度報告</a>現已發布</p>"
 
 [[news]]
 date = "2017-02-10"
@@ -766,7 +766,7 @@ description = "新任 committer: <a href=\"mailto:misha@FreeBSD.org\">Mikhail Pc
 [[news]]
 date = "2016-11-13"
 title = "2016 第三季開發進度報告發布"
-description = "<p><a href=\"https://www.FreeBSD.org/news/status/report-2016-07-2016-09.html\"> 2016 第三季開發進度報告</a>現已發布</p>"
+description = "<p><a href=\"https://www.FreeBSD.org/status/report-2016-07-2016-09.html\"> 2016 第三季開發進度報告</a>現已發布</p>"
 
 [[news]]
 date = "2016-11-02"
@@ -973,7 +973,7 @@ description = "<p>在最新一期 <a href=\"http://bsdtalk.blogspot.com/\">bsdta
 [[news]]
 date = "2006-07-12"
 title = "2006 年第二季度開發進度報告發布了"
-description = "<p>2006 年第二季度的開發進度報告 <a href=\"https://www.FreeBSD.org/news/status/report-apr-2006-jun-2006.html\">現已發布</a>， 其中介紹了 39 項內容。</p>"
+description = "<p>2006 年第二季度的開發進度報告 <a href=\"https://www.FreeBSD.org/status/report-apr-2006-jun-2006.html\">現已發布</a>， 其中介紹了 39 項內容。</p>"
 
 [[news]]
 date = "2006-07-05"
@@ -1087,7 +1087,7 @@ description = "<p>在最新的 <a href=\"http://bsdtalk.blogspot.com/\">bsdtalk<
 [[news]]
 date = "2006-04-14"
 title = "2006 年一至三月進度報告"
-description = "<p>現在可以訪問包含 29 個計畫的 2006 年一至三月 <a href=\"https://www.FreeBSD.org/news/status/report-jan-2006-mar-2006.html\">進度報告</a> 了。</p>"
+description = "<p>現在可以訪問包含 29 個計畫的 2006 年一至三月 <a href=\"https://www.FreeBSD.org/status/report-jan-2006-mar-2006.html\">進度報告</a> 了。</p>"
 
 [[news]]
 date = "2006-04-14"
@@ -1166,7 +1166,7 @@ description = "commit 權限提升： <a href=\"mailto:cperciva@FreeBSD.org\">Co
 [[news]]
 date = "2006-01-26"
 title = "2005 年十至十二月進度報告"
-description = "<p>現在可以訪問包含 26 個計畫的 2005 年十至十二月 <a href=\"https://www.FreeBSD.org/news/status/report-oct-2005-dec-2005.html\">進度報告</a> 了。</p>"
+description = "<p>現在可以訪問包含 26 個計畫的 2005 年十至十二月 <a href=\"https://www.FreeBSD.org/status/report-oct-2005-dec-2005.html\">進度報告</a> 了。</p>"
 
 [[news]]
 date = "2006-01-19"
@@ -1229,7 +1229,7 @@ description = "<p>一篇新的文章， <a href=\"https://www.FreeBSD.org/doc/en
 [[news]]
 date = "2005-11-18"
 title = "2005 年七月至十月進度報告"
-description = "<p>2005 年七月至十月的進度報告 <a href=\"https://www.FreeBSD.org/news/status/report-july-2005-oct-2005.html\">現在發布了</a>， 其中包括了 37 項內容。</p>"
+description = "<p>2005 年七月至十月的進度報告 <a href=\"https://www.FreeBSD.org/status/report-july-2005-oct-2005.html\">現在發布了</a>， 其中包括了 37 項內容。</p>"
 
 [[news]]
 date = "2005-11-05"
@@ -1336,7 +1336,7 @@ description = "<p>Dru Lavigne 剛剛發布了 <a href=\"https://www.FreeBSD.org/
 [[news]]
 date = "2005-07-22"
 title = "2005 年 三月至六月進度報告"
-description = "<p>2005 三月至六月的進度報告 <a href=\"https://www.FreeBSD.org/news/status/report-mar-2005-june-2005.html\">現已發布</a>， 其中包括了 43 個計畫。</p>"
+description = "<p>2005 三月至六月的進度報告 <a href=\"https://www.FreeBSD.org/status/report-mar-2005-june-2005.html\">現已發布</a>， 其中包括了 43 個計畫。</p>"
 
 [[news]]
 date = "2005-07-20"
@@ -1431,7 +1431,7 @@ description = "<p>packet filter (pf) 原始碼已經被更新為即將發布的 
 [[news]]
 date = "2005-04-21"
 title = "2005 年第一季度開發進度報告"
-description = "<p>2005 年第一季度開發進度報告共有 39 個條目，可以在 <a href=\"https://www.FreeBSD.org/news/status/report-jan-2005-mar-2005.html\">這裡</a>訪問。</p>"
+description = "<p>2005 年第一季度開發進度報告共有 39 個條目，可以在 <a href=\"https://www.FreeBSD.org/status/report-jan-2005-mar-2005.html\">這裡</a>訪問。</p>"
 
 [[news]]
 date = "2005-04-18"
@@ -1519,7 +1519,7 @@ description = "<p><a href=\"https://www.FreeBSD.org/releases/4.11R/announce.html
 [[news]]
 date = "2005-01-17"
 title = "2004 年 下半年度計畫狀況報告"
-description = "<p>您 <a href=\"https://www.FreeBSD.org/news/status/report-july-2004-dec-2004.html\">現在</a> 就可以從包含了 44 個條目的狀況報告，來了解去年七月到十二月的計畫發展情況。</p>"
+description = "<p>您 <a href=\"https://www.FreeBSD.org/status/report-july-2004-dec-2004.html\">現在</a> 就可以從包含了 44 個條目的狀況報告，來了解去年七月到十二月的計畫發展情況。</p>"
 
 [[news]]
 date = "2005-01-17"
@@ -1654,7 +1654,7 @@ description = "新增 committer： <a href=\"mailto:bz@FreeBSD.org\">Bjoern A. Z
 [[news]]
 date = "2004-07-26"
 title = "2004 年五月至六月進度報告發布"
-description = "<p>五月至六月的進度報告發布了； 請參見 <a href=\"https://www.FreeBSD.org/news/status/status.html\">進度報告 Web 頁</a> 了解具體資訊。</p>"
+description = "<p>五月至六月的進度報告發布了； 請參見 <a href=\"https://www.FreeBSD.org/status/status.html\">進度報告 Web 頁</a> 了解具體資訊。</p>"
 
 [[news]]
 date = "2004-07-24"
@@ -1689,7 +1689,7 @@ description = "新增 committer： <a href=\"mailto:metal@FreeBSD.org\">Koichi S
 [[news]]
 date = "2004-05-15"
 title = "2004 年 3、4 月開發進度報告"
-description = "<p> 3、4 月開發進度報告，更多資訊請看 <a href=\"https://www.FreeBSD.org/news/status/status.html\">web狀態頁面</a>。 </p>"
+description = "<p> 3、4 月開發進度報告，更多資訊請看 <a href=\"https://www.FreeBSD.org/status/status.html\">web狀態頁面</a>。 </p>"
 
 [[news]]
 date = "2004-05-04"
@@ -1731,7 +1731,7 @@ description = "新增 committer： <a href=\"mailto:marks@FreeBSD.org\">Mark San
 [[news]]
 date = "2004-03-17"
 title = "2004 年一月至二月進度報告"
-description = "<p>一月至二月的進度報告現在發布了； 請參見 <a href=\"https://www.FreeBSD.org/news/status/status.html\">進度報告網站</a> 了解更多資訊。</p>"
+description = "<p>一月至二月的進度報告現在發布了； 請參見 <a href=\"https://www.FreeBSD.org/status/status.html\">進度報告網站</a> 了解更多資訊。</p>"
 
 [[news]]
 date = "2004-03-13"
@@ -1781,7 +1781,7 @@ description = "新增 committer： <a href=\"mailto:pjd@FreeBSD.org\">Pawel Jaku
 [[news]]
 date = "2004-01-28"
 title = "2003 年十月至十二月開發進度報告"
-description = "<p>剛剛發表了十月至十二月的開發進度報告； 請參見 <a href=\"https://www.FreeBSD.org/news/status/status.html\">進度報告網站</a> 以了解進一步的資訊。</p>"
+description = "<p>剛剛發表了十月至十二月的開發進度報告； 請參見 <a href=\"https://www.FreeBSD.org/status/status.html\">進度報告網站</a> 以了解進一步的資訊。</p>"
 
 [[news]]
 date = "2004-01-21"

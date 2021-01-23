@@ -19,41 +19,41 @@ Ces rapports de statuts peuvent être reproduits en intégralité ou en partie �
 
 == 2006
 
-* link:https://www.FreeBSD.org/news/status/report-jan-2006-mar-2006/[Janvier 2006 - Mars 2006]
+* link:https://www.FreeBSD.org/status/report-jan-2006-mar-2006/[Janvier 2006 - Mars 2006]
 
 == 2005
 
-* link:https://www.FreeBSD.org/news/status/report-oct-2005-dec-2005/[Octobre 2005 - Décembre 2005]
-* link:https://www.FreeBSD.org/news/status/report-july-2005-oct-2005/[Juillet 2005 - Octobre 2005]
-* link:https://www.FreeBSD.org/news/status/report-mar-2005-june-2005/[Mars 2005 - Juin 2005]
-* link:https://www.FreeBSD.org/news/status/report-jan-2005-mar-2005/[Janvier 2005 - Mars 2005]
+* link:https://www.FreeBSD.org/status/report-oct-2005-dec-2005/[Octobre 2005 - Décembre 2005]
+* link:https://www.FreeBSD.org/status/report-july-2005-oct-2005/[Juillet 2005 - Octobre 2005]
+* link:https://www.FreeBSD.org/status/report-mar-2005-june-2005/[Mars 2005 - Juin 2005]
+* link:https://www.FreeBSD.org/status/report-jan-2005-mar-2005/[Janvier 2005 - Mars 2005]
 
 == 2004
 
-* link:https://www.FreeBSD.org/news/status/report-july-2004-dec-2004/[Juillet 2004 - Décembre 2004]
-* link:https://www.FreeBSD.org/news/status/report-may-2004-june-2004/[Mai 2004 - Juin 2004]
-* link:https://www.FreeBSD.org/news/status/report-mar-2004-apr-2004/[Mars 2004 - Avril 2004]
-* link:https://www.FreeBSD.org/news/status/report-jan-2004-feb-2004/[Janvier 2004 - Février 2004]
+* link:https://www.FreeBSD.org/status/report-july-2004-dec-2004/[Juillet 2004 - Décembre 2004]
+* link:https://www.FreeBSD.org/status/report-may-2004-june-2004/[Mai 2004 - Juin 2004]
+* link:https://www.FreeBSD.org/status/report-mar-2004-apr-2004/[Mars 2004 - Avril 2004]
+* link:https://www.FreeBSD.org/status/report-jan-2004-feb-2004/[Janvier 2004 - Février 2004]
 
 == 2003
 
-* link:https://www.FreeBSD.org/news/status/report-oct-2003-dec-2003/[Octobre 2003 - Décembre 2003]
-* link:https://www.FreeBSD.org/news/status/report-mar-2003-sep-2003/[Mars 2003 - Septembre 2003]
-* link:https://www.FreeBSD.org/news/status/report-jan-2003-feb-2003/[Janvier 2003 - Février 2003]
+* link:https://www.FreeBSD.org/status/report-oct-2003-dec-2003/[Octobre 2003 - Décembre 2003]
+* link:https://www.FreeBSD.org/status/report-mar-2003-sep-2003/[Mars 2003 - Septembre 2003]
+* link:https://www.FreeBSD.org/status/report-jan-2003-feb-2003/[Janvier 2003 - Février 2003]
 
 == 2002
 
-* link:https://www.FreeBSD.org/news/status/report-nov-2002-dec-2002/[Novembre 2002 - Décembre 2002]
-* link:https://www.FreeBSD.org/news/status/report-sept-2002-oct-2002/[Septembre 2002 - Octobre 2002]
+* link:https://www.FreeBSD.org/status/report-nov-2002-dec-2002/[Novembre 2002 - Décembre 2002]
+* link:https://www.FreeBSD.org/status/report-sept-2002-oct-2002/[Septembre 2002 - Octobre 2002]
 * link:report-july-2002-aug-2002[Juillet 2002 - Août 2002]
-* link:https://www.FreeBSD.org/news/status/report-may-2002-june-2002/[Mai 2002 - Juin 2002]
-* link:https://www.FreeBSD.org/news/status/report-feb-2002-apr-2002/[Février 2002 - Avril 2002]
-* link:https://www.FreeBSD.org/news/status/report-dec-2001-jan-2002/[Décembre 2001 - Janvier 2002]
+* link:https://www.FreeBSD.org/status/report-may-2002-june-2002/[Mai 2002 - Juin 2002]
+* link:https://www.FreeBSD.org/status/report-feb-2002-apr-2002/[Février 2002 - Avril 2002]
+* link:https://www.FreeBSD.org/status/report-dec-2001-jan-2002/[Décembre 2001 - Janvier 2002]
 
 == 2001
 
-* link:https://www.FreeBSD.org/news/status/report-november-2001/[Novembre 2001]
-* link:https://www.FreeBSD.org/news/status/report-september-2001/[Septembre 2001]
-* link:https://www.FreeBSD.org/news/status/report-august-2001/[Août 2001]
-* link:https://www.FreeBSD.org/news/status/report-july-2001/[Juillet 2001]
-* link:https://www.FreeBSD.org/news/status/report-june-2001/[Juin 2001]
+* link:https://www.FreeBSD.org/status/report-november-2001/[Novembre 2001]
+* link:https://www.FreeBSD.org/status/report-september-2001/[Septembre 2001]
+* link:https://www.FreeBSD.org/status/report-august-2001/[Août 2001]
+* link:https://www.FreeBSD.org/status/report-july-2001/[Juillet 2001]
+* link:https://www.FreeBSD.org/status/report-june-2001/[Juin 2001]

@@ -4,8 +4,7 @@ authors:
   - author: Projeto de Documentação do FreeBSD
 copyright: 2000-2020 The FreeBSD Documentation Project
 releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/books/porters-handbook/book.xml 54410 2020-08-05 22:13:01Z dbaio $" 
-trademarks: ["freebsd", "sun", "unix", "general"]
-next: books/porters-handbook/porting-why
+trademarks: ["freebsd", "sun", "unix", "general"] 
 ---
 
 = FreeBSD Porter's Handbook
@@ -19,37 +18,29 @@ next: books/porters-handbook/porting-why
 :sectnums:
 :sectnumlevels: 6
 :partnums:
+:part-signifier: Parte
+:chapter-signifier: Capítulo
 :source-highlighter: rouge
 :experimental:
 :skip-front-matter:
-:toc-title: Índice
-:part-signifier: Parte
-:chapter-signifier: Capítulo
-:appendix-caption: Apêndice
-:table-caption: Tabela
-:figure-caption: Figura
-:example-caption: Exemplo
-
-:freebsd-version: __FreeBSD_version
-:freebsd: __FreeBSD__
 
 ifeval::["{backend}" == "html5"]
 include::shared/mirrors.adoc[]
 include::shared/authors.adoc[]
 include::shared/releases.adoc[]
-include::shared/pt_BR/mailing-lists.adoc[]
-include::shared/pt_BR/teams.adoc[]
-include::shared/pt_BR/urls.adoc[]
-:chapters-path: content/pt_ BR/books/porters-handbook/
+include::shared/pt-br/mailing-lists.adoc[]
+include::shared/pt-br/teams.adoc[]
+include::shared/pt-br/urls.adoc[]
+:chapters-path: content/pt-br/books/porters-handbook/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]
 include::../../../../shared/mirrors.adoc[]
 include::../../../../shared/authors.adoc[]
 include::../../../../shared/releases.adoc[]
-include::../../../../shared/pt_BR/mailing-lists.adoc[]
-include::../../../../shared/pt_BR/teams.adoc[]
-include::../../../../shared/pt_BR/urls.adoc[]
+include::../../../../shared/pt-br/mailing-lists.adoc[]
+include::../../../../shared/pt-br/teams.adoc[]
+include::../../../../shared/pt-br/urls.adoc[]
 :chapters-path:
 endif::[]
 
@@ -57,11 +48,31 @@ ifeval::["{backend}" == "epub3"]
 include::../../../../shared/mirrors.adoc[]
 include::../../../../shared/authors.adoc[]
 include::../../../../shared/releases.adoc[]
-include::../../../../shared/pt_BR/mailing-lists.adoc[]
-include::../../../../shared/pt_BR/teams.adoc[]
-include::../../../../shared/pt_BR/urls.adoc[]
+include::../../../../shared/pt-br/mailing-lists.adoc[]
+include::../../../../shared/pt-br/teams.adoc[]
+include::../../../../shared/pt-br/urls.adoc[]
 :chapters-path:
 endif::[]
 
 '''
 
+toc::[]
+
+include::{chapters-path}porting-why/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}new-port/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}quick-porting/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}slow-porting/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}makefiles/chapter.adoc[leveloffset=+1, lines=7..25;36..-1]
+include::{chapters-path}special/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}flavors/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}plist/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}pkg-files/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}testing/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}upgrading/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}security/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}porting-dads/chapter.adoc[leveloffset=+1, lines=7..26;37..-1]
+include::{chapters-path}porting-samplem/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}order/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}keeping-up/chapter.adoc[leveloffset=+1, lines=7..24;35..-1]
+include::{chapters-path}uses/chapter.adoc[leveloffset=+1, lines=7..25;36..-1]
+include::{chapters-path}versions/chapter.adoc[leveloffset=+1, lines=6..23;34..-1]

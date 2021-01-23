@@ -14,7 +14,7 @@ image:../../gifs/news.jpg[FreeBSD News]
 * *link:newsflash/[最新ニュース]*: 新しいリリース、 ドライバ、コミッタ、セキュリティアナウンスなど。
 * *http://freebsdfoundation.org/press/[Foundation Press Releases]*: FreeBSD Foundation によるプレスリリース (link:../press/pressreleases/[2005 年以前のプレスリリースのアーカイブ] もご覧ください)。
 * *link:../press/[報道記事]*: 一般の報道に登場した FreeBSD に関する記事。
-* *link:https://www.FreeBSD.org/news/status/[Status reports]*: FreeBSD 開発進捗レポート。
+* *link:https://www.FreeBSD.org/status/[Status reports]*: FreeBSD 開発進捗レポート。
 
 == ポッドキャスト
 

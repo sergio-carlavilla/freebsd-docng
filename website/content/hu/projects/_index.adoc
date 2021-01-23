@@ -12,7 +12,7 @@ A FreeBSD fõ fejlesztési iránya mellett rengeteg fejlesztõ dolgozik azon az 
 
 Ha netalán úgy éreznénk, hogy egy projekt hiányzik a listából, küldjünk egy URL-t és egy rövid (3-10 soros) leírást a link:../mailto/[www@FreeBSD.org] levelezési listára.
 
-Emellett néhány itt szereplõ projekt rendszeresen nyilvánosságra hoz helyzetjelentéseket, amelyek megtekinthetõek a link:https://www.FreeBSD.org/news/status/[helyzetjelentések] oldalán.
+Emellett néhány itt szereplõ projekt rendszeresen nyilvánosságra hoz helyzetjelentéseket, amelyek megtekinthetõek a link:https://www.FreeBSD.org/status/[helyzetjelentések] oldalán.
 
 * <<documentation,Dokumentáció>>
 * link:../advocacy/[Képviselet]

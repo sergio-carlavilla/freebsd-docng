@@ -25,8 +25,8 @@ trademarks: ["freebsd", "cvsup", "ibm", "intel", "sparc", "sun", "general"]
 :example-caption: 例 
 
 include::shared/en/teams.adoc[]
-include::shared/zh_TW/mailing-lists.adoc[]
-include::shared/zh_TW/urls.adoc[]
+include::shared/zh-tw/mailing-lists.adoc[]
+include::shared/zh-tw/urls.adoc[]
 
 [.abstract-title]
 摘要

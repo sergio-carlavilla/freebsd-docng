@@ -29,8 +29,8 @@
                   {{ .description }}
                 </description>
               {{ end }}
-              <link>{{ absLangURL ($.Site.BaseURL) }}press/#story{{ dateFormat "2006-01" .date }}:{{ $pressCounter }}</link>
-              <guid>{{ absLangURL ($.Site.BaseURL) }}press/#story{{ dateFormat "2006-01" .date }}:{{ $pressCounter }}</guid>
+              <link>{{ absLangURL ($.Site.BaseURL) }}press/{{ dateFormat "2006-01" .date }}:{{ $pressCounter }}</link>
+              <guid>{{ absLangURL ($.Site.BaseURL) }}press/{{ dateFormat "2006-01" .date }}:{{ $pressCounter }}</guid>
               <pubDate>{{ dateFormat "2006-01-02" .date }}</pubDate>
             </item>
           {{ end }}

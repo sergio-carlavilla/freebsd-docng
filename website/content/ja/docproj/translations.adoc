@@ -73,7 +73,7 @@ https://www.freebsd.org/doc/zh_CN/books/handbook[ハンドブック]
 [[chinese-tw]]
 == FreeBSD 繁体字中国語ドキュメンテーションプロジェクト
 
-*Web*: https://www.freebsd.org/zh_TW/ +
+*Web*: https://www.freebsd.org/zh-tw/ +
 *E-Mail*: chinsan@FreeBSD.org +
 
 _利用できる USENET ネットグループ_::
@@ -83,17 +83,17 @@ http://www.ptt.cc/bbs/FreeBSD/index.html[PTT WebBBS] +
 http://groups.google.com.tw/group/tw.bbs.comp.386bsd?lnk=sg[Google Group] +
 および *tw.bbs.comp.386bsd* を読むことのできるその他ニュースリーダ。
 _利用できるドキュメント_::
-https://www.FreeBSD.org/doc/zh_TW/books/faq/[FAQ]
+https://www.FreeBSD.org/doc/zh-tw/books/faq/[FAQ]
 _現在作業しているドキュメント_::
 FreeBSD ウェブサイト
 +
-https://www.FreeBSD.org/doc/zh_TW/books/handbook/[ハンドブック]
+https://www.FreeBSD.org/doc/zh-tw/books/handbook/[ハンドブック]
 +
-https://www.FreeBSD.org/doc/zh_TW/books/developers-handbook[開発者のためのハンドブック]
+https://www.FreeBSD.org/doc/zh-tw/books/developers-handbook[開発者のためのハンドブック]
 +
-https://www.FreeBSD.org/doc/zh_TW/books/porters-handbook[port 開発者のためのハンドブック]
+https://www.FreeBSD.org/doc/zh-tw/books/porters-handbook[port 開発者のためのハンドブック]
 +
-https://www.FreeBSD.org/doc/zh_TW/books/fdp-primer[新しい貢献者のための FreeBSD ドキュメンテーションプロジェクト入門]
+https://www.FreeBSD.org/doc/zh-tw/books/fdp-primer[新しい貢献者のための FreeBSD ドキュメンテーションプロジェクト入門]
 
 [[dutch]]
 == FreeBSD オランダ語ドキュメンテーションプロジェクト

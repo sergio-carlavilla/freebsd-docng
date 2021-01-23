@@ -5,18 +5,26 @@ authors:
 copyright: Copyright © 2000-2006, 2012-2013 The FreeBSD Documentation Project
 releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "apple", "microsoft", "unix", "general"] 
-next: books/arch-handbook/parti
 ---
 
 = FreeBSD Architecture Handbook
 :doctype: book
 :toc: macro
-:toclevels: 1
+:toclevels: 2
 :icons: font
+:xrefstyle: basic
+:relfileprefix: ../
+:outfilesuffix:
 :sectnums:
 :sectnumlevels: 6
+:partnums:
+:chapter-signifier: Chapter
+:part-signifier: Part
 :source-highlighter: rouge
 :experimental:
+:skip-front-matter:
+:book: true
+:pdf: false
 
 ifeval::["{backend}" == "html5"]
 include::shared/mirrors.adoc[]
@@ -57,4 +65,36 @@ The latest version of this document is always available from the link:https://ww
 
 '''
 
-include::content/en/books/arch-handbook/toc.adoc[]
+toc::[]
+
+// Section one
+[[kernel]]
+= Kernel
+
+include::{chapters-path}boot/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}locking/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}kobj/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}jail/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}sysinit/chapter.adoc[leveloffset=+1], lines=7..21;32..-1]
+include::{chapters-path}mac/chapter.adoc[leveloffset=+1, lines=12..26;37..-1]
+include::{chapters-path}vm/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}smp/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+
+// Section two
+[[devicedrivers]]
+= Device Drivers
+
+include::{chapters-path}driverbasics/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}isa/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}pci/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}scsi/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}usb/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}newbus/chapter.adoc[leveloffset=+1, lines=12..26;37..-1]
+include::{chapters-path}sound/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+include::{chapters-path}pccard/chapter.adoc[leveloffset=+1, lines=7..21;32..-1]
+
+// Section three
+[[appendices]]
+= Appendices
+
+include::{chapters-path}bibliography/chapter.adoc[leveloffset=+1, lines=6..19;28..-1]

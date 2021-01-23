@@ -3,7 +3,7 @@ title: "FreeBSD 促进项目"
 sidenav: about
 ---
 
-include::shared/zh_CN/urls.adoc[]
+include::shared/zh-cn/urls.adoc[]
 
 = FreeBSD 促进项目
 

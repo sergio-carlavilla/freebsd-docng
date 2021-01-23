@@ -4,7 +4,7 @@
 [[news]]
 date = "2020-10-21"
 title = "Statusreport Juli-September 2020"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2020-07-2020-09.html\">Statusreport Juli bis September 2020</a> mit 35 Einträgen ist nun verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2020-07-2020-09.html\">Statusreport Juli bis September 2020</a> mit 35 Einträgen ist nun verfügbar.</p>"
 
 [[news]]
 date = "2020-10-17"
@@ -51,7 +51,7 @@ description = "Neuer Committer: <a href=\"mailto:rew@FreeBSD.org\">Robert Wing</
 [[news]]
 date = "2020-07-15"
 title = "Statusreport April-Juni 2020"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2020-04-2020-06.html\">Statusreport April-Juni 2020</a> mit 51 Einträgen ist nun verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2020-04-2020-06.html\">Statusreport April-Juni 2020</a> mit 51 Einträgen ist nun verfügbar.</p>"
 
 [[news]]
 date = "2020-07-01"
@@ -105,7 +105,7 @@ description = "<p>Die erste BETA-Version aus dem FreeBSD 11.4-Releasezyklus ist 
 [[news]]
 date = "2020-04-12"
 title = "Statusreport Januar-März 2020"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2020-01-2020-03.html\">Statusreport Januar-März 2020</a> ist verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2020-01-2020-03.html\">Statusreport Januar-März 2020</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2020-04-06"
@@ -138,7 +138,7 @@ description = "Neuer Committer: <a href=\"mailto:alfredo@FreeBSD.org\">Alfredo D
 [[news]]
 date = "2020-01-27"
 title = "Statusreport Oktober-Dezember 2019"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2019-10-2019-12.html\">Statusreport Oktober bis Dezember 2019</a> ist nun verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2019-10-2019-12.html\">Statusreport Oktober bis Dezember 2019</a> ist nun verfügbar.</p>"
 
 [[news]]
 date = "2020-01-21"
@@ -156,7 +156,7 @@ description = "Neuer Committer: <a href=\"mailto:lbartoletti@FreeBSD.org\">Loïc
 [[news]]
 date = "2019-11-25"
 title = "Statusreport Juli-September 2019"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2019-07-2019-09.html\">Statusreport Juli-September 2019</a> ist verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2019-07-2019-09.html\">Statusreport Juli-September 2019</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2019-11-04"
@@ -211,7 +211,7 @@ description = "Neuer Committer: <a href=\"mailto:fox@FreeBSD.org\">Santhosh Raju
 [[news]]
 date = "2019-08-25"
 title = "Statusreport April-Juni 2019"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2019-04-2019-06.html\">Statusreport April-Juni 2019</a> ist verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2019-04-2019-06.html\">Statusreport April-Juni 2019</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2019-07-16"
@@ -246,7 +246,7 @@ description = "<p>Die dritte BETA-Version aus dem FreeBSD 11.3-Releasezyklus ist
 [[news]]
 date = "2019-06-04"
 title = "Statusreport Januar-März 2019"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2019-01-2019-03.html\">Statusreport Januar bis März 2019</a> ist verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2019-01-2019-03.html\">Statusreport Januar bis März 2019</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2019-05-31"
@@ -316,7 +316,7 @@ description = "Neuer Committer: <a href=\"mailto:johalun@FreeBSD.org\">Johannes 
 [[news]]
 date = "2018-12-24"
 title = "Statusreport Januar-September 2018"
-description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/news/status/report-2018-01-2018-09.html\">Januar bis September 2018</a> ist verfügbar.</p>"
+description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/status/report-2018-01-2018-09.html\">Januar bis September 2018</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2018-12-11"
@@ -530,7 +530,7 @@ description = "<p>FreeBSD wurde Ende Dezember 2017 über die <a href=\"https://m
 [[news]]
 date = "2017-12-25"
 title = "Statusreport Juli-September 2017"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2017-07-2017-09.html\"> Statusreport Juli-September 2017</a> ist verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2017-07-2017-09.html\"> Statusreport Juli-September 2017</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2017-11-11"
@@ -552,7 +552,7 @@ description = "<p><a href=\"https://www.FreeBSD.org/releases/10.4R/announce.html
 [[news]]
 date = "2017-09-27"
 title = "Statusreport April-Juni 2017"
-description = "<p>Der Statusreport für die Monate April bis Juni 2017 ist <a href=\"https://www.FreeBSD.org/news/status/report-2017-04-2017-06.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate April bis Juni 2017 ist <a href=\"https://www.FreeBSD.org/status/report-2017-04-2017-06.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2017-09-23"
@@ -682,7 +682,7 @@ description = "Neuer Committer: <a href=\"mailto:joneum@FreeBSD.org\">Jochen Neu
 [[news]]
 date = "2017-05-15"
 title = "Statusreport Januar - März 2017"
-description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/news/status/report-2017-01-2017-03.html\"> Januar bis März 2017</a> ist verfügbar.</p>"
+description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/status/report-2017-01-2017-03.html\"> Januar bis März 2017</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2017-05-03"
@@ -712,7 +712,7 @@ description = "<p>Das FreeBSD Project freut sich, bekanntgeben zu dürfen, dass 
 [[news]]
 date = "2017-02-13"
 title = "Statusreport Oktober-Dezember 2016"
-description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/news/status/report-2016-10-2016-12.html\"> Oktober bis Dezember 2016</a> ist verfügbar.</p>"
+description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/status/report-2016-10-2016-12.html\"> Oktober bis Dezember 2016</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2017-02-10"
@@ -753,7 +753,7 @@ description = "Neuer Committer: <a href=\"mailto:misha@FreeBSD.org\">Mikhail Pch
 [[news]]
 date = "2016-11-13"
 title = "Statusreport Juli-September 2016"
-description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/news/status/report-2016-07-2016-09.html\"> Juli bis September 2016</a> ist verfügbar.</p>"
+description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/status/report-2016-07-2016-09.html\"> Juli bis September 2016</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2016-11-02"
@@ -825,7 +825,7 @@ description = "<p>Die dritte BETA-Version aus dem FreeBSD 11.0-Releasezyklus ist
 [[news]]
 date = "2016-07-27"
 title = "Statusreport April-Juni 2016"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2016-04-2016-06.html\"> Statusreport April-Juni 2016</a> ist verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2016-04-2016-06.html\"> Statusreport April-Juni 2016</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2016-07-24"
@@ -885,7 +885,7 @@ description = "Neuer Committer: <a href=\"mailto:woodsb02@FreeBSD.org\">Ben Wood
 [[news]]
 date = "2016-05-01"
 title = "Statusreport Januar-März 2016"
-description = "<p>Der Statusreport <a href=\"https://www.FreeBSD.org/news/status/report-2016-01-2016-03.html\">Januar-März 2016</a> ist verfügbar.</p>"
+description = "<p>Der Statusreport <a href=\"https://www.FreeBSD.org/status/report-2016-01-2016-03.html\">Januar-März 2016</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2016-04-23"
@@ -964,7 +964,7 @@ description = "Neuer Committer: <a href=\"mailto:olivier@FreeBSD.org\">Olivier C
 [[news]]
 date = "2016-02-01"
 title = "Statusreport Oktober-Dezember 2015"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2015-10-2015-12.html\">Statusreport für Oktober-Dezember 2015</a> ist ab sofort verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2015-10-2015-12.html\">Statusreport für Oktober-Dezember 2015</a> ist ab sofort verfügbar.</p>"
 
 [[news]]
 date = "2016-01-18"
@@ -998,7 +998,7 @@ description = "Neuer Committer: <a href=\"mailto:jtl@FreeBSD.org\">Jonathan T. L
 [[news]]
 date = "2015-10-25"
 title = "Statusreport Juli-September 2015"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2015-07-2015-09.html\">Statusreport Juli-September 2015</a> ist verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2015-07-2015-09.html\">Statusreport Juli-September 2015</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2015-10-23"
@@ -1042,7 +1042,7 @@ description = "Neuer Committer: <a href=\"mailto:junovitch@FreeBSD.org\">Jason U
 [[news]]
 date = "2015-07-26"
 title = "Statusreport April-Juni 2015"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2015-04-2015-06.html\">Statusreport April-Juni 2015</a> ist ab sofort verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2015-04-2015-06.html\">Statusreport April-Juni 2015</a> ist ab sofort verfügbar.</p>"
 
 [[news]]
 date = "2015-07-24"
@@ -1075,7 +1075,7 @@ description = "Neuer Committer: <a href=\"mailto:brnrd@FreeBSD.org\">Bernard Spi
 [[news]]
 date = "2015-04-30"
 title = "Statusreport Januar-März 2015"
-description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/news/status/report-2015-01-2015-03.html\">Januar-März 2015</a> ist verfügbar.</p>"
+description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/status/report-2015-01-2015-03.html\">Januar-März 2015</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2015-04-27"
@@ -1116,7 +1116,7 @@ description = "Neuer Committer: <a href=\"mailto:jbeich@FreeBSD.org\">Jan Beich<
 [[news]]
 date = "2015-01-15"
 title = "Statusreport Oktober-Dezember 2014"
-description = "<p>Der Statusreport für die Monate Oktober bis Dezember 2014 ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2014-10-2014-12.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Oktober bis Dezember 2014 ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2014-10-2014-12.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2014-12-14"
@@ -1153,7 +1153,7 @@ description = "Neuer Committer: <a href=\"mailto:bhd@FreeBSD.org\">Björn Heidot
 [[news]]
 date = "2014-10-14"
 title = "Statusreport Juli-September 2014"
-description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/news/status/report-2014-07-2014-09.html\">Juli-September 2014</a> ist verfügbar.</p>"
+description = "<p>Der Statusreport für die Monate <a href=\"https://www.FreeBSD.org/status/report-2014-07-2014-09.html\">Juli-September 2014</a> ist verfügbar.</p>"
 
 [[news]]
 date = "2014-10-13"
@@ -1213,7 +1213,7 @@ description = "Neuer Committer: <a href=\"mailto:ngie@FreeBSD.org\">Ngie Cooper<
 [[news]]
 date = "2014-07-24"
 title = "Statusreport April-Juni 2014"
-description = "<p>Der <a href=\"https://www.FreeBSD.org/news/status/report-2014-04-2014-06.html\">Statusreport für die Monate April bis Juni 2014</a> mit 24 Einträgen ist ab sofort verfügbar.</p>"
+description = "<p>Der <a href=\"https://www.FreeBSD.org/status/report-2014-04-2014-06.html\">Statusreport für die Monate April bis Juni 2014</a> mit 24 Einträgen ist ab sofort verfügbar.</p>"
 
 [[news]]
 date = "2014-07-16"
@@ -1297,7 +1297,7 @@ description = "Neuer Committer: <a href=\"mailto:pi@FreeBSD.org\">Kurt Jaeger</a
 [[news]]
 date = "2014-04-17"
 title = "Statusreport Januar bis März 2014"
-description = "<p>Der Statusreport für die Monate Januar bis März 2014 mit 41 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2014-01-2014-03.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Januar bis März 2014 mit 41 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2014-01-2014-03.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2014-04-07"
@@ -1316,7 +1316,7 @@ description = "<p>Wir freuen uns, bekanntgeben zu dürfen, dass die erste Ausgab
 [[news]]
 date = "2014-01-25"
 title = "Statusreport Oktober-Dezember 2013"
-description = "<p>Der Statusreport für die Monate Oktober bis Dezember 2013 mit <a href=\"https://www.FreeBSD.org/news/status/report-2013-10-2013-12.html\">37 Einträgen</a> ist ab sofort verfügbar.</p>"
+description = "<p>Der Statusreport für die Monate Oktober bis Dezember 2013 mit <a href=\"https://www.FreeBSD.org/status/report-2013-10-2013-12.html\">37 Einträgen</a> ist ab sofort verfügbar.</p>"
 
 [[news]]
 date = "2014-01-23"
@@ -1391,7 +1391,7 @@ description = "<p>Der erste Release Candidate aus dem FreeBSD-10.0-Releasezyklus
 [[news]]
 date = "2013-12-09"
 title = "Bericht: EuroBSDcon 2013 DevSummit"
-description = "<p>Ein Ein Statusreport mit den Ergebnissen des EuroBSDcon 2013 FreeBSD Developer Summits mit 13 Einträgen ist <a href=\"https://www.FreeBSD.org/news/status/report-2013-09-devsummit.html\">verfügbar</a>.</p>"
+description = "<p>Ein Ein Statusreport mit den Ergebnissen des EuroBSDcon 2013 FreeBSD Developer Summits mit 13 Einträgen ist <a href=\"https://www.FreeBSD.org/status/report-2013-09-devsummit.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2013-12-03"
@@ -1428,7 +1428,7 @@ description = "<p>Die zweite BETA-Version aus dem FreeBSD-10.0-Releasezyklus ist
 [[news]]
 date = "2013-10-20"
 title = "Statusreport Juli-September 2013"
-description = "<p>Der Statusreport für die Monate Juli bis September 2013 mit 30 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2013-07-2013-09.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Juli bis September 2013 mit 30 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2013-07-2013-09.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2013-10-14"
@@ -1518,7 +1518,7 @@ description = "<p>Die erste Betaversion aus dem FreeBSD-9.2-Releasezyklus ist <a
 [[news]]
 date = "2013-07-16"
 title = "Statusreport April-Juni 2013"
-description = "<p>Der Statusreport für die Monate April bis Juni 2013 mit 33 Einträgen ist <a href=\"https://www.FreeBSD.org/news/status/report-2013-04-2013-06.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate April bis Juni 2013 mit 33 Einträgen ist <a href=\"https://www.FreeBSD.org/status/report-2013-04-2013-06.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2013-07-04"
@@ -1531,7 +1531,7 @@ description = "Neuer Committer: <a href=\"mailto:loos@FreeBSD.org\">Luiz Otavio 
 [[news]]
 date = "2013-07-02"
 title = "Bericht: BSDCan 2013 DevSummit"
-description = "<p>Ein Statusreport mit den Ergebnissen des BSDCan 2013 FreeBSD Developer Summits mit 6 Einträgen ist <a href=\"https://www.FreeBSD.org/news/status/report-2013-05-devsummit.html\">verfügbar</a>.</p>"
+description = "<p>Ein Statusreport mit den Ergebnissen des BSDCan 2013 FreeBSD Developer Summits mit 6 Einträgen ist <a href=\"https://www.FreeBSD.org/status/report-2013-05-devsummit.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2013-06-25"
@@ -1567,7 +1567,7 @@ description = "<p>Sechs Monate sind seit dem Angriffsversuch auf die FreeBSD-Inf
 [[news]]
 date = "2013-05-12"
 title = "Statusreport Januar - März 2013"
-description = "<p>Der Statusreport für die Monate Januar bis März 2013 mit 31 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2013-01-2013-03.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Januar bis März 2013 mit 31 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2013-01-2013-03.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2013-05-09"
@@ -1640,12 +1640,12 @@ description = "Neues Mitglied im Ports Management Team: <a href=\"mailto:bdrewer
 [[news]]
 date = "2013-03-03"
 title = "Statusreport Oktober-Dezember 2012"
-description = "<p>Der Statusreport für die Monate Oktober bis Dezember 2012 mit 27 Einträgen ist <a href=\"https://www.FreeBSD.org/news/status/report-2012-10-2012-12.html\"> verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Oktober bis Dezember 2012 mit 27 Einträgen ist <a href=\"https://www.FreeBSD.org/status/report-2012-10-2012-12.html\"> verfügbar</a>.</p>"
 
 [[news]]
 date = "2013-03-03"
 title = "Statusreport Juli-September 2012"
-description = "<p>Der Statusreport für die Monate Juli bis September 2012 mit 12 Einträgen ist <a href=\"https://www.FreeBSD.org/news/status/report-2012-07-2012-09.html\"> verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Juli bis September 2012 mit 12 Einträgen ist <a href=\"https://www.FreeBSD.org/status/report-2012-07-2012-09.html\"> verfügbar</a>.</p>"
 
 [[news]]
 date = "2013-02-10"
@@ -1678,7 +1678,7 @@ description = "Neuer Committer: <a href=\"mailto:dbn@FreeBSD.org\">David Naylor<
 [[news]]
 date = "2013-01-13"
 title = "Statusreport April-Juni 2012"
-description = "<p>Der Statusreport für die Monate April bis Juni 2012 mit 17 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2012-04-2012-06.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate April bis Juni 2012 mit 17 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2012-04-2012-06.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2013-01-10"
@@ -1860,7 +1860,7 @@ description = "Neuer Committer: <a href=\"mailto:tj@FreeBSD.org\">Tom Judge</a> 
 [[news]]
 date = "2012-05-12"
 title = "Statusreport Januar-März 2012"
-description = "<p>Der Statusreport für die Monate Januar bis März 2012 mit 27 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2012-01-2012-03.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Januar bis März 2012 mit 27 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2012-01-2012-03.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2012-04-26"
@@ -1941,7 +1941,7 @@ description = "Neuer Committer: <a href=\"mailto:davide@FreeBSD.org\">Davide Ita
 [[news]]
 date = "2012-01-27"
 title = "Statusreport Oktober-Dezember 2011"
-description = "<p>Der Statusreport für die Monate Oktober bis Dezember 2011 mit 32 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2011-10-2011-12.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Oktober bis Dezember 2011 mit 32 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2011-10-2011-12.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2012-01-12"
@@ -1989,7 +1989,7 @@ description = "Neuer Committer: <a href=\"mailto:rm@FreeBSD.org\">Ruslan Makhmat
 [[news]]
 date = "2011-11-08"
 title = "Statusreport Juli-September 2011"
-description = "<p>Der Statusreport für die Monate Juli bis September 2011 mit 28 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2011-07-2011-09.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Juli bis September 2011 mit 28 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2011-07-2011-09.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2011-10-23"
@@ -2024,7 +2024,7 @@ description = "Neuer Committer: <a href=\"mailto:wblock@FreeBSD.org\">Warren Blo
 [[news]]
 date = "2011-09-14"
 title = "Statusreport April-Juni 2011"
-description = "<p>Der Statusreport für die Monate April bis Juni 2011 mit 36 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2011-04-2011-06.html\"> verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate April bis Juni 2011 mit 36 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2011-04-2011-06.html\"> verfügbar</a>.</p>"
 
 [[news]]
 date = "2011-09-13"
@@ -2098,7 +2098,7 @@ description = "<p>Das Ports Management Team freut sich bekanntgeben zu können, 
 [[news]]
 date = "2011-04-27"
 title = "Statusreport Januar-März 2011"
-description = "<p>Der Statusreport für die Monate Januar bis März 2011 mit 34 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2011-01-2011-03.html\">verfügbar</a>.</p>."
+description = "<p>Der Statusreport für die Monate Januar bis März 2011 mit 34 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2011-01-2011-03.html\">verfügbar</a>.</p>."
 
 [[news]]
 date = "2011-03-29"
@@ -2147,7 +2147,7 @@ description = "<p>Die dritten (und voraussichtlich letzten) Release Candidates d
 [[news]]
 date = "2011-01-25"
 title = "Statusreport Oktober-Dezember 2010 verfügbar"
-description = "<p>Der Statusreport für die Monate Oktober bis December 2010 mit 37 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2010-10-2010-12.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Oktober bis December 2010 mit 37 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2010-10-2010-12.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2011-01-23"
@@ -2189,7 +2189,7 @@ description = "Neuer Committer: <a href=\"mailto:zack@FreeBSD.org\">Zack Kirsch<
 [[news]]
 date = "2010-10-27"
 title = "Statusreport Juli-September 2010 verfügbar"
-description = "<p>Der Statusreport für die Monate Juli bis September 2010 mit 55 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2010-07-2010-09.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Juli bis September 2010 mit 55 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2010-07-2010-09.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2010-10-16"
@@ -2248,7 +2248,7 @@ description = "<p><a href=\"https://www.FreeBSD.org/releases/8.1R/announce.html\
 [[news]]
 date = "2010-07-22"
 title = "Statusreport April-Juni 2010 verfügbar"
-description = "<p>Der Statusreport für die Monate April bis Juni 2010 mit 47 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2010-04-2010-06.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate April bis Juni 2010 mit 47 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2010-04-2010-06.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2010-07-21"
@@ -2323,7 +2323,7 @@ description = "Erweiterte Commit-Privilegien: <a href=\"mailto:mm@FreeBSD.org\">
 [[news]]
 date = "2010-04-22"
 title = "Statusreport Januar-März 2010 verfügbar"
-description = "<p>Der Statusreport für die Monate Januar bis März 2010 mit 46 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2010-01-2010-03.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Januar bis März 2010 mit 46 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2010-01-2010-03.html\">verfügbar</a>.</p>"
 
 [[news]]
 date = "2010-04-20"
@@ -2428,5 +2428,5 @@ description = "Neuer Committer: <a href=\"mailto:avilla@FreeBSD.org\">Alberto Vi
 [[news]]
 date = "2010-01-17"
 title = "Statusreport Oktober-Dezember 2009"
-description = "<p>Der Statusreport für die Monate Oktober-Dezember 2009 mit 38 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/news/status/report-2009-10-2009-12.html\">verfügbar</a>.</p>"
+description = "<p>Der Statusreport für die Monate Oktober-Dezember 2009 mit 38 Einträgen ist ab sofort <a href=\"https://www.FreeBSD.org/status/report-2009-10-2009-12.html\">verfügbar</a>.</p>"
 

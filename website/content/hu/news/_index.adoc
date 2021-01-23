@@ -14,7 +14,7 @@ image:../../gifs/news.jpg[FreeBSD hírek]
 * *link:newsflash[Hírek]*: Új kiadások, eszközmeghajtók, committerek, biztonsági figyelmeztetések és egyéb hírek
 * *http://freebsdfoundation.org/press/[Alapítványi sajtóközlemények]*: A FreeBSD Alapítvány sajtóközleményei (lásd még link:../press/pressreleases[a 2005 elõtti sajtóközlemények archívumát])
 * *link:https://www.FreeBSD.org/press[Cikkek a sajtóban]*: A FreeBSD megjelenése a sajtóban
-* *link:https://www.FreeBSD.org/news/status/[Helyzetjelentések]*: Helyzetjelentések a FreeBSD fejlesztésérõl
+* *link:https://www.FreeBSD.org/status/[Helyzetjelentések]*: Helyzetjelentések a FreeBSD fejlesztésérõl
 
 == Egyéb oldalak
 

@@ -19,7 +19,7 @@ releaseinfo: "$FreeBSD: head/zh_CN.UTF-8/articles/leap-seconds/article.xml 50588
 :figure-caption: 图
 :example-caption: 例
 
-include::shared/zh_CN/urls.adoc[]
+include::shared/zh-cn/urls.adoc[]
 
 '''
 

@@ -72,7 +72,7 @@ _Имеющиеся списки рассылки_::
 Пошлите письмо со строчкой "subscribe freebsd-chinese-doc" на адрес majordomo@freebsd.sinica.edu.tw. +
 Посылка сообщений разрешена участникам по адресу freebsd-chinese-doc@freebsd.sinica.edu.tw
 _Имеющиеся документы_::
-link:https://www.FreeBSD.org/doc/zh_TW/books/faq/[FAQ]
+link:https://www.FreeBSD.org/doc/zh-tw/books/faq/[FAQ]
 _Документы, находящиеся в работе_::
 http://www.tw.FreeBSD.org/handbook-big5.html[Руководство]
 

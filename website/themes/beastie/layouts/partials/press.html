@@ -16,7 +16,7 @@
     <p>
       <span class="txtdate">{{ dateFormat "2006-01" .date }}</span>
       <br />
-      <a href="{{.Site.BaseURL | relLangURL }}press/#story{{ dateFormat "2006-01" .date }}:{{ $pressCounter }}">{{ .name }}</a>
+      <a href="{{.Site.BaseURL | relLangURL }}press/#{{ dateFormat "2006-01" .date }}:{{ $pressCounter }}">{{ .name }}</a>
     </p>
     {{ end }}
     {{ $pressCounter = add $pressCounter 1 }}

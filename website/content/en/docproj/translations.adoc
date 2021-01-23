@@ -75,7 +75,7 @@ Documents currently being worked on:
 [[chinese-tw]]
 == The FreeBSD Traditional Chinese Documentation Project
 
-*Web*: https://www.freebsd.org/zh_TW/ +
+*Web*: https://www.freebsd.org/zh-tw/ +
 *E-Mail*: chinsan@FreeBSD.org
 
 USENET Newsgroup available:
@@ -88,15 +88,15 @@ USENET Newsgroup available:
     
 Documents available:
 
-* link:https://www.freebsd.org/doc/zh_TW/books/faq/[FAQ]
+* link:https://www.freebsd.org/doc/zh-tw/books/faq/[FAQ]
 
 Documents currently being worked on:
 
 * FreeBSD website
-* link:https://www.freebsd.org/doc/zh_TW/books/handbook/[Handbook]
-* link:https://www.freebsd.org/doc/zh_TW/books/developers-handbook[Developers' Handbook]
-* link:https://www.freebsd.org/doc/zh_TW/books/porters-handbook[Porters' Handbook]
-* link:https://www.freebsd.org/doc/zh_TW/books/fdp-primer[FreeBSD Document Project Primer for New Contributors]
+* link:https://www.freebsd.org/doc/zh-tw/books/handbook/[Handbook]
+* link:https://www.freebsd.org/doc/zh-tw/books/developers-handbook[Developers' Handbook]
+* link:https://www.freebsd.org/doc/zh-tw/books/porters-handbook[Porters' Handbook]
+* link:https://www.freebsd.org/doc/zh-tw/books/fdp-primer[FreeBSD Document Project Primer for New Contributors]
 
 [[dutch]]
 == The FreeBSD Dutch Documentation Project

@@ -72,7 +72,7 @@ _Listes de diffusion disponibles_::
 Envoyer un courrier à l'adresse majordomo@freebsd.sinica.edu.tw comportant "subscribe freebsd-chinese-doc" dans le corps du message. +
 L'envoi de messages est authorisé aux membres à l'adresse freebsd-chinese-doc@freebsd.sinica.edu.tw
 _Documents disponibles_::
-link:https://www.FreeBSD.org/doc/zh_TW/books/faq/[FAQ]
+link:https://www.FreeBSD.org/doc/zh-tw/books/faq/[FAQ]
 _Document en cours de traduction_::
 http://www.tw.FreeBSD.org/handbook-big5.html[Le manuel de référence]
 

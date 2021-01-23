@@ -14,7 +14,7 @@ image:../../gifs/news.jpg[FreeBSD Neuigkeiten]
 * *link:newsflash/[Ankündigungen]*: Neue Releases, Treiber, Committer, Sicherheitshinweise und mehr.
 * *http://freebsdfoundation.org/press/[Presserklärungen der FreeBSD Foundation]*. Alte Presserklärungen des FreeBSD Projects (vor 2005) finden Sie https://www.FreeBSD.org/press/[hier].
 * *link:../press/[Artikel]*: In der Presse erschienene Artikel über FreeBSD.
-* *https://www.FreeBSD.org/news/status/[Statusreports]*: Die regelmäßig erscheinenden Reports zum Stand der FreeBSD-Entwicklung.
+* *https://www.FreeBSD.org/status/[Statusreports]*: Die regelmäßig erscheinenden Reports zum Stand der FreeBSD-Entwicklung.
 
 == Externe Quellen
 

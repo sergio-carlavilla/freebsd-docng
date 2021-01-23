@@ -246,7 +246,7 @@ description = "新增 committer： <a href=\"mailto:loader@freebsd.org\">陈福�
 [[news]]
 date = "2007-07-10"
 title = "2007 年第二季度开发进度报告"
-description = "<p>2007 年第二季度的开发进度报告 <a href=\"https://www.FreeBSD.org/news/status/report-2007-04-2007-06.html\">现已发布</a>， 包含 49 项内容。</p>"
+description = "<p>2007 年第二季度的开发进度报告 <a href=\"https://www.FreeBSD.org/status/report-2007-04-2007-06.html\">现已发布</a>， 包含 49 项内容。</p>"
 
 [[news]]
 date = "2007-07-09"
@@ -320,7 +320,7 @@ description = "新增 committer： <a href=\"mailto:mav@freebsd.org\">Alexander 
 [[news]]
 date = "2007-04-09"
 title = "2007 年第一季度开发进度报告"
-description = "<p>2007 年第一季度的开发进度报告 <a href=\"https://www.FreeBSD.org/news/status/report-2007-01-2007-03.html\">现已发布</a>， 包含 19 项内容。</p>"
+description = "<p>2007 年第一季度的开发进度报告 <a href=\"https://www.FreeBSD.org/status/report-2007-01-2007-03.html\">现已发布</a>， 包含 19 项内容。</p>"
 
 [[news]]
 date = "2007-04-06"
@@ -409,7 +409,7 @@ description = "新增 committer： <a href=\"mailto:db@freebsd.org\">Diane Bruce
 [[news]]
 date = "2007-01-16"
 title = "2006 年第四季度开发进度报告"
-description = "<p>2006 年第四季度的开发进度报告 <a href=\"https://www.FreeBSD.org/news/status/report-2006-10-2006-12.html\">现已发布</a>， 其中包含了 41 项内容。</p>"
+description = "<p>2006 年第四季度的开发进度报告 <a href=\"https://www.FreeBSD.org/status/report-2006-10-2006-12.html\">现已发布</a>， 其中包含了 41 项内容。</p>"
 
 [[news]]
 date = "2007-01-15"
@@ -520,7 +520,7 @@ description = "<p>我们非常高兴全部 14 位学生都成功地完成了他�
 [[news]]
 date = "2006-10-19"
 title = "2006 年第三季度开发进度报告"
-description = "<p>2006 年第三季度开发进度报告 <a href=\"https://www.FreeBSD.org/news/status/report-2006-06-2006-10.html\">现已发表</a>， 其中介绍了 49 项内容。</p>"
+description = "<p>2006 年第三季度开发进度报告 <a href=\"https://www.FreeBSD.org/status/report-2006-06-2006-10.html\">现已发表</a>， 其中介绍了 49 项内容。</p>"
 
 [[news]]
 date = "2006-10-14"
@@ -591,7 +591,7 @@ description = "<p>在最新一期 <a href=\"http://bsdtalk.blogspot.com/\">bsdta
 [[news]]
 date = "2006-07-12"
 title = "2006 年第二季度开发进度报告发布了"
-description = "<p>2006 年第二季度的开发进度报告 <a href=\"https://www.FreeBSD.org/news/status/report-2006-04-2006-06.html\">现已发布</a>， 其中介绍了 39 项内容。</p>"
+description = "<p>2006 年第二季度的开发进度报告 <a href=\"https://www.FreeBSD.org/status/report-2006-04-2006-06.html\">现已发布</a>， 其中介绍了 39 项内容。</p>"
 
 [[news]]
 date = "2006-07-05"
@@ -705,7 +705,7 @@ description = "<p>在最新的 <a href=\"http://bsdtalk.blogspot.com/\">bsdtalk<
 [[news]]
 date = "2006-04-14"
 title = "2006 年一至三月进度报告"
-description = "<p>现在可以访问包含 29 个项目的 2006 年一至三月 <a href=\"https://www.FreeBSD.org/news/status/report-2006-01-2006-03.html\">进度报告</a> 了。</p>"
+description = "<p>现在可以访问包含 29 个项目的 2006 年一至三月 <a href=\"https://www.FreeBSD.org/status/report-2006-01-2006-03.html\">进度报告</a> 了。</p>"
 
 [[news]]
 date = "2006-04-14"
@@ -784,7 +784,7 @@ description = "commit 权限提升： <a href=\"mailto:cperciva@FreeBSD.org\">Co
 [[news]]
 date = "2006-01-26"
 title = "2005 年十至十二月进度报告"
-description = "<p>现在可以访问包含 26 个项目的 2005 年十至十二月 <a href=\"https://www.FreeBSD.org/news/status/report-2005-10-2005-12.html\">进度报告</a> 了。</p>"
+description = "<p>现在可以访问包含 26 个项目的 2005 年十至十二月 <a href=\"https://www.FreeBSD.org/status/report-2005-10-2005-12.html\">进度报告</a> 了。</p>"
 
 [[news]]
 date = "2006-01-19"

@@ -24,7 +24,7 @@ trademarks: ["freebsd", "microsoft", "general"]
 :figure-caption: Figura
 :example-caption: Exemplo
 
-include::shared/pt_BR/urls.adoc[]
+include::shared/pt-br/urls.adoc[]
 
 [.abstract-title]
 Resumo
