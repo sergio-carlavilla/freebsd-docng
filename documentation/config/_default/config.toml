@@ -4,7 +4,6 @@
 baseURL = "https://www-dev.FreeBSD.org/doc/"
 title = "The FreeBSD Project"
 copyright = "BSD 2-clause 'Simplified' License"
-DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 disablePathToLower = true
 theme = "beastie"
