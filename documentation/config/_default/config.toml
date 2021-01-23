@@ -1,7 +1,7 @@
 # FreeBSD documentation
 # $FreeBSD$
 
-baseURL = "https://www-dev.FreeBSD.org/doc/"
+baseURL = "https://docs-dev.freebsd.org/"
 title = "The FreeBSD Project"
 copyright = "BSD 2-clause 'Simplified' License"
 DefaultContentLanguage = "en"
@@ -11,6 +11,7 @@ theme = "beastie"
 disableKinds = [ "taxonomy", "taxonomyTerm" ]
 authors = [ "carlavilla@FreeBSD.org" ]
 preserveTOC = true
+ignoreFiles = [ "toc.adoc$", "toc-tables.adoc$", "toc-figures.adoc", "toc-examples.adoc", "toc-1.adoc", "toc-2.adoc", "toc-3.adoc", "toc-4.adoc", "toc-5.adoc", "books.adoc" ]
 
 [markup.asciidocExt]
     preserveTOC = true

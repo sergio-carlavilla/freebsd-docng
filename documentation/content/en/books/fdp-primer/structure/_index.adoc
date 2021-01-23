@@ -31,7 +31,7 @@ Files and directories in the [.filename]#doc/# tree follow a structure meant to:
 In addition, the documentation tree must accommodate documents in many different languages. It is important that the documentation tree structure does not enforce any particular defaults or cultural preferences.
 
 [[structure-top]]
-== The Top Level, [.filename]#doc/#
+== The Top Level, doc/
 
 There are three sections under [.filename]#doc/#, documentation and website share the same structure.
 

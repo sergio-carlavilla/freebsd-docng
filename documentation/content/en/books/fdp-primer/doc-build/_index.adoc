@@ -84,12 +84,12 @@ These are the tools used to build and install the FDP documentation.
 * Git
 
 [[doc-build-makefile]]
-== Understanding the [.filename]#Makefile# in the Documentation Tree
+== Understanding the Makefile in the Documentation Tree
 
 There is only one [.filename]#Makefile# in the [.filename]#documentation# and other in the [.filename]#website#. Both are pretty similar.
 
 [[documentation-makefile]]
-=== Documentation [.filename]#Makefile#
+=== Documentation Makefile
 
 This [.filename]#Makefile# take the form of:
 
@@ -145,7 +145,7 @@ build: <.>
 <.> `build` builds the documentation and puts the result in the [.filename]#~/doc/documentation/public#.
 
 [[website-makefile]]
-=== Website [.filename]#Makefile#
+=== Website Makefile
 
 This [.filename]#Makefile# take the form of:
 
