@@ -5,55 +5,62 @@
     </li>
   </ul>
   <ul>
+    {{ $language := "" }}
+    {{ $currentLang := $.Site.Language.Lang }}
+
+    {{ if ne $currentLang "en" }}
+      {{ $language = $currentLang }}
+    {{ end }}
+
     <li>
-      <a href={{ "about/" | absLangURL }}>{{ i18n "about" }}</a>
+      <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "about" }}>{{ i18n "about" }}</a>
       <ul>
         <li>
-          <a href={{ "projects/newbies/" | absLangURL }}>{{ i18n "introduction" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "projects/newbies/" }}>{{ i18n "introduction" }}</a>
         </li>
         <li>
-          <a href={{ "features/" | absLangURL }}>{{ i18n "features" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "features" }}>{{ i18n "features" }}</a>
         </li>
         <li>
-          <a href={{ "advocacy/" | absLangURL }}>{{ i18n "advocacy" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "advocacy" }}>{{ i18n "advocacy" }}</a>
         </li>
         <li>
-          <a href={{ "marketing/" | absLangURL }}>{{ i18n "marketing" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "marketing" }}>{{ i18n "marketing" }}</a>
         </li>
         <li>
-          <a href={{ "privacy/" | absLangURL }}>{{ i18n "privacyPolicy" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "privacy" }}>{{ i18n "privacyPolicy" }}</a>
         </li>
       </ul>
     </li>
   </ul>
   <ul>
     <li>
-      <a href={{ "where/" | absLangURL }}>{{ i18n "getFreeBSD" }}</a>
+      <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "where" }}>{{ i18n "getFreeBSD" }}</a>
       <ul>
         <li>
-          <a href={{ "releases/" | absLangURL }}>{{ i18n "releaseInformation" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "releases" }}>{{ i18n "releaseInformation" }}</a>
         </li>
         <li>
-          <a href={{ "releng/" | absLangURL }}>{{ i18n "releaseEngineering" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "releng" }}>{{ i18n "releaseEngineering" }}</a>
         </li>
       </ul>
     </li>
   </ul>
   <ul>
     <li>
-      <a href={{ "docs/" | absLangURL }}>{{ i18n "documentation" }}</a>
+      <a href={{ .Site.BaseURL | relLangURL }}>{{ i18n "documentation" }}</a>
       <ul>
         <li>
-          <a href={{ "doc/en_US.ISO8859-1/books/faq/" | absLangURL }}>{{ i18n "faq" }}</a>
+          <a href={{ "books/faq" | absLangURL }}>{{ i18n "faq" }}</a>
         </li>
         <li>
-          <a href={{ "doc/en_US.ISO8859-1/books/handbook/" | absLangURL }}>{{ i18n "handbook" }}</a>
+          <a href={{ "books/handbook" | absLangURL }}>{{ i18n "handbook" }}</a>
         </li>
         <li>
-          <a href={{ "doc/en_US.ISO8859-1/books/porters-handbook/" | absLangURL }}>{{ i18n "porterHandbook" }}</a>
+          <a href={{ "books/porters-handbook" | absLangURL }}>{{ i18n "porterHandbook" }}</a>
         </li>
         <li>
-          <a href={{ "doc/en_US.ISO8859-1/books/developers-handbook/" | absLangURL }}>{{ i18n "developerHandbook" }}</a>
+          <a href={{ "books/developers-handbook/" | absLangURL }}>{{ i18n "developerHandbook" }}</a>
         </li>
         <li>
           <a href="https://www.FreeBSD.org/cgi/man.cgi">{{ i18n "manualPages" }}</a>
@@ -62,29 +69,26 @@
           <a href="https://papers.freebsd.org/">{{ i18n "papers" }}</a>
         </li>
         <li>
-          <a href={{ "doc/en_US.ISO8859-1/books/fdp-primer/" | absLangURL }}>{{ i18n "documentationProjectPrimer" }}</a>
-        </li>
-        <li>
-          <a href={{ "docs/" | absLangURL }}>{{ i18n "allBooksArticles" }}</a>
+          <a href={{ "books/fdp-primer/" | absLangURL }}>{{ i18n "documentationProjectPrimer" }}</a>
         </li>
       </ul>
     </li>
   </ul>
   <ul>
     <li>
-      <a href={{ "community/" | absLangURL }}>{{ i18n "community" }}</a>
+      <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "community" }}>{{ i18n "community" }}</a>
       <ul>
         <li>
-          <a href={{ "community/mailinglists/" | absLangURL }}>{{ i18n "mailingLists" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "community/mailinglists/" }}>{{ i18n "mailingLists" }}</a>
         </li>
         <li>
           <a href="https://forums.FreeBSD.org">{{ i18n "forums" }}</a>
         </li>
         <li>
-          <a href={{ "usergroups/" | absLangURL }}>{{ i18n "userGroups" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "usergroups" }}>{{ i18n "userGroups" }}</a>
         </li>
         <li>
-          <a href={{ "events/" | absLangURL }}>{{ i18n "events" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "events" }}>{{ i18n "events" }}</a>
         </li>
         <li>
           <a href="http://freebsdjournal.com">{{ i18n "FreeBSDJournal" }}</a>
@@ -97,7 +101,7 @@
   </ul>
   <ul>
     <li>
-      <a href={{ "projects/" | absLangURL }}>{{ i18n "developers" }}</a>
+      <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "projects" }}>{{ i18n "developers" }}</a>
       <ul>
         <li>
           <a href="https://wiki.FreeBSD.org/IdeasPage">{{ i18n "projectIdeas" }}</a>
@@ -125,19 +129,19 @@
   </ul>
   <ul>
     <li>
-      <a href={{ "support/" | absLangURL }}>{{ i18n "support" }}</a>
+      <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "support" }}>{{ i18n "support" }}</a>
       <ul>
         <li>
-          <a href={{ "commercial/" | absLangURL }}>{{ i18n "vendors" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "commercial" }}>{{ i18n "vendors" }}</a>
         </li>
         <li>
-          <a href={{ "security/" | absLangURL }}>{{ i18n "securityInformation" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "security" }}>{{ i18n "securityInformation" }}</a>
         </li>
         <li>
           <a href="https://bugs.FreeBSD.org/search/">{{ i18n "bugReports" }}</a>
         </li>
         <li>
-          <a href={{ "support/" | absLangURL }}>{{ i18n "submittingBugReports" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "support" }}>{{ i18n "submittingBugReports" }}</a>
         </li>
       </ul>
     </li>
@@ -150,7 +154,7 @@
           <a href="https://www.freebsdfoundation.org/donate/">{{ i18n "monetaryDonations" }}</a>
         </li>
         <li>
-          <a href={{ "donations/#systems/" | absLangURL }}>{{ i18n "hardwareDonations" }}</a>
+          <a href={{ printf "%s%s%s" $.Site.Params.websiteURL $language "donations/#systems/" }}>{{ i18n "hardwareDonations" }}</a>
         </li>
       </ul>
     </li>

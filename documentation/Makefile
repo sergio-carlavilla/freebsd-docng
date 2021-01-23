@@ -1,6 +1,6 @@
 # Generate the FreeBSD documentation
 #
-# Copyright (c) 2020-2021 The FreeBSD Documentation Project
+# Copyright (c) 2020-2021, The FreeBSD Documentation Project
 # Copyright (c) 2020-2021, Sergio Carlavilla <carlavilla@FreeBSD.org>
 #
 # Targets intended for use on the command line
@@ -36,8 +36,6 @@ run:
 
 build:
 	${HUGO_CMD} --minify
-
-generate-release:
 
 move-shared:
 	cp -r ../shared ./shared

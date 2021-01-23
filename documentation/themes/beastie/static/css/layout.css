@@ -10,7 +10,7 @@
 
 #container {
   margin: 0em auto;
-  width: 90%;
+  width: 85%;
   text-align: left; /* Win IE5 */
 }
 
@@ -524,6 +524,14 @@ footer {
 }
 
 /* Misc Classes */
+.books-title {
+  margin: 0;
+}
+
+.articles-title {
+  margin: 1.2em 0em 0em 0em;
+}
+
 .clearboth {
   clear: both;
   margin: 0;
@@ -554,11 +562,11 @@ img {
 
 #language-container li {
   display: inline-block;
+  margin-top: 0;
 }
 
 #language-container a {
   display: block;
-  padding: .3em 1em;
   color: #000;
   font-size: 16px;
   text-decoration: none;
