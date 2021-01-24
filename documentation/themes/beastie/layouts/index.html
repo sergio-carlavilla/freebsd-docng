@@ -25,7 +25,7 @@
       {{ range where .Site.Pages "Section" "books" }}
         {{ with .File }}
           {{ $subDirsNumer := .File.Path | strings.Count "/" }}
-          {{ if lt $subDirsNumer 3 }}
+          {{ if eq $subDirsNumer 2 }}
             {{ $books  = $books  | append (dict "page" . "path" .File.Path) }}
           {{ end }}
         {{ end }}
@@ -46,7 +46,10 @@
 
       {{ range where .Site.Pages "Section" "articles" }}
         {{ with .File }}
-          {{ $articles  = $articles  | append (dict "page" . "path" .File.Path) }}
+          {{ $subDirsNumer := .File.Path | strings.Count "/" }}
+          {{ if eq $subDirsNumer 2 }}
+            {{ $articles  = $articles  | append (dict "page" . "path" .File.Path) }}
+          {{ end }}
         {{ end }}
       {{ end }}
 
