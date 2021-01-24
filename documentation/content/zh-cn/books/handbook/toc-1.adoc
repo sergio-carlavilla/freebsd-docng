@@ -50,7 +50,7 @@
 ** link:../basics/#basics-devices[4.11. 设备和设备节点]
 ** link:../basics/#binary-formats[4.12. 二进制文件格式]
 ** link:../basics/#basics-more-information[4.13. 取得更多的资讯]
-* link:../ports[章 5. 安装应用程序. Packages 和 Ports]
+* link:../ports[章 5. 安装应用程序: Packages 和 Ports]
 ** link:../ports/#ports-synopsis[5.1. 概述]
 ** link:../ports/#ports-overview[5.2. 软件安装预览]
 ** link:../ports/#ports-finding-applications[5.3. 寻找您要的应用程序]

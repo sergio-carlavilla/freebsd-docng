@@ -37,7 +37,7 @@
 ** link:../basics/#basics-devices[3.11. Συσκευές και Αρχεία συσκευών]
 ** link:../basics/#binary-formats[3.12. Τύποι Εκτελέσιμων]
 ** link:../basics/#basics-more-information[3.13. Για Περισσότερες Πληροφορίες]
-* link:../ports[Κεφάλαιο 4. Εγκατάσταση Εφαρμογών. Πακέτα και Ports]
+* link:../ports[Κεφάλαιο 4. Εγκατάσταση Εφαρμογών: Πακέτα και Ports]
 ** link:../ports/#ports-synopsis[4.1. Σύνοψη]
 ** link:../ports/#ports-overview[4.2. Επισκόπησή της εγκατάστασης λογισμικού]
 ** link:../ports/#ports-finding-applications[4.3. Βρίσκοντας την Εφαρμογή σας]

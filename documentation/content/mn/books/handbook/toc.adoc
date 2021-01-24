@@ -211,7 +211,7 @@
 *** link:disks/#disks-encrypting[19.16. Дискний хуваалтуудыг шифрлэх нь]
 *** link:disks/#swap-encrypting[19.17. Swap зайг шифрлэх]
 *** link:disks/#disks-hast[19.18. Highly Available Storage (HAST)]
-** link:geom[Бүлэг 20. GEOM. Διαχείριση Συστοιχιών Δίσκων]
+** link:geom[Бүлэг 20. GEOM: Διαχείριση Συστοιχιών Δίσκων]
 *** link:geom/#GEOM-synopsis[20.1. Ерөнхий агуулга]
 *** link:geom/#GEOM-intro[20.2. GEOM-ийн Танилцуулга]
 *** link:geom/#GEOM-striping[20.3. RAID0 - Судал үүсгэх]

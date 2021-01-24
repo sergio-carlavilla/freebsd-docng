@@ -41,7 +41,7 @@ Inhoudsopgave
 ** link:../basics/#basics-devices[4.11. Apparaten en apparaatnodes]
 ** link:../basics/#binary-formats[4.12. Binaire formaten]
 ** link:../basics/#basics-more-information[4.13. Meer informatie]
-* link:../ports[Hoofdstuk 5. Applicaties installeren. pakketten en ports]
+* link:../ports[Hoofdstuk 5. Applicaties installeren: pakketten en ports]
 ** link:../ports/#ports-synopsis[5.1. Overzicht]
 ** link:../ports/#ports-overview[5.2. Overzicht van softwareinstallatie]
 ** link:../ports/#ports-finding-applications[5.3. Applicaties zoeken]

@@ -1285,7 +1285,7 @@ Veja man:fstab[5] para uma explicação das entradas do [.filename]#/etc/fstab#.
 [[create-swapfile]]
 === Criando um arquivo de swap
 
-Esses exemplos criam um arquivo de troca de 64M chamado [.filename]#/usr/swap0# em vez de usar uma partição.
+Esses exemplos criam um arquivo de swap de 512M chamado [.filename]#/usr/swap0# em vez de usar uma partição.
 
 O uso de arquivos de swap requer que o módulo necessário pelo man:md[4] tenha sido embutido no kernel ou tenha sido carregado antes do swap ser ativado. Veja crossref:kernelconfig[kernelconfig, Configurando o kernel do FreeBSD] para informações sobre como compilar um kernel customizado.
 
@@ -1300,7 +1300,7 @@ O uso de arquivos de swap requer que o módulo necessário pelo man:md[4] tenha 
 +
 [source,bash]
 ....
-# dd if=/dev/zero of=/usr/swap0 bs=1m count=64
+# dd if=/dev/zero of=/usr/swap0 bs=1m count=512
 ....
 +
 . Defina as permissões adequadas no novo arquivo:

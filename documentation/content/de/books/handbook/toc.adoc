@@ -171,7 +171,7 @@ Inhaltsverzeichnis
 *** link:disks/#disks-encrypting[17.12. Partitionen verschlüsseln]
 *** link:disks/#swap-encrypting[17.13. Den Auslagerungsspeicher verschlüsseln]
 *** link:disks/#disks-hast[17.14. Highly Available Storage (HAST)]
-** link:geom[Kapitel 18. GEOM. Modulares Framework zur Plattentransformation]
+** link:geom[Kapitel 18. GEOM: Modulares Framework zur Plattentransformation]
 *** link:geom/#geom-synopsis[18.1. Übersicht]
 *** link:geom/#geom-striping[18.2. RAID0 - Striping]
 *** link:geom/#geom-mirror[18.3. RAID1 - Spiegelung]

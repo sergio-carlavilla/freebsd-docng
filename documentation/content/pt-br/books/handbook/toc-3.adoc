@@ -78,7 +78,7 @@
 ** link:../disks/#disks-encrypting[17.12. Criptografando Partições de Disco]
 ** link:../disks/#swap-encrypting[17.13. Criptografando Swap]
 ** link:../disks/#disks-hast[17.14. Alta Disponibilidade de Armazenamento (HAST)]
-* link:../geom[Capítulo 18. GEOM. Framework de Transformação de Disco Modular]
+* link:../geom[Capítulo 18. GEOM: Framework de Transformação de Disco Modular]
 ** link:../geom/#geom-synopsis[18.1. Sinopse]
 ** link:../geom/#geom-striping[18.2. RAID0 - Striping]
 ** link:../geom/#geom-mirror[18.3. RAID1 - Espelhamento]

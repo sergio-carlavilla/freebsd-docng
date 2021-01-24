@@ -52,7 +52,7 @@
 ** link:../basics/#basics-devices[4.12. Устройства и файлы устройств]
 ** link:../basics/#binary-formats[4.13. Бинарные форматы]
 ** link:../basics/#basics-more-information[4.14. Дополнительная информация]
-* link:../ports[Глава 5. Установка приложений. порты и пакеты]
+* link:../ports[Глава 5. Установка приложений: порты и пакеты]
 ** link:../ports/#ports-synopsis[5.1. Обзор]
 ** link:../ports/#ports-overview[5.2. Обзор установки программного обеспечения]
 ** link:../ports/#ports-finding-applications[5.3. Поиск программного обеспечения]

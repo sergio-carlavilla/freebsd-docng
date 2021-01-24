@@ -87,7 +87,7 @@ Tabla de contenidos
 ** link:../disks/#snapshots[18.13. Instantáneas ("snapshots") de sistemas de ficheros]
 ** link:../disks/#quotas[18.14. Cuotas en sistemas de ficheros]
 ** link:../disks/#disks-encrypting[18.15. Cifrado de particiones de disco]
-* link:../geom[Capítulo 19. GEOM. Marco de trabajo modular de transformación de discos]
+* link:../geom[Capítulo 19. GEOM: Marco de trabajo modular de transformación de discos]
 ** link:../geom/#GEOM-synopsis[19.1. Sinopsis]
 ** link:../geom/#GEOM-intro[19.2. Introducción a GEOM]
 ** link:../geom/#GEOM-striping[19.3. RAID0 - Distribución por bandas]

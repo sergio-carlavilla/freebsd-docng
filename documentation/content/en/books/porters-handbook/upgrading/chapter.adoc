@@ -145,7 +145,7 @@ If files have been added, copied, moved, or removed, include the man:svn[1] `add
 Send the patch following the link:{problem-reports}#pr-writing/[problem report submission guidelines].
 
 [[moved-and-updating-files]]
-== UPDATING and MOVED
+== [.filename]#UPDATING# and [.filename]#MOVED#
 
 [[moved-and-updating-updating]]
 === [.filename]#/usr/ports/UPDATING#

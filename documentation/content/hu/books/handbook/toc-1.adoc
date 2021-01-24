@@ -39,7 +39,7 @@ Tartalom
 ** link:../basics/#basics-devices[3.11. Eszközök és eszközleírók]
 ** link:../basics/#binary-formats[3.12. Bináris formátumok]
 ** link:../basics/#basics-more-information[3.13. Bõvebben olvashatunk...]
-* link:../ports[Fejezet 4. Alkalmazások telepítése. csomagok és portok]
+* link:../ports[Fejezet 4. Alkalmazások telepítése: csomagok és portok]
 ** link:../ports/#ports-synopsis[4.1. Áttekintés]
 ** link:../ports/#ports-overview[4.2. Az alkalmazások telepítésének összefoglalása]
 ** link:../ports/#ports-finding-applications[4.3. A számunkra szükséges alkalmazások felkutatása]

@@ -888,6 +888,7 @@ device usb
 device uhci
 device ohci
 device ehci
+device xhci
 ....
 
 Para verificar se o scanner USB foi detectado, conecte-o e execute o comando `dmesg`, sendo então possível ver se o scanner aparece no buffer de mensagens do sistema. Em caso afirmativo, deve ser exibida uma mensagem semelhante a esta:
@@ -942,22 +943,20 @@ Consulte man:scsi[4] e man:camcontrol[8] para mais detalhes sobre dispositivos S
 
 === Configuração do SANE
 
-O SANE possui um sistema dividido em duas partes: os backends (package:graphics/sane-backends[]) e os frontends (package:graphics/sane-frontends[] ou package:graphics/xsane[]). Os backends fornecem acesso ao scanner. Consulte http://www.sane-project.org/sane-supported-devices.html[http://www.sane-project.org/sane-supported-devices.html] para determinar qual backend suporta o scanner. Os frontends fornecem a interface de varredura gráfica. package:graphics/sane-frontends[] instala o xscanimage enquanto o package:graphics/xsane[] instala o xsane.
+O sistma SANE provê o acesso ao scanner via backends (package:graphics/sane-backends[]). Consulte http://www.sane-project.org/sane-supported-devices.html[http://www.sane-project.org/sane-supported-devices.html] para determinar qual backend suporta o scanner. Uma interface gráfica é fornecida por aplicações terceiras como Kooka (package:graphics/kooka[]) ou XSane (package:graphics/xsane[]). Os backends do SANE são suficientes para testar o scanner.
 
-Para instalar as duas partes de pacotes binários:
+Para instalar os backends do pacote binário:
 
 [source,bash]
 ....
-# pkg install xsane sane-frontends
+# pkg install sane-backends
 ....
 
 Alternativamente, para instalar a partir da Coleção de Ports
 
 [source,bash]
 ....
-# cd /usr/ports/graphics/sane-frontends
-# make install clean
-# cd /usr/ports/graphics/xsane
+# cd /usr/ports/graphics/sane-backends
 # make install clean
 ....
 
@@ -983,10 +982,10 @@ Em seguida, verifique se o scanner será identificado por uma interface de digit
 # scanimage -L
 device `snapscan:/dev/pass3' is a AGFA SNAPSCAN 600 flatbed scanner
 # scanimage -L
-device 'epson2:libusb:/dev/usb:/dev/ugen0.2' is a Epson GT-8200 flatbed scanner
+device 'epson2:libusb:000:002' is a Epson GT-8200 flatbed scanner
 ....
 
-Neste segundo exemplo, `'epson2: libusb:/dev/usb:/dev/ugen0.2'` é o nome do backend (`epson2`) e `/dev/ugen0.2` é o nó do dispositivo usado pelo scanner.
+Neste segundo exemplo,`epson2` é o nome do backend e `libusb:000:002` significa que `/dev/ugen0.2` é o dispositivo usado pelo scanner.
 
 Se o comando `scanimage` não conseguir identificar o scanner, esta mensagem será exibida:
 
@@ -1012,14 +1011,12 @@ Salve as edições e verifique se o scanner está identificado com o nome do bac
 [source,bash]
 ....
 # scanimage -L
-device 'epson2:libusb:/dev/usb:/dev/ugen0.2' is a Epson GT-8200 flatbed scanner
+device 'epson2:libusb:000:002' is a Epson GT-8200 flatbed scanner
 ....
 
 Depois que o comando `scanimage -L` identificar o scanner, a configuração estará completa e o scanner estará pronto para ser usado.
 
-Embora o `scanimage` possa ser usado para realizar uma digitalização de imagem a partir da linha de comando, muitas vezes é preferível usar uma interface gráfica para executar o escaneamento. O pacote ou port package:graphics/sane-frontends[] instala uma interface gráfica simples, mas eficiente, xscanimage.
-
-Alternativamente, o xsane, que é instalado com o pacote ou port package:graphics/xsane[], é outro frontend de digitalização gráfica popular. Ele oferece recursos avançados, como vários modos de digitalização, correção de cores e digitalizações em lote. Ambos os aplicativos são utilizáveis como um plugin do GIMP.
+Embora o `scanimage` possa ser usado para realizar uma digitalização de imagem a partir da linha de comando, muitas vezes é preferível usar uma interface gráfica para executar o escaneamento. Aplicações como Kooka ou XSane são interfaces de digitalização populares. Eles oferecem recursos avançados, como vários modos de digitalização, correção de cores e digitalizações em lote. O XSane também pode ser usado como um plugin GIMP.
 
 === Permissões do Scanner
 
@@ -1040,6 +1037,19 @@ Então, crie um link simbólico para [.filename]#/dev/ugen0.2# e o nó do dispos
 add path ugen0.2 mode 0660 group usb
 add path usb/0.2.0 mode 0666 group usb
 ....
+
+[NOTE]
+====
+Acontece do nó do dispositivo mudar com a adição ou remoção de dispositivos, então você pode querer dar acesso a todos os dispositivos USB usando esse conjunto de regas:
+
+[.programlisting]
+....
+[system=5]
+add path 'ugen*' mode 0660 group usb
+add path 'usb/*' mode 0666 group usb
+....
+
+====
 
 Finalmente, adicione os usuários a `_usb_` para permitir acesso ao scanner:
 

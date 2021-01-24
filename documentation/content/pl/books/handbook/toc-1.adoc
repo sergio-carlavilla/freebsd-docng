@@ -39,7 +39,7 @@ Spis treści
 ** link:../basics/#basics-devices[3.11. Urządzenia i pliki urządzeń]
 ** link:../basics/#binary-formats[3.12. Formaty binarne]
 ** link:../basics/#basics-more-information[3.13. Więcej informacji]
-* link:../ports[Rozdział 4. Instalacja programów. pakiety i porty]
+* link:../ports[Rozdział 4. Instalacja programów: pakiety i porty]
 ** link:../ports/#ports-synopsis[4.1. Streszczenie]
 ** link:../ports/#ports-overview[4.2. Omówienie instalacji oprogramowania]
 ** link:../ports/#ports-finding-applications[4.3. Odnalezienie programu dla siebie]

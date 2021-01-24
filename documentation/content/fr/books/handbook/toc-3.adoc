@@ -102,7 +102,7 @@ Table des matières
 ** link:../disks/#quotas[18.15. Quotas d'utilisation des disques]
 ** link:../disks/#disks-encrypting[18.16. Chiffrer les partitions d'un disque]
 ** link:../disks/#swap-encrypting[18.17. Chiffrage de l'espace de pagination]
-* link:../geom[Chapitre 19. GEOM. architecture modulaire de gestion des disques]
+* link:../geom[Chapitre 19. GEOM: architecture modulaire de gestion des disques]
 ** link:../geom/#GEOM-synopsis[19.1. Synopsis]
 ** link:../geom/#GEOM-intro[19.2. Introduction à GEOM]
 ** link:../geom/#GEOM-striping[19.3. RAID0 - "Striping"]

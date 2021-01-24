@@ -95,7 +95,7 @@
 ** link:../disks/#disks-encrypting[17.14. Encrypting Disk Partitions]
 ** link:../disks/#swap-encrypting[17.15. Encrypting Swap Space]
 ** link:../disks/#disks-hast[17.16. Highly Available Storage (HAST)]
-* link:../geom[Κεφάλαιο 18. GEOM. Διαχείριση Συστοιχιών Δίσκων]
+* link:../geom[Κεφάλαιο 18. GEOM: Διαχείριση Συστοιχιών Δίσκων]
 ** link:../geom/#GEOM-synopsis[18.1. Σύνοψη]
 ** link:../geom/#GEOM-intro[18.2. Εισαγωγή στο GEOM]
 ** link:../geom/#GEOM-striping[18.3. RAID0 - Striping]

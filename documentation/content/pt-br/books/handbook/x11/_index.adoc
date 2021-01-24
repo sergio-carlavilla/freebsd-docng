@@ -155,7 +155,7 @@ Placas de vídeo, monitores e dispositivos de entrada são detectados automatica
 # pw groupmod video -m jru || pw groupmod wheel -m jru
 ....
 +
-. O gerenciador de janelas TWM é incluído por padrão. Ele é iniciado quando o Xorg é iniciado:
+. O gerenciador de janelas twm é incluído por padrão. Ele é chamado quando o Xorg se inicia:
 +
 [source,bash]
 ....
@@ -473,21 +473,19 @@ A localização padronizada das teclas em um teclado é chamada de _layout_. Lay
 +
 Um layout dos Estados Unidos é o padrão. Para selecionar um layout alternativo, defina as opções `XkbLayout` e `XkbVariant` em um `InputClass`. Isso será aplicado a todos os dispositivos de entrada que correspondam à classe.
 +
-Este exemplo seleciona um layout de teclado francês com a variante `oss`.
+Este exemplo seleciona um layout de teclado Francês.
 +
 .Definindo um layout de teclado
 [example]
 ====
-[.filename]#/usr/local/etc/X11/xorg.conf.d/keyboard-fr-oss.conf#
+[.filename]#/usr/local/etc/X11/xorg.conf.d/keyboard-fr.conf#
 
 [.programlisting]
 ....
 Section	"InputClass"
 	Identifier	"KeyboardDefaults"
-	Driver		"keyboard"
 	MatchIsKeyboard	"on"
 	Option		"XkbLayout" "fr"
-	Option		"XkbVariant" "oss"
 EndSection
 ....
 
@@ -523,7 +521,6 @@ X pode ser fechado com uma combinação de teclas. Por padrão, essa combinaçã
 ....
 Section	"InputClass"
 	Identifier	"KeyboardDefaults"
-	Driver		"keyboard"
 	MatchIsKeyboard	"on"
 	Option		"XkbOptions" "terminate:ctrl_alt_bksp"
 EndSection
@@ -533,6 +530,11 @@ EndSection
 
 [[x11-input-mice]]
 ==== Mouse e Dispositivos Similares
+
+[IMPORTANT]
+====
+Se ao usar package:xorg-server[] 1.20.8 ou maior no FreeBSD 12.1 e não usar man:moused[8], adicione `kern.evdev.rcpt_mask=12` ao arquivo [.filename]#/etc/sysctl.conf#:
+====
 
 Muitos parâmetros do mouse podem ser ajustados com opções de configuração. Veja man:mousedrv[4] para obter uma lista completa.
 [[x11-input-mice-buttons]]
@@ -574,11 +576,11 @@ Gerando um arquivo [.filename]#xorg.conf#:
 # Xorg -configure
 ....
 
-O arquivo de configuração é salvo em [.filename]#/root/xorg.conf.new#. Faça as alterações desejadas e teste esse arquivo com:
+O arquivo de configuração é salvo em [.filename]#/root/xorg.conf.new#. Faça as alterações desejadas e teste esse arquivo(usando `-retro` assim será exibido um fundo visível) com:
 
 [source,bash]
 ....
-# Xorg -config /root/xorg.conf.new
+# Xorg -retro -config /root/xorg.conf.new
 ....
 
 Após a nova configuração ter sido ajustada e testada, ela pode ser dividida em arquivos menores no diretorio, [.filename]#/usr/local/etc/X11/xorg.conf.d/#.
@@ -1144,7 +1146,7 @@ Section "Module"
     ...
 ....
 
-A configuração acima pode ser feita automaticamente com o package:x11/nvidia-xconfig[], executando como root:
+A configuração acima pode ser feita automaticamente com o package:x11/nvidia-xconfig[] (executando como `root`):
 
 [source,bash]
 ....

@@ -30,7 +30,7 @@ include::shared/en/urls.adoc[]
 toc::[]
 
 [[plist-sub]]
-== Changing pkg-plist Based on Make Variables
+== Changing [.filename]#pkg-plist# Based on Make Variables
 
 Some ports, particularly the `p5-` ports, need to change their [.filename]#pkg-plist# depending on what options they are configured with (or version of `perl`, in the case of `p5-` ports). To make this easy, any instances in [.filename]#pkg-plist# of `%%OSREL%%`, `%%PERL_VER%%`, and `%%PERL_VERSION%%` will be substituted appropriately. The value of `%%OSREL%%` is the numeric revision of the operating system (for example, `4.9`). `%%PERL_VERSION%%` and `%%PERL_VER%%` is the full version number of `perl` (for example, `5.8.9`). Several other `%%_VARS_%%` related to port's documentation files are described in <<install-documentation,the relevant section>>.
 

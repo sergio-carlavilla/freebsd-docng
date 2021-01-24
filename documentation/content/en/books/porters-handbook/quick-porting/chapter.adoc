@@ -51,7 +51,7 @@ This setting enables the "developer mode" that displays deprecation warnings and
 ====
 
 [[porting-makefile]]
-== Writing the Makefile
+== Writing the [.filename]#Makefile#
 
 The minimal [.filename]#Makefile# would look something like this:
 

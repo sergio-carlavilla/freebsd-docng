@@ -103,6 +103,23 @@ Um processo, usuário ou outra entidade, cujo acesso a recursos é restrito por 
 
 Alguns administradores dividem as jails nos dois seguintes tipos: jails "completa", que se assemelham a um sistema real do FreeBSD, e jails de "serviço", dedicados a um aplicativo ou serviço, possivelmente executando com privilégios. Esta é apenas uma divisão conceitual e o processo de criação de uma jail não é afetado por ela. Ao criar uma jail "completa", há duas opções para a origem do userland: usar binários pré-compilados (como aqueles fornecidos em uma mídia de instalação) ou compila-los a partir do código fonte.
 
+=== Instalando uma Jail
+
+[[jails-install-internet]]
+==== Para instalar uma Jail pela Internet
+
+A ferramenta {man:bsdinstall[8] pode ser usada para baixar e instalar os binários necessários para uma Jail. Será apresentando a seleção de um mirror, quais distribuições serão instaladas no diretório de destino e algumas configurações básicas da Jail:
+
+[source,bash]
+....
+# bsdinstall jail /here/is/the/jail
+....
+
+Uma vez que o comando finalize, o próximo passo é configurar o host para rodar a jail.
+
+[[jails-install-iso]]
+==== Instalar uma Jail por uma imagem ISO
+
 Para instalar o userland da mídia de instalação, primeiro crie o diretório raiz da jail. Isso pode ser feito definindo a variável `DESTDIR` para o local adequado.
 
 Inicie um shell e defina a variável `DESTDIR`:
@@ -121,17 +138,6 @@ Monte a mídia de instalação como abordado em man:mdconfig[8] ao usar a ISO de
 # cd /mnt/usr/freebsd-dist/
 ....
 
-Como alternativa, baixe os tarballs de um mirror:
-
-[source,bash]
-....
-# sh
-# export DESTRELEASE=12.0-RELEASE
-# export DESTARCH=`uname -m`
-# export SOURCEURL=http://ftp.freebsd.org/pub/FreeBSD/releases/$DESTARCH/$DESTRELEASE/
-# for set in base ports; do fetch $SOURCEURL/$set.txz ; done
-....
-
 Extraia os binários dos tarballs na mídia de instalação dentro do destino declarado. Minimamente, apenas o conjunto base precisa ser extraído, mas uma instalação completa pode ser executada quando preferida.
 
 Para instalar apenas o sistema básico:
@@ -147,6 +153,9 @@ Para instalar tudo, exceto o kernel:
 ....
 # for set in base ports; do tar -xf /mnt/usr/freebsd-dist/$set.txz -C $DESTDIR ; done
 ....
+
+[[jails-install-source]]
+==== Para compilar e instalar uma Jail a partir do código fonte
 
 A página de manual man:jail[8] explica o procedimento para compilar uma jail:
 
@@ -170,6 +179,8 @@ A página de manual man:jail[8] explica o procedimento para compilar uma jail:
 <.> O target `distribuição` do make instala todos os arquivos de configuração necessários. Em palavras simples, ele instala cada arquivo instalável de [.filename]#/usr/src/etc/# no diretório [.filename]#/etc# do ambiente jail: [.filename]#$D/etc/#.
 
 <.> A montagem do sistema de arquivos man:devfs[8] dentro de uma jail não é necessária. Por outro lado, qualquer, ou quase qualquer aplicativo requer acesso a pelo menos um dispositivo, dependendo da finalidade do aplicativo fornecido. É muito importante controlar o acesso a dispositivos de dentro de uma jail, pois configurações inadequadas podem permitir que um invasor faça coisas desagradáveis na jail. O controle sobre man:devfs[8] é gerenciado por meio de conjuntos de regras que são descritos nas páginas de manual man:devfs[8] e man:devfs.conf[5].
+
+=== Configurando o Host
 
 Uma vez que a jail é instalada, ela pode ser iniciada usando o utilitário man:jail[8]. O utilitário man:jail[8] possui quatro argumentos obrigatórios que são descritos em <<jails-synopsis>>. Outros argumentos podem ser especificados também, por exemplo, para executar o processo em jail com as credenciais de um usuário específico. O argumento de `_command_` depende do tipo de jail; para um _sistema virtual_, [.filename]#/etc/rc# é uma boa escolha, já que ele irá replicar a sequência de inicialização de um sistema real do FreeBSD. Para uma jail de _serviço_, depende do serviço ou aplicativo que será executado dentro da jail.
 

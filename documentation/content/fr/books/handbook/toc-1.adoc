@@ -37,7 +37,7 @@ Table des matières
 ** link:../basics/#basics-devices[3.11. Périphériques et fichiers spéciaux de périphérique]
 ** link:../basics/#binary-formats[3.12. Le format des fichiers binaires]
 ** link:../basics/#basics-more-information[3.13. Pour plus d'information]
-* link:../ports[Chapitre 4. Installer des applications. les logiciels pré-compilés et les logiciels portés]
+* link:../ports[Chapitre 4. Installer des applications: les logiciels pré-compilés et les logiciels portés]
 ** link:../ports/#ports-synopsis[4.1. Synopsis]
 ** link:../ports/#ports-overview[4.2. Généralités sur l'installation de logiciels]
 ** link:../ports/#ports-finding-applications[4.3. Trouver votre application]

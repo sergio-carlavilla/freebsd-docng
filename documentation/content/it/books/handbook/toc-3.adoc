@@ -104,7 +104,7 @@ Indice
 ** link:../disks/#quotas[18.12. File System Quotas]
 ** link:../disks/#disks-encrypting[18.13. Encrypting Disk Partitions]
 ** link:../disks/#swap-encrypting[18.14. Encrypting Swap Space]
-* link:../geom[Capitolo 19. GEOM. Framework modulare per la trasformazione del disco]
+* link:../geom[Capitolo 19. GEOM: Framework modulare per la trasformazione del disco]
 ** link:../geom/#GEOM-synopsis[19.1. Sinossi]
 ** link:../geom/#GEOM-intro[19.2. Introduzione a GEOM]
 ** link:../geom/#GEOM-striping[19.3. RAID0 - Striping]

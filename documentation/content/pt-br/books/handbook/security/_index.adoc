@@ -604,12 +604,19 @@ O Centro de Distribuição de Chaves (KDC) é o serviço de autenticação centr
 
 Embora a execução de um KDC exija poucos recursos de computação, uma máquina dedicada que atua apenas como um KDC é recomendada por motivos de segurança.
 
-Para começar a configurar um KDC, adicione estas linhas ao arquivo [.filename]#/etc/rc.conf#:
+Para começar, instale o pacote package:security/heimdal[] assim:
 
-[.programlisting]
+[source,bash]
 ....
-kdc_enable="YES"
-kadmind_enable="YES"
+# pkg install heimdal
+....
+
+Em seguida, edite o [.filename]#/etc/rc.conf# como a seguir:
+
+[source,bash]
+....
+# sysrc kdc_enable=yes
+# sysrc kadmind_enable=yes
 ....
 
 Em seguida, edite o arquivo [.filename]#/etc/krb5.conf# como a seguir:
@@ -680,12 +687,22 @@ Por fim, enquanto ainda estiver no `kadmin`, crie o primeiro principal usando `a
 kadmin> add tillman
 Max ticket life [unlimited]:
 Max renewable life [unlimited]:
+Principal expiration time [never]:
+Password expiration time [never]:
 Attributes []:
 Password: xxxxxxxx
 Verifying password - Password: xxxxxxxx
 ....
 
-Em seguida, inicie os serviços do KDC executando `service kdc start` e `service kadmind start`. Embora não haja daemons kerberizados em execução neste momento, é possível confirmar que o KDC está funcionando obtendo um ticket para o principal que acabou de ser criado:
+Em seguida, inicie o serviço KDC executando:
+
+[source,bash]
+....
+# service kdc start
+# service kadmind start
+....
+
+Embora não tenha nenhum daemon do kerberos em execução neste ponto, é possível confirmar que o KDC está funcionando obtendo um ticket para o principal que acabou de ser criado:
 
 [source,bash]
 ....
@@ -718,7 +735,7 @@ A primeira etapa na configuração de um servidor para usar a autenticação Ker
 
 Em seguida, crie o arquivo [.filename]#/etc/krb5.keytab# no servidor. Esta é a parte principal de "Kerberizar" um serviço - ele corresponde a gerar uma chave secreta compartilhada entre o serviço e o KDC. O segredo é uma chave criptográfica, armazenada em um "keytab". O keytab contém a chave do host do servidor, que permite que ele e o KDC verifiquem a identidade um do outro. Ele deve ser transmitido para o servidor de maneira segura, pois a segurança do servidor pode ser quebrada se a chave for tornada pública. Normalmente, o [.filename]#keytab# é gerado na máquina confiável de um administrador usando o `kadmin`, e então transferido com segurança para o servidor, por exemplo, com man:scp[1]; Ele também pode ser criado diretamente no servidor, se isso for consistente com a política de segurança desejada. É muito importante que o keytab seja transmitido para o servidor de forma segura: se a chave for conhecida por outra parte, essa parte pode representar qualquer usuário para o servidor! Usar o `kadmin` diretamente no servidor é conveniente, porque a entrada para o principal do host no banco de dados do KDC também é criada usando o `kadmin`.
 
-Naturalmente, o `kadmin` é um serviço kerberizado; um tíquete Kerberos é necessário para autenticar-se no serviço de rede, mas para garantir que o usuário que está executando o `kadmin` esteja presente (e sua sessão não tenha sido invadida), o `kadmin` solicitará a senha para obter um novo ticket. O principal autenticando no serviço kadmin deve ter permissão para usar a interface `kadmin`, conforme especificado no arquivo [.filename]#kadmind.acl#. Veja a seção intitulada "Administração Remota" em `info heimdal` para detalhes sobre a criação de listas de controle de acesso. Em vez de ativar o acesso remoto ao `kadmin`, o administrador pode conectar-se com segurança ao KDC através do console local ou por man:ssh[] e executar a administração localmente usando o `kadmin -l`.
+Naturalmente, o `kadmin` é um serviço kerberizado; um tíquete Kerberos é necessário para autenticar-se no serviço de rede, mas para garantir que o usuário que está executando o `kadmin` esteja presente (e sua sessão não tenha sido invadida), o `kadmin` solicitará a senha para obter um novo ticket. O principal autenticando no serviço kadmin deve ter permissão para usar a interface `kadmin`, conforme especificado no arquivo [.filename]#/var/heimdal/kadmind.acl#. Veja a seção intitulada "Administração Remota" em `info heimdal` para detalhes sobre a criação de listas de controle de acesso. Em vez de ativar o acesso remoto ao `kadmin`, o administrador pode conectar-se com segurança ao KDC através do console local ou por {man:ssh[] e executar a administração localmente usando o `kadmin -l`.
 
 Depois de instalar o arquivo [.filename]#/etc/krb5.conf#, use o `add --random-key` no `kadmin`. Isso adiciona o principal do host do servidor ao banco de dados, mas não extrai uma cópia da chave principal do host para um keytab. Para gerar o keytab, use `ext` para extrair a chave principal do host do servidor para seu próprio keytab:
 
@@ -787,11 +804,11 @@ Ao usar o MIT Kerberos como um KDC no FreeBSD, as seguintes edições também de
 
 [.programlisting]
 ....
-kerberos5_server="/usr/local/sbin/krb5kdc"
-kadmind5_server="/usr/local/sbin/kadmind"
-kerberos5_server_flags=""
-kerberos5_server_enable="YES"
-kadmind5_server_enable="YES"
+kdc_program="/usr/local/sbin/kdc"
+kadmind_program="/usr/local/sbin/kadmind"
+kdc_flags=""
+kdc_enable="YES"
+kadmind_enable="YES"
 ....
 
 === Dicas, Truques e Solução de Problemas do Kerberos
@@ -826,7 +843,7 @@ O Kerberos permite que usuários, hosts e serviços se autentiquem entre si. Ele
 * http://web.mit.edu/Kerberos/www/dialogue.html[Criando um Sistema de Autenticação: um Diálogo em Quatro Cenas]
 * https://www.ietf.org/rfc/rfc4120.txt[RFC 4120, O Serviço de Autenticação em Rede (V5) do Kerberos]
 * http://web.mit.edu/Kerberos/www/[Página Web do Kerberos MIT]
-* https://www.h5l.org/[Página Web do Kerberos Heimdal]
+* https://github.com/heimdal/heimdal/wiki[Página web do Heimdal Kerberos]
 
 [[openssl]]
 == OpenSSL
@@ -1045,7 +1062,7 @@ inet6 fe80::250:bfff:fe3a:c1f%gif0 prefixlen 64 scopeid 0x4
 
 Depois de concluídos, os dois endereços de IP internos devem ser acessados usando man:ping[8]:
 
-[.programlisting]
+[source,bash]
 ....
 priv-net# ping 10.0.0.5
 PING 10.0.0.5 (10.0.0.5): 56 data bytes
@@ -1056,7 +1073,10 @@ PING 10.0.0.5 (10.0.0.5): 56 data bytes
 --- 10.0.0.5 ping statistics ---
 4 packets transmitted, 4 packets received, 0% packet loss
 round-trip min/avg/max/stddev = 19.255/25.879/42.786/9.782 ms
+....
 
+[source,bash]
+....
 corp-net# ping 10.246.38.1
 PING 10.246.38.1 (10.246.38.1): 56 data bytes
 64 bytes from 10.246.38.1: icmp_seq=0 ttl=64 time=28.106 ms
@@ -1193,7 +1213,7 @@ Uma vez que o arquivo estiver no seu lugar, o racoon pode ser iniciado em ambos 
 
 A saída deve ser semelhante à seguinte:
 
-[.programlisting]
+[source,bash]
 ....
 corp-net# /usr/local/sbin/racoon -F -f /usr/local/etc/racoon/racoon.conf
 Foreground mode.

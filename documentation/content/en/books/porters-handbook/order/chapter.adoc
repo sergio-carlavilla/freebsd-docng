@@ -173,7 +173,7 @@ Start this section with defining `USES`, and then possible `USE_x`.
 Keep related variables close together. For example, if using <<makefile-master_sites-github,`USE_GITHUB`>>, always put the `GH_*` variables right after it.
 
 [[porting-order-variables]]
-== Standard bsd.port.mk Variables
+== Standard [.filename]#bsd.port.mk# Variables
 
 This section block is for variables that can be defined in [.filename]#bsd.port.mk# that do not belong in any of the previous section blocks.
 

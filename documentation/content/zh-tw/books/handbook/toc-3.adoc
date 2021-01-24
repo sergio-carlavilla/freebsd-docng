@@ -78,7 +78,7 @@
 ** link:../disks/#disks-encrypting[17.12. 磁碟分割區加密]
 ** link:../disks/#swap-encrypting[17.13. 交換空間加密]
 ** link:../disks/#disks-hast[17.14. 高可用存儲空間 (HAST)]
-* link:../geom[章 18. GEOM. 模組化磁碟轉換框架]
+* link:../geom[章 18. GEOM: 模組化磁碟轉換框架]
 ** link:../geom/#geom-synopsis[18.1. 概述]
 ** link:../geom/#geom-striping[18.2. RAID0 - 串連 (Striping)]
 ** link:../geom/#geom-mirror[18.3. RAID1 - 鏡像 (Mirroring)]

@@ -39,7 +39,7 @@ Indice
 ** link:../basics/#basics-devices[3.11. Dispositivi e Nodi di Dispositivo]
 ** link:../basics/#binary-formats[3.12. Formati dei Binari]
 ** link:../basics/#basics-more-information[3.13. Per Maggiori Informazioni]
-* link:../ports[Capitolo 4. Installazione delle Applicazioni. Port e Package]
+* link:../ports[Capitolo 4. Installazione delle Applicazioni: Port e Package]
 ** link:../ports/#ports-synopsis[4.1. Sinossi]
 ** link:../ports/#ports-overview[4.2. Uno Sguardo all'Installazione del Software]
 ** link:../ports/#ports-finding-applications[4.3. Ricerca della Propria Applicazione]

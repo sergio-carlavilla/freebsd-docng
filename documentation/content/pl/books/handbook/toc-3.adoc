@@ -78,7 +78,7 @@ Spis treści
 ** link:../disks/#disks-encrypting[17.12. Encrypting Disk Partitions]
 ** link:../disks/#swap-encrypting[17.13. Encrypting Swap]
 ** link:../disks/#disks-hast[17.14. Highly Available Storage (HAST)]
-* link:../geom[Rozdział 18. GEOM. Modular Disk Transformation Framework]
+* link:../geom[Rozdział 18. GEOM: Modular Disk Transformation Framework]
 ** link:../geom/#geom-synopsis[18.1. Synopsis]
 ** link:../geom/#geom-striping[18.2. RAID0 - Striping]
 ** link:../geom/#geom-mirror[18.3. RAID1 - Mirroring]

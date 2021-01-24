@@ -106,7 +106,7 @@
 ** link:../disks/#disks-encrypting[19.16. 加密磁盘分区]
 ** link:../disks/#swap-encrypting[19.17. 对交换区进行加密]
 ** link:../disks/#disks-hast[19.18. 高可用性存储 (HAST)]
-* link:../geom[章 20. GEOM. 模块化磁盘变换框架]
+* link:../geom[章 20. GEOM: 模块化磁盘变换框架]
 ** link:../geom/#GEOM-synopsis[20.1. 概述]
 ** link:../geom/#GEOM-intro[20.2. GEOM 介绍]
 ** link:../geom/#GEOM-striping[20.3. RAID0 - 条带]

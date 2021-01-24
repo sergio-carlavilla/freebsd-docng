@@ -52,7 +52,7 @@ Embora o FreeBSD seja popular como um servidor por seu desempenho e estabilidade
 
 [NOTE]
 ====
-Os usuários que preferem instalar uma versão de desktop pré-configurada do FreeBSD em vez de configurar um do zero devem consultar o http://www.trueos.org/[Website trueos.org.]
+Os usuários que preferem instalar uma versão de desktop pré-configurada do FreeBSD em vez de configurar um do zero devem consultar http://www.furybsd.org[FuryBSD.], https://ghostbsd.org[GhostBSD] or https://www.midnightbsd.org[MidnightBSD].
 ====
 
 Os leitores deste capítulo devem saber como:
@@ -125,26 +125,22 @@ A Coleção de Ports pode ser usada para compilar a versão desejada do Firefox 
 
 === Konqueror
 
-O Konqueror é mais do que um navegador Web, pois também é um gerenciador de arquivos e um visualizador de multimídia. Ele faz parte do pacote ou Port package:x11/kde4-baseapps[].
+O Konqueror é mais do que um navegador Web, pois também é um gerenciador de arquivos e um visualizador de multimídia. Suporta WebKit assim como seu próprio KHTML. WebKit é um motor de renderização usado por diversos navegadores modernos incluiindo o Chromium.
 
-O Konqueror suporta o WebKit, assim como o seu próprio KHTML. O WebKit é um mecanismo de renderização usado por muitos navegadores modernos, incluindo o Chromium. Para usar o WebKit com o Konqueror no FreeBSD, instale o pacote ou Port package:www/kwebkitpart[]. Este exemplo instala o pacote:
+O Konqueror pode ser instalado como um pacote digitando:
 
 [source,bash]
 ....
-# pkg install kwebkitpart
+# pkg install konqueror
 ....
 
 Para instalar a partir da Coleção de Ports:
 
 [source,bash]
 ....
-# cd /usr/ports/www/kwebkitpart
+# cd /usr/ports/x11-fm/konqueror/
 # make install clean
 ....
-
-Para habilitar o WebKit no Konqueror, clique em "Settings", "Configure Konqueror". Na página de configurações "General", clique no menu suspenso ao lado de "Default web browser engine" e altere "KHTML" para "WebKit".
-
-O Konqueror também suporta Flash(TM). Um guia sobre "como obter suporte" a Flash(TM) no Konqueror está disponível em http://freebsd.kde.org/howtos/konqueror-flash.php[http://freebsd.kde.org/howtos/konqueror-flash.php].
 
 === Chromium
 

@@ -106,7 +106,7 @@ Tartalom
 ** link:../disks/#quotas[18.15. Az állományrendszerek kvótái]
 ** link:../disks/#disks-encrypting[18.16. A lemezpartíciók titkosítása]
 ** link:../disks/#swap-encrypting[18.17. A lapozóterület titkosítása]
-* link:../geom[Fejezet 19. GEOM. A moduláris lemezszervező rendszer]
+* link:../geom[Fejezet 19. GEOM: A moduláris lemezszervező rendszer]
 ** link:../geom/#GEOM-synopsis[19.1. Áttekintés]
 ** link:../geom/#GEOM-intro[19.2. A GEOM bemutatása]
 ** link:../geom/#GEOM-striping[19.3. RAID0 - Csíkozás]
