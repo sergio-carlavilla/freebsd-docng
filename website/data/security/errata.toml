@@ -2,6 +2,22 @@
 # $FreeBSD$
 
 [[notices]]
+name = "FreeBSD-EN-20:22.callout"
+date = "2020-12-01"
+
+[[notices]]
+name = "FreeBSD-EN-20:21.ipfw"
+date = "2020-12-01"
+
+[[notices]]
+name = "FreeBSD-EN-20:20.tzdata"
+date = "2020-12-01"
+
+[[notices]]
+name = "FreeBSD-EN-20:19.audit"
+date = "2020-12-01"
+
+[[notices]]
 name = "FreeBSD-EN-20:18.getfsstat"
 date = "2020-09-02"
 

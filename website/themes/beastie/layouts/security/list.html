@@ -12,12 +12,12 @@
       <table>
         <thead>
           <tr>
-            <th>{{ i18n "data" }}</th>
+            <th>Data</th>
             {{ if eq $.Params.security "notices" }}
-              <th>{{ i18n "errataNoticeName" }}</th>
+              <th>Errata Notice name</th>
             {{ end }}
             {{ if eq $.Params.security "advisories" }}
-              <th>{{ i18n "advisoryName" }}</th>
+              <th>Advisory name</th>
             {{ end }}
           </tr>
         </thead>
@@ -27,7 +27,7 @@
               {{ range (sort .notices "date" "desc") }}
                 <tr>
                   <td class="txtdate">{{ .date }}</td>
-                  <td><a href="{{.Site.BaseURL | relLangURL }}/security/advisories/{{ .name }}.asc">{{ .name }}</a></td>
+                  <td><a href="{{.Site.BaseURL | absLangURL }}security/advisories/{{ .name }}.asc">{{ .name }}</a></td>
                 </tr>
               {{ end }}
             {{ end }}
@@ -37,7 +37,7 @@
               {{ range (sort .advisories "date" "desc") }}
                 <tr>
                   <td class="txtdate">{{ .date }}</td>
-                  <td><a href="{{.Site.BaseURL | relLangURL }}/security/advisories/{{ .name }}.asc">{{ .name }}</a></td>
+                  <td><a href="{{.Site.BaseURL | absLangURL }}security/advisories/{{ .name }}.asc">{{ .name }}</a></td>
                 </tr>
               {{ end }}
             {{ end }}
