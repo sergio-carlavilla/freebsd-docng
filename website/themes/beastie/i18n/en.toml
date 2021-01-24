@@ -152,8 +152,26 @@ other = "Monetary Donations"
 other = "Hardware Donations"
 
 #Main
-[freebsdDescription]
-other = "FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices."
+[freebsdDescription1]
+other = "FreeBSD is an operating system used to power modern servers, desktops, and embedded"
+
+[freebsdDescription2]
+other = "platforms"
+
+[freebsdDescription3]
+other = "A large"
+
+[freebsdDescription4]
+other = "community"
+
+[freebsdDescription5]
+other = "has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the"
+
+[freebsdDescription6]
+other = "busiest web sites"
+
+[freebsdDescription7]
+other = "and most pervasive embedded networking and storage devices."
 
 [learnMore]
 other = "Learn More"

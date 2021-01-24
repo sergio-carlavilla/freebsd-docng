@@ -5,7 +5,15 @@
       <div id="frontfeatureleft">
         <div id="frontfeaturecontent">
           <h1>{{ i18n "freebsdProject" }}</h1>
-          <p>{{ i18n "freebsdDescription" }}</p>
+          <p>
+            {{ i18n "freebsdDescription1" }}
+            <a href={{ "platforms/" | absLangURL }}>{{ i18n "freebsdDescription2" }}</a>
+            {{ i18n "freebsdDescription3" }}
+            <a href="docs.FreeBSD.org/en/articles/contributors/#staff-committers">{{ i18n "freebsdDescription4" }}</a>
+            {{ i18n "freebsdDescription5" }}
+            <a href="docs.FreeBSD.org/en/articles/handbook/book/#introduction-nutshell-users">title={{ i18n "freebsdDescription6" }}</a>
+            {{ i18n "freebsdDescription7" }}
+          </p>
           <div id="txtfrontfeaturelink"> »<a href={{ "about/" | absLangURL }} title={{ i18n "learnMore" }}>{{ i18n "learnMore" }}</a></div>
           <div id="txtfrontjournalblock">
             <br />»
@@ -67,9 +75,16 @@
       <div id="frontfeatureright">
         <div id="languagenav">
           <ul id="languagenavlist">
+            <!--
             {{ range $.Site.Home.AllTranslations }}
               <li><a href="{{ .Permalink }}">{{ .Language }}</a></li>
             {{ end }}
+            -->
+            <li><a href="{{ $.Site.BaseURL }}de">de</a></li>
+            <li><a href="{{ $.Site.BaseURL }}">en</a></li>
+            <li><a href="{{ $.Site.BaseURL }}ja">ja</a></li>
+            <li><a href="{{ $.Site.BaseURL }}zh-cn">zh-cn</a></li>
+            <li><a href="{{ $.Site.BaseURL }}zh-tw">zh-tw</a></li>
           </ul>
         </div>
         <div id="frontshortcuts">
