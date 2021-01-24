@@ -22,7 +22,7 @@ next: books/handbook/linuxemu
 :sectnumoffset: 9
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/printing/
+:imagesdir: ../../../../images/books/handbook/printing/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

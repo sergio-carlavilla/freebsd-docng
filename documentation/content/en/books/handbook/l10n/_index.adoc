@@ -22,7 +22,7 @@ next: books/handbook/cutting-edge
 :sectnumoffset: 23
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/l10n/
+:imagesdir: ../../../../images/books/handbook/l10n/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

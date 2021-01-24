@@ -22,7 +22,7 @@ next: books/handbook/usb-device-mode
 :sectnumoffset: 25
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/dtrace/
+:imagesdir: ../../../../images/books/handbook/dtrace/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

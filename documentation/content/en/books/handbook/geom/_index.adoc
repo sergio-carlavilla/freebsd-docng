@@ -1,12 +1,12 @@
 ---
-title: Chapter 19. GEOM. Modular Disk Transformation Framework
+title: "Chapter 19. GEOM: Modular Disk Transformation Framework"
 part: Part III. System Administration
 prev: books/handbook/disks
 next: books/handbook/zfs
 ---
 
 [[geom]]
-= GEOM. Modular Disk Transformation Framework
+= GEOM: Modular Disk Transformation Framework
 :doctype: book
 :toc: macro
 :toclevels: 1
@@ -22,7 +22,7 @@ next: books/handbook/zfs
 :sectnumoffset: 19
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/geom/
+:imagesdir: ../../../../images/books/handbook/geom/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

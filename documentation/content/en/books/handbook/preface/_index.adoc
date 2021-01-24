@@ -64,7 +64,7 @@ The second edition was the culmination of over two years of work by the dedicate
 * A standard synopsis has been added to each chapter to give a quick summary of what information the chapter contains, and what the reader is expected to know.
 * The content has been logically reorganized into three parts: "Getting Started", "System Administration", and "Appendices".
 * crossref:basics[basics,FreeBSD Basics] has been expanded to contain additional information about processes, daemons, and signals.
-* crossref:ports[ports,Installing Applications. Packages and Ports] has been expanded to contain additional information about binary package management.
+* crossref:ports[ports,Installing Applications: Packages and Ports] has been expanded to contain additional information about binary package management.
 * crossref:x11[x11,The X Window System] has been completely rewritten with an emphasis on using modern desktop technologies such as KDE and GNOME on XFree86(TM) 4.X.
 * crossref:boot[boot,The FreeBSD Booting Process] has been expanded.
 * crossref:disks[disks,Storage] has been written from what used to be two separate chapters on "Disks" and "Backups". We feel that the topics are easier to comprehend when presented as a single chapter. A section on RAID (both hardware and software) has also been added.
@@ -92,7 +92,7 @@ Walks a user through the entire installation process of FreeBSD 9._x_ and later 
 _crossref:basics[basics,FreeBSD Basics]_::
 Covers the basic commands and functionality of the FreeBSD operating system. If you are familiar with Linux(R) or another flavor of UNIX(R) then you can probably skip this chapter.
 
-_crossref:ports[ports,Installing Applications. Packages and Ports]_::
+_crossref:ports[ports,Installing Applications: Packages and Ports]_::
 Covers the installation of third-party software with both FreeBSD's innovative "Ports Collection" and standard binary packages.
 
 _crossref:x11[x11,The X Window System]_::

@@ -22,7 +22,7 @@ next: books/handbook/bsdinstall
 :sectnumoffset: 1
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/introduction/
+:imagesdir: ../../../../images/books/handbook/introduction/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

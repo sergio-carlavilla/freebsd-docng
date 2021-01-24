@@ -22,7 +22,7 @@ next: books/handbook/ppp-and-slip
 :sectnumoffset: 27
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/serialcomms/
+:imagesdir: ../../../../images/books/handbook/serialcomms/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

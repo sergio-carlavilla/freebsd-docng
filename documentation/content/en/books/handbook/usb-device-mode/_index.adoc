@@ -22,7 +22,7 @@ next: books/handbook/partiv
 :sectnumoffset: 26
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/usb-device-mode/
+:imagesdir: ../../../../images/books/handbook/usb-device-mode/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

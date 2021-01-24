@@ -31,7 +31,7 @@ include::shared/releases.adoc[]
 include::shared/en/mailing-lists.adoc[]
 include::shared/en/teams.adoc[]
 include::shared/en/urls.adoc[]
-:imagesdir: ../../../images/books/dev-model/
+:imagesdir: ../../../../images/books/dev-model/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

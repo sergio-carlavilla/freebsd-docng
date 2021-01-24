@@ -22,7 +22,7 @@ next: books/handbook/geom
 :sectnumoffset: 18
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/disks/
+:imagesdir: ../../../../images/books/handbook/disks/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

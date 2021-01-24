@@ -22,7 +22,7 @@ next: books/handbook/mail
 :sectnumoffset: 28
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/ppp-and-slip/
+:imagesdir: ../../../../images/books/handbook/ppp-and-slip/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

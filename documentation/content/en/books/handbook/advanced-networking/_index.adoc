@@ -22,7 +22,7 @@ next: books/handbook/partv
 :sectnumoffset: 32
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/advanced-networking/
+:imagesdir: ../../../../images/books/handbook/advanced-networking/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]

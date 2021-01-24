@@ -22,7 +22,7 @@ next: books/handbook/disks
 :sectnumoffset: 17
 
 ifeval::["{backend}" == "html5"]
-:imagesdir: ../../../images/books/handbook/audit/
+:imagesdir: ../../../../images/books/handbook/audit/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]
