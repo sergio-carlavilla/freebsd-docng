@@ -52,7 +52,7 @@ Uma instalação padrão do FreeBSD usando o bsdinstall não irá instalar autom
 
 [NOTE]
 ====
-Os usuários que preferem um método de instalação que configure automaticamente o Xorg e que ofereça uma grande variedade de opções de gerenciadores de janela durante a instalação devem consultar o web site http://www.trueos.org/[].
+Os usuários que preferem um método de instalação que configure automaticamente o Xorg devem consultar https://www.furybsd.org[FuryBSD], https://ghostbsd.org[GhostBSD] ou https://www.midnightbsd.org[MidnightBSD].
 ====
 
 Para obter maiores informações sobre o hardware de vídeo suportado pelo Xorg, consulte o web site http://www.x.org/[x.org].

@@ -299,6 +299,40 @@ Cada argumento do comando pkg é documentado em uma página de manual específic
 
 O restante desta seção demonstra tarefas comuns de gerenciamento de pacotes binários que podem ser executadas usando o pkg. Cada comando demonstrado fornece muitos switches para personalizar seu uso. Consulte a ajuda de um comando ou a página do manual para obter detalhes e mais exemplos.
 
+[[quarterly-latest-branch]]
+=== Branches Ports Trimestrais e Mais Recentes
+
+As branches `Quarterly`(trimestrais) provê aos usuários uma experiência mais estável e previsível para instalação e upgrade de ports e pacotes. Isto é feito essencialmente permitindo apenas atualizações que não contém novas features (non-features updates). Branches trimestrais visam receber correções se segurança (que talvez sejam atualizações de versão, ou commits de backports), correções de bugs e compliance de ports ou alterações de frameworks. A branch trimestral é baseada (anualmente) na HEAD no início de Janeiro, Abril, Julho e Outubro. As branches são nomeadas de acordo com o ano (YYYY) e o quarter (Q1-4) em que são criadas. Por exemplo, a branch trimestral criada em Janeiro de 2016, é nomeada 2016Q1. E a branch `Latest` provê as últimas versões dos pacotes para os usuários.
+
+Para alternar de trimestral para latest execute os seguintes comandos:
+
+[source,bash]
+....
+# cp /etc/pkg/FreeBSD.conf /usr/local/etc/pkg/repos/FreeBSD.conf
+....
+
+Edite o arquivo [.filename]#/usr/local/etc/pkg/repos/FreeBSD.conf# and change the string _quarterly_ to _latest_ in the `url:` line.
+
+O resultado deve ser semelhante ao seguinte:
+
+[.programlisting]
+....
+FreeBSD: {
+  url: "pkg+http://pkg.FreeBSD.org/${ABI}/latest",
+  mirror_type: "srv",
+  signature_type: "fingerprints",
+  fingerprints: "/usr/share/keys/pkg",
+  enabled: yes
+}
+....
+
+E finalmente rode este comando para atualizar do novo (ultimo) meta dado do repositório.
+
+[source,bash]
+....
+# pkg update -f
+....
+
 [[pkgng-pkg-info]]
 === Obtendo informações sobre os pacotes instalados
 
@@ -538,9 +572,14 @@ Ao alterar as origens do pacote, é importante reinstalar os pacotes que depende
 [[ports-using]]
 == Usando a Coleção de Ports
 
-A Coleção de Ports é um conjunto de arquivos [.filename]#Makefiles#, patches e arquivos de descrição. Cada conjunto desses arquivos é usado para compilar e instalar um aplicativo individual no FreeBSD, e é chamado de _port_.
+A Coleção de Ports é um conjunto de arquivos [.filename]##Makefiles##s, patches e arquivos de descrição. Cada conjunto desses arquivos é usado para compilar e instalar um aplicativo individual no FreeBSD, e é chamado de _port_.
 
 Por padrão, a própria coleção de ports é armazenada como um subdiretório de [.filename]#/usr/ports#.
+
+[WARNING]
+====
+Before installing and using the Ports Collection, please be aware that it is generally ill-advised to use the Ports Collection in conjunction with the binary packages provided via pkg to install software. pkg, by default, tracks quarterly branch-releases of the ports tree and not HEAD. Dependencies could be different for a port in HEAD compared to its counterpart in a quarterly branch release and this could result in conflicts between dependencies installed by pkg and those from the Ports Collection. If the Ports Collection and pkg must be used in conjunction, then be sure that your Ports Collection and pkg are on the same branch release of the ports tree.
+====
 
 Antes que um aplicativo possa ser compilado usando um port, a Coleção de Ports deve primeiro ser instalada. Se ela não foi instalada durante a instalação do FreeBSD, use um dos seguintes métodos para instalá-la:
 
@@ -549,7 +588,7 @@ Antes que um aplicativo possa ser compilado usando um port, a Coleção de Ports
 ====
 *Procedure: Método Portsnap*
 
-O sistema básico do FreeBSD inclui o Portsnap. Esta é uma ferramenta rápida e fácil de usar para recuperar a coleção de ports e é a escolha recomendada para a maioria dos usuários. Este utilitário se conecta a um site do FreeBSD, verifica a chave segura e faz o download de uma nova cópia da Coleção de Ports. A chave é usada para verificar a integridade de todos os arquivos baixados.
+O sistema base do FreeBSD inclui o Portsnap. Esta é uma ferramenta rápida e de fácil utilização para obter a Coleção de Ports e é a escolha recomendada para a maioria dos usuários que não estão executando o FreeBSD-CURRENT. Este utilitário se conecta a um site do FreeBSD, verifica a chave segura e faz o download de uma nova cópia da Coleção de Ports. A chave é usada para verificar a integridade de todos os arquivos baixados.
 
 . Para baixar um snapshot compactado da coleção de ports em [.filename]#/var/db/portsnap#:
 +
@@ -586,7 +625,7 @@ Ao usar `fetch`, a operação `extract` ou `update` pode ser executada consecuti
 ====
 *Procedure: Método Subversion*
 
-Se for necessário mais controle sobre a árvore de ports ou se as mudanças locais precisarem ser mantidas, o Subversion pode ser usado para obter a coleção de ports. Consulte link:{committers-guide}#subversion-primer[O Subversion Primer] para uma descrição detalhada do Subversion.
+Se for necessário mais controle sobre a árvore de ports ou se as mudanças locais precisarem ser mantidas, ou se estiver executando o FreeBSD-CURRENT, o Subversion pode ser usado para obter a coleção de ports. Consulte link:{committers-guide}#subversion-primer[O Subversion Primer] para uma descrição detalhada do Subversion.
 
 . O Subversion deve ser instalado antes de poder ser usado para fazer o check-out da árvore de ports. Se uma cópia da árvore de ports já estiver presente, instale o Subversion desta forma:
 +
@@ -603,11 +642,18 @@ Se a árvore de ports não estiver disponível, ou o pkg estiver sendo usado par
 # pkg install subversion
 ....
 +
-. Faça o check out de uma cópia da árvore de ports:
+. Check out a copy of the HEAD branch of the ports tree:
 +
 [source,bash]
 ....
 # svn checkout https://svn.FreeBSD.org/ports/head /usr/ports
+....
++
+. Or, check out a copy of a quarterly branch:
++
+[source,bash]
+....
+# svn checkout https://svn.FreeBSD.org/ports/branches/2020Q3 /usr/ports
 ....
 +
 . Conforme necessário, atualize o [.filename]#/usr/ports# após o check out inicial do Subversion:
@@ -616,6 +662,14 @@ Se a árvore de ports não estiver disponível, ou o pkg estiver sendo usado par
 ....
 # svn update /usr/ports
 ....
++
+. As needed, switch [.filename]#/usr/ports# to a different quarterly branch:
++
+[source,bash]
+....
+# svn switch http://svn.freebsd.org/ports/branches/2020Q4/ /usr/ports
+....
+
 ====
 
 A coleção de ports contém diretórios para categorias de software. Dentro de cada categoria estão subdiretórios para aplicativos individuais. Cada subdiretório de aplicativo contém um conjunto de arquivos que informa ao FreeBSD como compilar e instalar esse programa, chamado de _esqueleto do ports_. Cada esqueleto de port inclui esses arquivos e diretórios:
@@ -972,62 +1026,64 @@ Após a configuração, inicialize o poudriere para que ele instale um jail com 
 
 [source,bash]
 ....
-# poudriere jail -c -j 10amd64 -v 10.0-RELEASE
-====>> Creating 10amd64 fs... done
-====>> Fetching base.txz for FreeBSD 10.0-RELEASE amd64
-/poudriere/jails/10amd64/fromftp/base.txz      100% of   59 MB 1470 kBps 00m42s
-====>> Extracting base.txz... done
-====>> Fetching src.txz for FreeBSD 10.0-RELEASE amd64
-/poudriere/jails/10amd64/fromftp/src.txz       100% of  107 MB 1476 kBps 01m14s
-====>> Extracting src.txz... done
-====>> Fetching games.txz for FreeBSD 10.0-RELEASE amd64
-/poudriere/jails/10amd64/fromftp/games.txz     100% of  865 kB  734 kBps 00m01s
-====>> Extracting games.txz... done
-====>> Fetching lib32.txz for FreeBSD 10.0-RELEASE amd64
-/poudriere/jails/10amd64/fromftp/lib32.txz     100% of   14 MB 1316 kBps 00m12s
-====>> Extracting lib32.txz... done
-====>> Cleaning up... done
-====>> Jail 10amd64 10.0-RELEASE amd64 is ready to be used
+# poudriere jail -c -j 11amd64 -v 11.4-RELEASE
+[00:00:00] Creating 11amd64 fs at /poudriere/jails/11amd64... done
+[00:00:00] Using pre-distributed MANIFEST for FreeBSD 11.4-RELEASE amd64
+[00:00:00] Fetching base for FreeBSD 11.4-RELEASE amd64
+/poudriere/jails/11amd64/fromftp/base.txz              125 MB 4110 kBps    31s
+[00:00:33] Extracting base... done
+[00:00:54] Fetching src for FreeBSD 11.4-RELEASE amd64
+/poudriere/jails/11amd64/fromftp/src.txz               154 MB 4178 kBps    38s
+[00:01:33] Extracting src... done
+[00:02:31] Fetching lib32 for FreeBSD 11.4-RELEASE amd64
+/poudriere/jails/11amd64/fromftp/lib32.txz              24 MB 3969 kBps    06s
+[00:02:38] Extracting lib32... done
+[00:02:42] Cleaning up... done
+[00:02:42] Recording filesystem state for clean... done
+[00:02:42] Upgrading using ftp
+/etc/resolv.conf -> /poudriere/jails/11amd64/etc/resolv.conf
+Looking up update.FreeBSD.org mirrors... 3 mirrors found.
+Fetching public key from update4.freebsd.org... done.
+Fetching metadata signature for 11.4-RELEASE from update4.freebsd.org... done.
+Fetching metadata index... done.
+Fetching 2 metadata files... done.
+Inspecting system... done.
+Preparing to download files... done.
+Fetching 124 patches.....10....20....30....40....50....60....70....80....90....100....110....120.. done.
+Applying patches... done.
+Fetching 6 files... done.
+The following files will be added as part of updating to
+11.4-RELEASE-p1:
+/usr/src/contrib/unbound/.github
+/usr/src/contrib/unbound/.github/FUNDING.yml
+/usr/src/contrib/unbound/contrib/drop2rpz
+/usr/src/contrib/unbound/contrib/unbound_portable.service.in
+/usr/src/contrib/unbound/services/rpz.c
+/usr/src/contrib/unbound/services/rpz.h
+/usr/src/lib/libc/tests/gen/spawnp_enoexec.sh
+The following files will be updated as part of updating to
+11.4-RELEASE-p1:
+[…]
+Installing updates...Scanning //usr/share/certs/blacklisted for certificates...
+Scanning //usr/share/certs/trusted for certificates...
+ done.
+11.4-RELEASE-p1
+[00:04:06] Recording filesystem state for clean... done
+[00:04:07] Jail 11amd64 11.4-RELEASE-p1 amd64 is ready to be used
 ....
 
 [source,bash]
 ....
-# poudriere ports -c -p local
-====>> Creating local fs... done
-====>> Extracting portstree "local"...
-Looking up portsnap.FreeBSD.org mirrors... 7 mirrors found.
-Fetching public key from ec2-eu-west-1.portsnap.freebsd.org... done.
-Fetching snapshot tag from ec2-eu-west-1.portsnap.freebsd.org... done.
-Fetching snapshot metadata... done.
-Fetching snapshot generated at Tue Feb 11 01:07:15 CET 2014:
-94a3431f0ce567f6452ffde4fd3d7d3c6e1da143efec76100% of   69 MB 1246 kBps 00m57s
-Extracting snapshot... done.
-Verifying snapshot integrity... done.
-Fetching snapshot tag from ec2-eu-west-1.portsnap.freebsd.org... done.
-Fetching snapshot metadata... done.
-Updating from Tue Feb 11 01:07:15 CET 2014 to Tue Feb 11 16:05:20 CET 2014.
-Fetching 4 metadata patches... done.
-Applying metadata patches... done.
-Fetching 0 metadata files... done.
-Fetching 48 patches.
-(48/48) 100.00%  done.
-done.
-Applying patches...
-done.
-Fetching 1 new ports or files... done.
-/poudriere/ports/tester/CHANGES
-/poudriere/ports/tester/COPYRIGHT
-
-[...]
-
-Building new INDEX files... done.
+# poudriere ports -c -p local -m svn+https
+[00:00:00] Creating local fs at /poudriere/ports/local... done
+[00:00:00] Checking out the ports tree... done
 ....
 
 Em um único computador, o poudriere pode construir ports com várias configurações, em vários jails e de diferentes árvores de ports. Configurações customizadas para estas combinações são chamadas de _sets_. Veja a seção CUSTOMIZAÇÃO do man:poudriere[8] para detalhes depois que o package:ports-mgmt/poudriere[] ou o package:ports-mgmt/poudriere-devel[] estiver instalado.
 
-A configuração básica mostrada aqui coloca um único jail-, port-, e um set específico [.filename]#make.conf# em [.filename]#/usr/local/etc/poudriere.d#. O nome do arquivo neste exemplo é criado combinando o nome do jail, o nome do port e o nome do set: [.filename]#10amd64-local-workstation-make.conf#. O sistema [.filename]#make.conf# e este novo arquivo são combinados em tempo de compilação para criar o [.filename]#make.conf# usado pela jail de compilação.
+A configuração básica mostrada aqui coloca um único jail-, port-, e um set específico [.filename]#make.conf# em [.filename]#/usr/local/etc/poudriere.d#. O nome do arquivo neste exemplo é criado combinando o nome do jail, o nome do port e o nome do set: [.filename]#11amd64-local-workstation-make.conf#. O sistema [.filename]#make.conf# e este novo arquivo são combinados em tempo de compilação para criar o [.filename]#make.conf# usado pela jail de compilação.
 
-Os pacotes a serem criados são inseridos em [.filename]#10amd64-local-workstation-pkglist#:
+Os pacotes a serem criados são inseridos em [.filename]#11amd64-local-workstation-pkglist#:
 
 [.programlisting]
 ....
@@ -1041,14 +1097,14 @@ Opções e dependências para os ports especificados são configuradas:
 
 [source,bash]
 ....
-# poudriere options -j 10amd64 -p local -z workstation -f 10amd64-local-workstation-pkglist
+# poudriere options -j 11amd64 -p local -z workstation -f 11amd64-local-workstation-pkglist
 ....
 
 Finalmente, os pacotes são compilados e um repositório de pacotes é criado:
 
 [source,bash]
 ....
-# poudriere bulk -j 10amd64 -p local -z workstation -f 10amd64-local-workstation-pkglist
+# poudriere bulk -j 11amd64 -p local -z workstation -f 11amd64-local-workstation-pkglist
 ....
 
 Durante a execução, pressionar kbd:[Ctrl+t] exibe o estado atual da compilação. O Poudriere também cria arquivos em [.filename]#/poudriere/logs/bulk/jailname# que podem ser usados com um servidor da Web para exibir informações de compilação.
@@ -1068,14 +1124,14 @@ FreeBSD: {
 }
 ....
 
-Geralmente, é mais fácil servir um repositório poudriere para as máquinas clientes via HTTP. Configure um servidor da web para servir o diretório de pacotes, por exemplo: [.filename]#/usr/local/poudriere/data/packages/10amd64#, onde [.filename]#10amd64# é o nome da compilação.
+Geralmente é mais fácil disponibilizar um repositório poudriere para as máquinas clientes via HTTP. Configure um servidor web para disponibilizar o diretório de pacotes, por exemplo: [.filename]#/usr/local/poudriere/data/packages/11amd64#, onde [.filename]#11amd64# é o nome da compilação.
 
-Se a URL para o repositório de pacotes for: `http://pkg.example.com/10amd64`, o arquivo de configuração do repositório em [.filename]#/usr/local/etc/pkg/repos/custom.conf# ficaria assim:
+Se a URL para o repositório de pacotes for: `http://pkg.example.com/11amd64`, o arquivo de configuração do repositório em [.filename]#/usr/local/etc/pkg/repos/custom.conf# ficaria assim:
 
 [.programlisting]
 ....
 custom: {
-	url: "http://pkg.example.com/10amd64",
+	url: "http://pkg.example.com/11amd64",
 	enabled: yes,
 }
 ....
