@@ -4,7 +4,7 @@ authors:
   - author: Jason Helfman
     email: jgh@FreeBSD.org
 copyright: 2009-2011, 2013 Jason Helfma
-releaseinfo: "$FreeBSD: head/de_DE.ISO8859-1/articles/freebsd-update-server/article.xml 51671 2018-05-20 11:07:55Z bhd $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "amd", "intel", "general"]
 ---
 

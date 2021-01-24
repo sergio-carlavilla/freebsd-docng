@@ -3,7 +3,7 @@ title: Элементы архитектуры системы виртуальн
 authors:
   - author: Matthew Dillon
     email: dillon@apollo.backplane.com
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/vm-design/article.xml 43234 2013-11-24 18:59:24Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "linux", "microsoft", "opengroup", "general"]
 ---
 

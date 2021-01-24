@@ -3,7 +3,7 @@ title: Perguntas Frequentes Sobre as Listas de Discussão do FreeBSD
 authors:
   - author: Projeto de Documentação do FreeBSD
 copyright: 2004-2005 Projeto de Documentação do FreeBSD
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/mailing-list-faq/article.xml 52221 2018-09-06 00:45:40Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: []
 ---
 

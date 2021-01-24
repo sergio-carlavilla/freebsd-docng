@@ -3,7 +3,7 @@ title: Escrevendo Relatórios de Problemas para o FreeBSD
 authors:
   - author: Dag-Erling Smørgrav
   - author: Mark Linimon
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/problem-reports/article.xml 53165 2019-06-17 22:18:56Z dbaio $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "intel", "sun", "general"] 
 ---
 

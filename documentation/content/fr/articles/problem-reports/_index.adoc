@@ -3,7 +3,7 @@ title: Ecrire des rapports de bogue pour FreeBSD
 authors:
   - author: Dag-Erling Smørgrav
   - author: Mark Linimon
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/articles/problem-reports/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "intel", "sun", "general"]
 ---
 

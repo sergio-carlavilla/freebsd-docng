@@ -1,6 +1,6 @@
 ---
 title: Chaves OpenPGP
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/pgpkeys/article.xml 52271 2018-09-17 00:27:44Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Chaves OpenPGP

@@ -4,7 +4,7 @@ authors:
   - author: The FreeBSD Documentation Project
   - author: Дмитрий Морозовский
 copyright: 1999-2007 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/committers-guide/article.xml 45050 2014-06-13 14:53:24Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "cvsup", "ibm", "intel", "sparc", "general"]
 ---
 

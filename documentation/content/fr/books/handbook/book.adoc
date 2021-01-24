@@ -3,7 +3,7 @@ title: Manuel FreeBSD
 authors:
   - author: Groupe de Documentation FreeBSD
 copyright: 1995-2020 Groupe de Documentation FreeBSD
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/books/handbook/book.xml 54263 2020-06-16 15:54:02Z gjb $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "redhat", "3com", "adobe", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "realnetworks", "oracle", "3ware", "arm", "adaptec", "google", "heidelberger", "intuit", "lsilogic", "themathworks", "thomson", "vmware", "wolframresearch", "xiph", "xfree86", "general"] 
 ---
 

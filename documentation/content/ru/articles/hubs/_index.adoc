@@ -10,7 +10,7 @@ authors:
   - author: Ken Smith
     email: kensmith@FreeBSD.org
   - author: Дмитрий Морозовский
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/hubs/article.xml 46680 2015-05-12 08:03:23Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

@@ -3,7 +3,7 @@ title: Preguntas más frecuentes sobre las listas de correo de FreeBSD
 authors:
   - author: The FreeBSD Documentation Project
 copyright: 2004-2005 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/mailing-list-faq/article.xml 53159 2019-06-16 20:54:36Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Preguntas más frecuentes sobre las listas de correo de FreeBSD

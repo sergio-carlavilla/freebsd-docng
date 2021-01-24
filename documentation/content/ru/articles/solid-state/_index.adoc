@@ -4,7 +4,7 @@ authors:
   - author: John Kozubik
     email: john@kozubik.com
 copyright: 2001, 2009 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/solid-state/article.xml 45050 2014-06-13 14:53:24Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

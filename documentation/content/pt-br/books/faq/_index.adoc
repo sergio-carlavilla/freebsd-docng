@@ -1,7 +1,7 @@
 ---
 title: Perguntas freqüentes para o FreeBSD 11.X e 12.X
 authors: 
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/books/faq/book.xml 54408 2020-08-05 22:06:30Z dbaio $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: [] 
 ---
 

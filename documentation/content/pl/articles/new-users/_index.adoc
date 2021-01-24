@@ -3,7 +3,7 @@ title: Wprowadzenie do FreeBSD i Uniksa
 authors:
   - author: Annelise Anderson
     email: andrsn@andrsn.stanford.edu
-releaseinfo: "$FreeBSD: head/pl_PL.ISO8859-2/articles/new-users/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "microsoft", "opengroup", "general"]
 ---
 

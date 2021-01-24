@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zu FreeBSD 11.X und 12.X
 authors: 
   - author: The FreeBSD Documentation Project
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/de_DE.ISO8859-1/books/faq/book.xml 49759 2016-12-23 10:07:39Z bhd $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "adobe", "intel", "linux", "microsoft", "opengroup", "sun", "netbsd", "general"] 
 ---
 

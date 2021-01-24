@@ -3,7 +3,7 @@ title: FreeBSD 使用手冊
 authors:
   - author: FreeBSD 文件計劃
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/books/handbook/book.xml 53653 2019-12-03 17:05:41Z rcyu $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "redhat", "3com", "adobe", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "realnetworks", "oracle", "3ware", "arm", "adaptec", "google", "heidelberger", "intuit", "lsilogic", "themathworks", "thomson", "vmware", "wolframresearch", "xiph", "xfree86", "general"] 
 ---
 

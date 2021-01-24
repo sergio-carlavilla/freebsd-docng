@@ -1,6 +1,6 @@
 ---
 title: Soporte para segundos intercalares en FreeBSD
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/leap-seconds/article.xml 53090 2019-06-01 17:52:59Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Soporte para segundos intercalares en FreeBSD

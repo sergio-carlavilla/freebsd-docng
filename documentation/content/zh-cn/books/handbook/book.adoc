@@ -4,7 +4,7 @@ authors:
   - author: The FreeBSD Documentation Project
   - author: FreeBSD 中文计划
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/zh_CN.UTF-8/books/handbook/book.xml 43188 2013-11-14 00:20:51Z delphij $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "redhat", "3com", "adobe", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "realnetworks", "oracle", "3ware", "arm", "adaptec", "heidelberger", "intuit", "lsilogic", "themathworks", "thomson", "vmware", "wolframresearch", "xiph", "xfree86", "general"] 
 ---
 

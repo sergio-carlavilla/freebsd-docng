@@ -1,6 +1,6 @@
 ---
 title: Support des secondes intercalaires par FreeBSD
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/articles/leap-seconds/article.xml 48297 2016-02-29 12:02:27Z blackend $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Support des secondes intercalaires par FreeBSD

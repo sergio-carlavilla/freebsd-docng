@@ -1,6 +1,6 @@
 ---
 title: FreeBSD 對潤秒的支援
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/articles/leap-seconds/article.xml 47763 2015-11-10 15:45:28Z wblock $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = FreeBSD 對潤秒的支援

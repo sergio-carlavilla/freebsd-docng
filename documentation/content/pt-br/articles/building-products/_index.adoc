@@ -5,7 +5,7 @@ authors:
     email: jkoshy@FreeBSD.org
 organizations:
   - organization: The FreeBSD Project
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/building-products/article.xml 52185 2018-08-28 03:24:45Z dbaio $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

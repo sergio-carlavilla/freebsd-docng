@@ -2,7 +2,7 @@
 title: Συχνές Ερωτήσεις Σχετικά με τις Λίστες Ηλεκτρονικού Ταχυδρομείου του FreeBSD
 authors:
   - author: Η Ομάδα Τεκμηρίωσης του FreeBSD
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/articles/mailing-list-faq/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Συχνές Ερωτήσεις Σχετικά με τις Λίστες Ηλεκτρονικού Ταχυδρομείου του FreeBSD

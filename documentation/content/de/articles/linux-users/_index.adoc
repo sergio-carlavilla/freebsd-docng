@@ -3,7 +3,7 @@ title: FreeBSD Anleitung für Linux®-Benutzer
 authors:
   - author: John Ferrell
 copyright: 2008 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/de_DE.ISO8859-1/articles/linux-users/article.xml 49439 2016-09-30 17:21:23Z bhd $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "intel", "redhat", "linux", "unix", "general"]
 ---
 

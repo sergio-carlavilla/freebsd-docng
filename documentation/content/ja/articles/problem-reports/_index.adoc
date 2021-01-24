@@ -3,7 +3,7 @@ title: FreeBSD 障害報告の書き方
 authors:
   - author: Smørgrav Dag-Erling [FAMILY Given]
   - author: Linimon Mark [FAMILY Given]
-releaseinfo: "$FreeBSD: head/ja_JP.eucJP/articles/problem-reports/article.xml 53166 2019-06-18 09:49:53Z ryusuke $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "intel", "sun", "general"]
 ---
 

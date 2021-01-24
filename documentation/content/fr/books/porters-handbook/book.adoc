@@ -3,7 +3,7 @@ title: Le guide du créateur de ports
 authors: 
   - author: The FreeBSD Documentation Project
 copyright: 2000-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/books/porters-handbook/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "sun", "unix", "general"] 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: FreeBSDにおける閏秒のサポートについて
-releaseinfo: "$FreeBSD: head/ja_JP.eucJP/articles/leap-seconds/article.xml 48375 2016-03-12 12:08:21Z wblock $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = FreeBSDにおける閏秒のサポートについて

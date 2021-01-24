@@ -3,7 +3,7 @@ title: Directives d'utilisation des rapports de bogues
 authors:
   - author: Dag-Erling Smørgrav
   - author: Hiten Pandya
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/articles/pr-guidelines/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

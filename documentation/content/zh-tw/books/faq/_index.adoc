@@ -3,7 +3,7 @@ title: FreeBSD 11.X and 12.X 常見問答集
 authors: 
   - author: FreeBSD 文件計畫
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/books/faq/book.xml 53516 2019-10-31 14:36:07Z rcyu $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "adobe", "intel", "linux", "microsoft", "opengroup", "sun", "netbsd", "general"] 
 ---
 

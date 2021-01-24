@@ -3,7 +3,7 @@ title: Design elements of the FreeBSD VM system
 authors:
   - author: Matthew Dillon
     email: dillon@apollo.backplane.com
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/vm-design/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "linux", "microsoft", "opengroup", "daemon-news", "general"]
 ---
 

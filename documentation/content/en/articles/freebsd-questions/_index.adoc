@@ -3,7 +3,7 @@ title: How to get Best Results from the FreeBSD-questions Mailing List
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/freebsd-questions/article.xml 53817 2020-01-25 19:19:19Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "microsoft", "opengroup", "qualcomm", "general"]
 ---
 

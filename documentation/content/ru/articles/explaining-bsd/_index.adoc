@@ -3,7 +3,7 @@ title: Что такое BSD
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/explaining-bsd/article.xml 46680 2015-05-12 08:03:23Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "amd", "apple", "intel", "linux", "opengroup", "sparc", "sun", "unix", "general"]
 ---
 

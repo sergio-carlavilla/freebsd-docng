@@ -3,7 +3,7 @@ title: Explicando BSD
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/explaining-bsd/article.xml 52858 2019-03-12 09:54:56Z gabor $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "amd", "apple", "intel", "linux", "opengroup", "sparc", "sun", "unix", "general"]
 ---
 

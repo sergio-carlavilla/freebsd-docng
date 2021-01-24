@@ -2,7 +2,7 @@
 title: FreeBSD への貢献
 authors:
   - author: Hubbard Jordan [FAMILY Given]
-releaseinfo: "$FreeBSD: head/ja_JP.eucJP/articles/contributing/article.xml 52387 2018-10-20 13:12:43Z ryusuke $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ieee", "general"]
 ---
 

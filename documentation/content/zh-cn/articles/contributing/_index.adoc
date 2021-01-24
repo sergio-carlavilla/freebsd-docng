@@ -2,7 +2,7 @@
 title: 为 FreeBSD 提供帮助
 authors:
   - author: Jordan Hubbard
-releaseinfo: "$FreeBSD: head/zh_CN.UTF-8/articles/contributing/article.xml 43188 2013-11-14 00:20:51Z delphij $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ieee", "general"]
 ---
 

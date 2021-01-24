@@ -3,7 +3,7 @@ title: Manual de FreeBSD
 authors:
   - author: Proyecto de Documentación de FreeBSD
 copyright: 1995-2020 Proyecto de Documentación de FreeBSD
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/books/handbook/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "redhat", "3com", "adobe", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "realnetworks", "oracle", "3ware", "arm", "adaptec", "heidelberger", "intuit", "lsilogic", "themathworks", "thomson", "vmware", "wolframresearch", "xiph", "xfree86", "general"] 
 ---
 

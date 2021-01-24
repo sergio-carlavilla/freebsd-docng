@@ -3,7 +3,7 @@ title: Tutorial sobre Comunicações Seriais e UART
 authors:
   - author: Frank Durda
     email: uhclem@FreeBSD.org
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/serial-uart/article.xml 52273 2018-09-18 03:29:14Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "microsoft", "general"]
 ---
 

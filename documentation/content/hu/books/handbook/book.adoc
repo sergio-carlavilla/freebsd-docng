@@ -3,7 +3,7 @@ title: FreeBSD kézikönyv
 authors:
   - author: A FreeBSD Dokumentációs Projekt
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/hu_HU.ISO8859-2/books/handbook/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "redhat", "3com", "adobe", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "realnetworks", "oracle", "3ware", "arm", "adaptec", "google", "heidelberger", "intuit", "lsilogic", "themathworks", "thomson", "vmware", "wolframresearch", "xiph", "xfree86", "general"] 
 ---
 

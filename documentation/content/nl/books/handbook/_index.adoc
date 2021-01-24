@@ -3,7 +3,7 @@ title: FreeBSD handboek
 authors:
   - author: The FreeBSD Dutch Documentation Project
 copyright: 1995-2020 The FreeBSD Dutch Documentation Project
-releaseinfo: "$FreeBSD: head/nl_NL.ISO8859-1/books/handbook/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "redhat", "3com", "adobe", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "realnetworks", "oracle", "3ware", "arm", "adaptec", "heidelberger", "intuit", "lsilogic", "themathworks", "thomson", "vmware", "wolframresearch", "xiph", "xfree86", "general"] 
 next: books/handbook/preface
 ---

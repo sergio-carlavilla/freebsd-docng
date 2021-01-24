@@ -3,7 +3,7 @@ title: Pour les Nouveaux Venus à FreeBSD et Unix
 authors:
   - author: Annelise Anderson
     email: andrsn@andrsn.stanford.edu
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/articles/new-users/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "microsoft", "opengroup", "general"]
 ---
 

@@ -3,7 +3,7 @@ title: FreeBSD gyorstalpaló Linux® felhasználók számára
 authors:
   - author: Ferrell, John
 copyright: 2008 A FreeBSD Dokumentációs Projekt
-releaseinfo: "$FreeBSD: head/hu_HU.ISO8859-2/articles/linux-users/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "intel", "redhat", "linux", "unix", "general"]
 ---
 

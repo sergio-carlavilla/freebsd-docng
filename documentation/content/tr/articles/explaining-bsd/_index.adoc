@@ -3,7 +3,7 @@ title: BSD Nedir?
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/tr_TR.ISO8859-9/articles/explaining-bsd/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "apple", "xfree86", "linux", "opengroup", "sun", "general"]
 ---
 

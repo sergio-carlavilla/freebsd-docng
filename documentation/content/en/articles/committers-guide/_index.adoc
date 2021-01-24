@@ -3,7 +3,7 @@ title: Committer's Guide
 authors:
   - author: The FreeBSD Documentation Project
 copyright: 1999-2019 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/committers-guide/article.xml 54315 2020-07-07 10:11:37Z brueffer $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "coverity", "ibm", "intel", "sparc", "general"]
 ---
 

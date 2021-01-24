@@ -3,7 +3,7 @@ title: Uitleg over BSD
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/nl_NL.ISO8859-1/articles/explaining-bsd/article.xml 47687 2015-10-27 19:12:00Z rene $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "amd", "apple", "intel", "linux", "opengroup", "sparc", "sun", "unix", "general"]
 ---
 

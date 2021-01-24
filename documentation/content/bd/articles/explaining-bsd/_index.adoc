@@ -3,7 +3,7 @@ title: BSD কি, কেন, কার জন্য
 authors:
   - author: গ্রেগ লেহেই
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/bn_BD.UTF-8/articles/explaining-bsd/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "amd", "apple", "intel", "linux", "opengroup", "sparc", "sun", "unix", "general"]
 ---
 

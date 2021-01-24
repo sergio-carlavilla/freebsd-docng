@@ -1,7 +1,7 @@
 ---
 title: Manuel FreeBSD
 authors: 
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/books/handbook/book.xml 54161 2020-05-21 14:02:26Z blackend $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "redhat", "3com", "adobe", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "realnetworks", "oracle", "3ware", "arm", "adaptec", "google", "heidelberger", "intuit", "lsilogic", "themathworks", "thomson", "vmware", "wolframresearch", "xiph", "xfree86", "general"] 
 next: books/handbook/preface
 ---

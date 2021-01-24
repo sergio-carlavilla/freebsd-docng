@@ -3,7 +3,7 @@ title: Linux® emulation in FreeBSD
 authors:
   - author: Roman Divacky
     email: rdivacky@FreeBSD.org
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/linux-emulation/article.xml 53664 2019-12-07 16:24:22Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "adobe", "netbsd", "realnetworks", "oracle", "linux", "sun", "general"]
 ---
 

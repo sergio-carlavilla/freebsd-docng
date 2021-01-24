@@ -6,7 +6,7 @@ authors:
   - author: Michael J. Karels
   - author: John S. Quarterman
 copyright: 1996 Addison-Wesley Longman, Inc
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/books/design-44bsd/book.xml 44677 2014-04-28 19:36:49Z wblock $"
+releaseinfo: "$FreeBSD$" 
 trademarks: ["design-44bsd"] 
 ---
 

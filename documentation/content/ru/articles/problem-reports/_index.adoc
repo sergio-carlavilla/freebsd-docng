@@ -3,7 +3,7 @@ title: Составление сообщений о проблеме во FreeBS
 authors:
   - author: Dag-Erling Smørgrav
   - author: Mark Linimon
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/problem-reports/article.xml 45050 2014-06-13 14:53:24Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "intel", "sparc", "sun", "general"]
 ---
 

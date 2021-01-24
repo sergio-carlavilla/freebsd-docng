@@ -3,7 +3,7 @@ title: Πως να χρησιμοποιείτε με επιτυχία την λ�
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/articles/freebsd-questions/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "microsoft", "opengroup", "qualcomm", "general"]
 ---
 

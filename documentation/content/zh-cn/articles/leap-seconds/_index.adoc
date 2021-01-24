@@ -1,6 +1,6 @@
 ---
 title: FreeBSD 对闰秒的支持
-releaseinfo: "$FreeBSD: head/zh_CN.UTF-8/articles/leap-seconds/article.xml 50588 2017-07-27 15:12:33Z rcyu $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = FreeBSD 对闰秒的支持

@@ -3,7 +3,7 @@ title: Hintergrundwissen zu BSD
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/de_DE.ISO8859-1/articles/explaining-bsd/article.xml 47809 2015-11-29 11:40:28Z bhd $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "amd", "apple", "intel", "linux", "opengroup", "sparc", "sun", "unix", "general"]
 ---
 

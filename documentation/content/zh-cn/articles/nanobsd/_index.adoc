@@ -3,7 +3,7 @@ title: NanoBSD 简介
 authors:
   - author: Daniel Gerzo
 copyright: 2006 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/zh_CN.UTF-8/articles/nanobsd/article.xml 43188 2013-11-14 00:20:51Z delphij $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

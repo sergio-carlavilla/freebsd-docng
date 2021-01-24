@@ -3,7 +3,7 @@ title: 오픈 소스 프로젝트에 BSD 형식의 라이선스를 사용해야 
 authors:
   - author: Bruce Montague
     email: brucem@alumni.cse.ucsc.edu
-releaseinfo: "$FreeBSD: head/ko_KR.UTF-8/articles/bsdl-gpl/article.xml 48033 2016-01-16 17:22:29Z wblock $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "intel", "general"]
 ---
 

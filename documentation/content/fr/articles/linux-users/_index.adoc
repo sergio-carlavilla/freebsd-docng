@@ -3,7 +3,7 @@ title: Guide rapide pour débuter avec FreeBSD à l'attention des utilisateurs d
 authors:
   - author: John Ferrell
 copyright: 2008 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/articles/linux-users/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "intel", "redhat", "linux", "unix", "general"]
 ---
 

@@ -4,7 +4,7 @@ authors:
   - author: Jordan Hubbard
   - author: Sam Lawrance
   - author: Mark Linimon
-releaseinfo: "$FreeBSD: head/ko_KR.UTF-8/articles/contributing/article.xml 48033 2016-01-16 17:22:29Z wblock $" 
+releaseinfo: "$FreeBSD$"  
 trademarks: ["freebsd", "ieee", "general"]
 ---
 

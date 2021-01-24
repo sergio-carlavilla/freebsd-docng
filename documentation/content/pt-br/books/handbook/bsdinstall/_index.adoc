@@ -61,7 +61,7 @@ Em geral, as instruções de instalação neste capítulo foram escritas para as
 
 [NOTE]
 ====
-Usuários que preferem instalar o FreeBSD usando um instalador gráfico podem estar interessados no  pc-sysinstall , o instalador usado pelo Projeto TrueOS. Ele pode ser usado para instalar um desktop gráfico (TrueOS) ou uma versão de linha de comando do FreeBSD. Consulte o Manual do Usuário do TrueOS para obter detalhes (https://www.trueos.org/handbook/trueos.html[https://www.trueos.org/handbook/trueos.html]).
+Usuários que preferem instalar o FreeBSD usando uma instaldor gráfico talvez possam se interessar no https://www.furybsd.org[FuryBSD], https://ghostbsd.org[GhostBSD] ou https://www.midnightbsd.org[MidnightBSD].
 ====
 
 Depois de ler este capítulo, você saberá:
@@ -221,7 +221,7 @@ Certifique-se de fornecer a letra da unidade correta, pois os dados existentes n
 O Image Writer para Windows(TM) é um aplicativo gratuito que pode gravar corretamente um arquivo de imagem em um cartão de memória. Faça o download a partir de https://sourceforge.net/projects/win32diskimager/[https://sourceforge.net/projects/win32diskimager/] e extraia-o em uma pasta.
 . Escrevendo a imagem com o Image Writer
 + 
-Clique duas vezes no ícone Win32DiskImager para iniciar o programa. Verifique se a letra da unidade mostrada em `Device` é a unidade com o cartão de memória. Clique no ícone da pasta e selecione a imagem a ser gravada no cartão de memória. Clique em btn:[Save] para aceitar o nome do arquivo de imagem. Verifique se tudo está correto e se nenhuma pasta do cartão de memória está aberta em outras janelas. Quando tudo estiver pronto, clique em btn:[Write] para gravar o arquivo de imagem no cartão de memória.
+Clique duas vezes no ícone Win32DiskImager para iniciar o programa. Verifique se a letra da unidade mostrada em `Device` é a unidade com o cartão de memória. Clique no ícone da pasta e selecione a imagem a ser gravada no cartão de memória. Clique em btn:[Save] para aceitar o nome do arquivo de imagem. Verifique se tudo está correto e se nenhuma pasta do cartão de memória está aberta em outras janelas. Quando tudo estiver pronto, clique em btn:[ Write ] para gravar o arquivo de imagem no cartão de memória.
 ====
 
 Agora você está pronto para começar a instalar o FreeBSD.
@@ -265,24 +265,6 @@ Na maioria das máquinas, manter pressionado o kbd:[C] no teclado durante a inic
 ....
  boot cd:,\ppc\loader cd:0
 ....
-
-=== Inicializando no  SPARC64 (TM)
-
-A maioria dos sistemas SPARC64(TM) são configurados para inicializar automaticamente a partir do disco. Para instalar o FreeBSD de um CD, requer uma pausa no PROM.
-
-Para fazer isso, reinicialize o sistema e aguarde até que a mensagem de inicialização apareça. A mensagem depende do modelo, mas deve ser algo como isto:
-
-[source,bash]
-....
-Sun Blade 100 (UltraSPARC-IIe), Keyboard Present
-Copyright 1998-2001 Sun Microsystems, Inc.  All rights reserved.
-OpenBoot 4.2, 128 MB memory installed, Serial #51090132.
-Ethernet address 0:3:ba:b:92:d4, Host ID: 830b92d4.
-....
-
-Se o sistema passar a inicializar a partir do disco neste ponto, pressione kbd:[L1+A] ou kbd:[Stop+A] no teclado, ou envie um `BREAK` pelo console serial. Ao usar o tip ou o cu, `~#` irá emitir um BREAK. O prompt PROM será `ok` em sistemas com uma CPU e `ok {0}` em sistemas SMP, onde o dígito indica o número da CPU ativa.
-
-Neste ponto, coloque o CD na unidade e digite `boot cdrom` no prompt PROM.
 
 [[bsdinstall-view-probe]]
 === Menu de inicialização do FreeBSD
@@ -400,19 +382,11 @@ O programa de instalação não verifica o espaço em disco adequado. Selecione 
 [[bsdinstall-netinstall]]
 === Instalando a partir da rede
 
-O menu mostrado em <<bsdinstall-netinstall-notify>> só aparece ao instalar a partir de um CD[.filename]##-bootonly.iso## pois esta mídia de instalação não possui uma cópias dos arquivos de instalação. Como os arquivos de instalação devem ser recuperados através de uma conexão de rede, esse menu indica que a interface de rede deve ser configurada primeiro.
+O menu mostrado em <<bsdinstall-netinstall-notify>> apenas aparece ao instalar a partir de um [.filename]#-bootonly.iso# ou [.filename]#-mini-memstick.img# pois esta mídia de instalação não possui cópias dos arquivos de instalação. Como os arquivos de instalação devem ser recuperados através de uma conexão de rede, esse menu indica que a interface de rede deve ser configurada primeiro. Se o menu é exibido em qualquer etapa do processo lembre-se de seguir as instruções em <<bsdinstall-config-network-dev>>.
 
 [[bsdinstall-netinstall-notify]]
 .Instalando a partir da rede
 image::bsdinstall-netinstall-files.png[]
-
-Para configurar a conexão de rede, pressione kbd:[Enter] e siga as instruções em <<bsdinstall-config-network-dev>>. Quando a interface estiver configurada, selecione um site espelho localizado na mesma região do mundo que o computador no qual o FreeBSD está sendo instalado. Os arquivos podem ser recuperados mais rapidamente quando o espelho está próximo ao computador de destino, reduzindo o tempo de instalação.
-
-[[bsdinstall-netinstall-mirror]]
-.Escolhendo um Site Espelho
-image::bsdinstall-netinstall-mirrorselect.png[]
-
-A instalação continuará como se os arquivos de instalação estivessem localizados na mídia de instalação local.
 
 [[bsdinstall-partitioning]]
 == Alocando o espaço em disco
@@ -620,21 +594,42 @@ Depois que as partições personalizadas forem criadas, selecione btn:[Finish] p
 [[bsdinstall-part-zfs]]
 === Particionamento Guiado Usando Root-on-ZFS
 
-O suporte para criação automática de instalações root-on-ZFS foi adicionado no FreeBSD 10.0-RELEASE. Este modo de particionamento só funciona com discos inteiros e apaga o conteúdo de todo o disco. O instalador criará automaticamente partições alinhadas a limites de 4k e forçará o ZFS a usar setores 4k. Isso é seguro mesmo com discos de setor de 512 bytes e tem o benefício adicional de garantir que os pools criados em discos de 512 bytes possam ter discos de setor de 4k adicionados no futuro, como espaço de armazenamento adicional ou como substitutos para discos com falha. O instalador também pode opcionalmente empregar a criptografia de disco GELI conforme descrito em crossref:disks[disks-encrypting-geli,Criptografia de Disco com geli]. Se a criptografia estiver ativada, um conjunto de inicialização não criptografado de 2 GB contendo o diretório [.filename]#/boot# será criado. Ele contém o kernel e outros arquivos necessários para inicializar o sistema. Uma partição swap de um tamanho selecionável pelo usuário também é criada, e todo o espaço restante é usado para o pool do ZFS.
-
-O menu de configuração principal do ZFS oferece várias opções para controlar a criação do pool.
+Este modo de particionamento funciona apenas com discos inteiros e apagará por completo o conteúdo do disco. O menu de configuração principal do ZFS oferece várias opções para controlar a criação do pool.
 
 [[bsdinstall-zfs-menu]]
 .Menu de particionamento do ZFS
 image::bsdinstall-zfs-menu.png[]
 
-Selecione kbd:[T] para configurar o `Pool Type` e o(s) disco(s) que constituirão o pool. O instalador automático do ZFS atualmente suporta apenas a criação de um único vdev de nível superior, exceto no modo de stripe. Para criar conjuntos mais complexos, use as instruções em <<bsdinstall-part-shell>> para criar o pool. O instalador suporta a criação de vários tipos de conjuntos, incluindo stripe (não recomendada, sem redundância), mirror (melhor desempenho, menos espaço utilizável) e RAID-Z 1, 2 e 3 (com capacidade para suportar a falha simultânea de 1, 2 e 3 discos, respectivamente). Ao selecionar o tipo de pool, uma dica é exibida na parte inferior da tela com conselhos sobre o número de discos necessários e, no caso de RAID-Z, o número ideal de discos para cada configuração.
+Aqui está um resumo das opções que podem ser usadas neste menu:
+
+* `Instalar` - Prosseguir a instalação com as opções selecionadas.
+* `Tipo de Pool/Discos` - Permite configurar o `Tipo de Pool` e o(s) disco(s ) que irão constituir o pool. Atualmente o instalador ZFS automático suporta apenas a criação de uma única camada superior vdev, exceto em modo stripe. Para criar pools mais complexos, use as instruções em <<bsdinstall-part-shell>> para criar o pool.
+* `Re-escanear Dispositivos` - Re-popular a lista de discos disponíveis.
+* `Disk Info` - Disk Info pode ser usado para inspecionar cada disco, incluindo sua tabela de partição e várias outras informações, como o número do modelo do dispositivo e o número de série, se disponíveis.
+* `Pool Name` - Define o nome do pool. O nome default é _zroot_.
+* `Force 4K Sectors?` - Forçar o uso de setores em 4K. Por padrão, o instalador irá automaticamente criar partições alinhadas com limites em 4K e forçar o ZFS a usar setores de 4K. Isto é seguro mesmo com discos de setores de 512 bytes, e tem o benefício adicional de garantir que pools criados em discos de 512 bytes conseguirão ter setores de 4K adicionados no futuro, seja como espaço de armazenamento adicional ou como substituição ode discos e falha. Aperte a tecla kbd:[Enter] para escolher ativar isso ou não.
+* `Encrypt Disks?` - A criptografia dos discos permite ao usuário criptografar os discos usando GELI. Mais informação sobre criptografia de discos está disponível em <<disks-encrypting-geli>>. Aperte a tecla kbd:[Enter] para escolher ativá-la ou não.
+* `Partition Scheme` - Permitei escolher o esquema de partição. GPT é a opção recomendada na maioria dos casos. Aperte a tecla kbd:[Enter] para escolher entre diferentes opções.
+* `Swap Size` - Determina a quantidade de espaço para swap.
+* `Mirror Swap?` - Permite ao usuário espelhar o swap entre os discos. Fique atento, o espelhamento da swap irá quebrar dumps de crash. Pressione a tecla kbd:[Enter] para ativar ou não.
+* `Encrypt Swap?` - Permite ao usuário criptografar a swap. Criptografa a swap com uma chave temporária toda vez que o sistema inicializa e a descarta na reinicialização. Pressione a tecla kbd:[Enter] para ativar ou não. Mais informação sobre criptografia de swap em <<swap-encrypting>>.
+
+Selecione kbd:[T] para configurar o `Pool Type` e o(s) disco(s) que irá constituir o pool.
 
 [[bsdinstall-zfs-vdev_type]]
 .Tipo de pool ZFS
 image::bsdinstall-zfs-vdev_type.png[]
 
-Quando um `Tipo de pool` tiver sido selecionado, uma lista de discos disponíveis será exibida e o usuário será solicitado a selecionar um ou mais discos para compor o pool. A configuração é validada para garantir que discos suficientes sejam selecionados. Caso contrário, selecione btn:[<Change Selection>] para retornar à lista de discos ou btn:[<Cancel>] para alterar o tipo de conjunto.
+Aqui está um resumo dos `Pool Type` que podem ser selecionados neste menu:
+
+* `stripe` - Striping provê a capacidade máxima de todos os dispositivos conectados, mas não redundância. Se um disco falhar os dados do pool estarão perdidos de forma irrevogável.
+* `mirror` - O espelhamento armazena uma completa cópia de todos os dados em todos os discos. O espelhamento provê uma boa performance em leitura porque os dados são lidos the todos os discos em paralelo. A performance da escrita é mais lenta pois os dados precisam ser escritos em todos os discos do pool. Torna possível que haja falha nos discos, menos um. Esta opção requer ao menos dois discos.
+* `raid10` - Striped mirrors. Provê a melhor performance, mas o menor armazenamento. Esta opção necessita de um número par de discos e no mínimo quatro discos.
+* `raidz1` - RAID Único Redundante. Permite que haja falha concorrente de um disco. Esta opção necessita de ao menos três discos.
+* `raidz2` - RAID Duplo Redundante. Permite que até dois discos falhem concorrentemente. Esta opção necessita de ao menos quatro discos.
+* `raidz3` - RAID Triplo Redundante. Permite que até três discos falhem concorrentemente. Esta opção necessita de ao menos cinco discos.
+
+Quando um `Pool Type` for selecionado, uma lista de discos disponíveis será exibida, e o usuário é solicitado a selecionar um ou mais discos para compor o pool. A configuração é então validada, para garantir que discos suficientes sejam selecionados. Caso contrário, selecione btn:[<Change Selection>] para retornar à lista de discos ou btn:[<Backgt>] para alterar o `Pool Type`
 
 [[bsdinstall-zfs-disk_select]]
 .Seleção de disco
@@ -644,7 +639,13 @@ image::bsdinstall-zfs-disk_select.png[]
 .Seleção inválida
 image::bsdinstall-zfs-vdev_invalid.png[]
 
-Se um ou mais discos estiverem faltando na lista, ou se os discos foram anexados depois que o instalador foi iniciado, selecione btn:[- Rescan Devices] para preencher novamente a lista de discos disponíveis. Para evitar apagar acidentalmente o disco errado, o menu btn:[- Disk Info] pode ser usado para inspecionar cada disco, incluindo sua tabela de partição e várias outras informações, como o número do modelo do dispositivo e o número de série, se disponíveis.
+Se um ou mais discos estiverem faltando na lista, ou se os discos foram anexados depois que o instalador foi iniciado, selecione btn:[- Rescan Devices] para preencher novamente a lista de discos disponíveis.
+
+[[bsdinstall-zfs-rescan-devices]]
+.Dispositivos de Reescaneamento
+image::bsdinstall/bsdinstall-zfs-rescan-devices.png[]
+
+Para evitar apagar acidentalmente o disco errado, o menu btn:[- Disk Info] pode ser usado para inspecionar cada disco, incluindo sua tabela de partição e várias outras informações, como o número do modelo do dispositivo e o número de série, se disponíveis.
 
 [[bsdinstall-zfs-disk_info]]
 .Analisando um disco

@@ -3,7 +3,7 @@ title: BSD에 대한 설명
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/ko_KR.UTF-8/articles/explaining-bsd/article.xml 48033 2016-01-16 17:22:29Z wblock $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "amd", "apple", "intel", "linux", "opengroup", "sparc", "sun", "unix", "general"]
 ---
 

@@ -3,7 +3,7 @@ title: 如何在 FreeBSD-questions mailing list 上得到正解
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/articles/freebsd-questions/article.xml 44974 2014-05-29 16:48:07Z lwhsu $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "microsoft", "opengroup", "qualcomm", "general"]
 ---
 

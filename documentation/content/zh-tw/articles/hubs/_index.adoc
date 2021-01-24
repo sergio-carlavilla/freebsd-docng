@@ -9,7 +9,7 @@ authors:
     email: dl@leo.org
   - author: Ken Smith
     email: kensmith@FreeBSD.org
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/articles/hubs/article.xml 51403 2018-02-03 05:50:22Z rcyu $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

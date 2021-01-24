@@ -9,7 +9,7 @@ authors:
     email: dl@leo.org
   - author: Ken Smith
     email: kensmith@FreeBSD.org
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/hubs/article.xml 53217 2019-07-03 16:51:13Z gjb $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

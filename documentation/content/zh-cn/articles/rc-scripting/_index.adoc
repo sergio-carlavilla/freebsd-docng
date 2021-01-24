@@ -4,7 +4,7 @@ authors:
   - author: Yar Tikhiy
     email: yar@FreeBSD.org
 copyright: 2005-2006, 2012 The FreeBSD Project
-releaseinfo: "$FreeBSD: head/zh_CN.UTF-8/articles/rc-scripting/article.xml 43188 2013-11-14 00:20:51Z delphij $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "netbsd", "general"]
 ---
 

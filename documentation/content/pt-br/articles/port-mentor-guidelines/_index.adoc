@@ -3,7 +3,7 @@ title: Instruções para Mentores do Ports
 organizations:
   - organization: A Equipe de Gerenciamento do Ports do FreeBSD
 copyright: 2011 Thomas Abthorpe, Chris Rees
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/port-mentor-guidelines/article.xml 52216 2018-09-06 00:32:15Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Instruções para Mentores do Ports

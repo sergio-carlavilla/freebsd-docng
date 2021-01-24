@@ -3,7 +3,7 @@ title: FreeBSD Mailing Lists 常見問答集
 authors:
   - author: The FreeBSD Documentation Project
 copyright: 2004-2006 FreeBSD 文件計畫
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/articles/mailing-list-faq/article.xml 44974 2014-05-29 16:48:07Z lwhsu $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = FreeBSD Mailing Lists 常見問答集

@@ -3,7 +3,7 @@ title: Cómo obtener los mejores resultados de la lista de correo FreeBSD-questi
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/freebsd-questions/article.xml 52901 2019-03-29 15:15:06Z gabor $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "microsoft", "opengroup", "qualcomm", "general"]
 ---
 

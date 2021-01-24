@@ -3,7 +3,7 @@ title: Руководство FreeBSD для разработчиков
 authors:
   - author: The FreeBSD Documentation Project
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/books/developers-handbook/book.xml 43126 2013-11-07 16:37:11Z gabor $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "apple", "ibm", "ieee", "intel", "linux", "microsoft", "opengroup", "sun", "general"] 
 ---
 

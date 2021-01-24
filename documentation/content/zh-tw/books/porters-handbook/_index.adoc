@@ -3,7 +3,7 @@ title: FreeBSD Porter 手冊
 authors: 
   - author: The FreeBSD Documentation Project
 copyright: 2000-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/books/porters-handbook/book.xml 48496 2016-03-29 01:37:53Z kevlo $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "sun", "unix", "general"] 
 ---
 

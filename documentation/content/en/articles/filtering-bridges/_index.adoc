@@ -3,7 +3,7 @@ title: Filtering Bridges
 authors:
   - author: Alex Dupre
     email: ale@FreeBSD.org
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/filtering-bridges/article.xml 53717 2019-12-29 14:13:50Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "3com", "intel", "general"]
 ---
 

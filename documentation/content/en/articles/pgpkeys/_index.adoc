@@ -1,6 +1,6 @@
 ---
 title: OpenPGP Keys
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/pgpkeys/article.xml 50974 2017-09-29 10:56:30Z wosch $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = OpenPGP Keys

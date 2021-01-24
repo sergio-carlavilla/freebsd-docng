@@ -3,7 +3,7 @@ title: FreeBSD Quickstart Guide for Linux® Users
 authors:
   - author: John Ferrell
 copyright: 2008 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/linux-users/article.xml 52142 2018-08-16 16:43:18Z bcr $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "intel", "redhat", "linux", "unix", "general"]
 ---
 

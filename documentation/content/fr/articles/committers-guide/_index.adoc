@@ -3,7 +3,7 @@ title: Le Guide du Nouveau Committer
 authors:
   - author: Projet de Documentation de FreeBSD
 copyright: 1999-2019 Projet de Documentation de FreeBSD
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/articles/committers-guide/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "coverity", "ibm", "intel", "sparc", "general"]
 ---
 

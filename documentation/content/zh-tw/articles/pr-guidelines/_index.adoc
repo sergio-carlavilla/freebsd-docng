@@ -3,7 +3,7 @@ title: 問題回報(PR)的處理原則
 authors:
   - author: Dag-Erling Smørgrav
   - author: Hiten Pandya
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/articles/pr-guidelines/article.xml 44974 2014-05-29 16:48:07Z lwhsu $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "opengroup", "general"]
 ---
 

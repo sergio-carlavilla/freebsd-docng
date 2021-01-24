@@ -1,6 +1,6 @@
 ---
 title: Ondersteuning voor schrikkelseconden in FreeBSD
-releaseinfo: "$FreeBSD: head/nl_NL.ISO8859-1/articles/leap-seconds/article.xml 47354 2015-09-03 20:43:21Z rene $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Ondersteuning voor schrikkelseconden in FreeBSD

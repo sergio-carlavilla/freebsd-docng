@@ -4,7 +4,7 @@ authors:
   - author: Toby Burress
     email: kurin@causa-sui.net
 copyright: 2007-2008 Projeto de Documentação do FreeBSD
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/ldap-auth/article.xml 52213 2018-09-06 00:20:03Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

@@ -2,7 +2,7 @@
 title: Подключаемые Модули Аутентификации (PAM)
 authors:
   - author: Dag-Erling Smørgrav
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/pam/article.xml 45050 2014-06-13 14:53:24Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["pam", "freebsd", "linux", "opengroup", "sun", "general"]
 ---
 

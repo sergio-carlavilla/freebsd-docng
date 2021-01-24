@@ -4,7 +4,7 @@ authors:
   - author: The FreeBSD Documentation Project
   - author: FreeBSD 中文计划
 copyright: Copyright © 2000-2006, 2012-2013 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/zh_CN.UTF-8/books/arch-handbook/book.xml 43188 2013-11-14 00:20:51Z delphij $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "apple", "microsoft", "unix", "general"] 
 ---
 

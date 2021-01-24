@@ -3,7 +3,7 @@ title: Универсальная Система Печати Unix на FreeBSD
 authors:
   - author: Chess Griffin
     email: chess@chessgriffin.com
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/cups/article.xml 46680 2015-05-12 08:03:23Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

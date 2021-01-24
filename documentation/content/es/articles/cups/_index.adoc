@@ -3,7 +3,7 @@ title: CUPS en FreeBSD
 authors:
   - author: Chess Griffin
     email: chess@chessgriffin.com
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/cups/article.xml 52857 2019-03-12 09:50:45Z gabor $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

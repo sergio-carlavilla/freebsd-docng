@@ -2,7 +2,7 @@
 title: Preguntas Frecuentes para FreeBSD 9.X y 10.X
 authors: 
   - author: El proyecto de documentación de FreeBSD
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/books/faq/book.xml 48242 2016-02-23 02:52:39Z wblock $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "adobe", "intel", "linux", "microsoft", "opengroup", "sun", "netbsd", "general"] 
 ---
 

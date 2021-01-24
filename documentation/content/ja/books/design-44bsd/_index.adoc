@@ -6,7 +6,7 @@ authors:
   - author: Michael J. Karels [FAMILY Given]
   - author: John S. Quarterman [FAMILY Given]
 copyright: 1996 Addison-Wesley Longman, Inc
-releaseinfo: "$FreeBSD: head/ja_JP.eucJP/books/design-44bsd/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["design-44bsd"] 
 ---
 

@@ -3,7 +3,7 @@ title: Escrevendo uma classe GEOM
 authors:
   - author: Ivan Voras
     email: ivoras@FreeBSD.org
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/geom-class/article.xml 52268 2018-09-16 19:52:43Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "intel", "general"]
 ---
 

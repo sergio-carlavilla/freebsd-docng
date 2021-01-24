@@ -3,7 +3,7 @@ title: Εγχειρίδιο του FreeBSD
 authors:
   - author: Ομάδα Τεκμηρίωσης του FreeBSD
 copyright: 1995-2020 Ομάδα Τεκμηρίωσης του FreeBSD
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/books/handbook/book.xml 43641 2014-01-25 10:27:24Z manolis $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "redhat", "3com", "adobe", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "realnetworks", "oracle", "3ware", "arm", "adaptec", "heidelberger", "intuit", "lsilogic", "themathworks", "thomson", "vmware", "wolframresearch", "xiph", "xfree86", "general"] 
 ---
 

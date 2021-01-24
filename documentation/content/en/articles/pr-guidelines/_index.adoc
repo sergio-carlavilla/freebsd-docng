@@ -3,7 +3,7 @@ title: Problem Report Handling Guidelines
 authors:
   - author: Dag-Erling Smørgrav
   - author: Hiten Pandya
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/pr-guidelines/article.xml 51348 2017-12-30 22:56:56Z eadler $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

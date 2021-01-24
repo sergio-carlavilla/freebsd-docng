@@ -3,7 +3,7 @@ title: Часто задаваемые вопросы по FreeBSD 11.X и 12.X
 authors: 
   - author: Проект документации FreeBSD
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/books/faq/book.xml 46673 2015-05-09 17:02:15Z pluknet $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "adobe", "intel", "linux", "microsoft", "opengroup", "sun", "netbsd", "general"] 
 ---
 

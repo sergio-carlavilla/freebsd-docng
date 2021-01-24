@@ -3,7 +3,7 @@ title: Συχνές Ερωτήσεις για το FreeBSD 6.X και 7.X
 authors: 
   - author: Η Ομάδα Τεκμηρίωσης του FreeBSD
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/books/faq/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "3com", "adobe", "intel", "linux", "microsoft", "opengroup", "sparc", "sun", "oracle", "xfree86", "general"] 
 ---
 

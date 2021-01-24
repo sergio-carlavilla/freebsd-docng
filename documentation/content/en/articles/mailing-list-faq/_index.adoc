@@ -3,7 +3,7 @@ title: Frequently Asked Questions About The FreeBSD Mailing Lists
 authors:
   - author: The FreeBSD Documentation Project
 copyright: 2004-2005 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/mailing-list-faq/article.xml 51998 2018-07-12 22:45:00Z jgh $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Frequently Asked Questions About The FreeBSD Mailing Lists

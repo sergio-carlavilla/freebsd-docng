@@ -3,7 +3,7 @@ title: Guía para el manejo de informes de problemas
 authors:
   - author: Dag-Erling Smørgrav
   - author: Hiten Pandya
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/pr-guidelines/article.xml 53597 2019-11-16 11:55:41Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

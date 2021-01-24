@@ -3,7 +3,7 @@ title: Ponts filtrants
 authors:
   - author: Alex Dupre
     email: ale@FreeBSD.org
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/articles/filtering-bridges/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "3com", "intel", "general"]
 ---
 

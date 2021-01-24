@@ -3,7 +3,7 @@ title: Implementando o UFS Journaling em um Desktop PC
 authors:
   - author: Manolis Kiagias
     email: manolis@FreeBSD.org
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/gjournal-desktop/article.xml 52265 2018-09-16 13:16:18Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

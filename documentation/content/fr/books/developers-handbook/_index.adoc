@@ -3,7 +3,7 @@ title: Livre de chevet du développeur FreeBSD
 authors:
   - author: Le groupe du projet de documentation FreeBSD
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/books/developers-handbook/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$"  
 trademarks: ["freebsd", "apple", "ibm", "ieee", "intel", "linux", "microsoft", "opengroup", "sun", "general"] 
 ---
 

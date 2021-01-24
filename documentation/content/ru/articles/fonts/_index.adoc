@@ -4,7 +4,7 @@ subtitle: Пособие
 authors:
   - author: Dave Bodenstab
     email: imdave@synet.net
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/fonts/article.xml 46680 2015-05-12 08:03:23Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "adobe", "apple", "linux", "microsoft", "opengroup", "general"]
 ---
 

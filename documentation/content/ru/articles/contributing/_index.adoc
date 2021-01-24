@@ -2,7 +2,7 @@
 title: Участие в проекте FreeBSD
 authors:
   - author: Джордан Хаббард
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/contributing/article.xml 50675 2017-08-14 15:57:52Z maxim $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ieee", "general"]
 ---
 

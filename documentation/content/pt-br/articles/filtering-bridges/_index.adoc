@@ -3,7 +3,7 @@ title: Pontes de Filtragem (Filtering Bridges)
 authors:
   - author: Alex Dupre
     email: ale@FreeBSD.org
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/filtering-bridges/article.xml 52261 2018-09-16 01:21:25Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "3com", "intel", "general"]
 ---
 

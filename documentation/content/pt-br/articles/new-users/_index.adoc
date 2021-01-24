@@ -3,7 +3,7 @@ title: Aos iniciantes em FreeBSD e UNIX
 authors:
   - author: Annelise Anderson
     email: andrsn@andrsn.stanford.edu
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/new-users/article.xml 52682 2018-12-12 15:44:46Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "microsoft", "opengroup", "general"]
 ---
 

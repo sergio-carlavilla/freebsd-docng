@@ -3,7 +3,7 @@ title: Verificación independiente de la funcionalidad de IPsec en FreeBSD
 authors:
   - author: David Honig
     email: honig@sprynet.com
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/ipsec-must/article.xml 52902 2019-03-29 15:17:05Z gabor $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "opengroup", "general"]
 ---
 

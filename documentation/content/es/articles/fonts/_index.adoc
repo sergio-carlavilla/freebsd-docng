@@ -4,7 +4,7 @@ subtitle: Un tutorial
 authors:
   - author: Dave Bodenstab
     email: imdave@synet.net
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/fonts/article.xml 54026 2020-03-31 16:37:47Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "adobe", "apple", "linux", "microsoft", "opengroup", "general"]
 ---
 

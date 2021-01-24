@@ -3,7 +3,7 @@ title: Συνεισφέροντας στο FreeBSD
 authors:
   - author: Jordan Hubbard
   - author: Κυριάκος Κεντρωτής
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/articles/contributing/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ieee", "general"]
 ---
 

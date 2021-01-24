@@ -3,7 +3,7 @@ title: Guia dos Committers
 authors:
   - author: Projeto de Documentação do FreeBSD
 copyright: 1999-2020 Projeto de Documentação do FreeBSD
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/committers-guide/article.xml 53731 2020-01-01 14:37:53Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "coverity", "ibm", "intel", "sparc", "general"]
 ---
 

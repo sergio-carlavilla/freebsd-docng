@@ -3,7 +3,7 @@ title: A project model for the FreeBSD Project
 authors: 
   - author: Niklas Saers
 copyright: Copyright © 2002-2005 Niklas Saers
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/books/faq/book.xml 54391 2020-08-03 07:36:20Z blackend $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "adobe", "intel", "linux", "microsoft", "opengroup", "sun", "netbsd", "general"] 
 ---
 

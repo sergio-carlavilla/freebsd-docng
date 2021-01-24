@@ -3,7 +3,7 @@ title: Diretrizes para manuseio de relatórios de problemas
 authors:
   - author: Dag-Erling Smørgrav
   - author: Hiten Pandya
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/pr-guidelines/article.xml 52215 2018-09-06 00:29:07Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

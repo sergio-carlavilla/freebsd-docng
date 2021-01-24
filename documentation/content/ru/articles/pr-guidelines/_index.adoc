@@ -3,7 +3,7 @@ title: Рекомендации по работе с сообщениями о �
 authors:
   - author: Dag-Erling Smørgrav
   - author: Hiten Pandya
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/pr-guidelines/article.xml 43234 2013-11-24 18:59:24Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "opengroup", "general"]
 ---
 

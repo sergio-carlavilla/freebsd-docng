@@ -3,7 +3,7 @@ title: Pluggable Authentication Modules
 authors:
   - author: Dag-Erling Smørgrav
 copyright: 2001-2003 Networks Associates Technology, Inc.
-releaseinfo: "$FreeBSD: head/fr_FR.ISO8859-1/articles/pam/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["pam", "freebsd", "linux", "opengroup", "sun", "general"]
 ---
 

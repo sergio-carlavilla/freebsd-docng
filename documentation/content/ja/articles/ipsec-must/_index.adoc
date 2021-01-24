@@ -3,7 +3,7 @@ title: FreeBSD の IPsec 機能を独立検証するには
 authors:
   - author: Honig David [FAMILY Given]
     email: honig@sprynet.com
-releaseinfo: "$FreeBSD: head/ja_JP.eucJP/articles/ipsec-must/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "opengroup", "general"]
 ---
 

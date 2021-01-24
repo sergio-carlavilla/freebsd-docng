@@ -3,7 +3,7 @@ title: FreeBSD Developers' Handbook
 authors:
   - author: FreeBSD 文件計畫
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/books/developers-handbook/book.xml 44974 2014-05-29 16:48:07Z lwhsu $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "apple", "intel", "linux", "microsoft", "opengroup", "sun", "general"] 
 ---
 

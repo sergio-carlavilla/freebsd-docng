@@ -3,7 +3,7 @@ title: Περιγραφή των Συστημάτων BSD
 authors:
   - author: Greg Lehey
     email: grog@FreeBSD.org
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/articles/explaining-bsd/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "amd", "apple", "intel", "xfree86", "linux", "opengroup", "sparc", "sun", "unix", "general"]
 ---
 

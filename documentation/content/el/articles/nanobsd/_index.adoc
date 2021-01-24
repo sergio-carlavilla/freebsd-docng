@@ -4,7 +4,7 @@ authors:
   - author: Daniel Gerzo
   - author: Κυριάκος Κεντρωτής
 copyright: 2006, 2009 Η Ομάδα Τεκμηρίωσης του FreeBSD
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/articles/nanobsd/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

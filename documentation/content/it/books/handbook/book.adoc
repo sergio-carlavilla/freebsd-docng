@@ -3,7 +3,7 @@ title: Manuale di FreeBSD
 authors:
   - author: The FreeBSD Italian Documentation Project
 copyright: 1995-2020 The FreeBSD Italian Documentation Project
-releaseinfo: "$FreeBSD: head/it_IT.ISO8859-15/books/handbook/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "3com", "3ware", "arm", "adaptec", "adobe", "apple", "corel", "creative", "cvsup", "heidelberger", "ibm", "ieee", "intel", "intuit", "linux", "lsilogic", "m-systems", "macromedia", "microsoft", "netscape", "nexthop", "opengroup", "oracle", "powerquest", "realnetworks", "redhat", "sap", "sun", "symantec", "themathworks", "thomson", "usrobotics", "vmware", "waterloomaple", "wolframresearch", "xfree86", "xiph", "general"] 
 ---
 

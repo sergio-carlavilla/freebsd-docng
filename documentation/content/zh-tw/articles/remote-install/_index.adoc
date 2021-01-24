@@ -4,7 +4,7 @@ authors:
   - author: Daniel Gerzo
     email: danger@FreeBSD.org
 copyright: 2008 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/zh_TW.UTF-8/articles/remote-install/article.xml 44974 2014-05-29 16:48:07Z lwhsu $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

@@ -3,7 +3,7 @@ title: Módulos de Autenticação Plugáveis
 authors:
   - author: Dag-Erling Smørgrav
 copyright: 2001-2003 Networks Associates Technology, Inc.
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/pam/article.xml 52677 2018-12-12 13:08:17Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["pam", "freebsd", "linux", "opengroup", "sun", "general"]
 ---
 

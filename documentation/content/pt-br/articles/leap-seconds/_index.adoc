@@ -1,6 +1,6 @@
 ---
 title: Suporte do FreeBSD a Leap Seconds
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/leap-seconds/article.xml 52218 2018-09-06 00:37:28Z ebrandi $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Suporte do FreeBSD a Leap Seconds

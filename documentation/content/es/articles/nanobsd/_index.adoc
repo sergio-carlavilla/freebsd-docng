@@ -3,7 +3,7 @@ title: Introducción a NanoBSD
 authors:
   - author: Daniel Gerzo
 copyright: 2006 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/es_ES.ISO8859-1/articles/nanobsd/article.xml 53096 2019-06-02 22:47:50Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 

@@ -3,7 +3,7 @@ title: ইউনিক্স ও FreeBSD'র হাতেখড়ি
 authors:
   - author: অ্যানেলিস এন্ডারসন
     email: andrsn@andrsn.stanford.edu
-releaseinfo: "$FreeBSD: head/bn_BD.UTF-8/articles/new-users/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "microsoft", "opengroup", "general"]
 ---
 

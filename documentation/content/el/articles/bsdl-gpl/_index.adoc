@@ -5,7 +5,7 @@ authors:
     email: brucem@alumni.cse.ucsc.edu
   - author: Γιώργος Κεραμίδας
     email: keramida@FreeBSD.org
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/articles/bsdl-gpl/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "cvsup", "intel", "xfree86", "general"]
 ---
 

@@ -3,7 +3,7 @@ title: Mosty filtrujące
 authors:
   - author: Alex Dupre
     email: sysadmin@alexdupre.com
-releaseinfo: "$FreeBSD: head/pl_PL.ISO8859-2/articles/filtering-bridges/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "3com", "intel", "general"]
 ---
 

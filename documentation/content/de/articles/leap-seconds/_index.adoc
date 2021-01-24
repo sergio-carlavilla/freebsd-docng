@@ -1,6 +1,6 @@
 ---
 title: Unterstützung für Schaltsekunden in FreeBSD
-releaseinfo: "$FreeBSD: head/de_DE.ISO8859-1/articles/leap-seconds/article.xml 48246 2016-02-23 14:22:54Z wblock $" 
+releaseinfo: "$FreeBSD$" 
 ---
 
 = Unterstützung für Schaltsekunden in FreeBSD

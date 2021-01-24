@@ -3,7 +3,7 @@ title: Why you should use a BSD style license for your Open Source Project
 authors:
   - author: Bruce Montague
     email: brucem@alumni.cse.ucsc.edu
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/bsdl-gpl/article.xml 53942 2020-03-01 12:23:40Z carlavilla $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "intel", "general"]
 ---
 

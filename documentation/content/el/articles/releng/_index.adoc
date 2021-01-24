@@ -4,7 +4,7 @@ authors:
   - author: Murray Stokely
     email: murray@FreeBSD.org
     webpage: https://people.FreeBSD.org/~murray/
-releaseinfo: "$FreeBSD: head/el_GR.ISO8859-7/articles/releng/article.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "intel", "general"]
 ---
 

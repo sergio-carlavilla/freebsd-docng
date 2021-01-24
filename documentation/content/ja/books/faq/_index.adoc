@@ -3,7 +3,7 @@ title: FreeBSD 2.X、3.X、4.X についての FAQ (よくある質問とその�
 authors: 
 - author: FreeBSD ドキュメンテーションプロジェクト
 copyright: 1995-2020 The FreeBSD Documentation Project
-releaseinfo: "$FreeBSD: head/ja_JP.eucJP/books/faq/book.xml 43184 2013-11-13 07:52:45Z hrs $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "ieee", "adobe", "intel", "linux", "microsoft", "opengroup", "sun", "netbsd", "general"] 
 ---
 

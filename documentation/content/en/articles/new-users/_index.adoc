@@ -3,7 +3,7 @@ title: For People New to Both FreeBSD and UNIX®
 authors:
   - author: Annelise Anderson
     email: andrsn@andrsn.stanford.edu
-releaseinfo: "$FreeBSD: head/en_US.ISO8859-1/articles/new-users/article.xml 52136 2018-08-16 13:55:09Z bcr $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "ibm", "microsoft", "opengroup", "general"]
 ---
 

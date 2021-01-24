@@ -3,7 +3,7 @@ title: Настройка журналирования UFS для настоль
 authors:
   - author: Manolis Kiagias
     email: manolis@FreeBSD.org
-releaseinfo: "$FreeBSD: head/ru_RU.KOI8-R/articles/gjournal-desktop/article.xml 43234 2013-11-24 18:59:24Z taras $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "general"]
 ---
 
