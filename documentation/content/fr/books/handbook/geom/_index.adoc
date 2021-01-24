@@ -1,12 +1,12 @@
 ---
-title: Chapitre 19. GEOM. architecture modulaire de gestion des disques
+title: "Chapitre 19. GEOM: architecture modulaire de gestion des disques"
 part: Partie III. Administration Système
 prev: books/handbook/disks
 next: books/handbook/zfs
 ---
 
 [[geom]]
-= GEOM. architecture modulaire de gestion des disques
+= GEOM: architecture modulaire de gestion des disques
 :doctype: book
 :toc: macro
 :toclevels: 1

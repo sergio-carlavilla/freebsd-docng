@@ -1,12 +1,12 @@
 ---
-title: Hoofdstuk 5. Applicaties installeren. pakketten en ports
+title: "Hoofdstuk 5. Applicaties installeren: pakketten en ports"
 part: Deel I. Beginnen
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= Applicaties installeren. pakketten en ports
+= Applicaties installeren: pakketten en ports
 :doctype: book
 :toc: macro
 :toclevels: 1

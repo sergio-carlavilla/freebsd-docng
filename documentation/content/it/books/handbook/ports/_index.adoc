@@ -1,12 +1,12 @@
 ---
-title: Capitolo 4. Installazione delle Applicazioni. Port e Package
+title: "Capitolo 4. Installazione delle Applicazioni: Port e Package"
 part: Parte I. Per Cominciare
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= Installazione delle Applicazioni. Port e Package
+= Installazione delle Applicazioni: Port e Package
 :doctype: book
 :toc: macro
 :toclevels: 1

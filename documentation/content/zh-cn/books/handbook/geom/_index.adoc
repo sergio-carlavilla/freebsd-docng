@@ -1,12 +1,12 @@
 ---
-title: 第 20 章 GEOM. 模块化磁盘变换框架
+title: "第 20 章 GEOM: 模块化磁盘变换框架"
 part: 部分 III. 系统管理
 prev: books/handbook/disks
 next: books/handbook/filesystems
 ---
 
 [[geom]]
-= GEOM. 模块化磁盘变换框架
+= GEOM: 模块化磁盘变换框架
 :doctype: book
 :toc: macro
 :toclevels: 1

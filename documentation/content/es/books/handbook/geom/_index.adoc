@@ -1,12 +1,12 @@
 ---
-title: Capítulo 19. GEOM. Marco de trabajo modular de transformación de discos
+title: "Capítulo 19. GEOM. Marco de trabajo modular de transformación de discos"
 part: Parte III. Administración del sistema
 prev: books/handbook/disks
 next: books/handbook/vinum
 ---
 
 [[geom]]
-= GEOM. Marco de trabajo modular de transformación de discos
+= GEOM: Marco de trabajo modular de transformación de discos
 :doctype: book
 :toc: macro
 :toclevels: 1

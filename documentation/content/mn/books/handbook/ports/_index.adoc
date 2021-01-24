@@ -1,5 +1,5 @@
 ---
-title: Бүлэг 5. Програм суулгах. Багцууд болон портууд
+title: "Бүлэг 5. Програм суулгах: Багцууд болон портууд"
 part: хэсэг I. Эхлэл
 prev: books/handbook/basics
 next: books/handbook/x11

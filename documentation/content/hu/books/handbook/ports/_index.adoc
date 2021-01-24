@@ -1,12 +1,12 @@
 ---
-title: 4. Fejezet - Alkalmazások telepítése. csomagok és portok
+title: "4. Fejezet - Alkalmazások telepítése: csomagok és portok"
 part: I. Rész - Bevezetés
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= Alkalmazások telepítése. csomagok és portok
+= Alkalmazások telepítése: csomagok és portok
 :doctype: book
 :toc: macro
 :toclevels: 1

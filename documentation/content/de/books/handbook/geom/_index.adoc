@@ -1,12 +1,12 @@
 ---
-title: Kapitel 18. GEOM. Modulares Framework zur Plattentransformation
+title: "Kapitel 18. GEOM: Modulares Framework zur Plattentransformation"
 part: Teil III. Systemadministration
 prev: books/handbook/disks
 next: books/handbook/zfs
 ---
 
 [[geom]]
-= GEOM. Modulares Framework zur Plattentransformation
+= GEOM: Modulares Framework zur Plattentransformation
 :doctype: book
 :toc: macro
 :toclevels: 1

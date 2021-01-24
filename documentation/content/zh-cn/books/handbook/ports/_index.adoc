@@ -1,12 +1,12 @@
 ---
-title: 第 5 章 安装应用程序. Packages 和 Ports
+title: "第 5 章 安装应用程序: Packages 和 Ports"
 part: 部分 I. 起步
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= 安装应用程序. Packages 和 Ports
+= 安装应用程序: Packages 和 Ports
 :doctype: book
 :toc: macro
 :toclevels: 1

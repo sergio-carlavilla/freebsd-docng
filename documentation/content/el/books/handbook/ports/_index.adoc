@@ -1,12 +1,12 @@
 ---
-title: Κεφάλαιο 5. Εγκατάσταση Εφαρμογών. Πακέτα και Ports
+title: "Κεφάλαιο 5. Εγκατάσταση Εφαρμογών: Πακέτα και Ports"
 part: Μέρος I. Ξεκινώντας με το FreeBSD
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= Εγκατάσταση Εφαρμογών. Πακέτα και Ports
+= Εγκατάσταση Εφαρμογών: Πακέτα και Ports
 :doctype: book
 :toc: macro
 :toclevels: 1

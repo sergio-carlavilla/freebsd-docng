@@ -1,12 +1,12 @@
 ---
-title: 章 18. GEOM. 模組化磁碟轉換框架
+title: "章 18. GEOM: 模組化磁碟轉換框架"
 part: 部 III. 系統管理
 prev: books/handbook/disks
 next: books/handbook/zfs
 ---
 
 [[geom]]
-= GEOM. 模組化磁碟轉換框架
+= GEOM: 模組化磁碟轉換框架
 :doctype: book
 :toc: macro
 :toclevels: 1

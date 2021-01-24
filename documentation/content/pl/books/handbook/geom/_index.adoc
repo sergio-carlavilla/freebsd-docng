@@ -1,12 +1,12 @@
 ---
-title: Rozdział 19. GEOM. Modular Disk Transformation Framework
+title: "Rozdział 19. GEOM: Modular Disk Transformation Framework"
 part: Część III. Administracja systemem
 prev: books/handbook/disks
 next: books/handbook/zfs
 ---
 
 [[geom]]
-= GEOM. Modular Disk Transformation Framework
+= GEOM: Modular Disk Transformation Framework
 :doctype: book
 :toc: macro
 :toclevels: 1

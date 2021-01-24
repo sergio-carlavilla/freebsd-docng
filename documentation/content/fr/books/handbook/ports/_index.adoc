@@ -1,12 +1,12 @@
 ---
-title: Chapitre 4. Installer des applications. les logiciels pré-compilés et les logiciels portés
+title: "Chapitre 4. Installer des applications: les logiciels pré-compilés et les logiciels portés"
 part: Partie I. Pour commencer
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= Installer des applications. les logiciels pré-compilés et les logiciels portés
+= Installer des applications: les logiciels pré-compilés et les logiciels portés
 :doctype: book
 :toc: macro
 :toclevels: 1

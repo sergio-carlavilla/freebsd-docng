@@ -1,12 +1,12 @@
 ---
-title: Κεφάλαιο 20. GEOM. Διαχείριση Συστοιχιών Δίσκων
+title: "Κεφάλαιο 20. GEOM: Διαχείριση Συστοιχιών Δίσκων"
 part: хэсэг III. Системийн Удирдлага
 prev: books/handbook/disks
 next: books/handbook/filesystems
 ---
 
 [[geom]]
-= GEOM. Διαχείριση Συστοιχιών Δίσκων
+= GEOM: Διαχείριση Συστοιχιών Δίσκων
 :doctype: book
 :toc: macro
 :toclevels: 1

@@ -1,12 +1,12 @@
 ---
-title: Capítulo 4. Instalando Aplicativos. Pacotes e Ports
+title: "Capítulo 4. Instalando Aplicativos: Pacotes e Ports"
 part: Parte I. Primeiros Passos
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= Instalando Aplicativos. Pacotes e Ports
+= Instalando Aplicativos: Pacotes e Ports
 :doctype: book
 :toc: macro
 :toclevels: 1

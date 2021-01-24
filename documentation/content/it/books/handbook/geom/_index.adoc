@@ -1,12 +1,12 @@
 ---
-title: Capitolo 19. GEOM. Framework modulare per la trasformazione del disco
+title: "Capitolo 19. GEOM: Framework modulare per la trasformazione del disco"
 part: Parte II. Compiti Ordinari
 prev: books/handbook/disks
 next: books/handbook/vinum
 ---
 
 [[geom]]
-= GEOM. Framework modulare per la trasformazione del disco
+= GEOM: Framework modulare per la trasformazione del disco
 :doctype: book
 :toc: macro
 :toclevels: 1

@@ -1,12 +1,12 @@
 ---
-title: Глава 5. Установка приложений. порты и пакеты
+title: "Глава 5. Установка приложений: порты и пакеты"
 part: Часть I. В начале
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= Установка приложений. порты и пакеты
+= Установка приложений: порты и пакеты
 :doctype: book
 :toc: macro
 :toclevels: 1

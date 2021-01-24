@@ -1,12 +1,12 @@
 ---
-title: Rozdział 4. Instalacja programów. pakiety i porty
+title: "Rozdział 4. Instalacja programów: pakiety i porty"
 part: Część I. Pierwsze kroki
 prev: books/handbook/basics
 next: books/handbook/x11
 ---
 
 [[ports]]
-= Instalacja programów. pakiety i porty
+= Instalacja programów: pakiety i porty
 :doctype: book
 :toc: macro
 :toclevels: 1
