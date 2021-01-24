@@ -149,8 +149,26 @@ other = "寄付"
 other = "ハードウェアの寄贈"
 
 #Main
-[freebsdDescription]
-other = "FreeBSD は、最新のサーバ、デスクトップおよび組み込み プラットフォーム 用のオペレーティングシステムです。 多くの コミュニティ が 30 年以上にも渡って開発を続けています。 高度なネットワーク、セキュリティ、 およびストレージ機能により、FreeBSD は数多くの 最大規模のウェブサイト、 広く普及している組み込みネットワーク機器、 ストレージデバイスにおいて利用されています。"
+[freebsdDescription1]
+other = "FreeBSD は、最新のサーバ、デスクトップおよび組み込み"
+
+[freebsdDescription2]
+other = "プラットフォーム"
+
+[freebsdDescription3]
+other = "用のオペレーティングシステムです。 多くの"
+
+[freebsdDescription4]
+other = "ミュニティ"
+
+[freebsdDescription5]
+other = "が 30 年以上にも渡って開発を続けています。 高度なネットワーク、セキュリティ、 およびストレージ機能により、 FreeBSD は数多くの"
+
+[freebsdDescription6]
+other = "最大規模のウェブサイト"
+
+[freebsdDescription7]
+other = "、 広く普及している組み込みネットワーク機器、 ストレージデバイスにおいて利用されています。"
 
 [learnMore]
 other = "詳しくはこちら"

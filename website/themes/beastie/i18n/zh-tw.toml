@@ -149,8 +149,26 @@ other = "Monetary Donations"
 other = "Hardware Donations"
 
 #Main
-[freebsdDescription]
-other = "FreeBSD 是一個使用於現代伺服器，桌面與嵌入式 平台 的先進作業系統。 由一群龐大的 社群 持續超過三十年的開發。 由於它先進的網路、安全性與儲存方面的特色使得 FreeBSD 成為許多 大型網站 以及最普遍的嵌入式網路與儲存裝置的平台選擇。"
+[freebsdDescription1]
+other = "FreeBSD 是一個使用於現代伺服器，桌面與嵌入式"
+
+[freebsdDescription2]
+other = "平台"
+
+[freebsdDescription3]
+other = "的先進作業系統。 由一群龐大的 "
+
+[freebsdDescription4]
+other = "社群"
+
+[freebsdDescription5]
+other = "持續超過三十年的開發。 由於它先進的網路、安全性與儲存方面的特色使得 FreeBSD 成為許多"
+
+[freebsdDescription6]
+other = "大型網站"
+
+[freebsdDescription7]
+other = "以及最普遍的嵌入式網路與儲存裝置的平台選擇。 "
 
 [learnMore]
 other = "參閱詳情"

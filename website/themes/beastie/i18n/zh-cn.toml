@@ -149,8 +149,26 @@ other = "资金捐赠"
 other = "硬件捐赠"
 
 #Main
-[freebsdDescription]
-other = "FreeBSD 是一个适用于现代服务器，桌面与嵌入式 平台 的操作系统。 由一个庞大的 开发人员团队 持续开发超过三十年。 FreeBSD 先进的网络、安全性和存储方面的特色使得它成为许多 大型网站 以及最普遍的嵌入式网络与存储设备的平台选择。 "
+[freebsdDescription1]
+other = "FreeBSD 是一个适用于现代服务器，桌面与嵌入式"
+
+[freebsdDescription2]
+other = "平台"
+
+[freebsdDescription3]
+other = "的操作系统。 由一个庞大的"
+
+[freebsdDescription4]
+other = "开发人员团队"
+
+[freebsdDescription5]
+other = "持续开发超过三十年。 FreeBSD 先进的网络、安全性和存储方面的特色使得它成为许多"
+
+[freebsdDescription6]
+other = "大型网站"
+
+[freebsdDescription7]
+other = "以及最普遍的嵌入式网络与存储设备的平台选择。 "
 
 [learnMore]
 other = "了解更多"
