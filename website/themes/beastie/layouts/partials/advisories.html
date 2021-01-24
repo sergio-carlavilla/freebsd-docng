@@ -1,4 +1,4 @@
-{{ $advisoriesCounter := 0 }}
+
 {{ with .Site.Data.security.advisories }}
   {{ range (sort .advisories "date" "desc") }}
     {{ if lt $advisoriesCounter 4 }}
