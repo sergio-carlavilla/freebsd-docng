@@ -29,11 +29,11 @@ ifeval::["{backend}" == "html5"]
 endif::[]
 
 ifeval::["{backend}" == "pdf"]
-:imagesdir: ../../../../../static/images/books/handbook/geom/
+:imagesdir: ../../../../static/images/books/handbook/geom/
 endif::[]
 
 ifeval::["{backend}" == "epub3"]
-:imagesdir: ../../../../../static/images/books/handbook/geom/
+:imagesdir: ../../../../static/images/books/handbook/geom/
 endif::[]
 
 include::shared/authors.adoc[]

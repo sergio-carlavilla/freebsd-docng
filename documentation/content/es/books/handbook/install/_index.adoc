@@ -31,11 +31,11 @@ ifeval::["{backend}" == "html5"]
 endif::[]
 
 ifeval::["{backend}" == "pdf"]
-:imagesdir: ../../../../../static/images/books/handbook/install/
+:imagesdir: ../../../../static/images/books/handbook/install/
 endif::[]
 
 ifeval::["{backend}" == "epub3"]
-:imagesdir: ../../../../../static/images/books/handbook/install/
+:imagesdir: ../../../../static/images/books/handbook/install/
 endif::[]
 
 include::shared/authors.adoc[]
