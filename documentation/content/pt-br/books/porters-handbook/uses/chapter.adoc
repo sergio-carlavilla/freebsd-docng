@@ -777,9 +777,15 @@ Garante que as bibliotecas de dependências em `LOCALBASE` sejam usadas ​​em
 [[uses-lua]]
 == `lua`
 
-Argumentos possíveis: (none), `_XY_+`, `_XY_`, `build`, `run`
+Argumentos possíveis: (none), `_XY_`, `_XY_+`, `-_XY_`, `_XY_-_ZA_`, `module`, `flavors`, `build`, `run`, `env`
 
-Adiciona uma dependência de Lua. Por padrão, esta é uma dependência de biblioteca, a menos que seja invalidado por uma opção `build` ou `run`. A versão padrão é 5.2, a menos que seja definido pelo parâmetro `_XY_` (por exemplo, `51` ou `52+`).
+Adiciona uma dependência de Lua. Por padrão, esta é uma dependência de biblioteca, a menos que seja invalidado por uma opção `build` ou `run`. A opção `env` evita a adição de qualquer dependência, enquanto ainda define todas as variáveis usuais.
+
+A versão padrão é definida pelo mecanismo usual `DEFAULT_VERSIONS`, a menos que uma versão ou intervalo de versões seja especificado como um argumento, por exemplo, `51` or `51-53`.
+
+Os aplicativos que usam Lua são normalmente compilados para apenas uma única versão do Lua. No entanto, os módulos de biblioteca destinados a serem carregados pelo código Lua devem usar a opção `module` para compilar com vários flavors.
+
+Para maiores informações, veja <<using-lua>>.
 
 [[uses-lxqt]]
 == `lxqt`

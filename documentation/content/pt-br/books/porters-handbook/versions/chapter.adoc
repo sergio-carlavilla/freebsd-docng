@@ -213,7 +213,7 @@ Aqui está uma lista conveniente dos valores `__FreeBSD_version` definidos em ht
 |1300033
 |link:https://svnweb.freebsd.org/changeset/base/349277[r349277]
 |21 de junho de 2019
-|13.0-CURRENT after additions to LinuxKPI's rcu list.
+|13.0-CURRENT after additions to LinuxKPI's `rcu` list.
 
 |1300034
 |link:https://svnweb.freebsd.org/changeset/base/349352[r349352]
@@ -249,6 +249,11 @@ Aqui está uma lista conveniente dos valores `__FreeBSD_version` definidos em ht
 |link:https://svnweb.freebsd.org/changeset/base/351140[r351140]
 |16 de agosto de 2019
 |13.0-CURRENT after deletion of sys/dir.h which has been deprecated since 1997.
+
+|(Não mudou)
+|link:https://svnweb.freebsd.org/changeset/base/351423[r351423]
+|23 de agosto de 2019
+|13.0-CURRENT after changing most arguments to man:ping6[8].
 
 |1300041
 |link:https://svnweb.freebsd.org/changeset/base/351480[r351480]
@@ -559,6 +564,156 @@ Aqui está uma lista conveniente dos valores `__FreeBSD_version` definidos em ht
 |link:https://svnweb.freebsd.org/changeset/base/363077[r363077]
 |10 de julho de 2020
 |13.0-CURRENT after implementing the array_size() function in the LinuxKPI.
+
+|1300102
+|link:https://svnweb.freebsd.org/changeset/base/363562[r363562]
+|26 de julho de 2020
+|13.0-CURRENT after implementing lockless lookup in the VFS layer.
+
+|1300103
+|link:https://svnweb.freebsd.org/changeset/base/363757[r363757]
+|1 de agosto de 2020
+|13.0-CURRENT after making rights mandatory for NDINIT_ALL.
+
+|1300104
+|link:https://svnweb.freebsd.org/changeset/base/363783[r363783]
+|2 de agosto de 2020
+|13.0-CURRENT after vnode layout changes.
+
+|1300105
+|link:https://svnweb.freebsd.org/changeset/base/363894[r363894]
+|5 de agosto de 2020
+|13.0-CURRENT after vaccess() change.
+
+|1300106
+|link:https://svnweb.freebsd.org/changeset/base/364092[r364092]
+|11 de agosto de 2020
+|13.0-CURRENT after adding an argument to newnfs_connect() that indicates use TLS for the connection.
+
+|1300107
+|link:https://svnweb.freebsd.org/changeset/base/364109[r364109]
+|11 de agosto de 2020
+|13.0-CURRENT after change to clone the task struct fields related to RCU.
+
+|1300108
+|link:https://svnweb.freebsd.org/changeset/base/364233[r364233]
+|14 de agosto de 2020
+|13.0-CURRENT after adding a few wait_bit functions to the linuxkpi, which are needed for DRM from Linux v5.4.
+
+|1300109
+|link:https://svnweb.freebsd.org/changeset/base/364274[r364274]
+|6 de agosto de 2020
+|13.0-CURRENT after vget() argument removal and namei flags renumbering.
+
+|(Não mudou)
+|link:https://svnweb.freebsd.org/changeset/base/364284[r364284]
+|6 de agosto de 2020
+|13.0-CURRENT after updating llvm, clang, compiler-rt, libc++, libunwind, lld, lldb and openmp to release/11.x llvmorg-11.0.0-rc1-47-gff47911ddfc.
+
+|1300110
+|link:https://svnweb.freebsd.org/changeset/base/364331[r364331]
+|18 de agosto de 2020
+|13.0-CURRENT after deleting the unused `use_ext` argument to `nfscl_reqstart()`.
+
+|1300111
+|link:https://svnweb.freebsd.org/changeset/base/364476[r364476]
+|22 de agosto de 2020
+|13.0-CURRENT after adding TLS support to the kernel RPC.
+
+|1300112
+|link:https://svnweb.freebsd.org/changeset/base/364747[r364747]
+|25 de agosto de 2020
+|13.0-CURRENT after merging OpenZFS support.
+
+|1300113
+|link:https://svnweb.freebsd.org/changeset/base/364753[r364753]
+|25 de agosto de 2020
+|13.0-CURRENT after adding atomic and bswap functions to libcompiler_rt.
+
+|1300114
+|link:https://svnweb.freebsd.org/changeset/base/365459[r365459]
+|8 de setembro de 2020
+|13.0-CURRENT after changing arm64 AT_HWCAP definitions for elf_aux_info(3).
+
+|1300115
+|link:https://svnweb.freebsd.org/changeset/base/365705[r365705]
+|14 de setembro de 2020
+|13.0-CURRENT after fixing man:crunchgen[1] application build with `WARNS=6`.
+
+|1300116
+|link:https://svnweb.freebsd.org/changeset/base/366062[r366062]
+|22 de setembro de 2020
+|13.0-CURRENT after the introduction of the powerpc64le ARCH.
+
+|1300117
+|link:https://svnweb.freebsd.org/changeset/base/366070[r366070]
+|23 de setembro de 2020
+|13.0-CURRENT after reimplementing purgevfs to iterate vnodes instead of the entire hash.
+
+|1300118
+|link:https://svnweb.freebsd.org/changeset/base/366374[r366374]
+|2 de outubro de 2020
+|13.0-CURRENT after adding backlight support and `dmi_*` functions to the linuxkpi.
+
+|1300119
+|link:https://svnweb.freebsd.org/changeset/base/366432[r366432]
+|6 de outubro de 2020
+|13.0-CURRENT after populating the acquire context field of a `ww_mutex` in the LinuxKPI.
+
+|1300120
+|link:https://svnweb.freebsd.org/changeset/base/366666[r366666]
+|13 de outubro de 2020
+|13.0-CURRENT after the fix to arm64 write-only mappings.
+
+|1300121
+|link:https://svnweb.freebsd.org/changeset/base/366719[r366719]
+|15 de outubro de 2020
+|13.0-CURRENT after the addition of `VOP_EAGAIN`.
+
+|1300122
+|link:https://svnweb.freebsd.org/changeset/base/366782[r366782]
+|17 de outubro de 2020
+|13.0-CURRENT after the addition of `ptsname_r`.
+
+|1300123
+|link:https://svnweb.freebsd.org/changeset/base/366871[r366871]
+|20 de outubro de 2020
+|13.0-CURRENT after `VOP`, `VPTOCNP`, and `INACTIVE` changes.
+
+|1300124
+|link:https://svnweb.freebsd.org/changeset/base/367162[r367162]
+|30 de outubro de 2020
+|13.0-CURRENT after adding `cache_vop_mkdir` and renaming `cache_rename` to `cache_vop_rename`.
+
+|1300125
+|link:https://svnweb.freebsd.org/changeset/base/367347[r367347]
+|4 de novembro de 2020
+|13.0-CURRENT after using a `rms` lock for teardown handling in `zfs`.
+
+|1300126
+|link:https://svnweb.freebsd.org/changeset/base/367384[r367384]
+|5 de novembro de 2020
+|13.0-CURRENT after rationalizing per-cpu zones.
+
+|1300127
+|link:https://svnweb.freebsd.org/changeset/base/367432[r367432]
+|6 de novembro de 2020
+|13.0-CURRENT after moving `malloc_type_internal` into `malloc_type`.
+
+|1300128
+|link:https://svnweb.freebsd.org/changeset/base/367522[r367522]
+|9 de novembro de 2020
+|13.0-CURRENT after LinuxKPI additions to implement ACPI bits required by `drm-kmod` in the base system.
+
+|1300129
+|link:https://svnweb.freebsd.org/changeset/base/367627[r367627]
+|12 de novembro de 2020
+|13.0-CURRENT after retiring `malloc_last_fail`.
+
+|1300130
+|link:https://svnweb.freebsd.org/changeset/base/367777[r367777]
+|November 17, 2020
+|13.0-CURRENT after p_pd / pwddesc split from p_fd / filedesc.
 |===
 
 [[versions-12]]
@@ -1217,6 +1372,71 @@ Aqui está uma lista conveniente dos valores `__FreeBSD_version` definidos em ht
 |link:https://svnweb.freebsd.org/changeset/base/362916[r362916]
 |4 de julho de 2020
 |12-STABLE after making liblzma use libmd implementation of SHA256.
+
+|1201520
+|link:https://svnweb.freebsd.org/changeset/base/363494[r363494]
+|24 de julho de 2020
+|12-STABLE after updating llvm, clang, compiler-rt, libc++, libunwind, lld, lldb and openmp to 10.0.1 release.
+
+|1201521
+|link:https://svnweb.freebsd.org/changeset/base/363790[r363790]
+|3 de agosto de 2020
+|12-STABLE after implementing the array_size() function in the LinuxKPI.
+
+|1201522
+|link:https://svnweb.freebsd.org/changeset/base/363832[r363832]
+|4 de agosto de 2020
+|12-STABLE after adding sysctlbyname system call.
+
+|1201523
+|link:https://svnweb.freebsd.org/changeset/base/364390[r364390]
+|19 de agosto de 2020
+|12-STABLE after change to clone the task struct fields related to RCU.
+
+|1201524
+|link:https://svnweb.freebsd.org/changeset/base/365356[r365356]
+|5 de setembro de 2020
+|12-STABLE after splitting XDR off into a separate kernel module, to minimize ZFS dependencies.
+
+|1201525
+|link:https://svnweb.freebsd.org/changeset/base/365471[r365471]
+|8 de setembro de 2020
+|12-STABLE after adding atomic and bswap functions to libcompiler_rt.
+
+|1201526
+|link:https://svnweb.freebsd.org/changeset/base/365608[r365608]
+|10 de setembro de 2020
+|12-STABLE after updating net80211 and kernel privilege checking API changes.
+
+|1202000
+|link:https://svnweb.freebsd.org/changeset/base/365618[r365618]
+|11 de setembro de 2020
+|releng/12.2 branched from stable/12@r365618.
+
+|1202500
+|link:https://svnweb.freebsd.org/changeset/base/365619[r365619]
+|11 de setembro de 2020
+|12-STABLE after branching releng/12.2.
+
+|1202501
+|link:https://svnweb.freebsd.org/changeset/base/365661[r365661]
+|12 de setembro de 2020
+|12-STABLE after followup commits to libcompiler_rt.
+
+|1202502
+|link:https://svnweb.freebsd.org/changeset/base/365816[r365816]
+|16 de setembro de 2020
+|12-STABLE after fixing man:crunchgen[1] application build with `WARNS=6`.
+
+|1202503
+|link:https://svnweb.freebsd.org/changeset/base/366878[r366878]
+|20 de outubro de 2020
+|12-STABLE after populating the acquire context field of a `ww_mutex` in the LinuxKPI.
+
+|1202504
+|link:https://svnweb.freebsd.org/changeset/base/367511[r367511]
+|9 de novembro de 2020
+|12-STABLE after the addition of `ptsname_r`.
 |===
 
 [[versions-11]]
@@ -2160,6 +2380,46 @@ Aqui está uma lista conveniente dos valores `__FreeBSD_version` definidos em ht
 |link:https://svnweb.freebsd.org/changeset/base/362919[r362919]
 |4 de julho de 2020
 |11-STABLE after making liblzma use libmd implementation of SHA256.
+
+|1104503
+|link:https://svnweb.freebsd.org/changeset/base/363496[r363496]
+|24 de julho de 2020
+|11-STABLE after updating llvm, clang, compiler-rt, libc++, libunwind, lld, lldb and openmp to 10.0.1 release.
+
+|1104504
+|link:https://svnweb.freebsd.org/changeset/base/363792[r363792]
+|3 de agosto de 2020
+|11-STABLE after implementing the array_size() function in the LinuxKPI.
+
+|1104505
+|link:https://svnweb.freebsd.org/changeset/base/364391[r364391]
+|19 de agosto de 2020
+|11-STABLE after change to clone the task struct fields related to RCU.
+
+|1104506
+|link:https://svnweb.freebsd.org/changeset/base/365471[r365471]
+|8 de setembro de 2020
+|11-STABLE after adding atomic and bswap functions to libcompiler_rt.
+
+|1104507
+|link:https://svnweb.freebsd.org/changeset/base/365661[r365661]
+|12 de setembro de 2020
+|11-STABLE after followup commits to libcompiler_rt.
+
+|1104508
+|link:https://svnweb.freebsd.org/changeset/base/366879[r366879]
+|20 de outubro de 2020
+|11-STABLE after populating the acquire context field of a `ww_mutex` in the LinuxKPI.
+
+|1104509
+|link:https://svnweb.freebsd.org/changeset/base/366889[r366889]
+|20 de outubro de 2020
+|11-STABLE after additions to LinuxKPI's `RCU` list.
+
+|1104510
+|link:https://svnweb.freebsd.org/changeset/base/367513[r367513]
+|9 de novembro de 2020
+|11-STABLE after the addition of `ptsname_r`.
 |===
 
 [[versions-10]]

@@ -66,10 +66,10 @@ Ports que instalam módulos do kernel devem preceder a variável `STAGEDIR` em s
 [[staging-symlink]]
 === Lidando com Links Simbólicos
 
-Ao criar um link simbólico, há dois casos, tanto a origem quanto o destino estão dentro de [.filename]#${PREFIX}#. Nesse caso, use `${RLN}`. No outro caso, se um ou ambos os caminhos estiverem fora de [.filename]#${PREFIX}# use `${LN} -s` e apenas prefixe [.filename]#${STAGEDIR}# para o caminho de destino.
+Ao criar um link simbólico, os links relativos são fortemente recomendados. Use `${RLN}` para criar links simbólicos relativos. Ele usa o man:install[1] por baixo dos panos para descobrir automaticamente o link relativo a ser criado.
 
 [[staging-ex1]]
-.Criar Links Simbólicos Relativos, Dentro de [.filename]#${PREFIX}#
+.Crie Links Simbólicos Relativos Automaticamente
 [example]
 ====
 `${RLN}` usa o recurso simbólico relativo do man:install[1] que libera o mantenedor do port de computar o caminho relativo.
@@ -77,6 +77,8 @@ Ao criar um link simbólico, há dois casos, tanto a origem quanto o destino est
 [.programlisting]
 ....
 ${RLN} ${STAGEDIR}${PREFIX}/lib/libfoo.so.42 ${STAGEDIR}${PREFIX}/lib/libfoo.so
+${RLN} ${STAGEDIR}${PREFIX}/libexec/foo/bar ${STAGEDIR}${PREFIX}/bin/bar
+${RLN} ${STAGEDIR}/var/cache/foo ${STAGEDIR}${PREFIX}/share/foo
 ....
 
 Irá gerar:
@@ -84,44 +86,12 @@ Irá gerar:
 [source,bash]
 ....
 % ls -lF ${STAGEDIR}${PREFIX}/lib
-  lrwxr-xr-x  1 nobody  nobody    181 Aug  3 11:27 libfoo.so@ -> libfoo.so.42
-  -rwxr-xr-x  1 nobody  nobody     15 Aug  3 11:24 libfoo.so.42*
-....
-
-Quando usado com caminhos que não estão no mesmo diretório:
-
-[.programlisting]
-....
-${RLN} ${STAGEDIR}${PREFIX}/libexec/foo/bar ${STAGEDIR}${PREFIX}/bin/bar
-....
-
-Irá gerar automaticamente os links simbólicos relativos:
-
-[source,bash]
-....
+lrwxr-xr-x  1 nobody  nobody    181 Aug  3 11:27 libfoo.so@ -> libfoo.so.42
+-rwxr-xr-x  1 nobody  nobody     15 Aug  3 11:24 libfoo.so.42*
 % ls -lF ${STAGEDIR}${PREFIX}/bin
-  lrwxr-xr-x  1 nobody  nobody    181 Aug  3 11:27 bar@ -> ../libexec/foo/bar
-....
-
-====
-
-[[staging-ex2]]
-.Criar Links Simbólicos Absolutos, Fora de [.filename]#${PREFIX}#
-[example]
-====
-Ao criar um link simbólico fora de [.filename]#${PREFIX}#, a origem não deve conter [.filename]#${STAGEDIR}#, o destino no entanto, deve:
-
-[.programlisting]
-....
-${LN} -sf /var/cache/${PORTNAME} ${STAGEDIR}${PREFIX}/shared/${PORTNAME}
-....
-
-Irá gerar:
-
-[source,bash]
-....
+lrwxr-xr-x  1 nobody  nobody    181 Aug  3 11:27 bar@ -> ../libexec/foo/bar
 % ls -lF ${STAGEDIRDIR}${PREFIX}/share
-  lrwxr-xr-x  1 nobody  nobody    181 Aug  3 11:27 foo@ -> /var/cache/foo
+lrwxr-xr-x  1 nobody  nobody    181 Aug  3 11:27 foo@ -> ../../../var/cache/foo
 ....
 
 ====
@@ -981,14 +951,11 @@ USES=	gettext
 GNU_CONFIGURE=	yes
 ....
 
-Se falhar, dicas da localização do `gettext` podem ser informados por meio do `CPPFLAGS` e `LDFLAGS` do seguinte modo:
+Se falhar, dicas da localização do `gettext` podem ser informados por meio do `CPPFLAGS` e LDFLAGS` utilizando `localbase` do seguinte modo:
 
 [.programlisting]
 ....
-USES=	gettext
-CPPFLAGS+=	-I${LOCALBASE}/include
-LDFLAGS+=	-L${LOCALBASE}/lib
-
+USES=	gettext localbase:ldflags
 GNU_CONFIGURE=	yes
 ....
 
@@ -1324,24 +1291,22 @@ Aqui está um exemplo de [.filename]#Makefile# para um port do GNOME que usa mui
 
 [.programlisting]
 ....
-# $FreeBSD: head/pt_BR.ISO8859-1/books/porters-handbook/book.xml 54410 2020-08-05 22:13:01Z dbaio $
+# $FreeBSD$
 
-PORTNAME=	 regexxer
-DISTVERSION=	 0.10
-CATEGORIES=	 devel textproc gnome
-MASTER_SITES=	 GNOME
+PORTNAME=	regexxer
+DISTVERSION=	0.10
+CATEGORIES=	devel textproc gnome
+MASTER_SITES=	GNOME
 
-MAINTAINER=	 kwm@FreeBSD.org
-COMMENT=	 Interactive tool for performing search and replace operations
+MAINTAINER=	kwm@FreeBSD.org
+COMMENT=	Interactive tool for performing search and replace operations
 
-USES=		 gettext gmake pathfix pkgconfig tar:xz
+USES=		gettext gmake localbase:ldflags pathfix pkgconfig tar:xz
 GNU_CONFIGURE=	yes
-USE_GNOME=	 gnomeprefix intlhack gtksourceviewmm3
-CPPFLAGS+=	 -I${LOCALBASE}/include
-LDFLAGS+=	 -L${LOCALBASE}/lib
-INSTALLS_ICONS= yes
+USE_GNOME=	gnomeprefix intlhack gtksourceviewmm3
+INSTALLS_ICONS=	yes
 
-GLIB_SCHEMAS=	 org.regexxer.gschema.xml
+GLIB_SCHEMAS=	org.regexxer.gschema.xml
 
 .include <bsd.port.mk>
 ....
@@ -2792,7 +2757,7 @@ USE_LXQT=	buildtools libfmqt
 
 Se o port precisar de um Java(TM) Development Kit (JDK) para compilar, executar ou até mesmo extrair o distfile, então defina `USE_JAVA`.
 
-Existem vários JDKs na coleção de ports, de vários fornecedores e em várias versões. Se o port precisar usar uma versão específica, especifique-a usando a variável `JAVA_VERSION`. A versão mais atual é package:java/openjdk8[], package:java/openjdk6[] e package:java/openjdk7[] também estão disponíveis.
+Existem vários JDKs na coleção de ports, de vários fornecedores e em várias versões. Se o port precisar usar uma versão específica, especifique-a usando a variável `JAVA_VERSION`. A versão mais atual é package:java/openjdk15[], com package:java/openjdk14[], package:java/openjdk13[], package:java/openjdk12[], package:java/openjdk11[], package:java/openjdk8[], e package:java/openjdk7[] também disponíveis.
 
 [[using-java-variables]]
 .Variáveis ​​Que Podem ser Definidas por Ports Que Usam Java
@@ -2805,7 +2770,7 @@ Existem vários JDKs na coleção de ports, de vários fornecedores e em várias
 |Defina para as variáveis ​​restantes para ter algum efeito.
 
 |`JAVA_VERSION`
-|Lista das versões Java adequadas separadas por espaço para o port. Um opcional `"+"` permite especificar um intervalo de versões (valores permitidos: `1.5[+] 1.6[+] 1.7[+]`).
+|Lista das versões Java adequadas separadas por espaço para o port. Um opcional `"+"` permite especificar um intervalo de versões (valores permitidos: `7[+] 8[+] 11[+] 12[+] 13[+] 14[+] 15[+]`).
 
 |`JAVA_OS`
 |Lista de sistemas operacionais adequados do port JDK separados por espaço para o port (valores permitidos: `native linux`).
@@ -3670,6 +3635,7 @@ As variaveis wxWidgets ​​podem ser usadas com segurança em comandos quando 
 === Argumentos Adicionais do `configure`
 
 Alguns scripts GNU `configure` não podem encontrar wxWidgets com apenas o conjunto de variáveis ​​de ambiente `WX_CONFIG`, exigindo argumentos adicionais. `WX_CONF_ARGS` pode ser usado para fornecê-los.
+
 [[wx-conf-args-values]]
 .Valores Legais para `WX_CONF_ARGS`
 [cols="1,1", frame="none", options="header"]
@@ -3696,17 +3662,72 @@ Existem muitas versões das bibliotecas Lua e interpretadores correspondentes, q
 
 A desvantagem óbvia disso é que cada aplicativo precisa ser modificado para encontrar a versão esperada. Mas isto pode ser resolvido adicionando alguns sinalizadores adicionais ao compilador e ao linker.
 
+Aplicativos que usam Lua normalmente devem ser compilados para apenas uma versão. No entanto, os módulos carregáveis para Lua são compilados em flavor separado para cada versão Lua que eles suportam, e as dependências de tais módulos devem especificar o flavor usando o sufixo `@${LUA_FLAVOR}` no caminho do port.
+
 [[lua-version]]
 === Seleção de Versão
 
-Um port usando Lua só precisa ter essa linha:
+Um port usando Lua deve ter uma linha dessa forma:
 
 [.programlisting]
 ....
 USES=	lua
 ....
 
-Se uma versão específica do Lua for necessária, as instruções sobre como selecioná-la são fornecidas no <<uses-lua,`USES=lua`>> parte do <<uses>>.
+Se uma versão específica de Lua, ou intervalo de versões for necessária, ela pode ser especificada como um parâmetro na forma `XY` (que pode ser usado várias vezes), `XY+`, `-XY`, ou `XY-ZA`. A versão padrão do Lua definida por meio do `DEFAULT_VERSIONS` será usada se cair no intervalo solicitado, caso contrário, a versão solicitada mais próxima do padrão será usada. Por exemplo:
+
+[.programlisting]
+....
+USES=	lua:52-53
+....
+
+Observe que nenhuma tentativa é feita para ajustar a seleção da versão com base na presença de qualquer versão Lua já instalada.
+
+[NOTE]
+====
+A forma `XY+` de especificação de versão não deve ser usada sem consideração cuidadosa; a API Lua muda consideravelmente em todas as versões, e ferramentas de configuração como CMake ou Autoconf frequentemente não funcionarão em versões futuras do Lua até ser atualizado para isso.
+====
+
+[[lua-version-config]]
+=== Flags de Configuração e Compilador
+
+Software that uses Lua may have been written to auto-detect the Lua version in use. In general ports should override this assumption, and force the use of the specific Lua version selected as described above. Depending on the software being ported, this might require any or all of: 
+
+* Usando `LUA_VER` como parte de um parâmetro para o script de configuração do software via `CONFIGURE_ARGS` ou `CONFIGURE_ENV` (ou equivalente para outros sistemas de compilação);
+* Adicionando `-I${LUA_INCDIR}`, `-L${LUA_LIBDIR}`, e `-llua-${LUA_VER}` para `CFLAGS`, `LDFLAGS`, `LIBS` respectivamente, conforme apropriado;
+* Altere a configuração do software ou arquivos de compilação para selecionar a versão correta.
+
+[[lua-version-flavors]]
+=== Flavors de Versão
+
+Um port que instala um módulo Lua (em vez de um aplicativo que simplesmente faz uso do Lua) deve compilar um flavor separado para cada versão do Lua suportada . Isso é feito adicionando o parâmetro `module`:
+
+[.programlisting]
+....
+USES=	lua:module
+....
+
+Um número de versão ou intervalo de versões também pode ser especificado; use uma vírgula para separar os parâmetros.
+
+Uma vez que cada flavor deve ter um nome de pacote diferente, a variável `LUA_PKGNAMEPREFIX` é fornecida e será definida com um valor apropriado; o uso pretendido é:
+
+[.programlisting]
+....
+PKGNAMEPREFIX=	${LUA_PKGNAMEPREFIX}
+....
+
+Ports de módulo normalmente devem instalar arquivos apenas em `LUA_MODLIBDIR`, `LUA_MODSHAREDIR`, `LUA_DOCSDIR`, e `LUA_EXAMPLESDIR`>, todos os quais estão definidos para se referir a subdiretórios específicos da versão. A instalação de quaisquer outros arquivos deve ser feita com cuidado para evitar conflitos entre as versões.
+
+Um port (diferente de um módulo Lua) que deseja compilar um pacote separado para cada versão Lua deve usar o parâmetro `flavors`:
+
+[.programlisting]
+....
+USES=	lua:flavors
+....
+
+Isso funciona da mesma maneira que o parâmetro `module` descrito acima, mas sem a suposição de que o pacote deve ser documentado como um módulo Lua (então `LUA_DOCSDIR` e `LUA_EXAMPLESDIR` não são definidos por padrão). No entanto, o port pode escolher definir `LUA_DOCSUBDIR` como um nome de subdiretório adequado (geralmente o `PORTNAME` do port, desde que não entre em conflito com o `PORTNAME` de qualquer módulo), caso em que a estrutura definirá `LUA_DOCSDIR` e `LUA_EXAMPLESDIR`.
+
+Tal como acontece com os ports de módulo, um port com flavor deve evitar a instalação de arquivos que entrariam em conflito entre as versões. Normalmente, isso é feito adicionando `LUA_VER_STR` como um sufixo para nomes de programas (por exemplo, usando <<uses-uniquefiles,USES=uniquefiles>>), e de outra forma usando `LUA_VER` ou `LUA_VER_STR` como parte de quaisquer outros arquivos ou subdiretórios usados fora de `LUA_MODLIBDIR` e `LUA_MODSHAREDIR`.
 
 [[lua-defined-variables]]
 === Variáveis ​​Definidas
@@ -3726,33 +3747,108 @@ Essas variáveis ​​estão disponíveis no port.
 |`LUA_VER_STR`
 |A versão Lua sem os pontos (por exemplo,`51`)
 
-|`LUA_PREFIX`
-|O prefixo onde o Lua (e os seus componentes) é instalado
+|`LUA_FLAVOR`
+|O nome do flavor correspondente à versão selecionada Lua, a ser usado para especificar dependências
 
-|`LUA_SUBDIR`
-|O diretório sob [.filename]#${PREFIX}/bin#, [.filename]#${PREFIX}/share# e [.filename]#${PREFIX}/lib# no qual o Lua é instalado
+|`LUA_BASE`
+|O prefixo que deve ser usado para localizar o Lua (e componentes) que já estão instalados
+
+|`LUA_PREFIX`
+|O prefixo onde o Lua (e os seus componentes) são instalados por este port
 
 |`LUA_INCDIR`
-|O diretório no qual o Lua e os arquivos de cabeçalho tolua são instalados
+|O diretório onde os arquivos header do Lua estão instalados
 
 |`LUA_LIBDIR`
-|O diretório no qual o Lua e as bibliotecas tolua são instalados
+|O diretório onde as bibliotecas Lua são instaladas
+
+|`LUA_REFMODLIBDIR`
+|O diretório no qual as bibliotecas dos módulos Lua ([.filename]#.so#) que já estão instalados podem ser encontrados
+
+|`LUA_REFMODSHAREDIR`
+|O diretório no qual os módulos Lua ([.filename]#.lua#) que já estão instalados podem ser encontrados
 
 |`LUA_MODLIBDIR`
-|O diretório no qual as bibliotecas dos módulos Lua ([.filename]#.so#) são instalados
+|O diretório no qual as bibliotecas dos módulos Lua ([.filename]#.so#) serão instalados por este port
 
 |`LUA_MODSHAREDIR`
-|O diretório no qual os módulos Lua ([.filename]#.lua#) são instalados
+|O diretório no qual os módulos Lua ([.filename]#.lua#) serão instalados por este port
 
 |`LUA_PKGNAMEPREFIX`
 |O prefixo do nome do pacote usado por módulos Lua
 
 |`LUA_CMD`
-|O caminho para o interpretador Lua
+|O nome do interpretador Lua (exemplo `lua53`)
 
 |`LUAC_CMD`
-|O caminho para o compilador Lua
+|O nome do compilador Lua (exemplo `luac53`)
 |===
+
+Essas variáveis adicionais estão disponíveis para ports que especificaram o parâmetro `module`:
+
+[[using-lua-variables-modules]]
+.Variáveis Definidas para Ports de Módulos Lua
+[cols="1,1", frame="none", options="header"]
+|===
+| Nome
+| Descrição
+
+|`LUA_DOCSDIR`
+|o diretório no qual a documentação do módulo deve ser instalada.
+
+|`LUA_EXAMPLESDIR`
+|o diretório no qual os arquivos de exemplo do módulo devem ser instalados.
+|===
+
+[[lua-examples]]
+=== Exemplos
+
+[[lua-app-Makefile]]
+.Makefile para uma aplicação que utiliza Lua
+[example]
+====
+Este exemplo mostra como fazer referência a um módulo Lua necessário em tempo de execução. Observe que a referência deve especificar um flavor.
+
+[.programlisting]
+....
+PORTNAME=	sample
+DISTVERSION=	1.2.3
+CATEGORIES=	whatever
+
+MAINTAINER=	john@doe.tld
+COMMENT=	Sample
+
+RUN_DEPENDS=	${LUA_REFMODLIBDIR}/lpeg.so:devel/lua-lpeg@${LUA_FLAVOR}
+
+USES=		lua
+
+.include <bsd.port.mk>
+....
+
+====
+
+[[lua-mod-Makefile]]
+.Makefile para módulo simples de Lua
+[example]
+====
+[.programlisting]
+....
+PORTNAME=	sample
+DISTVERSION=	1.2.3
+CATEGORIES=	whatever
+PKGNAMEPREFIX=	${LUA_PKGNAMEPREFIX}
+
+MAINTAINER=	john@doe.tld
+COMMENT=	Sample
+
+USES=		lua:module
+
+DOCSDIR=	${LUA_DOCSDIR}
+
+.include <bsd.port.mk>
+....
+
+====
 
 [[using-iconv]]
 == Usando `iconv`

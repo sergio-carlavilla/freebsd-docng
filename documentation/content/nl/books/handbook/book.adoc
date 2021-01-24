@@ -72,6 +72,12 @@ Welkom bij FreeBSD! Dit handboek behandelt de installatie en het dagelijks gebru
 
 toc::[]
 
+include::{chapters-path}toc-figures.adoc[]
+
+include::{chapters-path}toc-tables.adoc[]
+
+include::{chapters-path}toc-examples.adoc[]
+
 :sectnums!:
 
 include::{chapters-path}preface/_index.adoc[leveloffset=+1, lines=7..-1]

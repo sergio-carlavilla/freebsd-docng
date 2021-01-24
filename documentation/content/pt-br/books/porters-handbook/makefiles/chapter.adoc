@@ -2771,7 +2771,7 @@ Para as licenças predefinidas, as permissões padrão são `dist-mirror dist-se
 |(padrão)
 
 |`PostgreSQL`
-|PostgreSQL Licence
+|PostgreSQL License
 |`FSF GPL OSI COPYFREE`
 |(padrão)
 
@@ -4792,4 +4792,9 @@ BINARY_ALIAS=	python3=${PYTHON_CMD}
 ....
 
 Veja <<using-python>> para mais informações sobre `USES=python`.
+====
+
+[NOTE]
+====
+Aliases binários são criados após as dependências fornecidas via `BUILD_DEPENDS` e `LIB_DEPENDS` serem processadas e antes do target `configure`. Isso leva a várias limitações. Por exemplo, os programas instalados via `TEST_DEPENDS` não podem ser usados para criar um alias binário, pois as dependências de teste especificadas desta forma são processadas após a criação dos aliases binários.
 ====

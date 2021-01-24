@@ -75,6 +75,12 @@ N.d.T.: Contactez {fonvieille} si vous voulez collaborer à la traduction.
 
 toc::[]
 
+include::{chapters-path}toc-figures.adoc[]
+
+include::{chapters-path}toc-tables.adoc[]
+
+include::{chapters-path}toc-examples.adoc[]
+
 :sectnums!:
 
 include::{chapters-path}preface/_index.adoc[leveloffset=+1, lines=7..-1]

@@ -213,9 +213,9 @@ Antes de enviar um relatório de problema, leia link:{problem-reports}[Escrevend
 
 O projeto produz uma ampla gama de documentação, disponível on-line a partir deste link: https://www.FreeBSD.org/docs/[https://www.FreeBSD.org/docs].
 
-=== A documentação está disponível em outros formatos, tais como texto simples (ASCII) ou PostScript?
+=== A documentação está disponível em outros formatos, tais como texto simples (ASCII) ou PDF?
 
-Sim. A documentação está disponível em vários formatos diferentes e esquemas de compressão no site FTP do FreeBSD, no diretório https://download.freebsd.org/ftp/doc/[/pub/FreeBSD/doc/].
+Sim. A documentação está disponível em vários formatos diferentes e esquemas de compressão no site FTP do FreeBSD, no diretório https://download.freebsd.org/ftp/doc/[/ftp/doc/].
 
 A documentação é categorizada de várias maneiras diferentes. Que incluem:
 
@@ -308,20 +308,9 @@ Alguns documentos podem não estar disponíveis em todos os idiomas.
 |`pdf`
 |Formato de documento portátil da Adobe
 
-|`ps`
-|PostScript(TM)
-
-|`rtf`
-|Rich Text Format da Microsoft(TM)
-
 |`txt`
 |Texto simples
 |===
-+
-[NOTE]
-====
-Números de página não são atualizados automaticamente ao carregar o formato Rich Text no Word. Pressione kbd:[Ctrl+A], kbd:[Ctrl+End], kbd:[F9] após carregar o documento, para atualizar os números das páginas.
-====
 
 * O esquema de compactação e empacotamento.
 .. Onde o formato é `html-split`, os arquivos são agrupados usando man:tar[1]. O arquivo resultante [.filename]#.tar# é então compactado usando os esquemas de compactação detalhados no próximo passo.
@@ -329,7 +318,7 @@ Números de página não são atualizados automaticamente ao carregar o formato 
 + 
 Esses arquivos são então compactados usando os esquemas de compactação `zip` ou `bz2`. O comando man:tar[1] pode ser usado para descompactar esses arquivos.
 + 
-Portanto, a versão PostScript(TM) do Handbook, compactada usando `bzip2` será armazenada em um arquivo chamado [.filename]#book.ps.bz2# no diretório [.filename]#handbook/#.
+Portanto, a versão PDF do Handbook, compactada usando `bzip2` será armazenada em um arquivo chamado [.filename]#book.ps.bz2# no diretório [.filename]#handbook/#.
 
 Depois de escolher o formato e o mecanismo de compactação, baixe os arquivos compactados, descompacte-os e copie os documentos para um lugar apropriado.
 
@@ -788,7 +777,7 @@ O FreeBSD suporta pacotes binários compactados para facilitar a instalação e 
 Qualquer um dos métodos listados aqui funciona:
 
 * Use o portsnap para a maioria dos casos de uso. Consulte a seção link:{handbook}#ports-using[Usando a coleção de ports] para obter instruções sobre como usar essa ferramenta .
-* Use o Subversion se for necessário a aplicação de patches customizados na árvore de ports. Consulte a seção link:{handbook}#svn[ Usando o Subversion ] para obter detalhes.
+* Use o Subversion se for necessário a aplicação de patches customizados na árvore de ports ou se estiver rodando FreeBSD-CURRENT. Consulte a seção link:{handbook}#svn[Usando o Subversion] para obter detalhes.
 
 === Por que não posso compilar esse port na minha máquina 11.X - ou 12.X -STABLE?
 

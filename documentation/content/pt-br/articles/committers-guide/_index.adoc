@@ -2,7 +2,7 @@
 title: Guia dos Committers
 authors:
   - author: Projeto de Documentação do FreeBSD
-copyright: 1999-2019 Projeto de Documentação do FreeBSD
+copyright: 1999-2020 Projeto de Documentação do FreeBSD
 releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/committers-guide/article.xml 53731 2020-01-01 14:37:53Z ebrandi $" 
 trademarks: ["freebsd", "coverity", "ibm", "intel", "sparc", "general"]
 ---
@@ -1395,6 +1395,11 @@ Quando o mentor decide que um aprendiz já aprendeu o necessário e está pronto
 |[.filename]#ports/svnadmin/conf/mentors#
 |===
 
+[NOTE]
+====
+Os novos committers devem ter como objetivo realizar commits o suficiente para que seu mentor se sinta confortável em liberá-los da mentoria no primeiro ano. Se eles ainda estiverem sob orientação, o corpo gerencial apropriado (core, doceng ou portmgr) deve tentar garantir que não haja barreiras que impeçam a conclusão. Se o committer não for capaz de satisfazer seu mentor de prontidão por um ano e meio, seu commit bit pode ser convertido para membro do projeto.
+====
+
 [[pre-commit-review]]
 == Revisão pré-commit
 
@@ -1737,10 +1742,7 @@ Além dos repositórios meisters, existem outros membros e equipes do projeto Fr
 Equipe de Engenharia de Documentação mailto:doceng@FreeBSD.org[doceng@FreeBSD.org]::
 O doceng é o grupo responsável pela infraestrutura de criação de documentação, aprovando de novos committers de documentação e garantindo que o website do FreeBSD e a documentação no site FTP estão atualizados em relação à árvore subversion. Não é um corpo de resolução de conflitos. A grande maioria das discussões relacionadas à documentação ocorre na http://lists.FreeBSD.org/mailman/listinfo/freebsd-doc[lista de discussão do projeto de documentação do FreeBSD]. Mais detalhes sobre a equipe doceng podem ser encontrados em seu https://www.FreeBSD.org/internal/doceng/[charter]. Os committers interessados em contribuir com a documentação devem se familiarizar com o link:{fdp-primer}[Primer do Projeto de Documentação].
 
-Bruce Evans mailto:bde@FreeBSD.org[bde@FreeBSD.org]::
-Bruce é o Style Police-Meister. Quando você fizer um commit que poderia ter sido feito melhor, Bruce estará lá para lhe contar. Seja grato que alguém está. Bruce também é muito conhecedor dos vários padrões aplicáveis ao FreeBSD.
-
-Glen Barber mailto:gjb@FreeBSD.org[gjb@FreeBSD.org], Konstantin Belousov mailto:kib@FreeBSD.org[kib@FreeBSD.org], Bryan Drewery mailto:bdrewery@FreeBSD.org[bdrewery@FreeBSD.org], Marc Fonvieille mailto:blackend@FreeBSD.org[blackend@FreeBSD.org], Xin Li mailto:delphij@FreeBSD.org[delphij@FreeBSD.org], Hiroki Sato mailto:hrs@FreeBSD.org[hrs@FreeBSD.org], Gleb Smirnoff mailto:glebius@FreeBSD.org[glebius@FreeBSD.org], Marius Strobl mailto:marius@FreeBSD.org[marius@FreeBSD.org]::
+Glen Barber mailto:gjb@FreeBSD.org[gjb@FreeBSD.org], Konstantin Belousov mailto:kib@FreeBSD.org[kib@FreeBSD.org], Bryan Drewery mailto:[bdrewery@FreeBSD.org], Marc Fonvieille mailto:blackend@FreeBSD.org[blackend@FreeBSD.org], Xin Li mailto:delphij@FreeBSD.org[delphij@FreeBSD.org], Colin Percival mailto:cperciva@FreeBSD.org[cperciva@FreeBSD.org] Hiroki Sato mailto:hrs@FreeBSD.org[hrs@FreeBSD.org], Gleb Smirnoff mailto:glebius@FreeBSD.org[glebius@FreeBSD.org]::
 Estes são os membros da Equipe de Engenharia de Release mailto:re@FreeBSD.org[re@FreeBSD.org]. Essa equipe é responsável por definir os prazos de lançamento e por controlar o processo de release. Durante o congelamento de código, os engenheiros de release têm autoridade final sobre todas as alterações no sistema para qualquer branch que esteja com status de release pendente. Se há algo que você deseja mesclar do FreeBSD-CURRENT para o FreeBSD-STABLE (quaisquer valores que eles possam ter em um dado momento), estas são as pessoas com quem conversar sobre isso.
 
 Gordon Tetlow mailto:gordon@FreeBSD.org[gordon@FreeBSD.org]::
@@ -1775,7 +1777,7 @@ Agora man:ssh-add[1] pode ser usado para autenticação uma vez por sessão. Ele
 
 Teste com um simples comando remoto: `ssh freefall.FreeBSD.org ls /usr`.
 
-Para obter mais informações, consulte package:security/openssh[], man:ssh[1], man:ssh-add[1], man:ssh-agent[1], man:ssh-keygen[1], e man:scp[1].
+Para obter mais informações, consulte package:security/openssh-portable[], man:ssh[1], man:ssh-add[1], man:ssh-agent[1], man:ssh-keygen[1], e man:scp[1].
 
 Para obter informações sobre como adicionar, alterar ou remover chaves man:ssh[1], consulte https://wiki.freebsd.org/clusteradm/ssh-keys[este artigo].
 

@@ -343,6 +343,11 @@ Os valores são mostrados no formato `TARGET`/`TARGET_ARCH`. O makevar `ARCH` so
 
 Os ports que não possuem requisitos ou arquivos dependentes de arquitetura são identificados com `NO_ARCH=yes`.
 
+[NOTE]
+====
+`NO_ARCH` pretende indicar que não há necessidade de compilar um pacote para cada uma das arquiteturas suportadas. O objetivo é reduzir a quantidade de recursos gastos na compilação e distribuição de pacotes, como largura de banda de rede e espaço em disco em mirrors e na mídia de distribuição. Atualmente, entretanto, nossa infraestrutura de pacotes (por exemplo, gerenciadores de pacotes, mirrors e compiladores de pacotes) não estão configurados para se beneficiar totalmente do `NO_ARCH`.
+====
+
 [[dads-arch-ignore]]
 === Marcando um port para ser ignorado apenas em determinadas arquiteturas
 

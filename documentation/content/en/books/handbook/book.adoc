@@ -69,11 +69,11 @@ The latest version of this book is available from the https://www.FreeBSD.org/[F
 
 toc::[]
 
-include::content/en/books/handbook/toc-figures.adoc[]
+include::{chapters-path}toc-figures.adoc[]
 
-include::content/en/books/handbook/toc-tables.adoc[]
+include::{chapters-path}toc-tables.adoc[]
 
-include::content/en/books/handbook/toc-examples.adoc[]
+include::{chapters-path}toc-examples.adoc[]
 
 :sectnums!:
 

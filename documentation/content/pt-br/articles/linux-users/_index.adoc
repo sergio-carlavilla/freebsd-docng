@@ -84,9 +84,9 @@ Para mais informações sobre pacotes, veja a seção 5.4 do Handbook do FreeBSD
 [[ports]]
 === Árvore de Ports
 
-A árvore de ports do FreeBSD é um framework de [.filename]#Makefiles# e patches customizados especificamente para a instalação através do código fonte no FreeBSD. Quando um port é instalado, o sistema irá buscar o código fonte, aplicar qualquer patch que seja necessário, compilar o código, instalar a aplicação e qualquer outra dependência da qual ela necessite.
+A árvore de ports do FreeBSD é um framework de [.filename]##Makefiles##s e patches customizados especificamente para a instalação através do código fonte no FreeBSD. Quando um port é instalado, o sistema irá buscar o código fonte, aplicar qualquer patch que seja necessário, compilar o código, instalar a aplicação e qualquer outra dependência da qual ela necessite.
 
-A Coleção de Ports, algumas vezes referenciada como a árvore de ports, pode ser instalada em [.filename]#/usr/ports# usando o comando man:portsnap[8]. Instruções detalhadas para instalação da Coleção de Ports podem ser encontradas na link:{handbook}#ports-using[seção 5.5] do Handbook do FreeBSD.
+A Coleção de Ports, algumas vezes referenciada como a árvore de ports, pode ser instalada em [.filename]#/usr/ports# usando o comando man:portsnap[8] (se estiver rodando FreeBSD 11.4 ou 12.1) ou Subversion (se estiver rodando FreeBSD-CURRENT). Instruções detalhadas para instalação da Coleção de Ports podem ser encontradas na link:{handbook}#ports-using[seção 5.5] do Handbook do FreeBSD.
 
 Para compilar um port, mude para o diretório do port e inicie o processo de compilação. O exemplo abaixo instala o Apache 2.4 através da Coleção de Ports:
 

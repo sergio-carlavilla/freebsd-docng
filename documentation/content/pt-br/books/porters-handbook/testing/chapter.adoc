@@ -282,20 +282,27 @@ Para jails que empregam um método `svn+_*_`, é útil adicionar `-J _NumberOfPa
 [[testing-poudriere-ports-tree]]
 === Configurando a Árvores de Ports para Uso com o Poudriere
 
-Existem várias maneiras de usar árvores de ports no Poudriere. A maneira mais direta é o Poudriere criar uma árvore de ports padrão para si mesmo:
+Existem várias maneiras de usar árvores de ports no Poudriere. A maneira mais direta é o Poudriere criar uma árvore de ports padrão para si mesmo usando man:portsnap[8] (se estiver executando FreeBSD 12.1 ou 11.4) ou Subversion (se estiver executando FreeBSD-CURRENT):
 
 [source,bash]
 ....
-# poudriere ports -c
+# poudriere ports -c -m portsnap
 ....
 
-Este comando cria o `tank/poudriere/ports/default`, monta-o em [.filename]#/poudriere/ports/default# e o povoa usando o man:portsnap[8]. Depois disso, ele é incluído na lista de árvores de ports conhecidas:
+ou
+
+[source,bash]
+....
+# poudriere ports -c -m svn+https
+....
+
+Estes comandos criam `tank/poudriere/ports/default`, monta-o em [.filename]#/poudriere/ports/default# e o povoa usando o man:portsnap[8] ou Subversion. Depois disso, ele é incluído na lista de árvores de ports conhecidas:
 
 [source,bash]
 ....
 # poudriere ports -l
-PORTSTREE      METHOD     PATH
-default        portsnap   /poudriere/ports/default
+PORTSTREE METHOD    TIMESTAMP           PATH
+default   svn+https 2020-07-20 04:23:56 /poudriere/ports/default
 ....
 
 [NOTE]
@@ -303,27 +310,12 @@ default        portsnap   /poudriere/ports/default
 Note que a árvore de ports "default" é especial. Cada um dos comandos de compilação explicados posteriormente usará implicitamente essa árvore de ports, a menos que seja especificamente especificado de outra forma. Para usar outra árvore, adicione `-p _treename_` aos comandos.
 ====
 
-Embora seja útil para compilações em massa regulares, ter esta árvore de ports padrão com o método man:portsnap[8] pode não ser a melhor maneira de lidar com modificações locais para um contribuidor de ports. Assim como na criação dos jails, é possível usar um método diferente para criar a árvore de ports. Para adicionar uma árvore de ports adicional para testar modificações locais e para o desenvolvimento de ports, é possível baixar a árvore via Subversion:
-
-[source,bash]
-....
-# poudriere ports -c -m svn+https -p subversive
-....
+Embora seja útil para compilações em massa regulares, ter esta árvore de ports padrão com o método man:portsnap[8] pode não ser a melhor maneira de lidar com modificações locais para um contribuidor de ports. Assim como na criação dos jails, é possível usar um método diferente para criar a árvore de ports. Para adicionar uma árvore de ports adicional para testar modificações locais e para o desenvolvimento de ports, baixar a árvore via Subversion (como descrito acima) é preferido:
 
 [NOTE]
 ====
 Os métodos http e https precisam que o package:devel/subversion[] seja compilado com a opção `SERF` ativada. Ela vem habilitada por padrão.
 ====
-
-Cria `tank/poudriere/ports/subversive` e o monta em [.filename]#/poudriere/ports/subversive#. Em seguida, ele é povoado usando Subversion. Finalmente, ele é adicionado à lista de árvores de ports conhecidas:
-
-[source,bash]
-....
-# poudriere ports -l
-PORTSTREE            METHOD     PATH
-default              portsnap   /poudriere/ports/default
-subversive           svn+https  /poudriere/ports/subversive
-....
 
 [TIP]
 ====
@@ -354,13 +346,13 @@ Isto será listado na tabela de árvores conhecidas:
 [source,bash]
 ....
 # poudriere ports -l
-PORTSTREE    METHOD   PATH
-development  -        /work/ports
+PORTSTREE   METHOD    TIMESTAMP           PATH
+development null      2020-07-20 05:06:33 /work/ports
 ....
 
 [NOTE]
 ====
-O traço na coluna `METHOD` significa que o Poudriere nunca irá atualizar ou alterar esta árvore de ports. É de responsabilidade total do usuário a manutenção desta árvore, incluindo todas as modificações locais que podem ser usadas para testar novos ports e enviar patches.
+O traço ou `null` na coluna `METHOD` significa que o Poudriere nunca irá atualizar ou alterar esta árvore de ports. É de responsabilidade total do usuário a manutenção desta árvore, incluindo todas as modificações locais que podem ser usadas para testar novos ports e enviar patches.
 ====
 
 [[testing-poudriere-ports-tree-updating]]

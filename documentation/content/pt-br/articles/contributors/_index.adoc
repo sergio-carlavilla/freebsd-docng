@@ -1,6 +1,6 @@
 ---
 title: Contribuidores do FreeBSD
-releaseinfo: "$FreeBSD: head/pt_BR.ISO8859-1/articles/contributors/article.xml 53980 2020-03-15 15:59:13Z dbaio $" 
+releaseinfo: "$FreeBSD$" 
 trademarks: ["freebsd", "sun", "general"]
 ---
 
@@ -107,403 +107,404 @@ Estas são as pessoas que possuem privilégios de commit e fazem o trabalho de e
 
 (em ordem alfabética pelo sobrenome):
 
-* Eitan Adler mailto:eadler@FreeBSD.org[eadler@FreeBSD.org]
-* Matthew Ahrens mailto:mahrens@FreeBSD.org[mahrens@FreeBSD.org]
-* Doug Ambrisko mailto:ambrisko@FreeBSD.org[ambrisko@FreeBSD.org]
-* Shaun Amott mailto:shaun@FreeBSD.org[shaun@FreeBSD.org]
-* Jonathan Anderson mailto:jonathan@FreeBSD.org[jonathan@FreeBSD.org]
-* Matthias Andree mailto:mandree@FreeBSD.org[mandree@FreeBSD.org]
-* Will Andrews mailto:will@FreeBSD.org[will@FreeBSD.org]
-* Dimitry Andric mailto:dim@FreeBSD.org[dim@FreeBSD.org]
-* Fernando Apesteguia mailto:fernape@FreeBSD.org[fernape@FreeBSD.org]
-* Marcelo Araujo mailto:araujo@FreeBSD.org[araujo@FreeBSD.org]
-* Mathieu Arnold mailto:mat@FreeBSD.org[mat@FreeBSD.org]
-* Gavin Atkinson mailto:gavin@FreeBSD.org[gavin@FreeBSD.org]
-* Philippe Audeoud mailto:jadawin@FreeBSD.org[jadawin@FreeBSD.org]
-* Jason W. Bacon mailto:jwb@FreeBSD.org[jwb@FreeBSD.org]
-* Eric Badger mailto:badger@FreeBSD.org[badger@FreeBSD.org]
-* Danilo G. Baio mailto:dbaio@FreeBSD.org[dbaio@FreeBSD.org]
-* Timur I. Bakeyev mailto:timur@FreeBSD.org[timur@FreeBSD.org]
-* John Baldwin mailto:jhb@FreeBSD.org[jhb@FreeBSD.org]
-* Glen Barber mailto:gjb@FreeBSD.org[gjb@FreeBSD.org]
-* Loïc Bartoletti mailto:lbartoletti@FreeBSD.org[lbartoletti@FreeBSD.org]
-* Jan Beich mailto:jbeich@FreeBSD.org[jbeich@FreeBSD.org]
-* Konstantin Belousov mailto:kib@FreeBSD.org[kib@FreeBSD.org]
-* Ilya Bakulin mailto:kibab@FreeBSD.org[kibab@FreeBSD.org]
-* Brandon Bergren mailto:bdragon@FreeBSD.org[bdragon@FreeBSD.org]
-* Tobias C. Berner mailto:tcberner@FreeBSD.org[tcberner@FreeBSD.org]
-* Pawel Biernacki mailto:kaktus@FreeBSD.org[kaktus@FreeBSD.org]
-* Tim Bishop mailto:tdb@FreeBSD.org[tdb@FreeBSD.org]
-* Grzegorz Blach mailto:gblach@FreeBSD.org[gblach@FreeBSD.org]
-* Warren Block mailto:wblock@FreeBSD.org[wblock@FreeBSD.org]
-* Zbigniew Bodek mailto:zbb@FreeBSD.org[zbb@FreeBSD.org]
-* Roman Bogorodskiy mailto:novel@FreeBSD.org[novel@FreeBSD.org]
-* Renato Botelho mailto:garga@FreeBSD.org[garga@FreeBSD.org]
-* Kevin Bowling mailto:kbowling@FreeBSD.org[kbowling@FreeBSD.org]
-* Sofian Brabez mailto:sbz@FreeBSD.org[sbz@FreeBSD.org]
-* Edson Brandi mailto:ebrandi@FreeBSD.org[ebrandi@FreeBSD.org]
-* Hartmut Brandt mailto:harti@FreeBSD.org[harti@FreeBSD.org]
-* Max Brazhnikov mailto:makc@FreeBSD.org[makc@FreeBSD.org]
-* David Bright mailto:dab@FreeBSD.org[dab@FreeBSD.org]
-* Antoine Brodin mailto:antoine@FreeBSD.org[antoine@FreeBSD.org]
-* Diane Bruce mailto:db@FreeBSD.org[db@FreeBSD.org]
-* Sean Bruno mailto:sbruno@FreeBSD.org[sbruno@FreeBSD.org]
-* Christian Brueffer mailto:brueffer@FreeBSD.org[brueffer@FreeBSD.org]
-* Ruslan Bukin mailto:br@FreeBSD.org[br@FreeBSD.org]
-* Oleg Bulyzhin mailto:oleg@FreeBSD.org[oleg@FreeBSD.org]
-* Jayachandran C. mailto:jchandra@FreeBSD.org[jchandra@FreeBSD.org]
-* Alonso Cárdenas Márquez mailto:acm@FreeBSD.org[acm@FreeBSD.org]
-* Sergio Carlavilla Delgado mailto:carlavilla@FreeBSD.org[carlavilla@FreeBSD.org]
-* Pietro Cerutti mailto:gahr@FreeBSD.org[gahr@FreeBSD.org]
-* Adrian Chadd mailto:adrian@FreeBSD.org[adrian@FreeBSD.org]
-* Dmitry Chagin mailto:dchagin@FreeBSD.org[dchagin@FreeBSD.org]
-* Julien Charbon mailto:jch@FreeBSD.org[jch@FreeBSD.org]
-* Fukang Chen mailto:loader@FreeBSD.org[loader@FreeBSD.org]
-* Alexander V. Chernikov mailto:melifaro@FreeBSD.org[melifaro@FreeBSD.org]
-* David Chisnall mailto:theraven@FreeBSD.org[theraven@FreeBSD.org]
-* Sean Chittenden mailto:seanc@FreeBSD.org[seanc@FreeBSD.org]
-* David C Somayajulu mailto:davidcs@FreeBSD.org[davidcs@FreeBSD.org]
-* Joe Marcus Clarke mailto:marcus@FreeBSD.org[marcus@FreeBSD.org]
-* Ngie Cooper mailto:ngie@FreeBSD.org[ngie@FreeBSD.org]
-* Tijl Coosemans mailto:tijl@FreeBSD.org[tijl@FreeBSD.org]
-* Raphael Kubo da Costa mailto:rakuco@FreeBSD.org[rakuco@FreeBSD.org]
-* Dave Cottlehuber mailto:dch@FreeBSD.org[dch@FreeBSD.org]
-* Alan L. Cox mailto:alc@FreeBSD.org[alc@FreeBSD.org]
-* Olivier Cochard-Labbé mailto:olivier@FreeBSD.org[olivier@FreeBSD.org]
-* Martin Cracauer mailto:cracauer@FreeBSD.org[cracauer@FreeBSD.org]
-* Jeb Cramer mailto:jeb@FreeBSD.org[jeb@FreeBSD.org]
-* Rebecca Cran mailto:bcran@FreeBSD.org[bcran@FreeBSD.org]
-* Frederic Culot mailto:culot@FreeBSD.org[culot@FreeBSD.org]
-* Joel Dahl mailto:joel@FreeBSD.org[joel@FreeBSD.org]
-* Alfredo Dal'Ava Junior mailto:alfredo@FreeBSD.org[alfredo@FreeBSD.org]
-* Baptiste Daroussin mailto:bapt@FreeBSD.org[bapt@FreeBSD.org]
-* Brad Davis mailto:brd@FreeBSD.org[brd@FreeBSD.org]
-* Brooks Davis mailto:brooks@FreeBSD.org[brooks@FreeBSD.org]
-* Paweł Jakub Dawidek mailto:pjd@FreeBSD.org[pjd@FreeBSD.org]
-* John W. DeBoskey mailto:jwd@FreeBSD.org[jwd@FreeBSD.org]
-* Johannes M. Dieterich mailto:jmd@FreeBSD.org[jmd@FreeBSD.org]
-* Vasil Dimov mailto:vd@FreeBSD.org[vd@FreeBSD.org]
-* Alexey Dokuchaev mailto:danfe@FreeBSD.org[danfe@FreeBSD.org]
-* Bryan Drewery mailto:bdrewery@FreeBSD.org[bdrewery@FreeBSD.org]
-* Garance A Drosehn mailto:gad@FreeBSD.org[gad@FreeBSD.org]
-* Alex Dupre mailto:ale@FreeBSD.org[ale@FreeBSD.org]
-* Daniel Eischen mailto:deischen@FreeBSD.org[deischen@FreeBSD.org]
-* Julian Elischer mailto:julian@FreeBSD.org[julian@FreeBSD.org]
-* Andrey V. Elsukov mailto:ae@FreeBSD.org[ae@FreeBSD.org]
-* Lars Engels mailto:lme@FreeBSD.org[lme@FreeBSD.org]
-* Stefan Eßer mailto:se@FreeBSD.org[se@FreeBSD.org]
-* Jason Evans mailto:jasone@FreeBSD.org[jasone@FreeBSD.org]
-* Kyle Evans mailto:kevans@FreeBSD.org[kevans@FreeBSD.org]
-* Guido Falsi mailto:madpilot@FreeBSD.org[madpilot@FreeBSD.org]
-* Dominic Fandrey mailto:kami@FreeBSD.org[kami@FreeBSD.org]
-* Sean C. Farley mailto:scf@FreeBSD.org[scf@FreeBSD.org]
-* Babak Farrokhi mailto:farrokhi@FreeBSD.org[farrokhi@FreeBSD.org]
-* Matthias Fechner mailto:mfechner@FreeBSD.org[mfechner@FreeBSD.org]
-* Mark Felder mailto:feld@FreeBSD.org[feld@FreeBSD.org]
-* Landon Fuller mailto:landonf@FreeBSD.org[landonf@FreeBSD.org]
-* Tony Finch mailto:fanf@FreeBSD.org[fanf@FreeBSD.org]
-* Matthew Fleming mailto:mdf@FreeBSD.org[mdf@FreeBSD.org]
-* Marc Fonvieille mailto:blackend@FreeBSD.org[blackend@FreeBSD.org]
-* Bernhard Fröhlich mailto:decke@FreeBSD.org[decke@FreeBSD.org]
-* Stanislav Galabov mailto:sgalabov@FreeBSD.org[sgalabov@FreeBSD.org]
-* Richard Gallamore mailto:ultima@FreeBSD.org[ultima@FreeBSD.org]
-* Andrew Gallatin mailto:gallatin@FreeBSD.org[gallatin@FreeBSD.org]
-* Andriy Gapon mailto:avg@FreeBSD.org[avg@FreeBSD.org]
-* Beat Gätzi mailto:beat@FreeBSD.org[beat@FreeBSD.org]
-* Daniel Geržo mailto:danger@FreeBSD.org[danger@FreeBSD.org]
-* Simon J. Gerraty mailto:sjg@FreeBSD.org[sjg@FreeBSD.org]
-* Justin T. Gibbs mailto:gibbs@FreeBSD.org[gibbs@FreeBSD.org]
-* Pedro Giffuni mailto:pfg@FreeBSD.org[pfg@FreeBSD.org]
-* Palle Girgensohn mailto:girgen@FreeBSD.org[girgen@FreeBSD.org]
-* Michael Gmelin mailto:grembo@FreeBSD.org[grembo@FreeBSD.org]
-* Mikolaj Golub mailto:trociny@FreeBSD.org[trociny@FreeBSD.org]
-* Danilo Egêa Gondolfo mailto:danilo@FreeBSD.org[danilo@FreeBSD.org]
-* Dmitri Goutnik mailto:dmgk@FreeBSD.org[dmgk@FreeBSD.org]
-* Stephen Gregoratto mailto:sg@FreeBSD.org[sg@FreeBSD.org]
-* Peter Grehan mailto:grehan@FreeBSD.org[grehan@FreeBSD.org]
-* Rodney Grimes mailto:rgrimes@FreeBSD.org[rgrimes@FreeBSD.org]
-* Jamie Gritton mailto:jamie@FreeBSD.org[jamie@FreeBSD.org]
-* Adriaan de Groot mailto:adridg@FreeBSD.org[adridg@FreeBSD.org]
-* Eugene Grosbein mailto:eugen@FreeBSD.org[eugen@FreeBSD.org]
-* William Grzybowski mailto:wg@FreeBSD.org[wg@FreeBSD.org]
-* Barbara Guida mailto:bar@FreeBSD.org[bar@FreeBSD.org]
-* Alexandre C. Guimaraes mailto:rigoletto@FreeBSD.org[rigoletto@FreeBSD.org]
-* Anish Gupta mailto:anish@FreeBSD.org[anish@FreeBSD.org]
-* John-Mark Gurney mailto:jmg@FreeBSD.org[jmg@FreeBSD.org]
-* Mateusz Guzik mailto:mjg@FreeBSD.org[mjg@FreeBSD.org]
-* Jason E. Hale mailto:jhale@FreeBSD.org[jhale@FreeBSD.org]
-* Jason A. Harmening mailto:jah@FreeBSD.org[jah@FreeBSD.org]
-* Steven Hartland mailto:smh@FreeBSD.org[smh@FreeBSD.org]
-* Emanuel Haupt mailto:ehaupt@FreeBSD.org[ehaupt@FreeBSD.org]
-* Björn Heidotting mailto:bhd@FreeBSD.org[bhd@FreeBSD.org]
-* Jason Helfman mailto:jgh@FreeBSD.org[jgh@FreeBSD.org]
-* Wen Heping mailto:wen@FreeBSD.org[wen@FreeBSD.org]
-* Justin Hibbits mailto:jhibbits@FreeBSD.org[jhibbits@FreeBSD.org]
-* Nick Hibma mailto:n_hibma@FreeBSD.org[n_hibma@FreeBSD.org]
-* John Hixson mailto:jhixson@FreeBSD.org[jhixson@FreeBSD.org]
-* Peter Holm mailto:pho@FreeBSD.org[pho@FreeBSD.org]
-* Mitchell Horne mailto:mhorne@FreeBSD.org[mhorne@FreeBSD.org]
-* Olivier Houchard mailto:cognet@FreeBSD.org[cognet@FreeBSD.org]
-* Po-Chuan Hsieh mailto:sunpoet@FreeBSD.org[sunpoet@FreeBSD.org]
-* Li-Wen Hsu mailto:lwhsu@FreeBSD.org[lwhsu@FreeBSD.org]
-* Wei Hu mailto:whu@FreeBSD.org[whu@FreeBSD.org]
-* Jordan K. Hubbard mailto:jkh@FreeBSD.org[jkh@FreeBSD.org]
-* Bradley T. Hughes mailto:bhughes@FreeBSD.org[bhughes@FreeBSD.org]
-* Stephen Hurd mailto:shurd@FreeBSD.org[shurd@FreeBSD.org]
-* Davide Italiano mailto:davide@FreeBSD.org[davide@FreeBSD.org]
-* Koichiro Iwao mailto:meta@FreeBSD.org[meta@FreeBSD.org]
-* Kurt Jaeger mailto:pi@FreeBSD.org[pi@FreeBSD.org]
-* Sevan Janiyan mailto:sevan@FreeBSD.org[sevan@FreeBSD.org]
-* Peter Jeremy mailto:peterj@FreeBSD.org[peterj@FreeBSD.org]
-* Mark Johnston mailto:markj@FreeBSD.org[markj@FreeBSD.org]
-* Tom Jones mailto:thj@FreeBSD.org[thj@FreeBSD.org]
-* Matt Joras mailto:mjoras@FreeBSD.org[mjoras@FreeBSD.org]
-* Eric Joyner mailto:erj@FreeBSD.org[erj@FreeBSD.org]
-* Allan Jude mailto:allanjude@FreeBSD.org[allanjude@FreeBSD.org]
-* Alexander Kabaev mailto:kan@FreeBSD.org[kan@FreeBSD.org]
-* Benjamin Kaduk mailto:bjk@FreeBSD.org[bjk@FreeBSD.org]
-* Poul-Henning Kamp mailto:phk@FreeBSD.org[phk@FreeBSD.org]
-* Sergey Kandaurov mailto:pluknet@FreeBSD.org[pluknet@FreeBSD.org]
-* Mike Karels mailto:karels@FreeBSD.org[karels@FreeBSD.org]
-* Patrick Kelsey mailto:pkelsey@FreeBSD.org[pkelsey@FreeBSD.org]
-* Piotr Kubaj mailto:pkubaj@FreeBSD.org[pkubaj@FreeBSD.org]
-* Giorgos Keramidas mailto:keramida@FreeBSD.org[keramida@FreeBSD.org]
-* Tilman Keskinöz mailto:arved@FreeBSD.org[arved@FreeBSD.org]
-* Max Khon mailto:fjoe@FreeBSD.org[fjoe@FreeBSD.org]
-* Tim Kientzle mailto:kientzle@FreeBSD.org[kientzle@FreeBSD.org]
-* Stephen J. Kiernan mailto:stevek@FreeBSD.org[stevek@FreeBSD.org]
-* Jung-uk Kim mailto:jkim@FreeBSD.org[jkim@FreeBSD.org]
-* Jakub Klama mailto:jceel@FreeBSD.org[jceel@FreeBSD.org]
-* Kai Knoblich mailto:kai@FreeBSD.org[kai@FreeBSD.org]
-* Vladimir Kondratyev mailto:wulf@FreeBSD.org[wulf@FreeBSD.org]
-* Kubilay Kocak mailto:koobs@FreeBSD.org[koobs@FreeBSD.org]
-* Johann Kois mailto:jkois@FreeBSD.org[jkois@FreeBSD.org]
-* Maxim Konovalov mailto:maxim@FreeBSD.org[maxim@FreeBSD.org]
-* Tobias Kortkamp mailto:tobik@FreeBSD.org[tobik@FreeBSD.org]
-* Alex Kozlov mailto:ak@FreeBSD.org[ak@FreeBSD.org]
-* Sergey Kozlov mailto:skozlov@FreeBSD.org[skozlov@FreeBSD.org]
-* Svatopluk Kraus mailto:skra@FreeBSD.org[skra@FreeBSD.org]
-* Steven Kreuzer mailto:skreuzer@FreeBSD.org[skreuzer@FreeBSD.org]
-* Gábor Kövesdán mailto:gabor@FreeBSD.org[gabor@FreeBSD.org]
-* Jun Kuriyama mailto:kuriyama@FreeBSD.org[kuriyama@FreeBSD.org]
-* René Ladan mailto:rene@FreeBSD.org[rene@FreeBSD.org]
-* Julien Laffaye mailto:jlaffaye@FreeBSD.org[jlaffaye@FreeBSD.org]
-* Michael Landin mailto:mich@FreeBSD.org[mich@FreeBSD.org]
-* Dan Langille mailto:dvl@FreeBSD.org[dvl@FreeBSD.org]
-* Erwin Lansing mailto:erwin@FreeBSD.org[erwin@FreeBSD.org]
-* Ganael Laplanche mailto:martymac@FreeBSD.org[martymac@FreeBSD.org]
-* Dru Lavigne mailto:dru@FreeBSD.org[dru@FreeBSD.org]
-* Jeremie Le Hen mailto:jlh@FreeBSD.org[jlh@FreeBSD.org]
-* Oliver Lehmann mailto:oliver@FreeBSD.org[oliver@FreeBSD.org]
-* Greg Lehey mailto:grog@FreeBSD.org[grog@FreeBSD.org]
-* Alexander Leidinger mailto:netchild@FreeBSD.org[netchild@FreeBSD.org]
-* Breno Leitao mailto:leitao@FreeBSD.org[leitao@FreeBSD.org]
-* Ian Lepore mailto:ian@FreeBSD.org[ian@FreeBSD.org]
-* Achim Leubner mailto:achim@FreeBSD.org[achim@FreeBSD.org]
-* Don "`Truck`" Lewis mailto:truckman@FreeBSD.org[truckman@FreeBSD.org]
-* Greg Lewis mailto:glewis@FreeBSD.org[glewis@FreeBSD.org]
-* Qing Li mailto:qingli@FreeBSD.org[qingli@FreeBSD.org]
-* Xin Li mailto:delphij@FreeBSD.org[delphij@FreeBSD.org]
-* Tai-hwa Liang mailto:avatar@FreeBSD.org[avatar@FreeBSD.org]
-* Ryan Libby mailto:rlibby@FreeBSD.org[rlibby@FreeBSD.org]
-* Nikolai Lifanov mailto:lifanov@FreeBSD.org[lifanov@FreeBSD.org]
-* Mark Linimon mailto:linimon@FreeBSD.org[linimon@FreeBSD.org]
-* Remko Lodder mailto:remko@FreeBSD.org[remko@FreeBSD.org]
-* Isabell Long mailto:issyl0@FreeBSD.org[issyl0@FreeBSD.org]
-* Scott Long mailto:scottl@FreeBSD.org[scottl@FreeBSD.org]
-* Jonathan T. Looney mailto:jtl@FreeBSD.org[jtl@FreeBSD.org]
-* Warner Losh mailto:imp@FreeBSD.org[imp@FreeBSD.org]
-* Johannes Lundberg mailto:johalun@FreeBSD.org[johalun@FreeBSD.org]
-* Leandro Lupori mailto:luporl@FreeBSD.org[luporl@FreeBSD.org]
-* Ermal Luçi mailto:eri@FreeBSD.org[eri@FreeBSD.org]
-* Wojciech Macek mailto:wma@FreeBSD.org[wma@FreeBSD.org]
-* Rick Macklem mailto:rmacklem@FreeBSD.org[rmacklem@FreeBSD.org]
-* Vincenzo Maffione mailto:vmaffione@FreeBSD.org[vmaffione@FreeBSD.org]
-* Bruce A. Mah mailto:bmah@FreeBSD.org[bmah@FreeBSD.org]
-* Ruslan Makhmatkhanov mailto:rm@FreeBSD.org[rm@FreeBSD.org]
-* Juli Mallett mailto:jmallett@FreeBSD.org[jmallett@FreeBSD.org]
-* David Malone mailto:dwmalone@FreeBSD.org[dwmalone@FreeBSD.org]
-* Nobutaka MANTANI mailto:nobutaka@FreeBSD.org[nobutaka@FreeBSD.org]
-* Dmitry Marakasov mailto:amdmi3@FreeBSD.org[amdmi3@FreeBSD.org]
-* Koop Mast mailto:kwm@FreeBSD.org[kwm@FreeBSD.org]
-* Ed Maste mailto:emaste@FreeBSD.org[emaste@FreeBSD.org]
-* Martin Matuska mailto:mm@FreeBSD.org[mm@FreeBSD.org]
-* Slava Shwartsman mailto:slavash@FreeBSD.org[slavash@FreeBSD.org]
-* Stephen McConnell mailto:slm@FreeBSD.org[slm@FreeBSD.org]
-* Kirk McKusick mailto:mckusick@FreeBSD.org[mckusick@FreeBSD.org]
-* Jared McNeill mailto:jmcneill@FreeBSD.org[jmcneill@FreeBSD.org]
-* Michal Meloun mailto:mmel@FreeBSD.org[mmel@FreeBSD.org]
-* Julio Merino mailto:jmmv@FreeBSD.org[jmmv@FreeBSD.org]
-* Kashyap D. Desai mailto:kadesai@FreeBSD.org[kadesai@FreeBSD.org]
-* Kenneth D. Merry mailto:ken@FreeBSD.org[ken@FreeBSD.org]
-* Conrad Meyer mailto:cem@FreeBSD.org[cem@FreeBSD.org]
-* Dirk Meyer mailto:dinoex@FreeBSD.org[dinoex@FreeBSD.org]
-* Joseph Mingrone mailto:jrm@FreeBSD.org[jrm@FreeBSD.org]
-* Ryan Moeller mailto:freqlabs@FreeBSD.org[freqlabs@FreeBSD.org]
-* Mahdi Mokhtari mailto:mmokhi@FreeBSD.org[mmokhi@FreeBSD.org]
-* Christoph Moench-Tegeder mailto:cmt@FreeBSD.org[cmt@FreeBSD.org]
-* Stephen Montgomery-Smith mailto:stephen@FreeBSD.org[stephen@FreeBSD.org]
-* Marcel Moolenaar mailto:marcel@FreeBSD.org[marcel@FreeBSD.org]
-* Doug Moore mailto:dougm@FreeBSD.org[dougm@FreeBSD.org]
-* Kris Moore mailto:kmoore@FreeBSD.org[kmoore@FreeBSD.org]
-* Dmitry Morozovsky mailto:marck@FreeBSD.org[marck@FreeBSD.org]
-* Alexander Motin mailto:mav@FreeBSD.org[mav@FreeBSD.org]
-* Jesper Schmitz Mouridsen mailto:jsm@FreeBSD.org[jsm@FreeBSD.org]
-* Thomas Munro mailto:tmunro@FreeBSD.org[tmunro@FreeBSD.org]
-* Mark Murray mailto:markm@FreeBSD.org[markm@FreeBSD.org]
-* Akinori MUSHA mailto:knu@FreeBSD.org[knu@FreeBSD.org]
-* Edward Tomasz Napierała mailto:trasz@FreeBSD.org[trasz@FreeBSD.org]
-* Neel Natu mailto:neel@FreeBSD.org[neel@FreeBSD.org]
-* Alexander Nedotsukov mailto:bland@FreeBSD.org[bland@FreeBSD.org]
-* Jochen Neumeister mailto:joneum@FreeBSD.org[joneum@FreeBSD.org]
-* George V. Neville-Neil mailto:gnn@FreeBSD.org[gnn@FreeBSD.org]
-* Tycho Nightingale mailto:tychon@FreeBSD.org[tychon@FreeBSD.org]
-* David O'Brien mailto:obrien@FreeBSD.org[obrien@FreeBSD.org]
-* Oliver Hauer mailto:ohauer@FreeBSD.org[ohauer@FreeBSD.org]
-* Jimmy Olgeni mailto:olgeni@FreeBSD.org[olgeni@FreeBSD.org]
-* Sergey A. Osokin mailto:osa@FreeBSD.org[osa@FreeBSD.org]
-* Rodrigo Osorio mailto:rodrigo@FreeBSD.org[rodrigo@FreeBSD.org]
-* Philip Paeps mailto:philip@FreeBSD.org[philip@FreeBSD.org]
-* Josh Paetzel mailto:jpaetzel@FreeBSD.org[jpaetzel@FreeBSD.org]
-* Hiren Panchasara mailto:hiren@FreeBSD.org[hiren@FreeBSD.org]
-* Yuri Pankov mailto:yuripv@FreeBSD.org[yuripv@FreeBSD.org]
-* Dima Panov mailto:fluffy@FreeBSD.org[fluffy@FreeBSD.org]
-* Navdeep Parhar mailto:np@FreeBSD.org[np@FreeBSD.org]
-* Roger Pau Monné mailto:royger@FreeBSD.org[royger@FreeBSD.org]
-* Rui Paulo mailto:rpaulo@FreeBSD.org[rpaulo@FreeBSD.org]
-* Mikhail Pchelin mailto:misha@FreeBSD.org[misha@FreeBSD.org]
-* Jean-Sébastien Pédron mailto:dumbbell@FreeBSD.org[dumbbell@FreeBSD.org]
-* Mark Peek mailto:mp@FreeBSD.org[mp@FreeBSD.org]
-* Colin Percival mailto:cperciva@FreeBSD.org[cperciva@FreeBSD.org]
-* Alfred Perlstein mailto:alfred@FreeBSD.org[alfred@FreeBSD.org]
-* Christian S.J. Peron mailto:csjp@FreeBSD.org[csjp@FreeBSD.org]
-* Gerald Pfeifer mailto:gerald@FreeBSD.org[gerald@FreeBSD.org]
-* Scott Long mailto:scottl@FreeBSD.org[scottl@FreeBSD.org]
-* Mateusz Piotrowski mailto:0mp@FreeBSD.org[0mp@FreeBSD.org]
-* Luca Pizzamiglio mailto:pizzamig@FreeBSD.org[pizzamig@FreeBSD.org]
-* Ravi Pokala mailto:rpokala@FreeBSD.org[rpokala@FreeBSD.org]
-* Gleb Popov mailto:arrowd@FreeBSD.org[arrowd@FreeBSD.org]
-* Kristof Provost mailto:kp@FreeBSD.org[kp@FreeBSD.org]
-* Carlos J. Puga Medina mailto:cpm@FreeBSD.org[cpm@FreeBSD.org]
-* Thomas Quinot mailto:thomas@FreeBSD.org[thomas@FreeBSD.org]
-* Doug Rabson mailto:dfr@FreeBSD.org[dfr@FreeBSD.org]
-* Muhammad Moinur Rahman mailto:bofh@FreeBSD.org[bofh@FreeBSD.org]
-* Santhosh Raju mailto:fox@FreeBSD.org[fox@FreeBSD.org]
-* Attilio Rao mailto:attilio@FreeBSD.org[attilio@FreeBSD.org]
-* Chris Rees mailto:crees@FreeBSD.org[crees@FreeBSD.org]
-* Michael Reifenberger mailto:mr@FreeBSD.org[mr@FreeBSD.org]
-* Benedict Reuschling mailto:bcr@FreeBSD.org[bcr@FreeBSD.org]
-* Tom Rhodes mailto:trhodes@FreeBSD.org[trhodes@FreeBSD.org]
-* Benno Rice mailto:benno@FreeBSD.org[benno@FreeBSD.org]
-* Alex Richardson mailto:arichardson@FreeBSD.org[arichardson@FreeBSD.org]
-* Luigi Rizzo mailto:luigi@FreeBSD.org[luigi@FreeBSD.org]
-* Jeff Roberson mailto:jeff@FreeBSD.org[jeff@FreeBSD.org]
-* Ollivier Robert mailto:roberto@FreeBSD.org[roberto@FreeBSD.org]
-* Craig Rodrigues mailto:rodrigc@FreeBSD.org[rodrigc@FreeBSD.org]
-* Larry Rosenman mailto:ler@FreeBSD.org[ler@FreeBSD.org]
-* Craig Leres mailto:leres@FreeBSD.org[leres@FreeBSD.org]
-* Bartek Rutkowski mailto:robak@FreeBSD.org[robak@FreeBSD.org]
-* Aleksandr Rybalko mailto:ray@FreeBSD.org[ray@FreeBSD.org]
-* Andrew Rybchenko mailto:arybchik@FreeBSD.org[arybchik@FreeBSD.org]
-* Boris Samorodov mailto:bsam@FreeBSD.org[bsam@FreeBSD.org]
-* Lorenzo Salvadore mailto:salvadore@FreeBSD.org[salvadore@FreeBSD.org]
-* Hiroki Sato mailto:hrs@FreeBSD.org[hrs@FreeBSD.org]
-* Wolfram Schneider mailto:wosch@FreeBSD.org[wosch@FreeBSD.org]
-* Ed Schouten mailto:ed@FreeBSD.org[ed@FreeBSD.org]
-* Cy Schubert mailto:cy@FreeBSD.org[cy@FreeBSD.org]
-* Jens Schweikhardt mailto:schweikh@FreeBSD.org[schweikh@FreeBSD.org]
-* Matthew Seaman mailto:matthew@FreeBSD.org[matthew@FreeBSD.org]
-* Thomas-Martin Seck mailto:tmseck@FreeBSD.org[tmseck@FreeBSD.org]
-* Stanislav Sedov mailto:stas@FreeBSD.org[stas@FreeBSD.org]
-* Hans Petter Selasky mailto:hselasky@FreeBSD.org[hselasky@FreeBSD.org]
-* Lev Serebryakov mailto:lev@FreeBSD.org[lev@FreeBSD.org]
-* Phil Shafer mailto:phil@FreeBSD.org[phil@FreeBSD.org]
-* Gregory Neil Shapiro mailto:gshapiro@FreeBSD.org[gshapiro@FreeBSD.org]
-* Shteryana Shopova mailto:syrinx@FreeBSD.org[syrinx@FreeBSD.org]
-* Vanilla I. Shu mailto:vanilla@FreeBSD.org[vanilla@FreeBSD.org]
-* Ashish SHUKLA mailto:ashish@FreeBSD.org[ashish@FreeBSD.org]
-* Mike Silbersack mailto:silby@FreeBSD.org[silby@FreeBSD.org]
-* Chuck Silvers mailto:chs@FreeBSD.org[chs@FreeBSD.org]
-* Bruce M. Simpson mailto:bms@FreeBSD.org[bms@FreeBSD.org]
-* Dmitry Sivachenko mailto:demon@FreeBSD.org[demon@FreeBSD.org]
-* Florian Smeets mailto:flo@FreeBSD.org[flo@FreeBSD.org]
-* Gleb Smirnoff mailto:glebius@FreeBSD.org[glebius@FreeBSD.org]
-* Ken Smith mailto:kensmith@FreeBSD.org[kensmith@FreeBSD.org]
-* Dag-Erling Smørgrav mailto:des@FreeBSD.org[des@FreeBSD.org]
-* Maxim Sobolev mailto:sobomax@FreeBSD.org[sobomax@FreeBSD.org]
-* Alan Somers mailto:asomers@FreeBSD.org[asomers@FreeBSD.org]
-* Toomas Soome mailto:tsoome@FreeBSD.org[tsoome@FreeBSD.org]
-* Luiz Otavio O Souza mailto:loos@FreeBSD.org[loos@FreeBSD.org]
-* Bernard Spil mailto:brnrd@FreeBSD.org[brnrd@FreeBSD.org]
-* Ulrich Spörlein mailto:uqs@FreeBSD.org[uqs@FreeBSD.org]
-* Vsevolod Stakhov mailto:vsevolod@FreeBSD.org[vsevolod@FreeBSD.org]
-* Piotr Paweł Stefaniak mailto:pstef@FreeBSD.org[pstef@FreeBSD.org]
-* Ryan Steinmetz mailto:zi@FreeBSD.org[zi@FreeBSD.org]
-* Zach Leslie mailto:zleslie@FreeBSD.org[zleslie@FreeBSD.org]
-* Lawrence Stewart mailto:lstewart@FreeBSD.org[lstewart@FreeBSD.org]
-* Randall R. Stewart mailto:rrs@FreeBSD.org[rrs@FreeBSD.org]
-* Ryan Stone mailto:rstone@FreeBSD.org[rstone@FreeBSD.org]
-* Søren Straarup mailto:xride@FreeBSD.org[xride@FreeBSD.org]
-* Marius Strobl mailto:marius@FreeBSD.org[marius@FreeBSD.org]
-* Carlo Strub mailto:cs@FreeBSD.org[cs@FreeBSD.org]
-* Ryusuke SUZUKI mailto:ryusuke@FreeBSD.org[ryusuke@FreeBSD.org]
-* Yoshihiro Takahashi mailto:nyan@FreeBSD.org[nyan@FreeBSD.org]
-* TAKATSU Tomonari mailto:tota@FreeBSD.org[tota@FreeBSD.org]
-* Romain Tartière mailto:romain@FreeBSD.org[romain@FreeBSD.org]
-* Devin Teske mailto:dteske@FreeBSD.org[dteske@FreeBSD.org]
-* Mikhail Teterin mailto:mi@FreeBSD.org[mi@FreeBSD.org]
-* Gordon Tetlow mailto:gordon@FreeBSD.org[gordon@FreeBSD.org]
-* David Thiel mailto:lx@FreeBSD.org[lx@FreeBSD.org]
-* Fabien Thomas mailto:fabient@FreeBSD.org[fabient@FreeBSD.org]
-* Thierry Thomas mailto:thierry@FreeBSD.org[thierry@FreeBSD.org]
-* Andrew Thompson mailto:thompsa@FreeBSD.org[thompsa@FreeBSD.org]
-* Jilles Tjoelker mailto:jilles@FreeBSD.org[jilles@FreeBSD.org]
-* Andreas Tobler mailto:andreast@FreeBSD.org[andreast@FreeBSD.org]
-* Ganbold Tsagaankhuu mailto:ganbold@FreeBSD.org[ganbold@FreeBSD.org]
-* Michael Tuexen mailto:tuexen@FreeBSD.org[tuexen@FreeBSD.org]
-* Chuck Tuffli mailto:chuck@FreeBSD.org[chuck@FreeBSD.org]
-* Eric Turgeon mailto:ericbsd@FreeBSD.org[ericbsd@FreeBSD.org]
-* Andrew Turner mailto:andrew@FreeBSD.org[andrew@FreeBSD.org]
-* Oleksandr Tymoshenko mailto:gonzo@FreeBSD.org[gonzo@FreeBSD.org]
-* Hajimu UMEMOTO mailto:ume@FreeBSD.org[ume@FreeBSD.org]
-* Fedor Uporov mailto:fsu@FreeBSD.org[fsu@FreeBSD.org]
-* Mikaël Urankar mailto:mikael@FreeBSD.org[mikael@FreeBSD.org]
-* Imre Vadasz mailto:ivadasz@FreeBSD.org[ivadasz@FreeBSD.org]
-* Emmanuel Vadot mailto:manu@FreeBSD.org[manu@FreeBSD.org]
-* Eric van Gyzen mailto:vangyzen@FreeBSD.org[vangyzen@FreeBSD.org]
-* Ram Vegesna mailto:ram@FreeBSD.org[ram@FreeBSD.org]
-* Bryan Venteicher mailto:bryanv@FreeBSD.org[bryanv@FreeBSD.org]
-* Yuri Victorovich mailto:yuri@FreeBSD.org[yuri@FreeBSD.org]
-* Nicola Vitale mailto:nivit@FreeBSD.org[nivit@FreeBSD.org]
-* Andriy Voskoboinyk mailto:avos@FreeBSD.org[avos@FreeBSD.org]
-* Kai Wang mailto:kaiw@FreeBSD.org[kaiw@FreeBSD.org]
-* Takanori Watanabe mailto:takawata@FreeBSD.org[takawata@FreeBSD.org]
-* Robert Watson mailto:rwatson@FreeBSD.org[rwatson@FreeBSD.org]
-* Adam Weinberger mailto:adamw@FreeBSD.org[adamw@FreeBSD.org]
-* Christian Weisgerber mailto:naddy@FreeBSD.org[naddy@FreeBSD.org]
-* Peter Wemm mailto:peter@FreeBSD.org[peter@FreeBSD.org]
-* Nathan Whitehorn mailto:nwhitehorn@FreeBSD.org[nwhitehorn@FreeBSD.org]
-* Ben Widawsky mailto:bwidawsky@FreeBSD.org[bwidawsky@FreeBSD.org]
-* Martin Wilke mailto:miwi@FreeBSD.org[miwi@FreeBSD.org]
-* Steve Wills mailto:swills@FreeBSD.org[swills@FreeBSD.org]
-* Konrad Witaszczyk mailto:def@FreeBSD.org[def@FreeBSD.org]
-* Marcin Wojtas mailto:mw@FreeBSD.org[mw@FreeBSD.org]
-* Garrett Wollman mailto:wollman@FreeBSD.org[wollman@FreeBSD.org]
-* Ben Woods mailto:woodsb02@FreeBSD.org[woodsb02@FreeBSD.org]
-* Jörg Wunsch mailto:joerg@FreeBSD.org[joerg@FreeBSD.org]
-* Guangyuan Yang mailto:ygy@FreeBSD.org[ygy@FreeBSD.org]
-* Maksim Yevmenkin mailto:emax@FreeBSD.org[emax@FreeBSD.org]
-* Pyun YongHyeon mailto:yongari@FreeBSD.org[yongari@FreeBSD.org]
-* Ruey-Cherng Yu mailto:rcyu@FreeBSD.org[rcyu@FreeBSD.org]
-* Mariusz Zaborski mailto:oshogbo@FreeBSD.org[oshogbo@FreeBSD.org]
-* Thomas Zander mailto:riggs@FreeBSD.org[riggs@FreeBSD.org]
-* Vinícius Zavam mailto:egypcio@FreeBSD.org[egypcio@FreeBSD.org]
-* Marko Zec mailto:zec@FreeBSD.org[zec@FreeBSD.org]
-* Bjoern A. Zeeb mailto:bz@FreeBSD.org[bz@FreeBSD.org]
-* Niclas Zeising mailto:zeising@FreeBSD.org[zeising@FreeBSD.org]
-* Michael Zhilin mailto:mizhka@FreeBSD.org[mizhka@FreeBSD.org]
-* Torsten Zuehlsdorff mailto:tz@FreeBSD.org[tz@FreeBSD.org]
-* Alex Samorukov mailto:samm@FreeBSD.org[samm@FreeBSD.org]
+* {eadler}
+* {ambrisko}
+* {shaun}
+* {jonathan}
+* {mandree}
+* {will}
+* {dim}
+* {fernape}
+* {araujo}
+* {mat}
+* {gavin}
+* {jwb}
+* {badger}
+* {dbaio}
+* {timur}
+* {jhb}
+* {gjb}
+* {lbartoletti}
+* {jbeich}
+* {kib}
+* {kibab}
+* {gbe}
+* {bdragon}
+* {tcberner}
+* {kaktus}
+* {tdb}
+* {wblock}
+* {zbb}
+* {novel}
+* {garga}
+* {kbowling}
+* {sbz}
+* {ebrandi}
+* {harti}
+* {makc}
+* {dab}
+* {antoine}
+* {db}
+* {sbruno}
+* {brueffer}
+* {br}
+* {oleg}
+* {jchandra}
+* {acm}
+* {carlavilla}
+* {gahr}
+* {adrian}
+* {dchagin}
+* {jch}
+* {nc}
+* {loader}
+* {melifaro}
+* {theraven}
+* {davidcs}
+* {marcus}
+* {ngie}
+* {tijl}
+* {rakuco}
+* {dch}
+* {alc}
+* {olivier}
+* {cracauer}
+* {jeb}
+* {bcran}
+* {culot}
+* {joel}
+* {alfredo}
+* {bapt}
+* {brd}
+* {brooks}
+* {pjd}
+* {jwd}
+* {jmd}
+* {vd}
+* {danfe}
+* {donner}
+* {bdrewery}
+* {gad}
+* {ale}
+* {deischen}
+* {julian}
+* {ae}
+* {lme}
+* {se}
+* {jasone}
+* {kevans}
+* {madpilot}
+* {kami}
+* {scf}
+* {farrokhi}
+* {mfechner}
+* {afedorov}
+* {feld}
+* {landonf}
+* {fanf}
+* {mdf}
+* {blackend}
+* {decke}
+* {sgalabov}
+* {ultima}
+* {gallatin}
+* {avg}
+* {beat}
+* {danger}
+* {sjg}
+* {gibbs}
+* {pfg}
+* {girgen}
+* {grembo}
+* {trociny}
+* {danilo}
+* {dmgk}
+* {sg}
+* {grehan}
+* {rgrimes}
+* {jamie}
+* {adridg}
+* {eugen}
+* {wg}
+* {bar}
+* {rigoletto}
+* {anish}
+* {jmg}
+* {mjg}
+* {jhale}
+* {jah}
+* {smh}
+* {ehaupt}
+* {bhd}
+* {jgh}
+* {wen}
+* {jhibbits}
+* {nhibma}
+* {jhixson}
+* {pho}
+* {mhorne}
+* {cognet}
+* {sunpoet}
+* {lwhsu}
+* {whu}
+* {jkh}
+* {bhughes}
+* {shurd}
+* {rhurlin}
+* {davide}
+* {meta}
+* {pi}
+* {sevan}
+* {debdrup}
+* {peterj}
+* {markj}
+* {thj}
+* {mjoras}
+* {erj}
+* {allanjude}
+* {kan}
+* {bjk}
+* {phk}
+* {pluknet}
+* {karels}
+* {pkelsey}
+* {pkubaj}
+* {keramida}
+* {arved}
+* {fjoe}
+* {kientzle}
+* {stevek}
+* {jkim}
+* {jceel}
+* {kai}
+* {wulf}
+* {koobs}
+* {jkois}
+* {maxim}
+* {tobik}
+* {ak}
+* {skozlov}
+* {skra}
+* {skreuzer}
+* {gabor}
+* {kuriyama}
+* {rene}
+* {jlaffaye}
+* {mich}
+* {dvl}
+* {erwin}
+* {martymac}
+* {dru}
+* {jlh}
+* {oliver}
+* {grog}
+* {netchild}
+* {leitao}
+* {ian}
+* {achim}
+* {truckman}
+* {glewis}
+* {qingli}
+* {delphij}
+* {avatar}
+* {rlibby}
+* {lifanov}
+* {linimon}
+* {issyl0}
+* {scottl}
+* {jtl}
+* {imp}
+* {johalun}
+* {luporl}
+* {otis}
+* {eri}
+* {wma}
+* {rmacklem}
+* {vmaffione}
+* {bmah}
+* {rm}
+* {jmallett}
+* {dwmalone}
+* {nobutaka}
+* {amdmi3}
+* {kwm}
+* {emaste}
+* {mm}
+* {slavash}
+* {slm}
+* {mckusick}
+* {jmcneill}
+* {mmel}
+* {jmmv}
+* {kadesai}
+* {ken}
+* {cem}
+* {dinoex}
+* {jrm}
+* {freqlabs}
+* {cmt}
+* {stephen}
+* {marcel}
+* {dougm}
+* {kmoore}
+* {marck}
+* {mav}
+* {jsm}
+* {tmunro}
+* {markm}
+* {trasz}
+* {neel}
+* {bland}
+* {joneum}
+* {gnn}
+* {tychon}
+* {obrien}
+* {nick}
+* {ohauer}
+* {olgeni}
+* {osa}
+* {rodrigo}
+* {philip}
+* {jpaetzel}
+* {hiren}
+* {yuripv}
+* {fluffy}
+* {np}
+* {royger}
+* {rpaulo}
+* {misha}
+* {dumbbell}
+* {mp}
+* {cperciva}
+* {alfred}
+* {csjp}
+* {gerald}
+* {scottph}
+* {0mp}
+* {pizzamig}
+* {rpokala}
+* {arrowd}
+* {kp}
+* {thomas}
+* {dfr}
+* {bofh}
+* {fox}
+* {attilio}
+* {crees}
+* {mr}
+* {bcr}
+* {trhodes}
+* {benno}
+* {arichardson}
+* {luigi}
+* {jeff}
+* {roberto}
+* {rodrigc}
+* {ler}
+* {leres}
+* {robak}
+* {ray}
+* {arybchik}
+* {bsam}
+* {hrs}
+* {rscheff}
+* {wosch}
+* {ed}
+* {cy}
+* {schweikh}
+* {matthew}
+* {tmseck}
+* {stas}
+* {hselasky}
+* {lev}
+* {phil}
+* {gshapiro}
+* {syrinx}
+* {vanilla}
+* {ashish}
+* {silby}
+* {chs}
+* {bms}
+* {demon}
+* {flo}
+* {glebius}
+* {kensmith}
+* {des}
+* {sobomax}
+* {asomers}
+* {tsoome}
+* {loos}
+* {brnrd}
+* {uqs}
+* {vsevolod}
+* {pstef}
+* {zi}
+* {lstewart}
+* {rrs}
+* {rstone}
+* {xride}
+* {marius}
+* {cs}
+* {ryusuke}
+* {nyan}
+* {tagattie}
+* {tota}
+* {romain}
+* {dteske}
+* {mi}
+* {gordon}
+* {lx}
+* {fabient}
+* {thierry}
+* {thompsa}
+* {jilles}
+* {andreast}
+* {ganbold}
+* {tuexen}
+* {chuck}
+* {ericbsd}
+* {andrew}
+* {gonzo}
+* {ume}
+* {fsu}
+* {mikael}
+* {ivadasz}
+* {manu}
+* {vangyzen}
+* {ram}
+* {bryanv}
+* {yuri}
+* {nivit}
+* {avos}
+* {kaiw}
+* {takawata}
+* {rwatson}
+* {adamw}
+* {naddy}
+* {peter}
+* {nwhitehorn}
+* {bwidawsk}
+* {miwi}
+* {swills}
+* {rew}
+* {def}
+* {mw}
+* {wollman}
+* {woodsb02}
+* {joerg}
+* {ygy}
+* {emax}
+* {yongari}
+* {rcyu}
+* {oshogbo}
+* {riggs}
+* {egypcio}
+* {zec}
+* {bz}
+* {zeising}
+* {mizhka}
+* {tz}
+* {samm}
 
 [[contrib-corealumni]]
 == Ex Membros do Core Team
@@ -512,57 +513,61 @@ As seguintes pessoas eram membros do Core Team do FreeBSD durante os períodos i
 
 _Em ordem cronológica reversa:_
 
-* Baptiste Daroussin mailto:bapt@FreeBSD.org[bapt@FreeBSD.org] (2016 - 2018)
-* Ed Maste mailto:emaste@FreeBSD.org[emaste@FreeBSD.org] (2016 - 2018)
-* George V. Neville-Neil mailto:gnn@FreeBSD.org[gnn@FreeBSD.org] (2006 - 2010, 2016 - 2018)
-* Benno Rice mailto:benno@FreeBSD.org[benno@FreeBSD.org] (2016 - 2018)
-* Thomas Abthorpe mailto:tabthorpe@FreeBSD.org[tabthorpe@FreeBSD.org] (2012 - 2014)
-* John Baldwin mailto:jhb@FreeBSD.org[jhb@FreeBSD.org] (2002 - 2006, 2010 - 2014)
-* Konstantin Belousov mailto:kib@FreeBSD.org[kib@FreeBSD.org] (2010 - 2014)
-* Martin Wilke mailto:miwi@FreeBSD.org[miwi@FreeBSD.org] (2012 - 2014)
-* Attilio Rao mailto:attilio@FreeBSD.org[attilio@FreeBSD.org] (2012)
-* Wilko Bulte mailto:wilko@FreeBSD.org[wilko@FreeBSD.org] (2006 - 2012)
-* Brooks Davis mailto:brooks@FreeBSD.org[brooks@FreeBSD.org] (2006 - 2012)
-* Warner Losh mailto:imp@FreeBSD.org[imp@FreeBSD.org] (2000 - 2008, 2010 - 2012)
-* Pav Lucistnik mailto:pav@FreeBSD.org[pav@FreeBSD.org] (2010 - 2012)
-* Colin Percival mailto:cperciva@FreeBSD.org[cperciva@FreeBSD.org] (2010 - 2012)
-* Robert Watson mailto:rwatson@FreeBSD.org[rwatson@FreeBSD.org] (2000 - 2012)
-* Giorgos Keramidas mailto:keramida@FreeBSD.org[keramida@FreeBSD.org] (2006 - 2010)
-* Kris Kennaway mailto:kris@FreeBSD.org[kris@FreeBSD.org] (2008 - 2010)
-* Murray Stokely mailto:murray@FreeBSD.org[murray@FreeBSD.org] (2002 - 2010)
-* Peter Wemm mailto:peter@FreeBSD.org[peter@FreeBSD.org] (1995 - 2006, 2008 - 2010)
-* Wes Peters mailto:wes@FreeBSD.org[wes@FreeBSD.org] (2002 - 2008)
-* Mark Murray mailto:markm@FreeBSD.org[markm@FreeBSD.org] (2002 - 2006)
-* Jun Kuriyama mailto:kuriyama@FreeBSD.org[kuriyama@FreeBSD.org] (2002 - 2006)
-* Scott Long mailto:scottl@FreeBSD.org[scottl@FreeBSD.org] (2004 - 2005)
-* Greg Lehey mailto:grog@FreeBSD.org[grog@FreeBSD.org] (2000 - 2004)
-* David Greenman mailto:dg@FreeBSD.org[dg@FreeBSD.org] (1992 - 2002)
-* Doug Rabson mailto:dfr@FreeBSD.org[dfr@FreeBSD.org] (1999 - 2002)
-* Michael Smith mailto:msmith@FreeBSD.org[msmith@FreeBSD.org] (2000 - 2002)
-* Jordan K. Hubbard mailto:jkh@FreeBSD.org[jkh@FreeBSD.org] (1992 - 2002)
-* Satoshi Asami mailto:asami@FreeBSD.org[asami@FreeBSD.org] (1993 - 2001)
-* Andrey A. Chernov mailto:ache@FreeBSD.org[ache@FreeBSD.org] (1993 - 2000)
-* Jonathan M. Bresler mailto:jmb@FreeBSD.org[jmb@FreeBSD.org] (1993 - 2000)
-* Bruce Evans mailto:bde@FreeBSD.org[bde@FreeBSD.org] (1992 - 2000)
-* Justin T. Gibbs mailto:gibbs@FreeBSD.org[gibbs@FreeBSD.org] (1993 - 2000)
-* Rich Murphey mailto:rich@FreeBSD.org[rich@FreeBSD.org] (1994 - 2000)
-* Poul-Henning Kamp mailto:phk@FreeBSD.org[phk@FreeBSD.org] (1992 - 2000)
-* Gary Palmer mailto:gpalmer@FreeBSD.org[gpalmer@FreeBSD.org] (1993 - 2000)
-* Søren Schmidt mailto:sos@FreeBSD.org[sos@FreeBSD.org] (1993 - 2000)
-* Garrett Wollman mailto:wollman@FreeBSD.org[wollman@FreeBSD.org] (1993 - 2000)
-* Jörg Wunsch mailto:joerg@FreeBSD.org[joerg@FreeBSD.org] (1995 - 2000)
-* John Polstra mailto:jdp@FreeBSD.org[jdp@FreeBSD.org] (1997 - 2000)
-* Guido van Rooij mailto:guido@FreeBSD.org[guido@FreeBSD.org] (1995 - 1999)
-* John Dyson mailto:dyson@FreeBSD.org[dyson@FreeBSD.org] (1993 - 1998)
-* Nate Williams mailto:nate@FreeBSD.org[nate@FreeBSD.org] (1992 - 1996)
-* Rodney Grimes mailto:rgrimes@FreeBSD.org[rgrimes@FreeBSD.org] (1992 - 1995)
-* Andreas Schulz mailto:ats@FreeBSD.org[ats@FreeBSD.org] (1992 - 1995)
-* Geoff Rehmet mailto:csgr@FreeBSD.org[csgr@FreeBSD.org] (1993 - 1995)
-* Paul Richards mailto:paul@FreeBSD.org[paul@FreeBSD.org] (1992 - 1995)
-* Scott Mace mailto:smace@FreeBSD.org[smace@FreeBSD.org] (1993 - 1994)
-* Andrew Moore mailto:alm@FreeBSD.org[alm@FreeBSD.org] (1993 - 1994)
-* Christoph Robitschko mailto:chmr@FreeBSD.org[chmr@FreeBSD.org] (1993 - 1994)
-* J.T. Conklin mailto:jtc@FreeBSD.org[jtc@FreeBSD.org] (1992 - 1993)
+* {kmoore} (2016 - 2020)
+* {jhb} (2002 - 2006, 2010 - 2014, 2016 - 2020)
+* {jeff} (2018 - 2020)
+* {brooks} (2006 - 2012, 2018 - 2020)
+* {bcr} (2016 - 2020)
+* {allanjude} (2016 - 2020)
+* {bapt} (2016 - 2018)
+* {emaste} (2016 - 2018)
+* {gnn} (2006 - 2010, 2016 - 2018)
+* {benno} (2016 - 2018)
+* {tabthorpe} (2012 - 2014)
+* {kib} (2010 - 2014)
+* {miwi} (2012 - 2014)
+* {attilio} (2012)
+* {wilko} (2006 - 2012)
+* {imp} (2000 - 2008, 2010 - 2012)
+* {pav} (2010 - 2012)
+* {cperciva} (2010 - 2012)
+* {rwatson} (2000 - 2012)
+* {keramida} (2006 - 2010)
+* {kris} (2008 - 2010)
+* {murray} (2002 - 2010)
+* {peter} (1995 - 2006, 2008 - 2010)
+* {wes} (2002 - 2008)
+* {markm} (2002 - 2006)
+* {kuriyama} (2002 - 2006)
+* {scottl} (2004 - 2005)
+* {grog} (2000 - 2004)
+* {dg} (1992 - 2002)
+* {dfr} (1999 - 2002)
+* {msmith} (2000 - 2002)
+* {jkh} (1992 - 2002)
+* {asami} (1993 - 2001)
+* {ache} (1993 - 2000)
+* {jmb} (1993 - 2000)
+* {bde} (1992 - 2000)
+* {gibbs} (1993 - 2000)
+* {rich} (1994 - 2000)
+* {phk} (1992 - 2000)
+* {gpalmer} (1993 - 2000)
+* {sos} (1993 - 2000)
+* {wollman} (1993 - 2000)
+* {joerg} (1995 - 2000)
+* {jdp} (1997 - 2000)
+* {guido} (1995 - 1999)
+* {dyson} (1993 - 1998)
+* {nate} (1992 - 1996)
+* {rgrimes} (1992 - 1995)
+* {ats} (1992 - 1995)
+* {csgr} (1993 - 1995)
+* {paul} (1992 - 1995)
+* {smace} (1993 - 1994)
+* {alm} (1993 - 1994)
+* {chmr} (1993 - 1994)
+* {jtc} (1992 - 1993)
 
 [[contrib-develalumni]]
 == Ex Membros do Time de Desenvolvimento
@@ -571,469 +576,497 @@ As seguintes pessoas eram membros do time de desenvolvimento do FreeBSD durante 
 
 _Em ordem cronológica reversa:_
 
-* David Naylor mailto:dbn@FreeBSD.org[dbn@FreeBSD.org] (2013 - 2020)
-* Johan van Selst mailto:johans@FreeBSD.org[johans@FreeBSD.org] (2006 - 2019)
-* Andrej Zverev mailto:az@FreeBSD.org[az@FreeBSD.org] (2005 - 2019)
-* Murray Stokely mailto:murray@FreeBSD.org[murray@FreeBSD.org] (≤ 2001 - 2019)
-* Taras Korenko mailto:taras@FreeBSD.org[taras@FreeBSD.org] ( - 2019)
-* Simon L. B. Nielsen mailto:simon@FreeBSD.org[simon@FreeBSD.org] (≤ 2005 - 2019)
-* Manolis Kiagias mailto:manolis@FreeBSD.org[manolis@FreeBSD.org] ( - 2019)
-* Gábor Páli mailto:pgj@FreeBSD.org[pgj@FreeBSD.org] (2009 - 2019)
-* Michael Dexter (2018 - 2019)
-* Anton Berezin mailto:tobez@FreeBSD.org[tobez@FreeBSD.org] (2001 - 2019)
-* Eric Badger mailto:badger@FreeBSD.org[badger@FreeBSD.org] (2016 - 2019)
-* Zbigniew Bodek mailto:zbb@FreeBSD.org[zbb@FreeBSD.org] (2013 - 2019)
-* John W. DeBoskey mailto:jwd@FreeBSD.org[jwd@FreeBSD.org] (2000 - 2019)
-* Daniel Eischen mailto:deischen@FreeBSD.org[deischen@FreeBSD.org] (1999 - 2019)
-* Tony Finch mailto:fanf@FreeBSD.org[fanf@FreeBSD.org] (2002 - 2019)
-* Justin T. Gibbs mailto:gibbs@FreeBSD.org[gibbs@FreeBSD.org] (1994 - 2019)
-* Ermal Luçi mailto:eri@FreeBSD.org[eri@FreeBSD.org] (2008 - 2019)
-* Julio Merino mailto:jmmv@FreeBSD.org[jmmv@FreeBSD.org] (2013 - 2019)
-* Neel Natu mailto:neel@FreeBSD.org[neel@FreeBSD.org] (2009 - 2019)
-* Alfred Perlstein mailto:alfred@FreeBSD.org[alfred@FreeBSD.org] (1999 - 2019)
-* Thomas Quinot mailto:thomas@FreeBSD.org[thomas@FreeBSD.org] (2002 - 2019)
-* Matthew Rezny mailto:rezny@FreeBSD.org[rezny@FreeBSD.org] (2017 - 2019)
-* Luigi Rizzo mailto:luigi@FreeBSD.org[luigi@FreeBSD.org] (1998 - 2019)
-* Craig Rodrigues mailto:rodrigc@FreeBSD.org[rodrigc@FreeBSD.org] (2005 - 2019)
-* Stanislav Sedov mailto:stas@FreeBSD.org[stas@FreeBSD.org] (2006 - 2019)
-* Andrew Thompson mailto:thompsa@FreeBSD.org[thompsa@FreeBSD.org] (2005 - 2019)
-* Imre Vadasz mailto:ivadasz@FreeBSD.org[ivadasz@FreeBSD.org] (2016 - 2019)
-* Kai Wang mailto:kaiw@FreeBSD.org[kaiw@FreeBSD.org] (2014 - 2019)
-* Pyun YongHyeon mailto:yongari@FreeBSD.org[yongari@FreeBSD.org] (2004 - 2019)
-* Jim Harris mailto:jimharris@FreeBSD.org[jimharris@FreeBSD.org] (2011 - 2018)
-* Tom Judge mailto:tj@FreeBSD.org[tj@FreeBSD.org] (2012 - 2018)
-* Dryice Liu mailto:dryice@FreeBSD.org[dryice@FreeBSD.org] (2006 - 2018)
-* Lars Thegler mailto:lth@FreeBSD.org[lth@FreeBSD.org] (2004 - 2018)
-* Alberto Villa mailto:avilla@FreeBSD.org[avilla@FreeBSD.org] (2010 - 2018)
-* Rusmir Dusko mailto:nemysis@FreeBSD.org[nemysis@FreeBSD.org](2013 - 2018)
-* Eygene Ryabinkin mailto:rea@FreeBSD.org[rea@FreeBSD.org] (2010 - 2018)
-* Daichi GOTO mailto:daichi@FreeBSD.org[daichi@FreeBSD.org] (2002 - 2018)
-* Wesley Shields mailto:wxs@FreeBSD.org[wxs@FreeBSD.org] (2008 - 2018)
-* Maho Nakata mailto:maho@FreeBSD.org[maho@FreeBSD.org] (2002 - 2018)
-* Pawel Pekala mailto:pawel@FreeBSD.org[pawel@FreeBSD.org] (2011 - 2018)
-* Thomas Abthorpe mailto:tabthorpe@FreeBSD.org[tabthorpe@FreeBSD.org] (2007 - 2018)
-* Veniamin Gvozdikov mailto:vg@FreeBSD.org[vg@FreeBSD.org] (2013 - 2018)
-* Kevin Lo mailto:kevlo@FreeBSD.org[kevlo@FreeBSD.org] (1999 - 2017)
-* Jason Unovitch mailto:junovitch@FreeBSD.org[junovitch@FreeBSD.org] (2015 - 2017)
-* Alonso Schaich mailto:alonso@FreeBSD.org[alonso@FreeBSD.org] (2014 - 2016)
-* Brendan Fabeny mailto:bf@FreeBSD.org[bf@FreeBSD.org] (2010 - 2015)
-* Olivier Duchateau mailto:olivierd@FreeBSD.org[olivierd@FreeBSD.org] (2012 - 2017)
-* John Marino mailto:marino@FreeBSD.org[marino@FreeBSD.org] (2013 - 2017)
-* Shunsuke Akiyama mailto:akiyama@FreeBSD.org[akiyama@FreeBSD.org] (2000 - 2017)
-* Andre Oppermann mailto:andre@FreeBSD.org[andre@FreeBSD.org] (2003 - 2017)
-* Philippe Charnier mailto:charnier@FreeBSD.org[charnier@FreeBSD.org] (1997 - 2017)
-* Cherry G. Mathew mailto:cherry@FreeBSD.org[cherry@FreeBSD.org] (2012 - 2017)
-* David Schultz mailto:das@FreeBSD.org[das@FreeBSD.org] (2003 - 2017)
-* David Christensen mailto:davidch@FreeBSD.org[davidch@FreeBSD.org] (2006 - 2017)
-* Eric Davis mailto:edavis@FreeBSD.org[edavis@FreeBSD.org] (2013 - 2017)
-* Mitsuru IWASAKI mailto:iwasaki@FreeBSD.org[iwasaki@FreeBSD.org] (1999 - 2017)
-* Monthadar Al Jaberi mailto:monthadar@FreeBSD.org[monthadar@FreeBSD.org] (2012 - 2017)
-* Paul Saab mailto:ps@FreeBSD.org[ps@FreeBSD.org] (2000 - 2017)
-* Robert Noland mailto:rnoland@FreeBSD.org[rnoland@FreeBSD.org] (2008 - 2017)
-* Yoshiro Sanpei MIHIRA mailto:sanpei@FreeBSD.org[sanpei@FreeBSD.org] (2000 - 2017)
-* Stefan Farfeleder mailto:stefanf@FreeBSD.org[stefanf@FreeBSD.org] (2004 - 2017)
-* Takuya ASADA mailto:syuu@FreeBSD.org[syuu@FreeBSD.org] (2012 - 2017)
-* Ben Laurie mailto:benl@FreeBSD.org[benl@FreeBSD.org] (2011 - 2017)
-* John Hay mailto:jhay@FreeBSD.org[jhay@FreeBSD.org] (1996 - 2017)
-* Rafal Jaworowski mailto:raj@FreeBSD.org[raj@FreeBSD.org] (2007 - 2017)
-* Stephan Uphoff mailto:ups@FreeBSD.org[ups@FreeBSD.org] (2004 - 2017)
-* Wojciech A. Koszek mailto:wkoszek@FreeBSD.org[wkoszek@FreeBSD.org] (2006 - 2017)
-* Stephen McKay mailto:mckay@FreeBSD.org[mckay@FreeBSD.org] (1996 - 2017)
-* Bernhard Schmidt mailto:bschmidt@FreeBSD.org[bschmidt@FreeBSD.org] (2010 - 2017)
-* Damjan Marion mailto:dmarion@FreeBSD.org[dmarion@FreeBSD.org] (2012 - 2017)
-* Guy Helmer mailto:ghelmer@FreeBSD.org[ghelmer@FreeBSD.org] (1998 - 2017)
-* Jack F. Vogel mailto:jfv@FreeBSD.org[jfv@FreeBSD.org] (2006 - 2017)
-* Jaakko Heinonen mailto:jh@FreeBSD.org[jh@FreeBSD.org] (2009 - 2017)
-* Robert Millan mailto:rmh@FreeBSD.org[rmh@FreeBSD.org] (2011 - 2017)
-* Konrad Jankowski mailto:versus@FreeBSD.org[versus@FreeBSD.org] (2008 - 2017)
-* Brian Somers mailto:brian@FreeBSD.org[brian@FreeBSD.org] (1996 - 2017)
-* Grzegorz Bernacki mailto:gber@FreeBSD.org[gber@FreeBSD.org] (2011 - 2017)
-* Gleb Kurtsou mailto:gleb@FreeBSD.org[gleb@FreeBSD.org] (2011 - 2017)
-* Ivan Voras mailto:ivoras@FreeBSD.org[ivoras@FreeBSD.org] (2008 - 2017)
-* Roman Divacky mailto:rdivacky@FreeBSD.org[rdivacky@FreeBSD.org] (2008 - 2017)
-* Yvan Vanhullebus mailto:vanhu@FreeBSD.org[vanhu@FreeBSD.org] (2008 - 2017)
-* Andrey Zonov mailto:zont@FreeBSD.org[zont@FreeBSD.org] (2012 - 2017)
-* Marcus von Appen mailto:mva@FreeBSD.org[mva@FreeBSD.org] (2009 - 2017)
-* Edwin Groothuis mailto:edwin@FreeBSD.org[edwin@FreeBSD.org] (2002 - 2016)
-* Erwin Lansing mailto:erwin@FreeBSD.org[erwin@FreeBSD.org] (2003 - 2016)
-* Yen-Ming Lee mailto:leeym@FreeBSD.org[leeym@FreeBSD.org] (2002 - 2016)
-* Michael Moll mailto:mmoll@FreeBSD.org[mmoll@FreeBSD.org] (2015 - 2016)
-* Sergey Matveychuk mailto:sem@FreeBSD.org[sem@FreeBSD.org] (2004 - 2016)
-* Philip M. Gollucci mailto:pgollucci@FreeBSD.org[pgollucci@FreeBSD.org] (2008 - 2015)
-* Ion-Mihai Tetcu mailto:itetcu@FreeBSD.org[itetcu@FreeBSD.org] (2006 - 2015)
-* Ade Lovett mailto:ade@FreeBSD.org[ade@FreeBSD.org] (2000 - 2015)
-* Alexey Degtyarev mailto:alexey@FreeBSD.org[alexey@FreeBSD.org] (2013 - 2015)
-* Henrik Brix Andersen mailto:brix@FreeBSD.org[brix@FreeBSD.org] (2007 - 2015)
-* Cheng-Lung Sung mailto:clsung@FreeBSD.org[clsung@FreeBSD.org] (2004 - 2015)
-* Dennis Herrmann mailto:dhn@FreeBSD.org[dhn@FreeBSD.org] (2009 - 2015)
-* Jase Thew mailto:jase@FreeBSD.org[jase@FreeBSD.org] (2012 - 2015)
-* Steven G. Kargl mailto:kargl@FreeBSD.org[kargl@FreeBSD.org] (2011 - 2015)
-* Rong-En Fan mailto:rafan@FreeBSD.org[rafan@FreeBSD.org] (2006 - 2015)
-* Sahil Tandon mailto:sahil@FreeBSD.org[sahil@FreeBSD.org] (2010 - 2015)
-* Stefan Walter mailto:stefan@FreeBSD.org[stefan@FreeBSD.org] (2006 - 2015)
-* Johannes Meixner mailto:xmj@FreeBSD.org[xmj@FreeBSD.org] (2014 - 2015)
-* Anders Nordby mailto:anders@FreeBSD.org[anders@FreeBSD.org] (2001 - 2014)
-* Beech Rintoul mailto:beech@FreeBSD.org[beech@FreeBSD.org] (2007 - 2014)
-* David Xu mailto:davidxu@FreeBSD.org[davidxu@FreeBSD.org] (2002 - 2014)
-* Greg Larkin mailto:glarkin@FreeBSD.org[glarkin@FreeBSD.org] (2008 - 2014)
-* Herve Quiroz mailto:hq@FreeBSD.org[hq@FreeBSD.org] (2004 - 2014)
-* Mário Sérgio Fujikawa Ferreira mailto:lioux@FreeBSD.org[lioux@FreeBSD.org] (2000 - 2014)
-* Felippe de Meirelles Motta mailto:lippe@FreeBSD.org[lippe@FreeBSD.org] ( - 2014)
-* Masafumi NAKANE mailto:max@FreeBSD.org[max@FreeBSD.org] ( - 2014)
-* Jonathan Chu mailto:milki@FreeBSD.org[milki@FreeBSD.org] (2013 - 2014)
-* Armin Pirkovitsch mailto:sperber@FreeBSD.org[sperber@FreeBSD.org] (2012 - 2014)
-* Munechika Sumikawa mailto:sumikawa@FreeBSD.org[sumikawa@FreeBSD.org] (2003 - 2014)
-* Thomas-Martin Seck mailto:tmseck@FreeBSD.org[tmseck@FreeBSD.org] (2013 - 2014)
-* Ruslan Ermilov mailto:ru@FreeBSD.org[ru@FreeBSD.org] (1999 - 2014)
-* Carl Delsey mailto:carl@FreeBSD.org[carl@FreeBSD.org] (2013 - 2014)
-* Michael Johnson mailto:ahze@FreeBSD.org[ahze@FreeBSD.org] (2004 - 2013)
-* Alexander Logvinov mailto:avl@FreeBSD.org[avl@FreeBSD.org] (2009 - 2013)
-* Chin-San Huang mailto:chinsan@FreeBSD.org[chinsan@FreeBSD.org] (2007 - 2013)
-* Clement Laforet mailto:clement@FreeBSD.org[clement@FreeBSD.org] (2003 - 2013)
-* Joseph S. Atkinson mailto:jsa@FreeBSD.org[jsa@FreeBSD.org] (2010 - 2013)
-* Jean Milanez Melo mailto:jmelo@FreeBSD.org[jmelo@FreeBSD.org] (2006 - 2013)
-* Lars Balker Rasmussen mailto:lbr@FreeBSD.org[lbr@FreeBSD.org] (2006 - 2013)
-* Makoto Matsushita mailto:matusita@FreeBSD.org[matusita@FreeBSD.org] (2001 - 2013)
-* Jeremy Messenger mailto:mezz@FreeBSD.org[mezz@FreeBSD.org] (2004 - 2013)
-* Matthew Jacob mailto:mjacob@FreeBSD.org[mjacob@FreeBSD.org] (1997 - 2013)
-* Motoyuki Konno mailto:motoyuki@FreeBSD.org[motoyuki@FreeBSD.org] (1998 - 2013)
-* Pav Lucistnik mailto:pav@FreeBSD.org[pav@FreeBSD.org] (2003 - 2013)
-* Po-Chien Lin mailto:pclin@FreeBSD.org[pclin@FreeBSD.org] (2013)
-* Peter Pentchev mailto:roam@FreeBSD.org[roam@FreeBSD.org] (2000 - 2013)
-* Michael Scheidell mailto:scheidell@FreeBSD.org[scheidell@FreeBSD.org] (2011 - 2013)
-* Sergey Skvortsov mailto:skv@FreeBSD.org[skv@FreeBSD.org] (2001 - 2013)
-* Sylvio Cesar Teixeira mailto:sylvio@FreeBSD.org[sylvio@FreeBSD.org] (2009 - 2013)
-* Yi-Jheng Lin mailto:yzlin@FreeBSD.org[yzlin@FreeBSD.org] (2009 - 2013)
-* Florent Thoumie mailto:flz@FreeBSD.org[flz@FreeBSD.org] (2005 - 2013)
-* Gary Jennejohn mailto:gj@FreeBSD.org[gj@FreeBSD.org] (2003 - 2012)
-* Kip Macy mailto:kmacy@FreeBSD.org[kmacy@FreeBSD.org] (2005 - 2012)
-* Zachary Loafman mailto:zml@FreeBSD.org[zml@FreeBSD.org] (2009 - 2012)
-* Joseph Koshy mailto:jkoshy@FreeBSD.org[jkoshy@FreeBSD.org] (1998 - 2012)
-* Bruce Cran mailto:brucec@FreeBSD.org[brucec@FreeBSD.org] (2010 - 2012)
-* Ben Gray mailto:bgray@FreeBSD.org[bgray@FreeBSD.org] (2012)
-* Randi Harper mailto:randi@FreeBSD.org[randi@FreeBSD.org] (2010 - 2012)
-* Zack Kirsch mailto:zack@FreeBSD.org[zack@FreeBSD.org] (2010 - 2012)
-* Erik Cederstrand mailto:erik@FreeBSD.org[erik@FreeBSD.org] (2008 - 2012)
-* J. Vicente Carrasco Vayá mailto:carvay@FreeBSD.org[carvay@FreeBSD.org] (2008 - 2012)
-* Ulf Lilleengen mailto:lulf@FreeBSD.org[lulf@FreeBSD.org] (2007 - 2012)
-* Marcus Alves Grando mailto:mnag@FreeBSD.org[mnag@FreeBSD.org] (2005 - 2012)
-* Ceri Davies mailto:ceri@FreeBSD.org[ceri@FreeBSD.org] (2002 - 2012)
+* {mmokhi} (2017 - 2020)
+* {knu} (2000 - 2020)
+* {cpm} (2015 - 2020)
+* {jadawin} (2008 - 2020)
+* {mahrens} (2016 - 2020)
+* {gblach} (2012 - 2020)
+* {salvadore} (2020)
+* {seanc} (2002 - 2020)
+* {zleslie} (2017 - 2020)
+* {dbn} (2013 - 2020)
+* {johans} (2006 - 2019)
+* {remko} (2004 - 2019)
+* {wollman} (1993 - 2020)
+* {az} (2005 - 2019)
+* {bde} (1994 - 2019)
+* {murray} (â¤ 2001 - 2019)
+* {taras} ( - 2019)
+* {simon} (â¤ 2005 - 2019)
+* {manolis} ( - 2019)
+* {pgj} (2009 - 2019)
+* {dexter; (2018 - 2019)
+* {tobez} (2001 - 2019)
+* {badger} (2016 - 2019)
+* {zbb} (2013 - 2019)
+* {benno} (2000 - 2018)
+* {jwd} (2000 - 2019)
+* {deischen} (1999 - 2019)
+* {fanf} (2002 - 2019)
+* {gibbs} (1994 - 2019)
+* {eri} (2008 - 2019)
+* {jmmv} (2013 - 2019)
+* {lidl} (2015 - 2019)
+* {neel} (2009 - 2019)
+* {alfred} (1999 - 2019)
+* {thomas} (2002 - 2019)
+* {rezny} (2017 - 2019)
+* {luigi} (1998 - 2019)
+* {rodrigc} (2005 - 2019)
+* {stas} (2006 - 2019)
+* {thompsa} (2005 - 2019)
+* {ivadasz} (2016 - 2019)
+* {kaiw} (2014 - 2019)
+* {yongari} (2004 - 2019)
+* {def} (2016 - 2018)
+* {jeb} (2018 - 2018)
+* {jimharris} (2011 - 2018)
+* {tj} (2012 - 2018)
+* {dryice} (2006 - 2018)
+* {lth} (2004 - 2018)
+* {avilla} (2010 - 2018)
+* {nemysis}(2013 - 2018)
+* {rea} (2010 - 2018)
+* {bryanv} (2012 - 2018)
+* {daichi} (2002 - 2018)
+* {wxs} (2008 - 2018)
+* {maho} (2002 - 2018)
+* {pawel} (2011 - 2018)
+* {tabthorpe} (2007 - 2018)
+* {vg} (2013 - 2018)
+* {jonathan} (2010 - 2017)
+* {kevlo} (1999 - 2017)
+* {junovitch} (2015 - 2017)
+* {alonso} (2014 - 2016)
+* {bf} (2010 - 2015)
+* {olivierd} (2012 - 2017)
+* {marino} (2013 - 2017)
+* {akiyama} (2000 - 2017)
+* {andre} (2003 - 2017)
+* {charnier} (1997 - 2017)
+* {cherry} (2012 - 2017)
+* {das} (2003 - 2017)
+* {davidch} (2006 - 2017)
+* {edavis} (2013 - 2017)
+* {iwasaki} (1999 - 2017)
+* {monthadar} (2012 - 2017)
+* {ps} (2000 - 2017)
+* {rnoland} (2008 - 2017)
+* {ru} (1999 - 2017)
+* {sanpei} (2000 - 2017)
+* {sephe} (2007 - 2017)
+* {stefanf} (2004 - 2017)
+* {silby} (2001 - 2018)
+* {skra} (2015 - 2018)
+* {syuu} (2012 - 2017)
+* {benl} (2011 - 2017)
+* {jhay} (1996 - 2017)
+* {raj} (2007 - 2017)
+* {theraven} (2011 - 2017)
+* {ups} (2004 - 2017)
+* {wkoszek} (2006 - 2017)
+* {mckay} (1996 - 2017)
+* {bschmidt} (2010 - 2017)
+* {dmarion} (2012 - 2017)
+* {ghelmer} (1998 - 2017)
+* {jfv} (2006 - 2017)
+* {jh} (2009 - 2017)
+* {jmcneill} (2016 - 2017)
+* {rmh} (2011 - 2017)
+* {slm} (2014 - 2017)
+* {versus} (2008 - 2017)
+* {brian} (1996 - 2017)
+* {gber} (2011 - 2017)
+* {gleb} (2011 - 2017)
+* {ivoras} (2008 - 2017)
+* {rdivacky} (2008 - 2017)
+* {vanhu} (2008 - 2017)
+* {zont} (2012 - 2017)
+* {mva} (2009 - 2017)
+* {edwin} (2002 - 2016)
+* {erwin} (2003 - 2016)
+* {leeym} (2002 - 2016)
+* {mmoll} (2015 - 2016)
+* {sem} (2004 - 2016)
+* {pgollucci} (2008 - 2015)
+* {itetcu} (2006 - 2015)
+* {achim} (2013 - 2015)
+* {ade} (2000 - 2015)
+* {alexey} (2013 - 2015)
+* {brix} (2007 - 2015)
+* {clsung} (2004 - 2015)
+* {dhn} (2009 - 2015)
+* {jase} (2012 - 2015)
+* {kargl} (2011 - 2015)
+* {rafan} (2006 - 2015)
+* {sahil} (2010 - 2015)
+* {stefan} (2006 - 2015)
+* {xmj} (2014 - 2015)
+* {anders} (2001 - 2014)
+* {beech} (2007 - 2014)
+* {davidxu} (2002 - 2014)
+* {glarkin} (2008 - 2014)
+* {hq} (2004 - 2014)
+* {lioux} (2000 - 2014)
+* {lippe} ( - 2014)
+* {max} ( - 2014)
+* {milki} (2013 - 2014)
+* {sperber} (2012 - 2014)
+* {sumikawa} (2003 - 2014)
+* {tmseck} (2013 - 2014)
+* {ru} (1999 - 2014)
+* {carl} (2013 - 2014)
+* {ahze} (2004 - 2013)
+* {avl} (2009 - 2013)
+* {chinsan} (2007 - 2013)
+* {clement} (2003 - 2013)
+* {jsa} (2010 - 2013)
+* {jmelo} (2006 - 2013)
+* {lbr} (2006 - 2013)
+* {matusita} (2001 - 2013)
+* {mezz} (2004 - 2013)
+* {mjacob} (1997 - 2013)
+* {motoyuki} (1998 - 2013)
+* {pav} (2003 - 2013)
+* {pclin} (2013)
+* {qingli} (2005 - 2013)
+* {roam} (2000 - 2013)
+* {scheidell} (2011 - 2013)
+* {skv} (2001 - 2013)
+* {sylvio} (2009 - 2013)
+* {yzlin} (2009 - 2013)
+* {flz} (2005 - 2013)
+* {scf} (2007 - 2012)
+* {gj} (2003 - 2012)
+* {kmacy} (2005 - 2012)
+* {zml} (2009 - 2012)
+* {jkoshy} (1998 - 2012)
+* {brucec} (2010 - 2012)
+* {bgray} (2012)
+* {randi} (2010 - 2012)
+* {zack} (2010 - 2012)
+* {erik} (2008 - 2012)
+* {carvay} (2008 - 2012)
+* {lulf} (2007 - 2012)
+* {mnag} (2005 - 2012)
+* {ceri} (2002 - 2012)
 * Doug Barton (2000 - 2012)
-* Wilko Bulte mailto:wilko@FreeBSD.org[wilko@FreeBSD.org] (2000 - 2012)
-* Murray Stokely mailto:murray@FreeBSD.org[murray@FreeBSD.org] (2000 - 2012)
-* Steve Price mailto:steve@FreeBSD.org[steve@FreeBSD.org] (1996 - 2012)
-* Weongyo Jeong mailto:weongyo@FreeBSD.org[weongyo@FreeBSD.org] (2007 - 2011)
-* Bernd Walter mailto:ticso@FreeBSD.org[ticso@FreeBSD.org] (2002 - 2011)
-* Ralf S. Engelschall mailto:rse@FreeBSD.org[rse@FreeBSD.org] (1997 - 2011)
-* Max Laier mailto:mlaier@FreeBSD.org[mlaier@FreeBSD.org] (2004 - 2011)
-* Artem Belevich mailto:art@FreeBSD.org[art@FreeBSD.org] (2011)
-* Giuseppe Pilichi mailto:jacula@FreeBSD.org[jacula@FreeBSD.org] (2010 - 2011)
-* Tong Liu mailto:nemoliu@FreeBSD.org[nemoliu@FreeBSD.org] (2007 - 2011)
-* Alexander Botero-Lowry mailto:alexbl@FreeBSD.org[alexbl@FreeBSD.org] (2006 - 2011)
-* Alejandro Pulver mailto:alepulver@FreeBSD.org[alepulver@FreeBSD.org] (2006 - 2011)
-* Tom McLaughlin mailto:tmclaugh@FreeBSD.org[tmclaugh@FreeBSD.org] (2005 - 2011)
-* Andrey Slusar mailto:anray@FreeBSD.org[anray@FreeBSD.org] (2005 - 2011)
-* Niels Heinen mailto:niels@FreeBSD.org[niels@FreeBSD.org] (2004 - 2011)
-* Sergei Kolobov mailto:sergei@FreeBSD.org[sergei@FreeBSD.org] (2003 - 2011)
-* Maxime Henrion mailto:mux@FreeBSD.org[mux@FreeBSD.org] (2002 - 2011)
-* Hellmuth Michaelis mailto:hm@FreeBSD.org[hm@FreeBSD.org] (1998 - 2011)
-* Ying-Chieh Liao mailto:ijliao@FreeBSD.org[ijliao@FreeBSD.org] (2001 - 2011)
-* Marc G. Fournier mailto:scrappy@FreeBSD.org[scrappy@FreeBSD.org] (1996 - 2011)
-* Wes Peters mailto:wes@FreeBSD.org[wes@FreeBSD.org] (1998 - 2010)
-* Hidetoshi Shimokawa mailto:simokawa@FreeBSD.org[simokawa@FreeBSD.org] (1999 - 2010)
-* Stephane E. Potvin mailto:sepotvin@FreeBSD.org[sepotvin@FreeBSD.org] (2007 - 2010)
-* Sam Leffler mailto:sam@FreeBSD.org[sam@FreeBSD.org] (2002 - 2010)
-* Norikatsu Shigemura mailto:nork@FreeBSD.org[nork@FreeBSD.org] (2002 - 2010)
-* Martin Blapp mailto:mbr@FreeBSD.org[mbr@FreeBSD.org] (2001 - 2010)
-* Dima Dorfman mailto:dd@FreeBSD.org[dd@FreeBSD.org] (2001 - 2010)
-* Ana Kukec mailto:anchie@FreeBSD.org[anchie@FreeBSD.org] (2010)
-* Oliver Fromme mailto:olli@FreeBSD.org[olli@FreeBSD.org] (2008 - 2010)
-* Takenori KATO mailto:kato@FreeBSD.org[kato@FreeBSD.org] (1996 - 2010)
-* Bruno Ducrot mailto:bruno@FreeBSD.org[bruno@FreeBSD.org] (2005 - 2010)
-* Nick Barkas mailto:snb@FreeBSD.org[snb@FreeBSD.org] (2009 - 2010)
-* Chris Zimmernmann mailto:cbzimmer@FreeBSD.org[cbzimmer@FreeBSD.org] (2009 - 2010)
-* Michael Bushkov mailto:bushman@FreeBSD.org[bushman@FreeBSD.org] (2007 - 2010)
-* Benjamin Close mailto:benjsc@FreeBSD.org[benjsc@FreeBSD.org] (2007 - 2010)
-* Rink Springer mailto:rink@FreeBSD.org[rink@FreeBSD.org] (2006 - 2010)
-* Paolo Pisati mailto:piso@FreeBSD.org[piso@FreeBSD.org] (2006 - 2010)
-* Frank J. Laszlo mailto:laszlof@FreeBSD.org[laszlof@FreeBSD.org] (2006 - 2010)
-* Vitaly Bogdanov mailto:bvs@FreeBSD.org[bvs@FreeBSD.org] (2005 - 2010)
-* Simon Barner mailto:barner@FreeBSD.org[barner@FreeBSD.org] (2005 - 2010)
-* Volker Stolz mailto:vs@FreeBSD.org[vs@FreeBSD.org] (2004 - 2010)
-* Diomidis D. Spinellis mailto:dds@FreeBSD.org[dds@FreeBSD.org] (2003 - 2010)
-* Hye-Shik Chang mailto:perky@FreeBSD.org[perky@FreeBSD.org] (2002 - 2010)
-* Yoichi NAKAYAMA mailto:yoichi@FreeBSD.org[yoichi@FreeBSD.org] (2001 - 2010)
-* Tetsurou OKAZAKI mailto:okazaki@FreeBSD.org[okazaki@FreeBSD.org] (2000 - 2010)
-* Junho CHOI mailto:cjh@FreeBSD.org[cjh@FreeBSD.org] (2000 - 2010)
-* Jesus Rodriguez mailto:jesusr@FreeBSD.org[jesusr@FreeBSD.org] (1998 - 2010)
-* Suleiman Souhlal mailto:ssouhlal@FreeBSD.org[ssouhlal@FreeBSD.org] (2004 - 2009)
-* Stacey Son mailto:sson@FreeBSD.org[sson@FreeBSD.org] (2008 - 2009)
-* Markus Brüffer mailto:markus@FreeBSD.org[markus@FreeBSD.org] (2006 - 2009)
-* Brian F. Feldman mailto:green@FreeBSD.org[green@FreeBSD.org] (1999 - 2009)
-* Darren Reed mailto:darrenr@FreeBSD.org[darrenr@FreeBSD.org] (1997 - 2009)
-* Ariff Abdullah mailto:ariff@FreeBSD.org[ariff@FreeBSD.org] (2005 - 2009)
-* Søren Schmidt mailto:sos@FreeBSD.org[sos@FreeBSD.org] (1993 - 2009)
-* Mike Makonnen mailto:mtm@FreeBSD.org[mtm@FreeBSD.org] (2003 - 2009)
-* Matteo Riondato mailto:matteo@FreeBSD.org[matteo@FreeBSD.org] (2006 - 2009)
-* Jonathan Chen mailto:jon@FreeBSD.org[jon@FreeBSD.org] (2000 - 2009)
-* Guido van Rooij mailto:guido@FreeBSD.org[guido@FreeBSD.org] (1993 - 2009)
-* Doug White mailto:dwhite@FreeBSD.org[dwhite@FreeBSD.org] (1998 - 2009)
-* Coleman Kane mailto:cokane@FreeBSD.org[cokane@FreeBSD.org] (2000 - 2009)
-* Andrew Pantyukhin mailto:sat@FreeBSD.org[sat@FreeBSD.org] (2006 - 2009)
-* Jesus R. Camou mailto:jcamou@FreeBSD.org[jcamou@FreeBSD.org] (2005 - 2009)
-* Hideyuki KURASHINA mailto:rushani@FreeBSD.org[rushani@FreeBSD.org] (2003 - 2009)
-* Nik Clayton mailto:nik@FreeBSD.org[nik@FreeBSD.org] (1998 - 2009)
-* Michael Nottebrock mailto:lofi@FreeBSD.org[lofi@FreeBSD.org] (2003 - 2009)
-* Denis Peplin mailto:den@FreeBSD.org[den@FreeBSD.org] (2003 - 2009)
-* Oliver Braun mailto:obraun@FreeBSD.org[obraun@FreeBSD.org] (2002 - 2009)
-* Eric Anholt mailto:anholt@FreeBSD.org[anholt@FreeBSD.org] (2002 - 2009)
-* Michael W. Lucas mailto:mwlucas@FreeBSD.org[mwlucas@FreeBSD.org] (2001 - 2009)
-* Chern Lee mailto:chern@FreeBSD.org[chern@FreeBSD.org] (2001 - 2009)
-* Yoshio MITA mailto:mita@FreeBSD.org[mita@FreeBSD.org] (2000 - 2009)
-* Kazuo Horikawa mailto:horikawa@FreeBSD.org[horikawa@FreeBSD.org] (2000 - 2009)
-* Clive Lin mailto:clive@FreeBSD.org[clive@FreeBSD.org] (2000 - 2009)
-* Sebastien Gioria mailto:gioria@FreeBSD.org[gioria@FreeBSD.org] (1999 - 2009)
-* Roman Kurakin mailto:rik@FreeBSD.org[rik@FreeBSD.org] (2003 - 2008)
-* Pierre Beyssac mailto:pb@FreeBSD.org[pb@FreeBSD.org] (2003 - 2008)
-* Mike Pritchard mailto:mpp@FreeBSD.org[mpp@FreeBSD.org] (1995 - 2008)
-* Luoqi Chen mailto:luoqi@FreeBSD.org[luoqi@FreeBSD.org] (1998 - 2008)
-* Ian Dowse mailto:iedowse@FreeBSD.org[iedowse@FreeBSD.org] (2000 - 2008)
-* Thomas Gellekum mailto:tg@FreeBSD.org[tg@FreeBSD.org] (1995 - 2009)
-* Kris Kennaway mailto:kris@FreeBSD.org[kris@FreeBSD.org] (1999 - 2008)
-* Sepherosa Ziehau mailto:sephe@FreeBSD.org[sephe@FreeBSD.org] (2007 - 2008)
-* Chad David mailto:davidc@FreeBSD.org[davidc@FreeBSD.org] (2001 - 2008)
-* Kishore Sampathkumar mailto:kishore@FreeBSD.org[kishore@FreeBSD.org] (2007 - 2008)
-* Thomas Wintergerst mailto:twinterg@FreeBSD.org[twinterg@FreeBSD.org] (2006 - 2008)
-* Jeremy Chadwick mailto:koitsu@FreeBSD.org[koitsu@FreeBSD.org] (2006 - 2008)
-* Bakul Shah mailto:bakul@FreeBSD.org[bakul@FreeBSD.org] (2006 - 2008)
-* Jean-Yves Lefort mailto:jylefort@FreeBSD.org[jylefort@FreeBSD.org] (2005 - 2008)
-* Gary W. Swearingen mailto:garys@FreeBSD.org[garys@FreeBSD.org] (2005 - 2008)
-* Damien Bergamini mailto:damien@FreeBSD.org[damien@FreeBSD.org] (2005 - 2008)
-* Aaron Dalton mailto:aaron@FreeBSD.org[aaron@FreeBSD.org] (2005 - 2008)
-* Tony Ackerman mailto:tackerman@FreeBSD.org[tackerman@FreeBSD.org] (2004 - 2008)
-* Koichi Suzuki mailto:metal@FreeBSD.org[metal@FreeBSD.org] (2004 - 2008)
-* Mark Santcroos mailto:marks@FreeBSD.org[marks@FreeBSD.org] (2004 - 2008)
-* Dejan Lesjak mailto:lesi@FreeBSD.org[lesi@FreeBSD.org] (2004 - 2008)
-* Josef El-Rayes mailto:josef@FreeBSD.org[josef@FreeBSD.org] (2004 - 2008)
-* Daniel Hartmeier mailto:dhartmei@FreeBSD.org[dhartmei@FreeBSD.org] (2004 - 2008)
-* Sam Hopkins mailto:sah@FreeBSD.org[sah@FreeBSD.org] (2004 - 2008)
-* Scott Mitchell mailto:rsm@FreeBSD.org[rsm@FreeBSD.org] (2003 - 2008)
-* Tim Vanderhoek mailto:hoek@FreeBSD.org[hoek@FreeBSD.org] (2003 - 2008)
-* Oliver Eikemeier mailto:eik@FreeBSD.org[eik@FreeBSD.org] (2003 - 2008)
-* Mathew Kanner mailto:matk@FreeBSD.org[matk@FreeBSD.org] (2003 - 2008)
-* Nate Lawson mailto:njl@FreeBSD.org[njl@FreeBSD.org] (2002 - 2008)
-* Katsushi Kobayashi mailto:ikob@FreeBSD.org[ikob@FreeBSD.org] (2002 - 2008)
-* Prafulla S. Deuskar mailto:pdeuskar@FreeBSD.org[pdeuskar@FreeBSD.org] (2001 - 2008)
-* Mike Heffner mailto:mikeh@FreeBSD.org[mikeh@FreeBSD.org] (2001 - 2008)
-* Takeshi Shibagaki mailto:shiba@FreeBSD.org[shiba@FreeBSD.org] (2000 - 2008)
-* Patrick Li mailto:pat@FreeBSD.org[pat@FreeBSD.org] (2000 - 2008)
-* Atsushi Onoe mailto:onoe@FreeBSD.org[onoe@FreeBSD.org] (2000 - 2008)
-* Lars Koeller mailto:lkoeller@FreeBSD.org[lkoeller@FreeBSD.org] (2000 - 2008)
-* Jayanth Vijayaraghavan mailto:jayanth@FreeBSD.org[jayanth@FreeBSD.org] (2000 - 2008)
-* Jake Burkholder mailto:jake@FreeBSD.org[jake@FreeBSD.org] (2000 - 2008)
-* Duncan Barclay mailto:dmlb@FreeBSD.org[dmlb@FreeBSD.org] (2000 - 2008)
-* Bosko Milekic mailto:bmilekic@FreeBSD.org[bmilekic@FreeBSD.org] (2000 - 2008)
-* Sergey Babkin mailto:babkin@FreeBSD.org[babkin@FreeBSD.org] (2000 - 2008)
-* Josef Karthauser mailto:joe@FreeBSD.org[joe@FreeBSD.org] (1999 - 2008)
-* R. Imura mailto:imura@FreeBSD.org[imura@FreeBSD.org] (1999 - 2008)
-* Andrey Zakhvatov mailto:andy@FreeBSD.org[andy@FreeBSD.org] (1999 - 2008)
-* Shigeyuki Fukushima mailto:shige@FreeBSD.org[shige@FreeBSD.org] (1999 - 2008)
-* Tatsumi Hosokawa mailto:hosokawa@FreeBSD.org[hosokawa@FreeBSD.org] (1998 - 2008)
-* Howard F. Hu mailto:foxfair@FreeBSD.org[foxfair@FreeBSD.org] (1998 - 2008)
-* Bill Fumerola mailto:billf@FreeBSD.org[billf@FreeBSD.org] (1998 - 2008)
-* Tor Egge mailto:tegge@FreeBSD.org[tegge@FreeBSD.org] (1997 - 2008)
-* Jonathan Lemon mailto:jlemon@FreeBSD.org[jlemon@FreeBSD.org] (1997 - 2008)
-* Bill Fenner mailto:fenner@FreeBSD.org[fenner@FreeBSD.org] (1996 - 2008)
-* Andreas Klemm mailto:andreas@FreeBSD.org[andreas@FreeBSD.org] (1996 - 2008)
-* John Polstra mailto:jdp@FreeBSD.org[jdp@FreeBSD.org] ( - 2008)
-* Jeffrey Hsu mailto:hsu@FreeBSD.org[hsu@FreeBSD.org] ( - 2008)
-* Bill Paul mailto:wpaul@FreeBSD.org[wpaul@FreeBSD.org] (1995 - 2007)
-* SUZUKI Shinsuke mailto:suz@FreeBSD.org[suz@FreeBSD.org] (2002 - 2007)
-* Lukas Ertl mailto:le@FreeBSD.org[le@FreeBSD.org] (2004 - 2007)
-* Jordan Sissel mailto:jls@FreeBSD.org[jls@FreeBSD.org] (2006 - 2007)
-* Tatuya JINMEI mailto:jinmei@FreeBSD.org[jinmei@FreeBSD.org] (2007)
-* Hiten Pandya mailto:hmp@FreeBSD.org[hmp@FreeBSD.org] (2004 - 2007)
-* Alexey Zelkin mailto:phantom@FreeBSD.org[phantom@FreeBSD.org] (1999 - 2007)
-* Mohan Srinivasan mailto:mohans@FreeBSD.org[mohans@FreeBSD.org] (2006 - 2007)
-* Chuck Lever mailto:cel@FreeBSD.org[cel@FreeBSD.org] (2006 - 2007)
-* Sam Lawrance mailto:lawrance@FreeBSD.org[lawrance@FreeBSD.org] (2005 - 2007)
-* Jim Rees mailto:rees@FreeBSD.org[rees@FreeBSD.org] (2004 - 2007)
-* Tim J. Robbins mailto:tjr@FreeBSD.org[tjr@FreeBSD.org] (2002 - 2007)
-* Johan Karlsson mailto:johan@FreeBSD.org[johan@FreeBSD.org] (2002 - 2007)
-* Mark Pulford mailto:markp@FreeBSD.org[markp@FreeBSD.org] (2001 - 2007)
-* Jesper Skriver mailto:jesper@FreeBSD.org[jesper@FreeBSD.org] (2001 - 2007)
-* Eric Melville mailto:eric@FreeBSD.org[eric@FreeBSD.org] (2001 - 2007)
-* Trevor Johnson mailto:trevor@FreeBSD.org[trevor@FreeBSD.org] (2000 - 2007)
-* Noriaki Mitsunaga mailto:non@FreeBSD.org[non@FreeBSD.org] (2000 - 2007)
-* Kelly Yancey mailto:kbyanc@FreeBSD.org[kbyanc@FreeBSD.org] (2000 - 2007)
-* James Housley mailto:jeh@FreeBSD.org[jeh@FreeBSD.org] (2000 - 2007)
-* Gregory Sutter mailto:gsutter@FreeBSD.org[gsutter@FreeBSD.org] (2000 - 2007)
-* Brian S. Dean mailto:bsd@FreeBSD.org[bsd@FreeBSD.org] (2000 - 2007)
-* Tom Hukins mailto:tom@FreeBSD.org[tom@FreeBSD.org] (1999 - 2007)
-* Michael Haro mailto:mharo@FreeBSD.org[mharo@FreeBSD.org] (1999 - 2007)
-* Chris Costello mailto:chris@FreeBSD.org[chris@FreeBSD.org] (1999 - 2007)
-* Boris Popov mailto:bp@FreeBSD.org[bp@FreeBSD.org] (1999 - 2007)
-* Archie Cobbs mailto:archie@FreeBSD.org[archie@FreeBSD.org] (1998 - 2007)
-* Yar Tikhiy mailto:yar@FreeBSD.org[yar@FreeBSD.org] ( - 2007)
-* Seigo Tanimura mailto:tanimura@FreeBSD.org[tanimura@FreeBSD.org] (1999 - 2006)
-* Peter Edwards mailto:peadar@FreeBSD.org[peadar@FreeBSD.org] (2004 - 2006)
-* Wayne Salamon mailto:wsalamon@FreeBSD.org[wsalamon@FreeBSD.org] (2005 - 2006)
-* Matthew N. Dodd mailto:mdodd@FreeBSD.org[mdodd@FreeBSD.org] (1999 - 2006)
-* Vinod Kashyap mailto:vkashyap@FreeBSD.org[vkashyap@FreeBSD.org] (2004 - 2006)
-* Niklas Saers mailto:niklas@FreeBSD.org[niklas@FreeBSD.org] (2004 - 2006)
-* Sean Kelly mailto:smkelly@FreeBSD.org[smkelly@FreeBSD.org] (2003 - 2006)
-* Arun Sharma mailto:arun@FreeBSD.org[arun@FreeBSD.org] (2003 - 2006)
-* Atul Mukker mailto:am@FreeBSD.org[am@FreeBSD.org] (2003 - 2006)
-* Ville Skyttä mailto:scop@FreeBSD.org[scop@FreeBSD.org] (2002 - 2006)
-* Martin Heinen mailto:mheinen@FreeBSD.org[mheinen@FreeBSD.org] (2002 - 2006)
-* Jennifer Yang mailto:jennifer@FreeBSD.org[jennifer@FreeBSD.org] (2002 - 2006)
-* Ernst de Haan mailto:znerd@FreeBSD.org[znerd@FreeBSD.org] (2001 - 2006)
-* Michael C. Wu mailto:keichii@FreeBSD.org[keichii@FreeBSD.org] (2001 - 2006)
-* Udo Erdelhoff mailto:ue@FreeBSD.org[ue@FreeBSD.org] (2001 - 2006)
-* Thomas Möstl mailto:tmm@FreeBSD.org[tmm@FreeBSD.org] (2001 - 2006)
-* Robert Drehmel mailto:robert@FreeBSD.org[robert@FreeBSD.org] (2001 - 2006)
-* Pete Fritchman mailto:petef@FreeBSD.org[petef@FreeBSD.org] (2001 - 2006)
-* Mike Barcroft mailto:mike@FreeBSD.org[mike@FreeBSD.org] (2001 - 2006)
-* George C. A. Reid mailto:greid@FreeBSD.org[greid@FreeBSD.org] (2001 - 2006)
-* Crist J. Clark mailto:cjc@FreeBSD.org[cjc@FreeBSD.org] (2001 - 2006)
-* Rob Braun mailto:bbraun@FreeBSD.org[bbraun@FreeBSD.org] (2001 - 2006)
-* Satsuki FUJISHIMA mailto:sf@FreeBSD.org[sf@FreeBSD.org] (2000 - 2006)
-* Kazuhiko Kiriyama mailto:kiri@FreeBSD.org[kiri@FreeBSD.org] (2000 - 2006)
-* Daniel Harris mailto:dannyboy@FreeBSD.org[dannyboy@FreeBSD.org] (2000 - 2006)
-* Ben Smithurst mailto:ben@FreeBSD.org[ben@FreeBSD.org] (2000 - 2006)
-* Sheldon Hearn mailto:sheldonh@FreeBSD.org[sheldonh@FreeBSD.org] (1999 - 2006)
-* Roger Hardiman mailto:roger@FreeBSD.org[roger@FreeBSD.org] (1999 - 2006)
-* Nick Sayer mailto:nsayer@FreeBSD.org[nsayer@FreeBSD.org] (1999 - 2006)
-* Neil Blakey-Milner mailto:nbm@FreeBSD.org[nbm@FreeBSD.org] (1999 - 2006)
-* Chris D. Faulhaber mailto:jedgar@FreeBSD.org[jedgar@FreeBSD.org] (1999 - 2006)
-* Nicolas Souchu mailto:nsouch@FreeBSD.org[nsouch@FreeBSD.org] (1998 - 2006)
-* Jacques Vidrine mailto:nectar@FreeBSD.org[nectar@FreeBSD.org] (1998 - 2006)
-* Matthew Hunt mailto:mph@FreeBSD.org[mph@FreeBSD.org] (1998 - 2006)
-* Kenjiro Cho mailto:kjc@FreeBSD.org[kjc@FreeBSD.org] (1997 - 2006)
-* Hiroyuki HANAI mailto:hanai@FreeBSD.org[hanai@FreeBSD.org] (1997 - 2006)
-* Eivind Eklund mailto:eivind@FreeBSD.org[eivind@FreeBSD.org] (1997 - 2005)
-* Vincent Tougait mailto:viny@FreeBSD.org[viny@FreeBSD.org] (2004 - 2005)
-* Stéphane Legrand mailto:stephane@FreeBSD.org[stephane@FreeBSD.org] (2002 - 2005)
-* Andrew R. Reiter mailto:arr@FreeBSD.org[arr@FreeBSD.org] (2001 - 2005)
-* SADA Kenji mailto:sada@FreeBSD.org[sada@FreeBSD.org] (1998 - 2005)
-* Seiichirou Hiraoka mailto:flathill@FreeBSD.org[flathill@FreeBSD.org] (1998 - 2005)
-* Paul Richards mailto:paul@FreeBSD.org[paul@FreeBSD.org] (1993 - 2005)
-* Jonathan Mini mailto:mini@FreeBSD.org[mini@FreeBSD.org] (2002 - 2004)
-* Eric Moore mailto:emoore@FreeBSD.org[emoore@FreeBSD.org] (2002 - 2004)
-* Johann Visagie mailto:wjv@FreeBSD.org[wjv@FreeBSD.org] (2001 - 2004)
-* Randy Pratt mailto:rpratt@FreeBSD.org[rpratt@FreeBSD.org] (2001 - 2004)
-* Orion Hodson mailto:orion@FreeBSD.org[orion@FreeBSD.org] (2001 - 2004)
-* Valentino Vaschetto mailto:logo@FreeBSD.org[logo@FreeBSD.org] (2001 - 2004)
-* Thomas-Henning von Kamptz mailto:tomsoft@FreeBSD.org[tomsoft@FreeBSD.org] (2000 - 2004)
-* Patrick S. Gardella mailto:patrick@FreeBSD.org[patrick@FreeBSD.org] (2000 - 2004)
-* Christoph Herrmann mailto:chm@FreeBSD.org[chm@FreeBSD.org] (2000 - 2004)
-* Satoshi Taoka mailto:taoka@FreeBSD.org[taoka@FreeBSD.org] (1999 - 2004)
-* Jose M. Alcaide mailto:jmas@FreeBSD.org[jmas@FreeBSD.org] (1999 - 2004)
-* Daniel C. Sobral mailto:dcs@FreeBSD.org[dcs@FreeBSD.org] (1999 - 2004)
-* Dan Moschuk mailto:dan@FreeBSD.org[dan@FreeBSD.org] (1999 - 2004)
-* Scott Mace mailto:smace@FreeBSD.org[smace@FreeBSD.org] (1993 - 2004)
-* Alexander Langer mailto:alex@FreeBSD.org[alex@FreeBSD.org] ( - 2004)
-* David Greenman mailto:dg@FreeBSD.org[dg@FreeBSD.org] (1993 - 2003)
-* David W. Chapman Jr. mailto:dwcjr@FreeBSD.org[dwcjr@FreeBSD.org] (2002 - 2003)
-* Dave Zarzycki mailto:zarzycki@FreeBSD.org[zarzycki@FreeBSD.org] (2001 - 2003)
-* Takuya SHIOZAKI mailto:tshiozak@FreeBSD.org[tshiozak@FreeBSD.org] (2001 - 2003)
-* Jim Pirzyk mailto:pirzyk@FreeBSD.org[pirzyk@FreeBSD.org] (2001 - 2003)
-* Wilfredo Sánchez mailto:wsanchez@FreeBSD.org[wsanchez@FreeBSD.org] (2000 - 2003)
-* Toshihiko Arai mailto:toshi@FreeBSD.org[toshi@FreeBSD.org] (2000 - 2003)
-* Maxim Bolotin mailto:mb@FreeBSD.org[mb@FreeBSD.org] (2000 - 2003)
-* Mark Ovens mailto:marko@FreeBSD.org[marko@FreeBSD.org] (2000 - 2003)
-* Atsushi Furuta mailto:furuta@FreeBSD.org[furuta@FreeBSD.org] (2000 - 2003)
-* Rebecca Visger mailto:bean@FreeBSD.org[bean@FreeBSD.org] (2000 - 2003)
-* Yoshinobu Inoue mailto:shin@FreeBSD.org[shin@FreeBSD.org] (1999 - 2003)
-* Peter Holm mailto:pho@FreeBSD.org[pho@FreeBSD.org] (1999 - 2003)
-* Mark Newton mailto:newton@FreeBSD.org[newton@FreeBSD.org] (1999 - 2003)
-* Mark J. Taylor mailto:mtaylor@FreeBSD.org[mtaylor@FreeBSD.org] (1999 - 2003)
-* Larry Lile mailto:lile@FreeBSD.org[lile@FreeBSD.org] (1999 - 2003)
-* Jim Mock mailto:jim@FreeBSD.org[jim@FreeBSD.org] (1999 - 2003)
-* Eric J. Chet mailto:ejc@FreeBSD.org[ejc@FreeBSD.org] (1999 - 2003)
-* Richard Seaman Jr. mailto:dick@FreeBSD.org[dick@FreeBSD.org] (1999 - 2003)
-* Daniel Baker mailto:dbaker@FreeBSD.org[dbaker@FreeBSD.org] (1999 - 2003)
-* Chris Piazza mailto:cpiazza@FreeBSD.org[cpiazza@FreeBSD.org] (1999 - 2003)
-* Chuck Paterson mailto:cp@FreeBSD.org[cp@FreeBSD.org] (1999 - 2003)
-* Peter Hawkins mailto:thepish@FreeBSD.org[thepish@FreeBSD.org] (1998 - 2003)
-* Semen Ustimenko mailto:semenu@FreeBSD.org[semenu@FreeBSD.org] (1998 - 2003)
-* Robert V. Baron mailto:rvb@FreeBSD.org[rvb@FreeBSD.org] (1998 - 2003)
-* Robert Nordier mailto:rnordier@FreeBSD.org[rnordier@FreeBSD.org] (1998 - 2003)
-* Dmitrij Tejblum mailto:dt@FreeBSD.org[dt@FreeBSD.org] (1998 - 2003)
-* Dirk Frömberg mailto:dirk@FreeBSD.org[dirk@FreeBSD.org] (1998 - 2003)
-* Matthew Dillon mailto:dillon@FreeBSD.org[dillon@FreeBSD.org] (1998 - 2003)
-* Gene Stark mailto:stark@FreeBSD.org[stark@FreeBSD.org] (1997 - 2003)
-* Peter da Silva mailto:pds@FreeBSD.org[pds@FreeBSD.org] (1997 - 2003)
-* Justin Seger mailto:jseger@FreeBSD.org[jseger@FreeBSD.org] (1997 - 2003)
-* Wolfgang Helbig mailto:helbig@FreeBSD.org[helbig@FreeBSD.org] (1997 - 2003)
-* Steve Passe mailto:fsmp@FreeBSD.org[fsmp@FreeBSD.org] (1997 - 2003)
-* Chris Timmons mailto:cwt@FreeBSD.org[cwt@FreeBSD.org] (1997 - 2003)
-* Brandon Gillespie mailto:brandon@FreeBSD.org[brandon@FreeBSD.org] (1997 - 2003)
-* Sujal Patel mailto:smpatel@FreeBSD.org[smpatel@FreeBSD.org] (1996 - 2003)
-* Michael Smith mailto:msmith@FreeBSD.org[msmith@FreeBSD.org] (1996 - 2003)
-* Ade Barkah mailto:mbarkah@FreeBSD.org[mbarkah@FreeBSD.org] (1996 - 2003)
-* James FitzGibbon mailto:jfitz@FreeBSD.org[jfitz@FreeBSD.org] (1996 - 2003)
-* David Nugent mailto:davidn@FreeBSD.org[davidn@FreeBSD.org] (1996 - 2003)
-* Lars Fredriksen mailto:lars@FreeBSD.org[lars@FreeBSD.org] (1995 - 2003)
-* John Fieber mailto:jfieber@FreeBSD.org[jfieber@FreeBSD.org] (1995 - 2003)
-* Peter Dufault mailto:dufault@FreeBSD.org[dufault@FreeBSD.org] (1995 - 2003)
-* Atsushi Murai mailto:amurai@FreeBSD.org[amurai@FreeBSD.org] (1995 - 2003)
-* Ugen J.S. Antsilevich mailto:ugen@FreeBSD.org[ugen@FreeBSD.org] (1994 - 2003)
-* Steven Wallace mailto:swallace@FreeBSD.org[swallace@FreeBSD.org] (1994 - 2003)
-* Stefan Bethke mailto:stb@FreeBSD.org[stb@FreeBSD.org] (1994 - 2003)
-* Rich Murphey mailto:rich@FreeBSD.org[rich@FreeBSD.org] (1994 - 2003)
-* Paul Traina mailto:pst@FreeBSD.org[pst@FreeBSD.org] (1994 - 2003)
-* Mike Spengler mailto:mks@FreeBSD.org[mks@FreeBSD.org] (1994 - 2003)
-* L Jonas Olsson mailto:ljo@FreeBSD.org[ljo@FreeBSD.org] (1994 - 2003)
-* Geoff Rehmet mailto:csgr@FreeBSD.org[csgr@FreeBSD.org] (1994 - 2003)
-* Adam David mailto:adam@FreeBSD.org[adam@FreeBSD.org] (1994 - 2003)
-* Nate Williams mailto:nate@FreeBSD.org[nate@FreeBSD.org] (1993 - 2003)
-* Gary Palmer mailto:gpalmer@FreeBSD.org[gpalmer@FreeBSD.org] (1993 - 2003)
-* Akio Morita mailto:amorita@FreeBSD.org[amorita@FreeBSD.org] (2001 - 2002)
-* Yasushi UCHIYAMA mailto:uch@FreeBSD.org[uch@FreeBSD.org] (2000 - 2002)
-* Shafeeq Sinnamohideen mailto:shafeeq@FreeBSD.org[shafeeq@FreeBSD.org] (2000 - 2002)
-* Jeremy Lea mailto:reg@FreeBSD.org[reg@FreeBSD.org] (2000 - 2002)
-* Jing-Tang Keith Jang mailto:keith@FreeBSD.org[keith@FreeBSD.org] (2000 - 2002)
-* Issei Suzuki mailto:issei@FreeBSD.org[issei@FreeBSD.org] (2000 - 2002)
-* Christopher Shumway mailto:cshumway@FreeBSD.org[cshumway@FreeBSD.org] (2000 - 2002)
-* Assar Westerlund mailto:assar@FreeBSD.org[assar@FreeBSD.org] (2000 - 2002)
-* Yukihiro Nakai mailto:nakai@FreeBSD.org[nakai@FreeBSD.org] (1999 - 2002)
-* Jeroen Ruigrok/Asmodai mailto:asmodai@FreeBSD.org[asmodai@FreeBSD.org] (1999 - 2002)
-* Donald Burr mailto:dburr@FreeBSD.org[dburr@FreeBSD.org] (1998 - 2002)
-* Andrzej Bialecki mailto:abial@FreeBSD.org[abial@FreeBSD.org] (1998 - 2002)
-* Jonathan M. Bresler mailto:jmb@FreeBSD.org[jmb@FreeBSD.org] (1997 - 2002)
-* Daniel O'Callaghan mailto:danny@FreeBSD.org[danny@FreeBSD.org] (1997 - 2002)
-* Thomas Graichen mailto:graichen@FreeBSD.org[graichen@FreeBSD.org] (1996 - 2002)
-* Torsten Blum mailto:torstenb@FreeBSD.org[torstenb@FreeBSD.org] (1995 - 2002)
-* Joshua Peck Macdonald mailto:jmacd@FreeBSD.org[jmacd@FreeBSD.org] (1995 - 2002)
-* Eric L. Hernes mailto:erich@FreeBSD.org[erich@FreeBSD.org] (1995 - 2002)
-* Martin Renters mailto:martin@FreeBSD.org[martin@FreeBSD.org] (1994 - 2002)
-* Bill Swingle mailto:unfurl@FreeBSD.org[unfurl@FreeBSD.org] (2000 - 2001)
-* Rajesh Vaidheeswarran mailto:rv@FreeBSD.org[rv@FreeBSD.org] (2000 - 2001)
-* David E. Cross mailto:dec@FreeBSD.org[dec@FreeBSD.org] (2000 - 2001)
-* Gerard Roudier mailto:groudier@FreeBSD.org[groudier@FreeBSD.org] (1999 - 2001)
-* Kazutaka YOKOTA mailto:yokota@FreeBSD.org[yokota@FreeBSD.org] (1997 - 2001)
-* Dima Ruban mailto:dima@FreeBSD.org[dima@FreeBSD.org] (1995 - 2001)
-* Sean Eric Fagan mailto:sef@FreeBSD.org[sef@FreeBSD.org] (1993 - 2001)
-* Satoshi Asami mailto:asami@FreeBSD.org[asami@FreeBSD.org] (1993 - 2001)
-* MAEKAWA Masahide mailto:gehenna@FreeBSD.org[gehenna@FreeBSD.org] (1999 - 2000)
-* Ted Mittelstaedt mailto:tedm@FreeBSD.org[tedm@FreeBSD.org] (1997 - 2000)
-* Nate Johnson mailto:nsj@FreeBSD.org[nsj@FreeBSD.org] (1996 - 2000)
-* James Raynard mailto:jraynard@FreeBSD.org[jraynard@FreeBSD.org] (1996 - 2000)
-* Chuck Robey mailto:chuckr@FreeBSD.org[chuckr@FreeBSD.org] (1996 - 2000)
-* Karl Strickland mailto:karl@FreeBSD.org[karl@FreeBSD.org] (1995 - 2000)
-* Gary Clark II mailto:gclarkii@FreeBSD.org[gclarkii@FreeBSD.org] (1993 - 2000)
-* Joe Greco mailto:jgreco@FreeBSD.org[jgreco@FreeBSD.org] (1997 - 1999)
-* Jamil Weatherby mailto:jamil@FreeBSD.org[jamil@FreeBSD.org] (1997 - 1999)
-* Andreas Schulz mailto:ats@FreeBSD.org[ats@FreeBSD.org] (1992 - 1999)
-* Megan McCormack mailto:meganm@FreeBSD.org[meganm@FreeBSD.org] (1997 - 1998)
-* Drew Derbyshire mailto:ahd@FreeBSD.org[ahd@FreeBSD.org] (1997 - 1998)
-* Amancio Hasty mailto:ahasty@FreeBSD.org[ahasty@FreeBSD.org] (1997 - 1998)
-* John Dyson mailto:dyson@FreeBSD.org[dyson@FreeBSD.org] (1993 - 1998)
-* Andras Olah mailto:olah@FreeBSD.org[olah@FreeBSD.org] (1995 - 1996)
-* Julian Stacey mailto:jhs@FreeBSD.org[jhs@FreeBSD.org] (1995 - 1995)
+* {wilko} (2000 - 2012)
+* {murray} (2000 - 2012)
+* {steve} (1996 - 2012)
+* {weongyo} (2007 - 2011)
+* {ticso} (2002 - 2011)
+* {rse} (1997 - 2011)
+* {mlaier} (2004 - 2011)
+* {art} (2011)
+* {jacula} (2010 - 2011)
+* {nemoliu} (2007 - 2011)
+* {alexbl} (2006 - 2011)
+* {alepulver} (2006 - 2011)
+* {tmclaugh} (2005 - 2011)
+* {anray} (2005 - 2011)
+* {niels} (2004 - 2011)
+* {sergei} (2003 - 2011)
+* {mux} (2002 - 2011)
+* {hm} (1998 - 2011)
+* {ijliao} (2001 - 2011)
+* {scrappy} (1996 - 2011)
+* {wes} (1998 - 2010)
+* {simokawa} (1999 - 2010)
+* {sepotvin} (2007 - 2010)
+* {sam} (2002 - 2010)
+* {nork} (2002 - 2010)
+* {mbr} (2001 - 2010)
+* {dd} (2001 - 2010)
+* {anchie} (2010)
+* {olli} (2008 - 2010)
+* {kato} (1996 - 2010)
+* {bruno} (2005 - 2010)
+* {snb} (2009 - 2010)
+* {cbzimmer} (2009 - 2010)
+* {bushman} (2007 - 2010)
+* {benjsc} (2007 - 2010)
+* {rink} (2006 - 2010)
+* {piso} (2006 - 2010)
+* {laszlof} (2006 - 2010)
+* {bvs} (2005 - 2010)
+* {barner} (2005 - 2010)
+* {vs} (2004 - 2010)
+* {dds} (2003 - 2010)
+* {perky} (2002 - 2010)
+* {yoichi} (2001 - 2010)
+* {okazaki} (2000 - 2010)
+* {cjh} (2000 - 2010)
+* {jesusr} (1998 - 2010)
+* {ssouhlal} (2004 - 2009)
+* {sson} (2008 - 2009)
+* {markus} (2006 - 2009)
+* {green} (1999 - 2009)
+* {darrenr} (1997 - 2009)
+* {ariff} (2005 - 2009)
+* {sos} (1993 - 2009)
+* {mtm} (2003 - 2009)
+* {matteo} (2006 - 2009)
+* {jon} (2000 - 2009)
+* {guido} (1993 - 2009)
+* {dwhite} (1998 - 2009)
+* {cokane} (2000 - 2009)
+* {sat} (2006 - 2009)
+* {jcamou} (2005 - 2009)
+* {rushani} (2003 - 2009)
+* {nik} (1998 - 2009)
+* {lofi} (2003 - 2009)
+* {den} (2003 - 2009)
+* {obraun} (2002 - 2009)
+* {anholt} (2002 - 2009)
+* {mwlucas} (2001 - 2009)
+* {chern} (2001 - 2009)
+* {mita} (2000 - 2009)
+* {horikawa} (2000 - 2009)
+* {clive} (2000 - 2009)
+* {gioria} (1999 - 2009)
+* {rik} (2003 - 2008)
+* {pb} (2003 - 2008)
+* {mpp} (1995 - 2008)
+* {luoqi} (1998 - 2008)
+* {iedowse} (2000 - 2008)
+* {tg} (1995 - 2009)
+* {kris} (1999 - 2008)
+* {sephe} (2007 - 2008)
+* {davidc} (2001 - 2008)
+* {kishore} (2007 - 2008)
+* {twinterg} (2006 - 2008)
+* {koitsu} (2006 - 2008)
+* {bakul} (2006 - 2008)
+* {jylefort} (2005 - 2008)
+* {garys} (2005 - 2008)
+* {damien} (2005 - 2008)
+* {aaron} (2005 - 2008)
+* {tackerman} (2004 - 2008)
+* {metal} (2004 - 2008)
+* {marks} (2004 - 2008)
+* {lesi} (2004 - 2008)
+* {josef} (2004 - 2008)
+* {dhartmei} (2004 - 2008)
+* {sah} (2004 - 2008)
+* {rsm} (2003 - 2008)
+* {hoek} (2003 - 2008)
+* {eik} (2003 - 2008)
+* {matk} (2003 - 2008)
+* {njl} (2002 - 2008)
+* {ikob} (2002 - 2008)
+* {pdeuskar} (2001 - 2008)
+* {mikeh} (2001 - 2008)
+* {shiba} (2000 - 2008)
+* {pat} (2000 - 2008)
+* {onoe} (2000 - 2008)
+* {lkoeller} (2000 - 2008)
+* {jayanth} (2000 - 2008)
+* {jake} (2000 - 2008)
+* {dmlb} (2000 - 2008)
+* {bmilekic} (2000 - 2008)
+* {babkin} (2000 - 2008)
+* {joe} (1999 - 2008)
+* {imura} (1999 - 2008)
+* {andy} (1999 - 2008)
+* {shige} (1999 - 2008)
+* {hosokawa} (1998 - 2008)
+* {foxfair} (1998 - 2008)
+* {billf} (1998 - 2008)
+* {tegge} (1997 - 2008)
+* {jlemon} (1997 - 2008)
+* {fenner} (1996 - 2008)
+* {andreas} (1996 - 2008)
+* {jdp} ( - 2008)
+* {hsu} ( - 2008)
+* {wpaul} (1995 - 2007)
+* {suz} (2002 - 2007)
+* {le} (2004 - 2007)
+* {jls} (2006 - 2007)
+* {jinmei} (2007)
+* {hmp} (2004 - 2007)
+* {phantom} (1999 - 2007)
+* {mohans} (2006 - 2007)
+* {cel} (2006 - 2007)
+* {lawrance} (2005 - 2007)
+* {rees} (2004 - 2007)
+* {tjr} (2002 - 2007)
+* {johan} (2002 - 2007)
+* {markp} (2001 - 2007)
+* {jesper} (2001 - 2007)
+* {eric} (2001 - 2007)
+* {trevor} (2000 - 2007)
+* {non} (2000 - 2007)
+* {kbyanc} (2000 - 2007)
+* {jeh} (2000 - 2007)
+* {gsutter} (2000 - 2007)
+* {bsd} (2000 - 2007)
+* {tom} (1999 - 2007)
+* {mharo} (1999 - 2007)
+* {chris} (1999 - 2007)
+* {bp} (1999 - 2007)
+* {archie} (1998 - 2007)
+* {yar} ( - 2007)
+* {tanimura} (1999 - 2006)
+* {peadar} (2004 - 2006)
+* {wsalamon} (2005 - 2006)
+* {mdodd} (1999 - 2006)
+* {vkashyap} (2004 - 2006)
+* {niklas} (2004 - 2006)
+* {smkelly} (2003 - 2006)
+* {arun} (2003 - 2006)
+* {am} (2003 - 2006)
+* {scop} (2002 - 2006)
+* {mheinen} (2002 - 2006)
+* {jennifer} (2002 - 2006)
+* {znerd} (2001 - 2006)
+* {keichii} (2001 - 2006)
+* {ue} (2001 - 2006)
+* {tmm} (2001 - 2006)
+* {robert} (2001 - 2006)
+* {petef} (2001 - 2006)
+* {mike} (2001 - 2006)
+* {greid} (2001 - 2006)
+* {cjc} (2001 - 2006)
+* {bbraun} (2001 - 2006)
+* {sf} (2000 - 2006)
+* {kiri} (2000 - 2006)
+* {dannyboy} (2000 - 2006)
+* {ben} (2000 - 2006)
+* {sheldonh} (1999 - 2006)
+* {roger} (1999 - 2006)
+* {nsayer} (1999 - 2006)
+* {nbm} (1999 - 2006)
+* {jedgar} (1999 - 2006)
+* {nsouch} (1998 - 2006)
+* {nectar} (1998 - 2006)
+* {mph} (1998 - 2006)
+* {kjc} (1997 - 2006)
+* {hanai} (1997 - 2006)
+* {eivind} (1997 - 2005)
+* {viny} (2004 - 2005)
+* {stephane} (2002 - 2005)
+* {arr} (2001 - 2005)
+* {sada} (1998 - 2005)
+* {flathill} (1998 - 2005)
+* {paul} (1993 - 2005)
+* {mini} (2002 - 2004)
+* {emoore} (2002 - 2004)
+* {wjv} (2001 - 2004)
+* {rpratt} (2001 - 2004)
+* {orion} (2001 - 2004)
+* {logo} (2001 - 2004)
+* {tomsoft} (2000 - 2004)
+* {patrick} (2000 - 2004)
+* {chm} (2000 - 2004)
+* {taoka} (1999 - 2004)
+* {jmas} (1999 - 2004)
+* {dcs} (1999 - 2004)
+* {dan} (1999 - 2004)
+* {smace} (1993 - 2004)
+* {alex} ( - 2004)
+* {dg} (1993 - 2003)
+* {dwcjr} (2002 - 2003)
+* {zarzycki} (2001 - 2003)
+* {tshiozak} (2001 - 2003)
+* {pirzyk} (2001 - 2003)
+* {wsanchez} (2000 - 2003)
+* {toshi} (2000 - 2003)
+* {mb} (2000 - 2003)
+* {marko} (2000 - 2003)
+* {furuta} (2000 - 2003)
+* {bean} (2000 - 2003)
+* {shin} (1999 - 2003)
+* {pho} (1999 - 2003)
+* {newton} (1999 - 2003)
+* {mtaylor} (1999 - 2003)
+* {lile} (1999 - 2003)
+* {jim} (1999 - 2003)
+* {ejc} (1999 - 2003)
+* {dick} (1999 - 2003)
+* {dbaker} (1999 - 2003)
+* {cpiazza} (1999 - 2003)
+* {cp} (1999 - 2003)
+* {thepish} (1998 - 2003)
+* {semenu} (1998 - 2003)
+* {rvb} (1998 - 2003)
+* {rnordier} (1998 - 2003)
+* {dt} (1998 - 2003)
+* {dirk} (1998 - 2003)
+* {dillon} (1998 - 2003)
+* {stark} (1997 - 2003)
+* {pds} (1997 - 2003)
+* {jseger} (1997 - 2003)
+* {helbig} (1997 - 2003)
+* {fsmp} (1997 - 2003)
+* {cwt} (1997 - 2003)
+* {brandon} (1997 - 2003)
+* {smpatel} (1996 - 2003)
+* {msmith} (1996 - 2003)
+* {mbarkah} (1996 - 2003)
+* {jfitz} (1996 - 2003)
+* {davidn} (1996 - 2003)
+* {lars} (1995 - 2003)
+* {jfieber} (1995 - 2003)
+* {dufault} (1995 - 2003)
+* {amurai} (1995 - 2003)
+* {ugen} (1994 - 2003)
+* {swallace} (1994 - 2003)
+* {stb} (1994 - 2003)
+* {rich} (1994 - 2003)
+* {pst} (1994 - 2003)
+* {mks} (1994 - 2003)
+* {ljo} (1994 - 2003)
+* {csgr} (1994 - 2003)
+* {adam} (1994 - 2003)
+* {nate} (1993 - 2003)
+* {gpalmer} (1993 - 2003)
+* {amorita} (2001 - 2002)
+* {uch} (2000 - 2002)
+* {shafeeq} (2000 - 2002)
+* {reg} (2000 - 2002)
+* {keith} (2000 - 2002)
+* {issei} (2000 - 2002)
+* {cshumway} (2000 - 2002)
+* {assar} (2000 - 2002)
+* {nakai} (1999 - 2002)
+* {asmodai} (1999 - 2002)
+* {dburr} (1998 - 2002)
+* {abial} (1998 - 2002)
+* {jmb} (1997 - 2002)
+* {danny} (1997 - 2002)
+* {graichen} (1996 - 2002)
+* {torstenb} (1995 - 2002)
+* {jmacd} (1995 - 2002)
+* {erich} (1995 - 2002)
+* {martin} (1994 - 2002)
+* {unfurl} (2000 - 2001)
+* {rv} (2000 - 2001)
+* {dec} (2000 - 2001)
+* {groudier} (1999 - 2001)
+* {yokota} (1997 - 2001)
+* {dima} (1995 - 2001)
+* {sef} (1993 - 2001)
+* {asami} (1993 - 2001)
+* {gehenna} (1999 - 2000)
+* {tedm} (1997 - 2000)
+* {nsj} (1996 - 2000)
+* {jraynard} (1996 - 2000)
+* {chuckr} (1996 - 2000)
+* {karl} (1995 - 2000)
+* {gclarkii} (1993 - 2000)
+* {jgreco} (1997 - 1999)
+* {jamil} (1997 - 1999)
+* {ats} (1992 - 1999)
+* {meganm} (1997 - 1998)
+* {ahd} (1997 - 1998)
+* {ahasty} (1997 - 1998)
+* {dyson} (1993 - 1998)
+* {olah} (1995 - 1996)
+* {jhs} (1995 - 1995)
 * gjp (1995 - 1995)
-* Andrew Moore mailto:alm@FreeBSD.org[alm@FreeBSD.org] (1993 - 1995)
+* {alm} (1993 - 1995)
 
 [[contrib-portmgralumni]]
 == Ex Membros do Ports Management
@@ -1042,28 +1075,28 @@ As seguintes pessoas eram membros do time portmgr do FreeBSD durante os período
 
 _Em ordem cronológica reversa:_
 
-* Mark Felder mailto:feld@FreeBSD.org[feld@FreeBSD.org] (2016 - 2019)
-* Martin Wilke mailto:miwi@FreeBSD.org[miwi@FreeBSD.org] (2009 - 2016)
-* Erwin Lansing mailto:erwin@FreeBSD.org[erwin@FreeBSD.org] (2004 - 2016)
-* Bernhard Fröhlich mailto:decke@FreeBSD.org[decke@FreeBSD.org] (2012 - 2015)
-* Thomas Abthorpe mailto:tabthorpe@FreeBSD.org[tabthorpe@FreeBSD.org] (2011 - 2014)
-* Ion-Mihai Tetcu mailto:itetcu@FreeBSD.org[itetcu@FreeBSD.org] (2009 - 2014)
-* Joe Marcus Clarke mailto:marcus@FreeBSD.org[marcus@FreeBSD.org] (2004 - 2014)
-* Beat Gätzi mailto:beat@FreeBSD.org[beat@FreeBSD.org] (2011 - 2013)
-* Mark Linimon mailto:linimon@FreeBSD.org[linimon@FreeBSD.org] (2004 - 2013)
-* Pav Lucistnik mailto:pav@FreeBSD.org[pav@FreeBSD.org] (2006 - 2012)
-* Florent Thoumie mailto:flz@FreeBSD.org[flz@FreeBSD.org] (2008 - 2012)
-* Kris Kennaway mailto:kris@FreeBSD.org[kris@FreeBSD.org] (2001 - 2010)
-* Kirill Ponomarew mailto:krion@FreeBSD.org[krion@FreeBSD.org] (2004 - 2009)
-* Clement Laforet mailto:clement@FreeBSD.org[clement@FreeBSD.org] (2005 - 2007)
-* Oliver Eikemeier mailto:eik@FreeBSD.org[eik@FreeBSD.org] (2004 - 2005)
-* Will Andrews mailto:will@FreeBSD.org[will@FreeBSD.org] (2001 - 2004)
-* Akinori MUSHA mailto:knu@FreeBSD.org[knu@FreeBSD.org] (2001 - 2004)
-* Mário Sérgio Fujikawa Ferreira mailto:lioux@FreeBSD.org[lioux@FreeBSD.org] (2001 - 2004)
-* Maxim Sobolev mailto:sobomax@FreeBSD.org[sobomax@FreeBSD.org] (2001 - 2004)
-* Steve Price mailto:steve@FreeBSD.org[steve@FreeBSD.org] (2001 - 2004)
-* Ade Lovett mailto:ade@FreeBSD.org[ade@FreeBSD.org] (2001 - 2002)
-* Satoshi Asami mailto:asami@FreeBSD.org[asami@FreeBSD.org] ( - 2001)
+* {feld} (2016 - 2019)
+* {miwi} (2009 - 2016)
+* {erwin} (2004 - 2016)
+* {decke} (2012 - 2015)
+* {tabthorpe} (2011 - 2014)
+* {itetcu} (2009 - 2014)
+* {marcus} (2004 - 2014)
+* {beat} (2011 - 2013)
+* {linimon} (2004 - 2013)
+* {pav} (2006 - 2012)
+* {flz} (2008 - 2012)
+* {kris} (2001 - 2010)
+* {krion} (2004 - 2009)
+* {clement} (2005 - 2007)
+* {eik} (2004 - 2005)
+* {will} (2001 - 2004)
+* {knu} (2001 - 2004)
+* {lioux} (2001 - 2004)
+* {sobomax} (2001 - 2004)
+* {steve} (2001 - 2004)
+* {ade} (2001 - 2002)
+* {asami} ( - 2001)
 
 [[contrib-develinmemoriam]]
 == Time de Desenvolvimento: Em memória
@@ -1196,6 +1229,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Aleksander Fafula mailto:alex@fafula.com[alex@fafula.com]
 * Aleksandr A Babaylov mailto:.@babolo.ru[.@babolo.ru]
 * Aleksandr S. Goncharov mailto:mraleks@bk.ru[mraleks@bk.ru]
+* Alessandro Sagratini mailto:ale_sagra@hotmail.com[ale_sagra@hotmail.com]
 * Alex D. Chen mailto:dhchen@elearning.nsysu.edu.tw[dhchen@elearning.nsysu.edu.tw]
 * Alex Deiter mailto:tiamat@komi.mts.ru[tiamat@komi.mts.ru]
 * Alex G. Bulushev mailto:bag@demos.su[bag@demos.su]
@@ -1218,7 +1252,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Alex Wilkinson mailto:alex.wilkinson@dsto.defence.gov.au[alex.wilkinson@dsto.defence.gov.au]
 * Alex Zepeda mailto:garbanzo@hooked.net[garbanzo@hooked.net]
 * Alexander Bechikov mailto:goo@t72.ru[goo@t72.ru]
-* Alexander Best mailto:arundel@FreeBSD.org[arundel@FreeBSD.org]
+* {arundel}
 * Alexander Churanov mailto:alexanderchuranov@gmail.com[alexanderchuranov@gmail.com]
 * Alexander B. Povolotsky mailto:tarkhil@mgt.msk.ru[tarkhil@mgt.msk.ru]
 * Alexander Gelfenbain mailto:mail@gelf.com[mail@gelf.com]
@@ -1241,6 +1275,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Alexander Sieg mailto:alex@xanderio.de[alex@xanderio.de]
 * Alexander Zagrebin mailto:alexz@visp.ru[alexz@visp.ru]
 * Alexander Zhuravlev mailto:zaa@zaa.pp.ru[zaa@zaa.pp.ru]
+* Alexandre Liberato mailto:alexandre@feiler.co[alexandre@feiler.co]
 * Alexandre Peixoto mailto:alexandref@tcoip.com.br[alexandref@tcoip.com.br]
 * Alexandre Snarskii mailto:snar@paranoia.ru[snar@paranoia.ru]
 * Alexandre Vasconcelos mailto:alex.vasconcelos@gmail.com[alex.vasconcelos@gmail.com]
@@ -1264,7 +1299,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Alphons "Fonz" van Werven mailto:freebsd@skysmurf.nl[freebsd@skysmurf.nl]
 * Amakawa Shuhei mailto:amakawa@hoh.t.u-tokyo.ac.jp[amakawa@hoh.t.u-tokyo.ac.jp]
 * Amar Takhar mailto:verm@drunkmonk.net[verm@drunkmonk.net]
-* Amaziles José Antonio Martins de Carvalho mailto:amazilesjose@gmail.com[amazilesjose@gmail.com]
+* Amaziles JosÃ(C) Antonio Martins de Carvalho mailto:amazilesjose@gmail.com[amazilesjose@gmail.com]
 * Amir Farah mailto:amir@comtrol.com[amir@comtrol.com]
 * Amir Shalem mailto:amir@boom.org.il[amir@boom.org.il]
 * Amarendra Godbole mailto:amarendra.godbole@gmail.com[amarendra.godbole@gmail.com]
@@ -1283,7 +1318,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Anderson S. Ferreira mailto:anderson@cnpm.embrapa.br[anderson@cnpm.embrapa.br]
 * Andi Payn mailto:andi_payn@speedymail.org[andi_payn@speedymail.org]
 * Andre Albsmeier mailto:Andre.Albsmeier@mchp.siemens.de[Andre.Albsmeier@mchp.siemens.de]
-* André Franciosi mailto:andre@franciosi.org[andre@franciosi.org]
+* AndrÃ(C) Franciosi mailto:andre@franciosi.org[andre@franciosi.org]
 * Andre Goeree mailto:abgoeree@uwnet.nl[abgoeree@uwnet.nl]
 * Andre Yelistratov mailto:andre@andre.net.ru[andre@andre.net.ru]
 * Andrea Venturoli mailto:a.ventu@flashnet.it[a.ventu@flashnet.it]
@@ -1301,7 +1336,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Andreas Kohn mailto:andreas@syndrom23.de[andreas@syndrom23.de]
 * Andreas Kohout mailto:shanee@rabbit.augusta.de[shanee@rabbit.augusta.de]
 * Andreas Lohr mailto:andreas@marvin.RoBIN.de[andreas@marvin.RoBIN.de]
-* Andreas Möller mailto:segfault@gmx.net[segfault@gmx.net]
+* Andreas MÃ¶ller mailto:segfault@gmx.net[segfault@gmx.net]
 * Andreas Riedel mailto:rian@hrz.tu-chemnitz.de[rian@hrz.tu-chemnitz.de]
 * Andreas Sommer mailto:andreas.sommer87@googlemail.com[andreas.sommer87@googlemail.com]
 * Andreas Wetzel mailto:mickey@deadline.snafu.de[mickey@deadline.snafu.de]
@@ -1339,6 +1374,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Andrew V. Stesin mailto:stesin@elvisti.kiev.ua[stesin@elvisti.kiev.ua]
 * Andrew V. Stikheev mailto:sand@links.ru[sand@links.ru]
 * Andrew Webster mailto:awebster@dataradio.com[awebster@dataradio.com]
+* Andrey Cherkashin mailto:andoriyu@gmail.com[andoriyu@gmail.com]
 * Andrey Fesenko mailto:andrey@bsdnir.info[andrey@bsdnir.info]
 * Andrey Novikov mailto:andrey@novikov.com[andrey@novikov.com]
 * Andrey Simonenko mailto:simon@comsys.ntu-kpi.kiev.ua[simon@comsys.ntu-kpi.kiev.ua]
@@ -1396,7 +1432,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Atushi Sakauchi mailto:sakauchi@yamame.to[sakauchi@yamame.to]
 * Autrijus Tang mailto:autrijus@autrijus.org[autrijus@autrijus.org]
 * Axel Gonzalez mailto:loox@e-shell.net[loox@e-shell.net]
-* Balázs Nagy mailto:js@iksz.hu[js@iksz.hu]
+* BalÃ¡zs Nagy mailto:js@iksz.hu[js@iksz.hu]
 * Barry Bierbauch mailto:pivrnec@vszbr.cz[pivrnec@vszbr.cz]
 * Barry Lustig mailto:barry@ictv.com[barry@ictv.com]
 * Bartosz Fabianowski mailto:freebsd@chillt.de[freebsd@chillt.de]
@@ -1405,7 +1441,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Ben Jackson
 * Ben Walter mailto:bwalter@itachi.swcp.com[bwalter@itachi.swcp.com]
 * Ben Woolley mailto:ports@tautology.org[ports@tautology.org]
-* Benedikt Köhler mailto:benedikt@furukama.de[benedikt@furukama.de]
+* Benedikt KÃ¶hler mailto:benedikt@furukama.de[benedikt@furukama.de]
 * Beni Keller mailto:navigium@grindcore.ch[navigium@grindcore.ch]
 * Benjamin Lewis mailto:bhlewis@gte.net[bhlewis@gte.net]
 * Benjamin Lutz mailto:benlutz@datacomm.ch[benlutz@datacomm.ch]
@@ -1419,8 +1455,8 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Bill Lloyd mailto:wlloyd@mpd.ca[wlloyd@mpd.ca]
 * Bill Moran mailto:wmoran@collaborativefusion.com[wmoran@collaborativefusion.com]
 * Bill Trost mailto:trost@cloud.rain.com[trost@cloud.rain.com]
-* Björn König mailto:bkoenig@cs.tu-berlin.de[bkoenig@cs.tu-berlin.de]
-* Björn Lindström mailto:bkhl@elektrubadur.se[bkhl@elektrubadur.se]
+* BjÃ¶rn KÃ¶nig mailto:bkoenig@cs.tu-berlin.de[bkoenig@cs.tu-berlin.de]
+* BjÃ¶rn LindstrÃ¶m mailto:bkhl@elektrubadur.se[bkhl@elektrubadur.se]
 * Blaz Zupan mailto:blaz@amis.net[blaz@amis.net]
 * BluePex Security Solutions mailto:freebsd-ports@bluepex.com[freebsd-ports@bluepex.com]
 * Bob Eager mailto:bob@eager.cx[bob@eager.cx]
@@ -1475,7 +1511,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Carsten Larsen mailto:cs@innolan.dk[cs@innolan.dk]
 * Casper mailto:casper@acc.am[casper@acc.am]
 * Castor Fu mailto:castor@geocast.com[castor@geocast.com]
-* Cédric Lamalle mailto:cedric@cedric.trix.net[cedric@cedric.trix.net]
+* CÃ(C)dric Lamalle mailto:cedric@cedric.trix.net[cedric@cedric.trix.net]
 * Cezary Morga mailto:cm@therek.net[cm@therek.net]
 * Chad Castleberry mailto:crcastle@ius.edu[crcastle@ius.edu]
 * Chad Jacob Milios mailto:milios@ccsys.com[milios@ccsys.com]
@@ -1521,7 +1557,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Christian Schade mailto:christian.schade@interface-projects.de[christian.schade@interface-projects.de]
 * Christian Ullrich mailto:chris@chrullrich.net[chris@chrullrich.net]
 * Christian Zander mailto:zander@minion.de[zander@minion.de]
-* Christoph P. Kukulies mailto:kuku@FreeBSD.org[kuku@FreeBSD.org]
+* {kuku}
 * Christoph Robitschko mailto:chmr@edvz.tu-graz.ac.at[chmr@edvz.tu-graz.ac.at]
 * Christoph Weber-Fahr mailto:wefa@callcenter.systemhaus.net[wefa@callcenter.systemhaus.net]
 * Christophe Juniet mailto:cjuniet@entreview.com[cjuniet@entreview.com]
@@ -1591,7 +1627,6 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Daniel Blankensteiner mailto:db@TruNet.dk[db@TruNet.dk]
 * Daniel Bretoi mailto:daniel@netwalk.org[daniel@netwalk.org]
 * Daniel Bryan mailto:sisko@bsdmail.com[sisko@bsdmail.com]
-* Daniel Ebdrup Jensen mailto:debdrup@FreeBSD.org[debdrup@FreeBSD.org]
 * Daniel Hagan mailto:dhagan@acm.vt.edu[dhagan@acm.vt.edu]
 * Daniel Levai mailto:leva@ecentrum.hu[leva@ecentrum.hu]
 * Daniel J. O'Connor mailto:darius@dons.net.au[darius@dons.net.au]
@@ -1599,6 +1634,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Daniel Poirot mailto:poirot@aio.jsc.nasa.gov[poirot@aio.jsc.nasa.gov]
 * Daniel Rock mailto:rock@cs.uni-sb.de[rock@cs.uni-sb.de]
 * Daniel Roethlisberger mailto:daniel@roe.ch[daniel@roe.ch]
+* Daniel Tihanyi mailto:daniel.tihanyi@tetragir.com[daniel.tihanyi@tetragir.com]
 * Daniel W. McRobb mailto:dwm@caimis.com[dwm@caimis.com]
 * Daniel W. Steinbrook mailto:dsteinbr@fas.harvard.edu[dsteinbr@fas.harvard.edu]
 * Daniel Wijnands mailto:daniel@itxl.nl[daniel@itxl.nl]
@@ -1621,7 +1657,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Dave Glowacki mailto:dglo@ssec.wisc.edu[dglo@ssec.wisc.edu]
 * Dave Green mailto:dg@fastmail.co.uk[dg@fastmail.co.uk]
 * Dave Marquardt mailto:marquard@austin.ibm.com[marquard@austin.ibm.com]
-* Dave Tweten mailto:tweten@FreeBSD.org[tweten@FreeBSD.org]
+* {tweten}
 * David A. Adkins mailto:adkin003@tc.umn.edu[adkin003@tc.umn.edu]
 * David A. Bader mailto:dbader@eece.unm.edu[dbader@eece.unm.edu]
 * David Borman mailto:dab@bsdi.com[dab@bsdi.com]
@@ -1661,7 +1697,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * David Romano mailto:unobe@cpan.org[unobe@cpan.org]
 * David S. Miller mailto:davem@jenolan.rutgers.edu[davem@jenolan.rutgers.edu]
 * David Shane Holden mailto:dpejesh@yahoo.com[dpejesh@yahoo.com]
-* David Siebörger mailto:drs@rucus.ru.ac.za[drs@rucus.ru.ac.za]
+* David SiebÃ¶rger mailto:drs@rucus.ru.ac.za[drs@rucus.ru.ac.za]
 * David Sugar mailto:dyfet@gnu.org[dyfet@gnu.org]
 * David Syphers mailto:dsyphers@u.washington.edu[dsyphers@u.washington.edu]
 * David Sze mailto:dsze@alumni.uwaterloo.ca[dsze@alumni.uwaterloo.ca]
@@ -1676,7 +1712,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Demetris Procopiou mailto:dem.procopiou@gmail.com[dem.procopiou@gmail.com]
 * Denis Barov mailto:dindin@dindin.ru[dindin@dindin.ru]
 * Denis Fortin
-* Denis Generalov mailto:gd@rambler-co.ru>[gd@rambler-co.ru>]
+* Denis Generalov mailto:gd@rambler-co.ru[gd@rambler-co.ru]
 * Denis Philippov mailto:for_spam@mezon.ru[for_spam@mezon.ru]
 * Denis E. Podolskiy mailto:bytestore@yandex.ru[bytestore@yandex.ru]
 * Denis Pokataev mailto:catone@cpan.org[catone@cpan.org]
@@ -1713,6 +1749,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Dmitry Pryadko mailto:d.pryadko@rambler-co.ru[d.pryadko@rambler-co.ru]
 * Dmitry Semkin mailto:ds@tic-tac.ru[ds@tic-tac.ru]
 * Dmitry V. Sukhodoyev mailto:raven428@gmail.com[raven428@gmail.com]
+* Dmitry Wagin mailto:dmitry.wagin@ya.ru[dmitry.wagin@ya.ru]
 * Dmytro Rud mailto:unixoid@yahoo.com[unixoid@yahoo.com]
 * Dom Mitchell mailto:dom@myrddin.demon.co.uk[dom@myrddin.demon.co.uk]
 * Domas Mituzas mailto:midom@dammit.lt[midom@dammit.lt]
@@ -1724,7 +1761,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Don Croyle mailto:croyle@gelemna.org[croyle@gelemna.org]
 * Don Morrison mailto:dmorrisn@u.washington.edu[dmorrisn@u.washington.edu]
 * Don Owens mailto:don@regexguy.com[don@regexguy.com]
-* Don Whiteside mailto:whiteside@acm.org[whiteside@acm.org]
+* {whiteside}
 * Don Yuniskis mailto:dgy@rtd.com[dgy@rtd.com]
 * Donald Maddox mailto:dmaddox099@yahoo.com[dmaddox099@yahoo.com]
 * Donn Miller mailto:dmmiller@cvzoom.net[dmmiller@cvzoom.net]
@@ -1751,13 +1788,13 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Edward Chuang mailto:edwardc@firebird.org.tw[edwardc@firebird.org.tw]
 * Edward Wang mailto:edward@edcom.com[edward@edcom.com]
 * Edwin Mons mailto:e@ik.nu[e@ik.nu]
-* Eero Hänninen mailto:fax@nohik.ee[fax@nohik.ee]
+* Eero HÃ¤nninen mailto:fax@nohik.ee[fax@nohik.ee]
 * Ege Rekk mailto:aagero@aage.priv.no[aagero@aage.priv.no]
 * Eiji-usagi-MATSUmoto mailto:usagi@clave.gr.jp[usagi@clave.gr.jp]
 * Eijiro Shibusawa mailto:ej-sib@ice.uec.ac.jp[ej-sib@ice.uec.ac.jp]
 * Eike Bernhardt mailto:eike.bernhardt@gmx.de[eike.bernhardt@gmx.de]
 * Eintisy Chuang mailto:eintisy@gmail.com[eintisy@gmail.com]
-* Paul mailto:onemda@gmail.com[onemda@gmail.com]
+* Eliane Vidal mailto:macevidal@gmail.com[macevidal@gmail.com]
 * Elias Mandouvalos mailto:ocean@mail.gr[ocean@mail.gr]
 * Elisey Savateev mailto:b3k@mail.ru[b3k@mail.ru]
 * Elmar Bartel mailto:bartel@informatik.tu-muenchen.de[bartel@informatik.tu-muenchen.de]
@@ -1828,13 +1865,13 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Francisco Cabrita mailto:include@npf.pt.freebsd.org[include@npf.pt.freebsd.org]
 * Francisco Gomez mailto:francisco@gomezmarin.com[francisco@gomezmarin.com]
 * Francisco Reyes mailto:fjrm@yahoo.com[fjrm@yahoo.com]
-* François Tamone mailto:tamone@eig.unige.ch[tamone@eig.unige.ch]
+* FranÃ§ois Tamone mailto:tamone@eig.unige.ch[tamone@eig.unige.ch]
 * Frank Bartels mailto:knarf@camelot.de[knarf@camelot.de]
 * Frank Behrens mailto:frank@pinky.sax.de[frank@pinky.sax.de]
-* Frank Börner mailto:frank-freebsd@online.de[frank-freebsd@online.de]
+* Frank BÃ¶rner mailto:frank-freebsd@online.de[frank-freebsd@online.de]
 * Frank Chen Hsiung Chan mailto:frankch@waru.life.nthu.edu.tw[frankch@waru.life.nthu.edu.tw]
 * Frank Denis mailto:j@pureftpd.org[j@pureftpd.org]
-* Frank Gründer mailto:elwood@mc5sys.in-berlin.de[elwood@mc5sys.in-berlin.de]
+* Frank GrÃ¼nder mailto:elwood@mc5sys.in-berlin.de[elwood@mc5sys.in-berlin.de]
 * Frank MacLachlan mailto:fpm@n2.net[fpm@n2.net]
 * Frank Mayhar mailto:frank@exit.com[frank@exit.com]
 * Frank Nobis mailto:fn@Radio-do.de[fn@Radio-do.de]
@@ -1852,17 +1889,18 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Fred Templin mailto:templin@erg.sri.com[templin@erg.sri.com]
 * Freddie Cash mailto:fcash@bigfoot.com[fcash@bigfoot.com]
 * Frederic Dubuy mailto:fdubuy@free.fr[fdubuy@free.fr]
-* Frédéric Praca mailto:frederic.praca@freebsd-fr.org[frederic.praca@freebsd-fr.org]
+* FrÃ(C)dÃ(C)ric Praca mailto:frederic.praca@freebsd-fr.org[frederic.praca@freebsd-fr.org]
 * Frederick Earl Gray mailto:fgray@rice.edu[fgray@rice.edu]
 * Fredrik Lennmark mailto:fredrik@min-hemsida.net[fredrik@min-hemsida.net]
 * Fredrik Lindberg mailto:fli@shapeshifter.se[fli@shapeshifter.se]
 * Frerich Raabe mailto:frerich.raabe@gmx.de[frerich.raabe@gmx.de]
 * Fumihiko Kimura mailto:jfkimura@yahoo.co.jp[jfkimura@yahoo.co.jp]
 * Fuyuhiko Maruyama mailto:fuyuhik8@is.titech.ac.jp[fuyuhik8@is.titech.ac.jp]
-* G. Adam Stanislav mailto:adam@redprince.net[adam@redprince.net]
-* Gábor Kincses mailto:gabor@acm.org[gabor@acm.org]
-* Gábor Zahemszky mailto:zgabor@CoDe.hu[zgabor@CoDe.hu]
+* {stanislav}
+* GÃ¡bor Kincses mailto:gabor@acm.org[gabor@acm.org]
+* GÃ¡bor Zahemszky mailto:zgabor@CoDe.hu[zgabor@CoDe.hu]
 * Gasol Wu mailto:gasol.wu@gmail.com[gasol.wu@gmail.com]
+* Gabriel Dutra mailto:0xdutra@gmail.com[0xdutra@gmail.com]
 * Gabriel Rizzo mailto:gabriel96.gsr@gmail.com[gabriel96.gsr@gmail.com]
 * Gareth McCaughan mailto:gjm11@dpmms.cam.ac.uk[gjm11@dpmms.cam.ac.uk]
 * Garrett Rooney mailto:rooneg@electricjellyfish.net[rooneg@electricjellyfish.net]
@@ -1902,7 +1940,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Glenn Johnson mailto:gljohns@bellsouth.net[gljohns@bellsouth.net]
 * Godmar Back mailto:gback@facility.cs.utah.edu[gback@facility.cs.utah.edu]
 * Goran Hammarback mailto:goran@astro.uu.se[goran@astro.uu.se]
-* Goran Mekić mailto:meka@tilda.center[meka@tilda.center]
+* Goran MekiÄ mailto:meka@tilda.center[meka@tilda.center]
 * Gord Matzigkeit mailto:gord@enci.ucalgary.ca[gord@enci.ucalgary.ca]
 * Gordon Greeff mailto:gvg@uunet.co.za[gvg@uunet.co.za]
 * Graham Wheeler mailto:gram@cdsec.com[gram@cdsec.com]
@@ -1918,10 +1956,10 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Greg Ungerer mailto:gerg@stallion.oz.au[gerg@stallion.oz.au]
 * Gregory Bond mailto:gnb@itga.com.au[gnb@itga.com.au]
 * Gregory D. Moncreaff mailto:moncrg@bt340707.res.ray.com[moncrg@bt340707.res.ray.com]
-* Grün Christian-Rolf mailto:kiki@bsdro.org[kiki@bsdro.org]
+* GrÃ¼n Christian-Rolf mailto:kiki@bsdro.org[kiki@bsdro.org]
 * Guillaume Paquet mailto:amyfoub@videotron.ca[amyfoub@videotron.ca]
 * Gurkan Sengun mailto:grknsngn@gmail.com[grknsngn@gmail.com]
-* Gustau Pérez mailto:gustau.perez@gmail.com[gustau.perez@gmail.com]
+* Gustau PÃ(C)rez mailto:gustau.perez@gmail.com[gustau.perez@gmail.com]
 * Gustavo Fukao mailto:gustavofukao@gmail.com[gustavofukao@gmail.com]
 * Guy Brand mailto:gb@isis.u-strasbg.fr[gb@isis.u-strasbg.fr]
 * Guy Coleman mailto:gtchask@mm.st[gtchask@mm.st]
@@ -2068,7 +2106,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Jan Conard mailto:charly@fachschaften.tu-muenchen.de[charly@fachschaften.tu-muenchen.de]
 * Jan Henrik Sylvester mailto:me@janh.de[me@janh.de]
 * Jan Jungnickel mailto:Jan@Jungnickel.com[Jan@Jungnickel.com]
-* Jan Koum mailto:jkb@FreeBSD.org[jkb@FreeBSD.org]
+* {jkb}
 * Jan L. Peterson mailto:jlp@flipdog.com[jlp@flipdog.com]
 * Jan Rochel mailto:jan.rochel@epost.de[jan.rochel@epost.de]
 * Jan Siml mailto:jsi@jules.de[jsi@jules.de]
@@ -2078,7 +2116,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Janaka Wickramasinghe mailto:janaka@opensource.lk[janaka@opensource.lk]
 * Janick Taillandier mailto:Janick.Taillandier@ratp.fr[Janick.Taillandier@ratp.fr]
 * Janky Jay mailto:ek@purplehat.org[ek@purplehat.org]
-* János Mohácsi mailto:janos.mohacsi@bsd.hu[janos.mohacsi@bsd.hu]
+* JÃ¡nos MohÃ¡csi mailto:janos.mohacsi@bsd.hu[janos.mohacsi@bsd.hu]
 * Janusz Kokot mailto:janek@gaja.ipan.lublin.pl[janek@gaja.ipan.lublin.pl]
 * Jarle Greipsland mailto:jarle@idt.unit.no[jarle@idt.unit.no]
 * Jason Burgess mailto:dev@fenux.net[dev@fenux.net]
@@ -2134,7 +2172,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Jia-Wei Ye mailto:leafy7382@gmail.com[leafy7382@gmail.com]
 * Jian-Da Li mailto:jdli@csie.nctu.edu.tw[jdli@csie.nctu.edu.tw]
 * Jie Gao mailto:gaoj@cpsc.ucalgary.ca[gaoj@cpsc.ucalgary.ca]
-* Jim Babb mailto:babb@FreeBSD.org[babb@FreeBSD.org]
+* {babb}
 * Jim Binkley mailto:jrb@cs.pdx.edu[jrb@cs.pdx.edu]
 * Jim Bloom mailto:bloom@acm.org[bloom@acm.org]
 * Jim Carroll mailto:jim@carroll.com[jim@carroll.com]
@@ -2181,7 +2219,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Johan Strom mailto:johan@stromnet.org[johan@stromnet.org]
 * Johann Tonsing mailto:jtonsing@mikom.csir.co.za[jtonsing@mikom.csir.co.za]
 * Johannes 5 Joemann mailto:joemann@beefree.free.de[joemann@beefree.free.de]
-* Johannes Grødem mailto:johs@copyleft.no[johs@copyleft.no]
+* Johannes GrÃ¸dem mailto:johs@copyleft.no[johs@copyleft.no]
 * Johannes Helander
 * Johannes Stille
 * John Beckett mailto:jbeckett@southern.edu[jbeckett@southern.edu]
@@ -2243,7 +2281,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Jose Liang mailto:jose@jose.idv.tw[jose@jose.idv.tw]
 * Jose Marques mailto:jose@nobody.org[jose@nobody.org]
 * Jose Rodriguez mailto:king@v2project.com[king@v2project.com]
-* José García Juanino mailto:jjuanino@gmail.com[jjuanino@gmail.com]
+* JosÃ(C) GarcÃ­a Juanino mailto:jjuanino@gmail.com[jjuanino@gmail.com]
 * Josef Grosch mailto:jgrosch@superior.mooseriver.com[jgrosch@superior.mooseriver.com]
 * Joseph Haga mailto:tuximus@tcsn.net[tuximus@tcsn.net]
 * Joseph Scott mailto:joseph@randomnetworks.com[joseph@randomnetworks.com]
@@ -2265,7 +2303,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Julian Assange mailto:proff@suburbia.net[proff@suburbia.net]
 * Julian C. Dunn mailto:jdunn@aquezada.com[jdunn@aquezada.com]
 * Julian Coleman mailto:j.d.coleman@ncl.ac.uk[j.d.coleman@ncl.ac.uk]
-* Julian Stacey mailto:jhs@FreeBSD.org[jhs@FreeBSD.org]
+* {jhs}
 * Julian Jenkins mailto:kaveman@magna.com.au[kaveman@magna.com.au]
 * Julian Stecklina mailto:der_julian@web.de[der_julian@web.de]
 * Jun Mukai mailto:mukai@jmuk.org[mukai@jmuk.org]
@@ -2286,7 +2324,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Kai Vorma mailto:vode@snakemail.hut.fi[vode@snakemail.hut.fi]
 * Kai Wang mailto:kaiwang27@gmail.com[kaiwang27@gmail.com]
 * Kaleb S. Keithley mailto:kaleb@ics.com[kaleb@ics.com]
-* Kalle R. Møller mailto:freebsb_contrib@k-moeller.dk[freebsb_contrib@k-moeller.dk]
+* Kalle R. MÃ¸ller mailto:freebsb_contrib@k-moeller.dk[freebsb_contrib@k-moeller.dk]
 * Kan Sasaki mailto:sasaki@fcc.ad.jp[sasaki@fcc.ad.jp]
 * Kaneda Hiloshi mailto:vanitas@ma3.seikyou.ne.jp[vanitas@ma3.seikyou.ne.jp]
 * Kang Liu mailto:liukang@bjut.edu.cn[liukang@bjut.edu.cn]
@@ -2387,7 +2425,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Laurent Levier mailto:llevier@argosnet.com[llevier@argosnet.com]
 * Lauri Watts mailto:lauri@kde.org[lauri@kde.org]
 * Laust S. Jespersen mailto:L@ust.dk[L@ust.dk]
-* Jan L. Peterson mailto:jlp@flipdog.com[jlp@flipdog.com]
+* Leandro Luiz Pereira mailto:leandro@fullonmorning.com[leandro@fullonmorning.com]
 * Lee Cremeans mailto:lcremean@tidalwave.net[lcremean@tidalwave.net]
 * Lefteris Chatzibarbas mailto:lefcha@hellug.gr[lefcha@hellug.gr]
 * Leif Pedersen mailto:pedersen@meridian-enviro.com[pedersen@meridian-enviro.com]
@@ -2458,10 +2496,10 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Marco Steinbach mailto:coco@executive-computing.de[coco@executive-computing.de]
 * Marco van de Voort mailto:marcov@stack.nl[marcov@stack.nl]
 * Marcos Andre Hermann mailto:udialup@gmail.com[udialup@gmail.com]
-* Marin Atanasov mailto:dnaeon@gmail.com[dnaeon@gmail.com]
+* Marcus Vinicius Bastos Leandro mailto:mvleandro@gmail.com[mvleandro@gmail.com]
 * Marin Atanasov mailto:dnaeon@gmail.com[dnaeon@gmail.com]
 * Mario Lobo mailto:lobo@bsd.com.br[lobo@bsd.com.br]
-* Marius Nünnerich mailto:marius@nuenneri.ch[marius@nuenneri.ch]
+* Marius NÃ¼nnerich mailto:marius@nuenneri.ch[marius@nuenneri.ch]
 * Mark A. Wicks mailto:mwicks@kettering.edu[mwicks@kettering.edu]
 * Mark Andrews
 * Mark Blackman mailto:freebsd-ports@blackmans.org[freebsd-ports@blackmans.org]
@@ -2486,7 +2524,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Mark Valentine mailto:mark@thuvia.org[mark@thuvia.org]
 * Mark Walker mailto:ziggimon@raindogs.dk[ziggimon@raindogs.dk]
 * Markus Holmberg mailto:saska@acc.umu.se[saska@acc.umu.se]
-* Markus Niemistö mailto:markus.niemisto@gmx.net[markus.niemisto@gmx.net]
+* Markus NiemistÃ¶ mailto:markus.niemisto@gmx.net[markus.niemisto@gmx.net]
 * Martijn Lina mailto:martijn@pacno.net[martijn@pacno.net]
 * Martin Dieringer mailto:martin.dieringer@gmx.de[martin.dieringer@gmx.de]
 * Martin Filla mailto:freebsd@sysctl.cz[freebsd@sysctl.cz]
@@ -2506,7 +2544,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Martin Preuss mailto:martin@libchipcard.de[martin@libchipcard.de]
 * Martin Sugioarto mailto:martin.sugioarto@udo.edu[martin.sugioarto@udo.edu]
 * Martin Tournoij mailto:carpetsmoker@gmail.com[carpetsmoker@gmail.com]
-* Martin Waschbüsch mailto:martin@waschbuesch.de[martin@waschbuesch.de]
+* Martin WaschbÃ¼sch mailto:martin@waschbuesch.de[martin@waschbuesch.de]
 * Martti Kuparinen mailto:martti.kuparinen@ericsson.com[martti.kuparinen@ericsson.com]
 * Marwan Burelle mailto:marwan.burelle@lri.fr[marwan.burelle@lri.fr]
 * Masachika ISHIZUKA mailto:ishizuka@isis.min.ntt.jp[ishizuka@isis.min.ntt.jp]
@@ -2563,7 +2601,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Matthias Scheler mailto:tron@netbsd.org[tron@netbsd.org]
 * Matthias Schmidt mailto:schmidtm@mathematik.uni-marburg.de[schmidtm@mathematik.uni-marburg.de]
 * Matthias Sund mailto:m.sund@arcor.de[m.sund@arcor.de]
-* Matthias Schündehütte mailto:msch@snafu.de[msch@snafu.de]
+* Matthias SchÃ¼ndehÃ¼tte mailto:msch@snafu.de[msch@snafu.de]
 * Matthias Teege mailto:mteege.de[mteege.de]
 * Matthieu Guegan mailto:matt.guegan@free.fr[matt.guegan@free.fr]
 * Matthieu Volat mailto:mazhe@alkumuna.eu[mazhe@alkumuna.eu]
@@ -2572,7 +2610,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Matus Uhlar mailto:uhlar@fantomas.sk[uhlar@fantomas.sk]
 * Maurice Castro mailto:maurice@planet.serc.rmit.edu.au[maurice@planet.serc.rmit.edu.au]
 * Mauricio Herrera Cuadra mailto:mauricio@arareko.net[mauricio@arareko.net]
-* Mauro Risonho de Paula Assumpção mailto:mauro.risonho@gmail.com[mauro.risonho@gmail.com]
+* Mauro Risonho de Paula AssumpÃ§Ã£o mailto:mauro.risonho@gmail.com[mauro.risonho@gmail.com]
 * Max Campos mailto:mcampos@bpsw.biz[mcampos@bpsw.biz]
 * Max E. Kuznecov mailto:mek@mek.uz.ua[mek@mek.uz.ua]
 * Max Euston mailto:meuston@jmrodgers.com[meuston@jmrodgers.com]
@@ -2605,7 +2643,8 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Michael Handler mailto:handler@grendel.net[handler@grendel.net]
 * Michael Hohmuth mailto:hohmuth@inf.tu-dresden.de[hohmuth@inf.tu-dresden.de]
 * Michael Iatrou mailto:m_iatrou@freemail.gr[m_iatrou@freemail.gr]
-* Michael Lyngbøl mailto:michael@lyngbol.dk[michael@lyngbol.dk]
+* Michael LyngbÃ¸l mailto:michael@lyngbol.dk[michael@lyngbol.dk]
+* Michael Muenz mailto:m.muenz@gmail.com[m.muenz@gmail.com]
 * Michael Neumann mailto:mneumann@ntecs.de[mneumann@ntecs.de]
 * Michael O. Boev mailto:mike@tric.tomsk.gov.ru[mike@tric.tomsk.gov.ru]
 * Michael Perlman mailto:canuck@caam.rice.edu[canuck@caam.rice.edu]
@@ -2621,7 +2660,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Michal Hanula mailto:michal@hanu.la[michal@hanu.la]
 * Michal Listos mailto:mcl@Amnesiac.123.org[mcl@Amnesiac.123.org]
 * Michal Pasternak mailto:dotz@irc.pl[dotz@irc.pl]
-* Michel Lavondés mailto:fox@vader.aacc.cc.md.us[fox@vader.aacc.cc.md.us]
+* Michel LavondÃ(C)s mailto:fox@vader.aacc.cc.md.us[fox@vader.aacc.cc.md.us]
 * Michele Possamai mailto:possamai@xs4all.nl[possamai@xs4all.nl]
 * Michelle Sullivan mailto:michelle@sorbs.net[michelle@sorbs.net]
 * Michio Karl Jinbo mailto:karl@marcer.nagaokaut.ac.jp[karl@marcer.nagaokaut.ac.jp]
@@ -2685,7 +2724,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Mykola Khotyaintsev mailto:ko@irfu.se[ko@irfu.se]
 * Mykola Marzhan mailto:delgod@portaone.com[delgod@portaone.com]
 * N.G.Smith mailto:ngs@sesame.hensa.ac.uk[ngs@sesame.hensa.ac.uk]
-* Marin Atanasov mailto:dnaeon@gmail.com[dnaeon@gmail.com]
+* Nadilson Ferreira mailto:nadilson@gmail.com[nadilson@gmail.com]
 * NAGAO Tadaaki mailto:nagao@cs.titech.ac.jp[nagao@cs.titech.ac.jp]
 * NAKAJI Hiroyuki mailto:nakaji@jp.freebsd.org[nakaji@jp.freebsd.org]
 * NAKAMURA Kazushi mailto:kaz@kobe1995.net[kaz@kobe1995.net]
@@ -2707,12 +2746,12 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Neal Nelson mailto:ports@nicandneal.net[ports@nicandneal.net]
 * Necati Ersen Siseci mailto:siseci@enderunix.org[siseci@enderunix.org]
 * Ned Wolpert mailto:wolpert@codeheadsystems.com[wolpert@codeheadsystems.com]
-* Neel Chauhan mailto:neel@neelc.org[neel@neelc.org]
 * Neil Booth mailto:kyuupichan@gmail.com[kyuupichan@gmail.com]
 * Nguyen Tam Chinh mailto:chinhngt@sectorb.msk.ru[chinhngt@sectorb.msk.ru]
 * Niall Smart mailto:rotel@indigo.ie[rotel@indigo.ie]
 * Nicholas Esborn mailto:nick@netdot.net[nick@netdot.net]
 * Nick Barnes mailto:Nick.Barnes@pobox.com[Nick.Barnes@pobox.com]
+* Nick Black mailto:nickblack@linux.com[nickblack@linux.com]
 * Nick Dewing mailto:nickdewing@gmail.com[nickdewing@gmail.com]
 * Nick Handel mailto:nhandel@NeoSoft.com[nhandel@NeoSoft.com]
 * Nick Hilliard mailto:nick@foobar.org[nick@foobar.org]
@@ -2837,8 +2876,8 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Olof Johansson mailto:offe@ludd.luth.se[offe@ludd.luth.se]
 * Omer Faruk Sen mailto:ofsen@enderunix.org[ofsen@enderunix.org]
 * Oscar Bonilla mailto:obonilla@galileo.edu[obonilla@galileo.edu]
-* Otacílio de Araújo Ramos Neto mailto:otacilio.neto@ee.ufcg.edu.br[otacilio.neto@ee.ufcg.edu.br]
-* Otávio Fernandes mailto:otaviof@gmail.com[otaviof@gmail.com]
+* OtacÃ­lio de AraÃºjo Ramos Neto mailto:otacilio.neto@ee.ufcg.edu.br[otacilio.neto@ee.ufcg.edu.br]
+* OtÃ¡vio Fernandes mailto:otaviof@gmail.com[otaviof@gmail.com]
 * Ozkan KIRIK mailto:ozkan@enderunix.org[ozkan@enderunix.org]
 * Pace Willisson mailto:pace@blitz.com[pace@blitz.com]
 * Paco Rosich mailto:rosich@modico.eleinf.uv.es[rosich@modico.eleinf.uv.es]
@@ -2891,7 +2930,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Pengfei JU mailto:jupengfei@gmail.com[jupengfei@gmail.com]
 * Per Wigren mailto:wigren@home.se[wigren@home.se]
 * Pete Bentley mailto:pete@demon.net[pete@demon.net]
-* Peter Ankerstål mailto:peter@pean.org[peter@pean.org]
+* Peter AnkerstÃ¥l mailto:peter@pean.org[peter@pean.org]
 * Peter Avalos mailto:pavalos@theshell.com[pavalos@theshell.com]
 * Peter Childs mailto:pjchilds@imforei.apana.org.au[pjchilds@imforei.apana.org.au]
 * Peter Cornelius mailto:pc@inr.fzk.de[pc@inr.fzk.de]
@@ -2907,7 +2946,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Peter S. Housel mailto:housel@acm.org[housel@acm.org]
 * Peter Schuller mailto:peter.schuller@infidyne.com[peter.schuller@infidyne.com]
 * Peter Stubbs mailto:PETERS@staidan.qld.edu.au[PETERS@staidan.qld.edu.au]
-* Péter Terbe mailto:sncdev@gmail.com[sncdev@gmail.com]
+* PÃ(C)ter Terbe mailto:sncdev@gmail.com[sncdev@gmail.com]
 * Peter Thoenen mailto:peter.thoenen@yahoo.com[peter.thoenen@yahoo.com]
 * Peter Vereshagin mailto:peter@vereshagin.org[peter@vereshagin.org]
 * Peter W. Schmiedeskamp mailto:pschmied@qwest.net[pschmied@qwest.net]
@@ -2940,7 +2979,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Pomegranate mailto:daver@flag.blackened.net[daver@flag.blackened.net]
 * Pontus Stenetorp mailto:ninjin@kth.se[ninjin@kth.se]
 * Powerdog Industries mailto:kevin.ruddy@powerdog.com[kevin.ruddy@powerdog.com]
-* Priit Järv mailto:priit@cc.ttu.ee[priit@cc.ttu.ee]
+* Priit JÃ¤rv mailto:priit@cc.ttu.ee[priit@cc.ttu.ee]
 * Prudhvi Krishna mailto:prudhvikrishna@gmail.com[prudhvikrishna@gmail.com]
 * Qiang Guo mailto:guoqiang_cn@126.com[guoqiang_cn@126.com]
 * Qing Feng mailto:qingfeng@me.com[qingfeng@me.com]
@@ -2956,7 +2995,6 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Rafal Lesniak mailto:fbsd@grid.einherjar.de[fbsd@grid.einherjar.de]
 * Raffaele De Lorenzo mailto:raffaele.delorenzo@libero.it[raffaele.delorenzo@libero.it]
 * Rainer Duffer mailto:rainer@ultra-secure.de[rainer@ultra-secure.de]
-* Rainer Hurling mailto:rhurlin@gwdg.de[rhurlin@gwdg.de]
 * Ralf Friedl mailto:friedl@informatik.uni-kl.de[friedl@informatik.uni-kl.de]
 * Ralf Gebhart mailto:gebhart@secnetix.de[gebhart@secnetix.de]
 * Ralf van der Enden mailto:tremere@cainites.net[tremere@cainites.net]
@@ -2973,7 +3011,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Reinier Bezuidenhout mailto:rbezuide@mikom.csir.co.za[rbezuide@mikom.csir.co.za]
 * Remington Lang mailto:MrL0L@charter.net[MrL0L@charter.net]
 * Remy Card mailto:Remy.Card@masi.ibp.fr[Remy.Card@masi.ibp.fr]
-* Diego Depaoli mailto:trebestie@gmail.com[trebestie@gmail.com]
+* Renato P. S. Saoud mailto:renatofreerider@hotmail.com[renatofreerider@hotmail.com]
 * Revis Zinkov mailto:rzinkov@gmail.com[rzinkov@gmail.com]
 * Ricardas Cepas mailto:rch@richard.eu.org[rch@richard.eu.org]
 * Ricardo A. Reis mailto:ricardo.areis@gmail.com[ricardo.areis@gmail.com]
@@ -3022,6 +3060,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Robin Elfrink mailto:elfrink@introweb.nl[elfrink@introweb.nl]
 * Robin Schilham mailto:co9@xs4all.nl[co9@xs4all.nl]
 * Robin Schoonover mailto:robin.schoonover@gmail.google.com[robin.schoonover@gmail.google.com]
+* Robson Mantovani mailto:robsonmantovani@gmail.com[robsonmantovani@gmail.com]
 * Rod Taylor mailto:ports@rbt.ca[ports@rbt.ca]
 * Rodrigo Graeff mailto:delphus@gmail.com[delphus@gmail.com]
 * Roger Hardiman mailto:roger@cs.strath.ac.uk[roger@cs.strath.ac.uk]
@@ -3081,6 +3120,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Sander Vesik mailto:sander@haldjas.folklore.ee[sander@haldjas.folklore.ee]
 * Sandro Sigala mailto:ssigala@globalnet.it[ssigala@globalnet.it]
 * Sarod Yatawatta mailto:sarod@users.sf.net[sarod@users.sf.net]
+* Sascha Biberhofer mailto:ports@skyforge.at[ports@skyforge.at]
 * Sascha Blank mailto:blank@fox.uni-trier.de[blank@fox.uni-trier.de]
 * Sascha Holzleiter mailto:sascha@root-login.org[sascha@root-login.org]
 * Sascha Klauder mailto:sklauder@trimind.de[sklauder@trimind.de]
@@ -3103,7 +3143,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * SeaD mailto:sead@mail.ru[sead@mail.ru]
 * Sean McLaughlin mailto:sigma.zx@gmail.com[sigma.zx@gmail.com]
 * Seamus Venasse mailto:svenasse@polaris.ca[svenasse@polaris.ca]
-* Sébastian Santoro mailto:dereckson@gmail.com[dereckson@gmail.com]
+* SÃ(C)bastian Santoro mailto:dereckson@gmail.com[dereckson@gmail.com]
 * Sebastian Schwarz mailto:seschwar@gmail.com[seschwar@gmail.com]
 * Sebastian Strollo mailto:seb@erix.ericsson.se[seb@erix.ericsson.se]
 * Sebastian Yepes mailto:esn@x123.info[esn@x123.info]
@@ -3148,6 +3188,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Siebrand Mazeland mailto:s.mazeland@xs4all.nl[s.mazeland@xs4all.nl]
 * Sijmen J. Mulder mailto:ik@sjmulder.nl[ik@sjmulder.nl]
 * Silvio Ap Silva mailto:alvolivre@live.com[alvolivre@live.com]
+* Simeon Simeonov mailto:sgs@pichove.org[sgs@pichove.org]
 * Simon mailto:simon@masi.ibp.fr[simon@masi.ibp.fr]
 * Simon Burge mailto:simonb@telstra.com.au[simonb@telstra.com.au]
 * Simon Cornelius P. Umacob mailto:simoncpu@infoweapons.com[simoncpu@infoweapons.com]
@@ -3222,7 +3263,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Steven McCanne mailto:mccanne@cs.berkeley.edu[mccanne@cs.berkeley.edu]
 * Steven Plite mailto:splite@purdue.edu[splite@purdue.edu]
 * Steven Wallace
-* Stig Inge Lea Bjørnsen mailto:stiginge@pvv.org[stiginge@pvv.org]
+* Stig Inge Lea BjÃ¸rnsen mailto:stiginge@pvv.org[stiginge@pvv.org]
 * Stijn Hoop mailto:stijn@win.tue.nl[stijn@win.tue.nl]
 * Stuart Henderson mailto:stuart@internationalschool.co.uk[stuart@internationalschool.co.uk]
 * Stylianos Sideridis mailto:siderste@yahoo.gr[siderste@yahoo.gr]
@@ -3289,7 +3330,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Thomas G. McWilliams mailto:tgm@netcom.com[tgm@netcom.com]
 * Thomas Hurst mailto:tom@hur.st[tom@hur.st]
 * Thomas Kempka mailto:t.kempka@web.de[t.kempka@web.de]
-* Thomas König mailto:Thomas.Koenig@ciw.uni-karlsruhe.de[Thomas.Koenig@ciw.uni-karlsruhe.de]
+* Thomas KÃ¶nig mailto:Thomas.Koenig@ciw.uni-karlsruhe.de[Thomas.Koenig@ciw.uni-karlsruhe.de]
 * Thomas M. Hermann mailto:Thomas.Hermann@cox.net[Thomas.Hermann@cox.net]
 * Thomas Melzer mailto:tmelzer@tomesoft.de[tmelzer@tomesoft.de]
 * Thomas Ptacek
@@ -3298,7 +3339,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Thomas Valentino Crimi mailto:tcrimi+@andrew.cmu.edu[tcrimi+@andrew.cmu.edu]
 * Thomas Vogt mailto:thomas.vogt@bsdunix.ch[thomas.vogt@bsdunix.ch]
 * Thorsten Greiner mailto:thorsten@tgreiner.net[thorsten@tgreiner.net]
-* Þórður Ívarsson mailto:totii@est.is[totii@est.is]
+* ÃÃ³rÃ°ur Ã­varsson mailto:totii@est.is[totii@est.is]
 * Tillman Hodgson mailto:tillman@seekingfire.com[tillman@seekingfire.com]
 * Tim Daneliuk mailto:tundra@tundraware.com[tundra@tundraware.com]
 * Tim Hemel mailto:tim@n2it.net[tim@n2it.net]
@@ -3333,7 +3374,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Tom Samplonius mailto:tom@misery.sdf.com[tom@misery.sdf.com]
 * Tomas Verbaitis mailto:tomasv@megalogika.lt[tomasv@megalogika.lt]
 * Tomasz Walaszek mailto:tmwalaszek@gmail.com[tmwalaszek@gmail.com]
-* Tomaž Muraus mailto:kami@k5-storitve.net[kami@k5-storitve.net]
+* TomaÅ¾ Muraus mailto:kami@k5-storitve.net[kami@k5-storitve.net]
 * Tomek Cedro mailto:tomek.cedro@gmail.com[tomek.cedro@gmail.com]
 * Tomohiko Kurahashi mailto:kura@melchior.q.t.u-tokyo.ac.jp[kura@melchior.q.t.u-tokyo.ac.jp]
 * Tomoyuki Sakurai mailto:cherry@trombik.org[cherry@trombik.org]
@@ -3402,6 +3443,7 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Viktor Fomichev mailto:vfom@narod.ru[vfom@narod.ru]
 * Ville Eerola mailto:ve@sci.fi[ve@sci.fi]
 * Vince Valenti mailto:vince@blue-box.net[vince@blue-box.net]
+* Vincent DEFERT mailto:20.100@defert.com[20.100@defert.com]
 * Vincent Poy mailto:vince@DNALOGIC.NET[vince@DNALOGIC.NET]
 * Vincent Tantardini mailto:vinc@freebsd-fr.org[vinc@freebsd-fr.org]
 * Vincenzo Capuano mailto:VCAPUANO@vmprofs.esoc.esa.de[VCAPUANO@vmprofs.esoc.esa.de]
@@ -3450,12 +3492,12 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * Wojtek Pilorz mailto:wpilorz@celebris.bdk.lublin.pl[wpilorz@celebris.bdk.lublin.pl]
 * Wolfgang Helbig mailto:helbig@ba-stuttgart.de[helbig@ba-stuttgart.de]
 * Wolfgang Solfrank mailto:ws@tools.de[ws@tools.de]
-* Wolfgang Stanglmeier mailto:wolf@FreeBSD.org[wolf@FreeBSD.org]
+* {wolf}
 * Woodchuck Dave mailto:djv@bedford.net[djv@bedford.net]
 * Woody Carey mailto:woodycarey@hotmail.com[woodycarey@hotmail.com]
 * Wouter Van Hemel mailto:wouter@pair.com[wouter@pair.com]
 * Wu Ching-hong mailto:woju@FreeBSD.ee.Ntu.edu.TW[woju@FreeBSD.ee.Ntu.edu.TW]
-* Wylie Stilwell mailto:wylie@magnesium.net[wylie@magnesium.net]
+* {wylie}
 * Xavier Beaudouin mailto:kiwi@oav.net[kiwi@oav.net]
 * Xiaoding Liu mailto:xiaoding+freebsd@xiaoding.org[xiaoding+freebsd@xiaoding.org]
 * Yamagi Burmeister mailto:yamagi@yamagi.org[yamagi@yamagi.org]
@@ -3515,6 +3557,8 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * arci mailto:vega@sophia.inria.fr[vega@sophia.inria.fr]
 * ayunyan mailto:ayunyan@gmail.com[ayunyan@gmail.com]
 * der Mouse mailto:mouse@Collatz.McRCIM.McGill.EDU[mouse@Collatz.McRCIM.McGill.EDU]
+* geoffroy desvernay mailto:dgeo@centrale-marseille.fr[dgeo@centrale-marseille.fr]
+* gspu mailto:gspurki@gmail.com[gspurki@gmail.com]
 * lightside mailto:lightside@gmx.com[lightside@gmx.com]
 * Piotr Szerman mailto:pmsz@tlen.pl[pmsz@tlen.pl]
 * rossiya mailto:rossiya@gmail.com[rossiya@gmail.com]
@@ -3569,8 +3613,8 @@ Há partes do NetBSD e do OpenBSD que foram integradas no FreeBSD também, e gos
 * James da Silva mailto:jds@cs.umd.edu[jds@cs.umd.edu] et al
 * Jay Fenlason mailto:hack@datacube.com[hack@datacube.com]
 * Jim Wilson mailto:wilson@moria.cygnus.com[wilson@moria.cygnus.com]
-* Jörg Lohse mailto:lohse@tech7.informatik.uni-hamburg.de[lohse@tech7.informatik.uni-hamburg.de]
-* Jörg Wunsch mailto:joerg_wunsch@uriah.heep.sax.de[joerg_wunsch@uriah.heep.sax.de]
+* JÃ¶rg Lohse mailto:lohse@tech7.informatik.uni-hamburg.de[lohse@tech7.informatik.uni-hamburg.de]
+* JÃ¶rg Wunsch mailto:joerg_wunsch@uriah.heep.sax.de[joerg_wunsch@uriah.heep.sax.de]
 * John Dyson
 * John Woods mailto:jfw@eddie.mit.edu[jfw@eddie.mit.edu]
 * Jordan K. Hubbard mailto:jkh@whisker.hubbard.ie[jkh@whisker.hubbard.ie]

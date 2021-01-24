@@ -83,11 +83,6 @@ Este bloco é o mais importante. Ele define o nome do port, a versão, o local d
 * <<makefile-dist_subdir,`DIST_SUBDIR`>>
 * <<makefile-extract_only,`EXTRACT_ONLY`>>
 
-[IMPORTANT]
-====
-Apenas uma das variáveis `PORTVERSION` e `DISTVERSION` podem ser usadas.
-====
-
 [[porting-order-patch]]
 == Bloco `PATCHFILES`
 

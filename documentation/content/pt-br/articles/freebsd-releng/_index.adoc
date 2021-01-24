@@ -318,7 +318,7 @@ Os documentos relevantes relacionados à release existem no repositório [.filen
 Para cada compilação durante o ciclo de release, os arquivos `MANIFEST` contendo o `SHA256` dos vários conjuntos de distribuição, como `base.txz`, `kernel.txz`, e assim por diante, são adicionados ao port package:misc/freebsd-release-manifests[]. Isso permite outros utilitários além do man:bsdinstall[8], como package:ports-mgmt/poudriere[], usem esses conjuntos de distribuição com segurança fornecendo um mecanismo através do qual os checksums possam ser verificados.
 
 [[releng-head]]
-== Versões oriundas da branch `head/`
+== Releases a partir da branch `head/`
 
 Esta seção descreve os procedimentos gerais do ciclo de release do FreeBSD na branch `head`.
 
@@ -759,3 +759,45 @@ Para pedidos de Errata imediatamente após o lançamento, o pedido deve ser envi
 === Entrega para a Equipe de Segurança do FreeBSD
 
 Aproximadamente duas semanas após o lançamento, o Engenheiro de Release atualiza o [.filename]#svnadmin/conf/approvers# alterando a coluna do aprovador de `re` para `(so|security-officer)` para a branch `releng/_12.0_/`.
+
+[[releng-eol]]
+== Fim de Vida (End-of-Life) de Releases
+
+Esta seção descreve os arquivos relacionados ao website que precisam ser atualizados quando uma release atingir o EoL (End-of-Life).
+
+[[releng-eol-website]]
+=== Atualizações do Website para End-of-Life
+
+Quando uma release atinge o End-of-Life, as referências para essa release precisam ser removidas ou atualizadas no website:
+
+[.informaltable]
+[cols="1,1", frame="none", options="header"]
+|===
+| Arquivo
+| O que mudar
+
+
+|[.filename]#head/en_US.ISO8859-1/htdocs/index.xsl#
+|Remover referências `&u.relXXX.announce;` e `&u.relXXX.current;`.
+
+|[.filename]#head/en_US.ISO8859-1/htdocs/releases/index.xml#
+|Mova as macros &u.relXXX.*; da lista de releases suportadas para a lista de Releases Legadas.
+
+|[.filename]#head/en_US.ISO8859-1/htdocs/releng/index.xml#
+|Atualizar a branch releng em questão para refletir que a branch não é mais suportada.
+
+|[.filename]#head/en_US.ISO8859-1/htdocs/security/security.xml#
+|Remover a branch da lista de branchs suportadas.
+
+|[.filename]#head/en_US.ISO8859-1/htdocs/where.xml#
+|Remover as URLs da release.
+
+|[.filename]#head/share/xml/navibar.ent#
+|Remover referências `&u.relXXX.announce;` e `&u.relXXX.current;`.
+
+|[.filename]#head/en_US.ISO8859-1/htdocs/security/advisory-template.txt#
+|Remover referências da release e releng branch.
+
+|[.filename]#head/en_US.ISO8859-1/htdocs/security/errata-template.txt#
+|Remover referências da release e releng branch.
+|===

@@ -76,6 +76,12 @@ Die aktuelle Version des Handbuchs ist immer auf dem https://www.FreeBSD.org/[Fr
 
 toc::[]
 
+include::{chapters-path}toc-figures.adoc[]
+
+include::{chapters-path}toc-tables.adoc[]
+
+include::{chapters-path}toc-examples.adoc[]
+
 :sectnums!:
 
 include::{chapters-path}preface/_index.adoc[leveloffset=+1, lines=7..-1]
