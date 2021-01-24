@@ -114,12 +114,12 @@
 :rel114-current-date: June, 2020
 
 // URLs to information on the latest release
-:u-rel114-notes: https://www.FreeBSD.org/releases/{rel114-current}R/relnotes.html
+:u-rel114-notes: https://www.FreeBSD.org/releases/{rel114-current}R/relnotes
 :u-rel114-announce: https://www.FreeBSD.org/releases/{rel114-current}R/announce/
-:u-rel114-errata: https://www.FreeBSD.org/releases/{rel114-current}R/errata.html
-:u-rel114-hardware: https://www.FreeBSD.org/releases/{rel114-current}R/hardware.html
-:u-rel114-installation: https://www.FreeBSD.org/releases/{rel114-current}R/installation.html
-:u-rel114-readme: https://www.FreeBSD.org/releases/{rel114-current}R/readme.html
+:u-rel114-errata: https://www.FreeBSD.org/releases/{rel114-current}R/errata
+:u-rel114-hardware: https://www.FreeBSD.org/releases/{rel114-current}R/hardware
+:u-rel114-installation: https://www.FreeBSD.org/releases/{rel114-current}R/installation
+:u-rel114-readme: https://www.FreeBSD.org/releases/{rel114-current}R/readme
 :u-rel114-signatures: https://www.FreeBSD.org/releases/{rel114-current}R/signatures/
 
 :rel113-current-major: 11
@@ -127,26 +127,26 @@
 :rel113-current-date: July, 2019
 
 // URLs to information on the latest release
-:u-rel113-notes: https://www.FreeBSD.org/releases/{rel113-current}R/relnotes.html
-:u-rel113-announce: https://www.FreeBSD.org/releases/{rel113-current}R/announce.html
-:u-rel113-errata: https://www.FreeBSD.org/releases/{rel113-current}R/errata.html
-:u-rel113-hardware: https://www.FreeBSD.org/releases/{rel113-current}R/hardware.html
-:u-rel113-installation: https://www.FreeBSD.org/releases/{rel113-current}R/installation.html
-:u-rel113-readme: https://www.FreeBSD.org/releases/{rel113-current}R/readme.html
-:u-rel113-signatures: https://www.FreeBSD.org/releases/{rel113-current}R/signatures.html
+:u-rel113-notes: https://www.FreeBSD.org/releases/{rel113-current}R/relnotes
+:u-rel113-announce: https://www.FreeBSD.org/releases/{rel113-current}R/announce
+:u-rel113-errata: https://www.FreeBSD.org/releases/{rel113-current}R/errata
+:u-rel113-hardware: https://www.FreeBSD.org/releases/{rel113-current}R/hardware
+:u-rel113-installation: https://www.FreeBSD.org/releases/{rel113-current}R/installation
+:u-rel113-readme: https://www.FreeBSD.org/releases/{rel113-current}R/readme
+:u-rel113-signatures: https://www.FreeBSD.org/releases/{rel113-current}R/signatures
 
 :rel112-current-major: 11
 :rel112-current: 11.2
 :rel112-current-date: June, 2018
 
 // URLs to information on the latest release
-:u-rel112-notes: https://www.FreeBSD.org/releases/{rel112-current}R/relnotes.html
-:u-rel112-announce: https://www.FreeBSD.org/releases/{rel112-current}R/announce.html
-:u-rel112-errata: https://www.FreeBSD.org/releases/{rel112-current}R/errata.html
-:u-rel112-hardware: https://www.FreeBSD.org/releases/{rel112-current}R/hardware.html
-:u-rel112-installation: https://www.FreeBSD.org/releases/{rel112-current}R/installation.html
-:u-rel112-readme: https://www.FreeBSD.org/releases/{rel112-current}R/readme.html
-:u-rel112-signatures: https://www.FreeBSD.org/releases/{rel112-current}R/signatures.html
+:u-rel112-notes: https://www.FreeBSD.org/releases/{rel112-current}R/relnotes
+:u-rel112-announce: https://www.FreeBSD.org/releases/{rel112-current}R/announce
+:u-rel112-errata: https://www.FreeBSD.org/releases/{rel112-current}R/errata
+:u-rel112-hardware: https://www.FreeBSD.org/releases/{rel112-current}R/hardware
+:u-rel112-installation: https://www.FreeBSD.org/releases/{rel112-current}R/installation
+:u-rel112-readme: https://www.FreeBSD.org/releases/{rel112-current}R/readme
+:u-rel112-signatures: https://www.FreeBSD.org/releases/{rel112-current}R/signatures
 
 :gnomeoldver: 2.30
 :gnomever: 2.32

@@ -3,13 +3,13 @@
 :main-site: https://www.FreeBSD.org/doc/de
 
 // books
-:dev-model: https://www.FreeBSD.org/doc/books/dev-model/book
-:faq: {main-site}/books/faq/book
+:dev-model: https://www.FreeBSD.org/doc/books/dev-model/
+:faq: {main-site}/books/faq/
 :handbook: {main-site}/books/handbook/
 :developers-handbook: {main-site}/books/developers-handbook/
 :arch-handbook: https://www.FreeBSD.org/doc/books/arch-handbook/
 :porters-handbook: {main-site}/porters-handbook/
-:design-44bsd: https://www.FreeBSD.org/doc/books/design-44bsd/book
+:design-44bsd: https://www.FreeBSD.org/doc/books/design-44bsd/
 :fdp-primer: https://www.FreeBSD.org/doc/books/fdp-primer/
 
 // articles

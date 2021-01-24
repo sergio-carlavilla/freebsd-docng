@@ -18,6 +18,7 @@ ignoreFiles = [ "chapters-order.adoc$", "toc.adoc$", "toc-tables.adoc$", "toc-fi
 
 [markup.asciidocExt]
     preserveTOC = true
+    extensions = ["../shared/lib/man-macro.rb", "../shared/lib/inter-document-references-macro.rb", "../shared/lib/sectnumoffset-treeprocessor.rb", "../shared/lib/packages-macro.rb"]
 
 [outputs]
 home = [ "HTML" ]
