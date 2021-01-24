@@ -67,8 +67,7 @@ Some preparatory steps must be taken before editing the FreeBSD documentation. F
 +
 [source,bash]
 ....
-% cp -r ~/doc/shared/ ~/doc/documentation/
-% cp -r ~/doc/shared/ ~/doc/website/
+make move-shared
 ....
 +
 . Configure the text editor:
@@ -83,6 +82,12 @@ Specific editor configurations are listed in <<editor-config>>.
 Review the output and edit the file to fix any problems shown, then rerun the command to find any remaining problems. Repeat until all of the errors are resolved.
 +
 . _Always_ build-test changes before submitting them. Running `make` in the top-level directory of the documentation will generate that documentation in HTML format.
++
+[source,bash]
+....
+make generate
+....
++
 . When changes are complete and tested, generate a "diff file":
 +
 [source,bash]
