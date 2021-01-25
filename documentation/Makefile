@@ -38,4 +38,4 @@ build:
 	${HUGO_CMD} --minify
 
 move-shared:
-	cp -r ../shared ./shared
+	cp -R ../shared ./shared
