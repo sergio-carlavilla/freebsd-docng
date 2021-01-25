@@ -89,7 +89,7 @@ def main(argv):
           with open('./content/{0}/books/{1}/{2}'.format(language, book, chapter), 'r', encoding = 'utf-8') as chapterFile:
             chapterContent = chapterFile.read().splitlines()
             chapterFile.close()
-            chapter = chapter.replace("/_index.adoc", "").replace(".adoc", "")
+            chapter = chapter.replace("/_index.adoc", "").replace(".adoc", "").replace("/chapter.adoc", "")
 
             figureId = ""
             figureTitle = ""
@@ -97,7 +97,12 @@ def main(argv):
               if re.match(r"^image::+", chapterLine) and re.match(r"^[.]{1}[^\n]+", chapterContent[lineNumber-2]) and re.match(r"^\[\[[^\n]+\]\]", chapterContent[lineNumber-3]):
                   figureTitle = chapterContent[lineNumber-2]
                   figureId = chapterContent[lineNumber-3]
-                  toc += "* {0}.{1}  link:{2}#{3}[{4}]\n".format(chapterCounter, figureCounter, chapter, figureId.replace("[[", "").replace("]]", ""), figureTitle[1:])
+
+                  if book == "handbook":
+                    toc += "* {0}.{1}  link:{2}#{3}[{4}]\n".format(chapterCounter, figureCounter, chapter, figureId.replace("[[", "").replace("]]", ""), figureTitle[1:])
+                  else:
+                      toc += "* {0}.{1}  link:{2}#{3}[{4}]\n".format(chapterCounter, figureCounter, "", figureId.replace("[[", "").replace("]]", ""), figureTitle[1:])
+
                   figureCounter += 1
               else:
                 figureId = ""

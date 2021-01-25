@@ -38,6 +38,7 @@ include::shared/ru/mailing-lists.adoc[]
 include::shared/ru/teams.adoc[]
 include::shared/ru/urls.adoc[]
 :imagesdir: ../../../images/books/design-44bsd/
+:chapters-path: content/ru/books/design-44bsd/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]
@@ -48,6 +49,7 @@ include::../../../../shared/ru/mailing-lists.adoc[]
 include::../../../../shared/ru/teams.adoc[]
 include::../../../../shared/ru/urls.adoc[]
 :imagesdir: ../../../static/images/books/design-44bsd/
+:chapters-path:
 endif::[]
 
 ifeval::["{backend}" == "epub3"]
@@ -58,11 +60,16 @@ include::../../../../shared/ru/mailing-lists.adoc[]
 include::../../../../shared/ru/teams.adoc[]
 include::../../../../shared/ru/urls.adoc[]
 :imagesdir: ../../../static/images/books/design-44bsd/
+:chapters-path:
 endif::[]
 
 '''
 
 toc::[]
+
+include::{chapters-path}toc-figures.adoc[]
+
+include::{chapters-path}toc-tables.adoc[]
 
 [[overview]]
 == Обзор архитектуры 4.4BSD

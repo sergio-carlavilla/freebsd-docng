@@ -40,6 +40,7 @@ include::shared/ja/mailing-lists.adoc[]
 include::shared/ja/teams.adoc[]
 include::shared/ja/urls.adoc[]
 :imagesdir: ../../../images/books/design-44bsd/
+:chapters-path: content/ja/books/design-44bsd/
 endif::[]
 
 ifeval::["{backend}" == "pdf"]
@@ -50,6 +51,7 @@ include::../../../../shared/jp/mailing-lists.adoc[]
 include::../../../../shared/jp/teams.adoc[]
 include::../../../../shared/jp/urls.adoc[]
 :imagesdir: ../../../static/images/books/design-44bsd/
+:chapters-path:
 endif::[]
 
 ifeval::["{backend}" == "epub3"]
@@ -60,11 +62,16 @@ include::../../../../shared/jp/mailing-lists.adoc[]
 include::../../../../shared/jp/teams.adoc[]
 include::../../../../shared/jp/urls.adoc[]
 :imagesdir: ../../../static/images/books/design-44bsd/
+:chapters-path:
 endif::[]
 
 '''
 
 toc::[]
+
+include::{chapters-path}toc-figures.adoc[]
+
+include::{chapters-path}toc-tables.adoc[]
 
 [[overview]]
 == 4.4BSD の設計の概要

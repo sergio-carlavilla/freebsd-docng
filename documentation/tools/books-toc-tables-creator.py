@@ -89,7 +89,7 @@ def main(argv):
           with open('./content/{0}/books/{1}/{2}'.format(language, book, chapter), 'r', encoding = 'utf-8') as chapterFile:
             chapterContent = chapterFile.read().splitlines()
             chapterFile.close()
-            chapter = chapter.replace("/_index.adoc", "").replace(".adoc", "")
+            chapter = chapter.replace("/_index.adoc", "").replace(".adoc", "").replace("/chapter.adoc", "")
 
             tableId = ""
             tableTitle = ""
@@ -97,7 +97,12 @@ def main(argv):
               if re.match(r"^\|\=\=\=+", chapterLine) and re.match(r"^[.]{1}[^\n]+", chapterContent[lineNumber-3]) and re.match(r"^\[\[[^\n]+\]\]", chapterContent[lineNumber-4]):
                   tableTitle = chapterContent[lineNumber-3]
                   tableId = chapterContent[lineNumber-4]
-                  toc += "* {0}.{1}  link:{2}#{3}[{4}]\n".format(chapterCounter, tableCounter, chapter, tableId.replace("[[", "").replace("]]", ""), tableTitle[1:])
+
+                  if book == "handbook":
+                    toc += "* {0}.{1}  link:{2}#{3}[{4}]\n".format(chapterCounter, tableCounter, chapter, tableId.replace("[[", "").replace("]]", ""), tableTitle[1:])
+                  else:
+                    toc += "* {0}.{1}  link:{2}#{3}[{4}]\n".format(chapterCounter, tableCounter, "", tableId.replace("[[", "").replace("]]", ""), tableTitle[1:])
+
                   tableCounter += 1
               else:
                 tableId = ""
