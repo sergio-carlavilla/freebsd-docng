@@ -1,7 +1,7 @@
 # FreeBSD documentation
 # $FreeBSD$
 
-baseURL = "https://docs-dev.freebsd.org/"
+baseURL = "https://docs.freebsd.org/"
 title = "The FreeBSD Project"
 copyright = "BSD 2-clause 'Simplified' License"
 DefaultContentLanguage = "en"
