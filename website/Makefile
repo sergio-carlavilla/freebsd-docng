@@ -33,4 +33,4 @@ build:
 	${HUGO_CMD}
 
 move-shared:
-	cp -r ../shared ./shared
+	cp -R ../shared ./shared
