@@ -69,12 +69,6 @@ The latest version of this book is available from the https://www.FreeBSD.org/[F
 
 toc::[]
 
-include::{chapters-path}toc-figures.adoc[]
-
-include::{chapters-path}toc-tables.adoc[]
-
-include::{chapters-path}toc-examples.adoc[]
-
 :sectnums!:
 
 include::{chapters-path}preface/_index.adoc[leveloffset=+1, lines=7..-1]
