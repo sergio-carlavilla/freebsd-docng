@@ -11,7 +11,7 @@ loadNews: false
 * link:newsflash[Newsflash]: New releases, drivers, committers, security announcements, and other news.
 * https://www.freebsdfoundation.org/news-and-events/latest-news/[Foundation Press Releases]: Press releases from the FreeBSD Foundation.
 * link:../press/[Press articles]: FreeBSD appearing in the regular press.
-* link:../status/[Status reports]: FreeBSD development status reports.
+* link:../news/status/[Status reports]: FreeBSD development status reports.
 
 == Podcasts
 
